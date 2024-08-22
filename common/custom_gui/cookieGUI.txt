@@ -1,0 +1,32 @@
+custom_button = {
+	name = icon_COOKIE
+	potential = {
+	}
+	trigger = {
+	}
+	effect = {
+		if = {
+			limit = {
+				clr_country_flag = cookie_clicker_window
+			}
+		}
+		else = {
+			set_country_flag = cookie_clicker_window
+		}
+	}
+}
+
+custom_text_box = {
+	name = text_COOKIE
+	potential = {
+		always = yes
+	}
+	tooltip = "EMPTY"
+}
+
+custom_window = {
+	name = cookie_window
+	potential = {
+		has_country_flag = cookie_clicker_window
+	}
+}

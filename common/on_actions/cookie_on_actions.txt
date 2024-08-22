@@ -1,0 +1,6 @@
+on_startup = {
+	set_variable = {
+		which = cookies
+		value = 50
+	}
+}
