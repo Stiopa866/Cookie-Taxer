@@ -1,0 +1,4 @@
+add_core = N32
+owner = N32
+controller = N32
+is_city = no

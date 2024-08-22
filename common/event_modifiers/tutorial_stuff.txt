@@ -1,0 +1,13 @@
+tutorial_modifier = { }
+
+tutorial_negative_modifier = { }
+
+hints_timer = { }
+
+no_revolution_here_dummy = { }
+
+no_revolution_here_country_dummy = { }
+
+mod_unit_lock_modifier_pl = {
+	movement_speed = -1
+}

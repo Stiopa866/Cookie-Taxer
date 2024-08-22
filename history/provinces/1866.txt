@@ -1,0 +1,4 @@
+add_core = SL8
+owner = SL8
+controller = SL8
+is_city = yes

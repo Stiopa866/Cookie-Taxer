@@ -1,0 +1,17 @@
+infantry = {
+	factor = 1
+}
+cavalry = {
+	factor = 1
+	modifier = {
+		factor = 0
+		always = yes
+	}
+}
+artillery = {
+	factor = 1
+	modifier = {
+		factor = 0
+		always = yes
+	}
+}

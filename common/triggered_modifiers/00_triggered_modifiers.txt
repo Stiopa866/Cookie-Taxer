@@ -1,0 +1,11 @@
+######################################
+# Italian - Submission to Emperor
+######################################
+submission_to_emperor = {
+	potential = {
+		always = no
+	}
+
+	trigger = {
+	}
+}

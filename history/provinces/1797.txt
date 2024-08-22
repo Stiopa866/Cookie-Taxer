@@ -1,0 +1,4 @@
+add_core = N38
+owner = N38
+controller = N38
+is_city = no

@@ -1,0 +1,8 @@
+bookmark =
+{
+	name = "DEFAULT"
+	desc = "DEFAULT_DESC"
+	date = 1444.1.1
+	
+	country = PLA
+}

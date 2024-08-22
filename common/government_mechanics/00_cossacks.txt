@@ -1,0 +1,2 @@
+cossacks_mechanic = {
+}

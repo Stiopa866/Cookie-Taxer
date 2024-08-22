@@ -1,0 +1,24 @@
+republic_mechanic = {
+	basic_reform = yes
+	republican_name = yes
+	royal_marriage = no
+	republic = yes
+	duration = 4
+	has_term_election = yes
+
+	valid_for_nation_designer = no
+}
+
+#Oligarchy vs Merchant Class vs Noble Elite
+
+oligarchy_reform = {
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	duration = 4
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+

@@ -1,0 +1,10 @@
+base_tax = 1
+base_production = 1
+trade_goods = grain
+base_manpower = 1
+capital = ""
+is_city = yes
+
+add_core = NP2
+owner = NP2
+controller = NP2

@@ -1,0 +1,31 @@
+theocracy_mechanic = {
+	has_devotion = yes
+	rulers_can_be_generals = no
+	heirs_can_be_generals = no
+	royal_marriage = no
+	different_religion_acceptance = -20
+	different_religion_group_acceptance = -50
+	religion = yes
+	heir = yes
+	can_customise_heir = no
+	basic_reform = yes # = invisible/does not take up a slot
+	valid_for_nation_designer = no
+	custom_attributes = {
+	}
+
+	modifiers = {
+	}
+}
+
+#Leadership
+leading_clergy_reform = {
+	potential = {
+	}
+	allow_normal_conversion = yes
+	icon = "religious_leader"
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+	}
+}
+

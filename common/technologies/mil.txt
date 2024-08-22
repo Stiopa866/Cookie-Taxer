@@ -1,0 +1,72 @@
+monarch_power = MIL
+
+ahead_of_time = {
+}
+
+# Pre-era techs
+technology = {
+	# Tech 0
+	year = 1350
+	
+	sprite_level = 1
+
+	infantry_fire		= 	0.25
+	infantry_shock 		= 	0.20	
+	cavalry_shock  		= 	0.8	
+	land_morale 		= 	2.0
+}
+
+
+technology = {
+	year = 1444
+	
+	enable = south_american_spearmen		
+	enable = native_indian_archer
+	enable = native_clubmen
+	enable = african_spearmen
+	enable = african_clubmen
+	enable = indian_archers
+	enable = mesoamerican_spearmen
+	enable = halberd_infantry
+	enable = chevauchee
+	enable = western_medieval_knights
+	enable = bardiche_infantry
+	enable = muslim_cavalry_archers
+	enable = western_medieval_infantry
+	enable = eastern_medieval_infantry
+	enable = ottoman_yaya
+	enable = chinese_longspear
+	enable = japanese_archer
+	enable = persian_footsoldier
+	enable = east_asian_spearmen
+	enable = mongolian_bow	
+	enable = indian_footsoldier	
+	enable = rajput_hill_fighters	
+	enable = eastern_bow	
+	enable = persian_cavalry_charge
+	enable = african_mandelaku
+	enable = african_abyssinian_light_cavalry
+	enable = mongol_swarm
+	enable = mongol_steppe	
+	enable = mongol_bow	
+	enable = eastern_knights
+	enable = druzhina_cavalry	
+	enable = ottoman_musellem	
+	enable = mamluk_archer	
+	enable = mamluk_cavalry_charge	
+	enable = south_american_warfare	
+	enable = ha_xantican_warrior
+	enable = aboriginal_boomerang
+	enable = aboriginal_warrior
+	enable = pacific_spearman
+}
+
+technology = {
+	year = 1445
+}
+technology = {
+	year = 1446
+}
+technology = {
+	year = 1447
+}

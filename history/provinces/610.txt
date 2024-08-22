@@ -1,0 +1,4 @@
+add_core = FOR
+owner = FOR
+controller = FOR
+is_city = no

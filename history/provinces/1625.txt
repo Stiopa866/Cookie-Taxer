@@ -1,0 +1,4 @@
+add_core = N17
+owner = N17
+controller = N17
+is_city = no

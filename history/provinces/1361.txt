@@ -1,0 +1,8 @@
+base_tax = 1
+base_production = 1
+trade_goods = grain
+base_manpower = 1
+is_city = yes
+add_core = NP8
+owner = NP8
+controller = NP8

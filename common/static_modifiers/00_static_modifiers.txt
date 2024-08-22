@@ -1,0 +1,1297 @@
+# All global modifiers are here. They are applied from certain game-features.
+#
+# Effects are fully scriptable here.
+
+# Missing static modifiers expected by code will print to the errorlog
+
+##########################################################################
+# Handicap Modifiers for human player
+##########################################################################
+
+difficulty_very_easy_player = {
+}
+
+difficulty_easy_player = {
+}
+
+difficulty_normal_player = {
+}
+
+difficulty_hard_player = {
+}
+
+difficulty_very_hard_player = {
+}
+
+##########################################################################
+# Handicap Modifiers for AI
+##########################################################################
+
+difficulty_very_easy_ai = {
+}
+
+difficulty_easy_ai = {
+}
+
+difficulty_normal_ai = {
+}
+
+difficulty_hard_ai = {
+}
+
+difficulty_very_hard_ai = {
+}
+
+
+##########################################################################
+# Provincial Static Modifiers
+##########################################################################
+
+city = {
+}
+
+port = {
+}
+
+in_state = {
+}
+
+in_capital_state = {
+}
+
+coastal = {
+}
+
+seat_in_parliament = {
+}
+
+non_coastal = {
+}
+
+coastal_sea = {
+}
+
+tropical = {
+}
+
+arctic = {
+}
+
+arid = {
+}
+
+sea_zone = {
+}
+
+land_province = {
+}
+
+mild_winter = {
+}
+
+normal_winter = {
+}
+
+severe_winter = {
+}
+
+mild_monsoon = {
+}
+
+normal_monsoon = {
+}
+
+severe_monsoon = {
+}
+
+blockaded = {
+}
+
+no_adjacent_controlled = {
+}
+
+provincial_tax_income = {
+}
+
+provincial_production_size = {
+}
+
+knowledge_sharing = {
+}
+
+cardinals_spread_institution = {
+}
+
+manpower = {
+}
+
+province_razed = {
+}
+
+development = {
+}
+
+development_scaled = {
+}
+
+capital_city = {
+}
+
+
+patriarch_state = {
+}
+
+# Multiplied in provinces of same religion.
+patriarch_authority_local = {
+}
+
+#for the country
+patriarch_authority_global = {
+}
+
+pasha_state = {
+}
+
+colony_level = {
+}
+
+native_assimilation = {
+}
+
+native_aggressiveness = {
+}
+
+core = {
+}
+
+non_core = {
+}
+
+colonial_core = {
+}
+
+territory_core = {
+}
+
+territory_non_core = {
+}
+
+march_bonus = {
+}
+
+pu_subject_bonus = {
+}
+
+pu_overlord_bonus = {
+}
+
+gbr_emperor_of_india_subject_bonus = {
+}
+
+gbr_emperor_of_india_overlord_bonus = {
+}
+
+same_culture_group = {
+}
+
+non_accepted_culture = {
+}
+
+accepted_culture_demoted = {
+}
+
+# Special modifier to the above, for non-tribal republics
+non_accepted_culture_republic = {
+}
+
+occupied = {
+}
+
+under_siege = {
+}
+
+
+devastation = {
+}
+
+prosperity = {
+}
+
+slaves_raided = {
+}
+
+
+# Multiplied with positive religious tolerance
+tolerance = {
+}
+
+# Multiplied with negative religious tolerance
+intolerance = {
+}
+
+unrest = {
+}
+
+nationalism = {
+}
+
+harsh_treatment = {
+}
+
+local_autonomy_multiplicative = {
+}
+
+local_autonomy = {
+}
+
+local_autonomy_trade_company_multiplicative = {
+}
+
+local_autonomy_trade_company = {
+}
+
+recent_uprising = {
+}
+
+
+friendly_regiments = {
+}
+
+active_missionary = {
+}
+
+# Core province of the owner's culture group, while fighting a defensive war
+national_defense = {
+}
+
+
+# penalty when migrant have been there recently.
+resource_depleted = {
+}
+
+in_trade_company = {
+}
+
+left_trade_company = {
+}
+
+
+scorched_earth = {
+}
+
+##########################################################################
+# Global Static Modifiers
+##########################################################################
+
+base_values = {
+	imperial_authority_value = -0.1
+}
+
+# AI 'cheats' that compensate for flaws in its long-term decision making, removing these may severely cripple the AI
+ai_nation = {
+}
+
+
+
+war_taxes = {
+}
+
+stability = {
+}
+
+positive_stability = {
+}
+
+privateering = {
+}
+
+negative_stability = {
+}
+
+positive_mandate = {
+}
+
+negative_mandate = {
+}
+
+lost_mandate_of_heaven = {
+}
+
+cancelled_loan = {
+}
+
+bank_loan = {
+}
+
+inflation = {
+}
+
+bankruptcy = {
+}
+
+
+war = {
+}
+
+peace = {
+}
+
+unconditional_surrender = {
+}
+
+call_for_peace = {
+}
+
+war_exhaustion = {
+}
+
+doom = {
+}
+
+authority = {
+}
+
+regency_council = {
+}
+
+trade_efficiency = {
+}
+
+production_efficiency = {
+}
+
+trade_refusal = {
+}
+
+mercantilism = {
+}
+
+army_tradition = {
+}
+
+navy_tradition = {
+}
+
+positive_piety = { 
+}
+
+#For convenience, its multiplied by negative piety in code.
+negative_piety = { 
+}
+
+defender_of_faith = {
+}
+
+defender_of_faith_refused_cta = {
+}
+
+emperor = {
+}
+
+states_in_hre = {
+}
+
+free_cities_in_hre = {
+}
+
+free_city_in_hre = {
+}
+
+member_in_hre = {
+}
+
+#for each non-core if in the empire, and also a prince.
+occupied_imperial = {
+}
+
+emperor_revoked_reform =  {
+}
+
+num_of_marriages = {
+}
+
+num_of_provinces = {
+	
+}
+
+# Multiplied by the amount of papal influence
+papal_influence = {
+}
+
+# Multiplied by the amount of Church Power
+church_power = {
+}
+
+# Multiplied by the amount of Fervor
+fervor = {
+}
+
+# Multiplied by the amount of Karma
+karma = {
+}
+
+# Multiplied by the amount of positive karma
+positive_karma = {
+}
+
+# Multiplied by the amount of negative karma
+negative_karma = {
+}
+
+# Multiplied by Development/COUNTRY_DEVELOPMENT_SCALE
+country_development = {
+}
+
+# Multiplied by current Legitimacy - 50
+legitimacy = {
+}
+
+#Multiplied by current Horde Unity - 50
+horde_unity = {
+}
+
+# Multiplied by current Devotion - 50
+devotion = {
+}
+
+# Multiplied by current meritocracy - 50
+meritocracy = {
+}
+
+# Multiplied by 50 - meritocracy
+low_meritocracy = {
+}
+
+# Scaled, multiplied by current corruption / 100
+corruption = {
+}
+
+root_out_corruption = {
+}
+
+recovery_motivation = {
+}
+
+luck = {
+}
+
+over_extension = {
+}
+
+prestige = {
+}
+
+no_debate_in_parliament = {
+}
+
+
+republican_tradition = {
+}
+
+inverse_republican_tradition = {
+}
+
+########################################
+# Curia-related modifiers
+########################################
+
+curia_controller = {
+}
+
+bought_indulgence = {
+}
+
+religious_unity = {
+}
+
+inverse_religious_unity = {
+}
+
+total_occupation = {				#increases exhaustion.
+}
+
+total_blockaded = {
+}
+
+uncontested_cores = {
+}
+
+
+num_objectives_fullfilled = {
+}
+
+production_leader = {
+}
+
+
+trade_company_bonus = {
+}
+
+bonus_from_merchant_republics = {
+}
+
+bonus_from_merchant_republics_for_trade_league_member = {
+}
+
+merchant_republic_mechanics_modifier = {
+}
+
+federation_leader = {
+}
+
+pronoia_base_overlord_modifiers = {
+}
+
+pronoia_base_modifiers = {
+}
+
+BYZ_pronoia_buff_army_tradition_modifier = {
+}
+
+BYZ_pronoia_land_forcelimit_penalty = {
+}
+
+BYZ_extra_forcelimit_for_pronoiars = {
+}
+
+BYZ_army_trad = {
+}
+
+BYZ_discipline = {
+}
+
+tributary_state_behind_overlord_tech_adm = {
+}
+
+tributary_state_behind_overlord_tech_dip = {
+}
+
+tributary_state_behind_overlord_tech_mil = {
+}
+
+trade_protectorate_subject_modifier = {
+}
+
+trade_protectorate_low_development_subject_modifier = {
+}
+
+trade_protectorate_overlord_modifier = {
+}
+
+liberty_desire = {
+}
+
+is_great_power = {		
+}
+
+in_golden_era = {
+}
+
+absolutism = {
+}
+
+low_army_professionalism = {
+}
+
+high_army_professionalism = {
+}
+
+streltsy_modifier = {
+}
+
+cossacks_modifier = {
+}
+
+tercio_modifier = {
+}
+
+musketeers_modifier = {
+}
+
+samurai_modifier = {
+}
+
+qizilbash_modifier = {
+}
+
+mamluks_modifier = {
+}
+
+geobukseon_modifier = {
+}
+
+man_of_war_modifier = {
+}
+
+galleon_modifier = {
+}
+
+galleass_modifier = {
+}
+
+caravel_modifier = {
+}
+
+voc_indiamen_modifier = {
+}
+
+power_projection = {
+}
+
+power_projection_25 = {
+}
+
+#100 Land Forcelimit = 1
+land_forcelimit = {
+}
+
+#100 Naval Forcelimit = 1
+naval_forcelimit = {
+}
+
+trade_company_strong = {
+}
+
+large_colonial_nation = {
+}
+
+new_world_exploitation_modifier = {
+}
+
+gbr_colonial_investment = {
+}
+
+crown_colony_overlord = {
+}
+
+private_enterprise_overlord = {
+}
+
+self_governing_colony_overlord = {
+}
+
+crown_colony_subject = {
+}
+
+private_enterprise_subject = {
+}
+
+self_governing_colony_subject = {
+}
+
+march_subject = {
+}
+
+vassal_subject = {
+}
+
+daimyo_subject = {
+}
+
+appanage_subject = {
+}
+
+appanage_overlord = {
+}
+
+union_subject = {
+}
+
+all_nations = {
+}
+
+subject_nation = {
+}
+
+vassal_nation = {
+}
+
+primitive_nation = {
+}
+
+pirate_subject = {
+}
+
+subject_tax_modifier = {
+}
+
+same_religion_subject_bonus_mod = {
+}
+
+eyalet_modifier = {
+}
+
+#scales to amount of up-to-date forts compared to total development
+maintained_forts = {
+}
+
+gov_rank_1 = {
+}
+
+gov_rank_2 = {
+}
+
+gov_rank_3 = {
+}
+
+# for mod support...
+gov_rank_4 = {
+}
+
+gov_rank_5 = {
+}
+
+gov_rank_6 = {
+}
+
+gov_rank_7 = {
+}
+
+gov_rank_8 = {
+}
+
+gov_rank_9 = {
+}
+
+gov_rank_10 = {
+}
+
+
+# For autonomy mechanics
+autonomy_increased = {
+}
+
+autonomy_decreased = {
+}
+
+revolution_target = {
+}
+
+dishonoured_alliance =  {
+}
+
+drilling_armies = { # Multiplied by percentage of
+}
+
+##################################################################################################
+# Scripted and used from Diplomatic System
+##################################################################################################
+recruitment_sabotaged = {
+}
+
+merchants_slandered = {
+}
+
+discontent_sowed = {
+}
+
+reputation_sabotaged = {
+}
+
+corrupt_officials = {
+}
+
+scaled_trade_league_leader = {
+}
+
+in_trade_league = {
+}
+
+##################################################
+# Tutorial only
+##################################################
+
+tutorial_colonial_range = {
+}
+
+########################################
+# Nation Designer
+########################################
+
+custom_setup = {
+}
+
+########################################
+# Subject Interactions (the on/off ones)
+########################################
+
+embargo_rivals = {
+}
+
+scutage = {
+}
+
+subsidize_armies = {
+}
+
+support_loyalists = {
+}
+
+send_officers = {
+}
+
+divert_trade = {
+}
+
+########################################
+# Karma
+########################################
+
+karma_just_right = {
+}
+
+karma_too_high = {
+}
+
+karma_too_low = {
+}
+
+########################################
+# Bear
+########################################
+
+invasion_nation = {
+}
+
+
+########################################
+# Native policy
+########################################
+
+native_policy_coexist = {
+}
+
+native_policy_trade = {
+}
+
+native_policy_hostile = {
+}
+
+########################################
+# Harmony
+########################################
+
+high_harmony = {
+}
+
+low_harmony = {
+}
+
+########################################
+# Shogun Interactions
+########################################
+
+overlord_daimyo_at_peace = {
+}
+
+overlord_daimyo_at_peace_max = {
+}
+
+overlord_daimyo_at_peace_min = {
+}
+
+overlord_daimyo_same_isolationism = {
+}
+
+overlord_daimyo_different_isolationism = {
+}
+
+overlord_daimyo_isolationism_max = {
+}
+
+overlord_daimyo_isolationism_min = {
+}
+
+overlord_sankin_kotai = {
+}
+
+subject_sankin_kotai = {
+}
+
+overlord_expel_ronin = {
+}
+
+subject_expel_ronin = {
+}
+
+overlord_sword_hunt = {
+}
+
+subject_sword_hunt = {
+}
+
+supply_depot_area = {
+}
+
+########################################
+# Government Interacions
+########################################
+
+efficient_tax_farming_modifier = {
+}
+
+land_acquisition_modifier = {
+}
+
+lenient_taxation_modifier = {
+}
+
+train_horsemanship_modifier = {
+}
+
+promote_culture_in_government_modifier = {
+}
+
+seize_clerical_holdings_modifier = {
+}
+
+invite_minorities_modifier = {
+}
+
+royal_council_meeting_mod = {
+}
+
+state_council_meeting_mod = {
+}
+
+war_council_meeting_mod = {
+}
+
+equipped_streltsy_modifier_weaker = {
+}
+
+equipped_streltsy_modifier = {
+}
+
+prepared_streltsy_modifier = {
+}
+
+new_order_regiment_mobilized_modifier = {
+}
+
+inward_focus_modifier = {
+}
+
+outward_focus_modifier = {
+}
+
+expansion_focus_modifier = {
+}
+
+########################################
+# Religious Schools
+########################################
+hanafi_scholar_modifier = {
+}
+
+hanbali_scholar_modifier = {
+}
+
+maliki_scholar_modifier = {
+}
+
+shafii_scholar_modifier = {
+}
+
+ismaili_scholar_modifier = {
+}
+
+jafari_scholar_modifier = {
+}
+
+zaidi_scholar_modifier = {
+}
+
+########################################
+# Regiment Types Modifiers
+########################################
+regiment_drill_modifier = {
+}
+
+army_drill_modifier = { 
+}
+
+janissary_regiment = {
+}
+
+cawa_regiment = {
+}
+
+hussars_regiment = {
+}
+
+marine_regiment = {
+}
+
+banner_regiment = {
+}
+
+streltsy_regiment = {
+}
+
+tercio_regiment = {
+}
+
+musketeer_regiment = {
+}
+
+samurai_regiment = {
+}
+
+qizilbash_regiment = {
+}
+
+mamluks_regiment = {
+}
+
+geobukseon_ship = {
+}
+
+man_of_war_ship = {
+}
+
+galleon_ship = {
+}
+
+galleass_ship = {
+}
+
+caravel_ship = {
+}
+
+voc_indiamen_ship = {
+}
+
+
+cossacks_regiment = {
+}
+
+carolean_regiment = {
+}
+
+revolutionary_guard_regiment = {
+}
+
+innovativeness = {
+}
+
+rajput_regiment = {
+}
+
+raiding_parties_modifier = {
+}
+
+serfs_recieved_by_cossacks = {
+}
+
+cultural_revolution = {
+}
+
+mobilized_new_order_regiments = {
+}
+
+########################################
+# Government/Reform modfiers
+########################################
+
+expand_administation_modifier = {
+}
+
+# At 100% over capacity, this modifier will be fully used
+over_governing_capacity_modifier = {
+}
+
+#Scales with used capacity, being at full capacity means 100% of the modifier
+under_governing_capacity_modifier = {
+}
+#Scales with unused capacity, eing at full capacity means 0% of the modifier
+reverse_under_governing_capacity_modifier = {
+}
+
+lost_hegemony = {
+}
+
+at_peace_revolutionary = {
+}
+
+expanded_infrastructure = {
+}
+
+centralize_state = {
+}
+
+# Applied once for each guru teaching
+guru_teaching = {
+}
+
+diplomatic_reputation = {
+}
+
+tolerance_own = {
+}
+
+tolerance_heretic = {
+}
+
+tolerance_heathen = {
+}
+
+num_accepted_cultures = {
+}
+
+ruler_adm = {
+	diplomatic_reputation = 0.5
+	army_tradition = 1
+	tolerance_own = 2
+}
+
+ruler_dip = {
+	diplomatic_reputation = 1
+	army_tradition = 0.5
+	tolerance_own = 0.5
+}
+
+ruler_mil = {
+	army_tradition = 2
+	tolerance_own = 1
+}
+
+heir_adm = {
+}
+
+heir_dip = {
+}
+
+heir_mil = {
+}
+
+consort_adm = {
+}
+
+consort_dip = {
+}
+
+consort_mil = {
+}
+
+mandate = {
+
+}
+
+imperial_authority_emperor = {
+
+}
+
+imperial_authority_member = {
+
+}
+
+positive_imperial_authority_emperor = {
+	
+}
+
+positive_imperial_authority_member = {
+	
+}
+
+negative_imperial_authority_emperor = {
+	
+}
+
+negative_imperial_authority_member = {
+	
+}
+
+slackening_modifier = {
+}
+
+royal_council_meeting_mod = {
+}
+
+state_council_meeting_mod = {
+}
+
+war_council_meeting_mod = {
+}
+
+average_overseas_subject_liberty_desire = { #only counts subjects with capitals on different continents than yours, 100% LD => 100% modifier
+
+}
+
+reverse_average_overseas_subject_liberty_desire = {
+}
+
+average_subject_liberty_desire = {
+}
+
+reverse_average_subject_liberty_desire = { #100% LD => 0% modifier
+
+}
+
+average_global_autonomy = {
+}
+
+reverse_average_global_autonomy = {
+}
+
+adur_burzhen_mihr_mod = {
+}
+
+adur_farnbag_mod = {
+}
+
+adur_gushnasp_mod = {
+}
+
+culturally_influencing_countries = {
+}
+
+culturally_influencing_countries_same_culture = {
+}
+
+culturally_influenced_country = {
+}
+
+manpower_percentage = {
+
+}
+
+reverse_manpower_percentage = {
+
+}
+
+sailors_percentage = {
+
+}
+
+reverse_sailors_percentage = {
+
+}
+
+religious_zeal_at_conv = {
+
+}
+
+trade_post_modifier = {
+
+}
+
+unlawful_territory = {
+
+}
+
+expelled_minority = {}
+
+pasha_removed_modifier = {}
+
+chisti_timer = {}
+
+qadiriyya_timer = {}
+
+suhrawardiyya_timer = {}
+
+joined_league_war = {}
+
+global_holy_war_released_modifier = {}
+
+religious_center = {}

@@ -1,0 +1,4 @@
+add_core = N48
+owner = N48
+controller = N48
+is_city = no

@@ -1,0 +1,28 @@
+monarch_power = DIP
+
+# applied when a country is ahead of time in this technology
+ahead_of_time = {
+}
+
+# Pre-era techs
+technology = { #Early Ships
+	# Tech 0
+	year = 1350
+	
+	naval_morale			=	2.0
+	range					=	60
+	may_fabricate_claims = yes
+}
+technology = {
+	year = 1444
+}
+
+technology = {
+	year = 1445
+}
+technology = {
+	year = 1446
+}
+technology = {
+	year = 1447
+}

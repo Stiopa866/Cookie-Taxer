@@ -1,0 +1,4 @@
+add_core = SL1
+owner = SL1
+controller = SL1
+is_city = yes

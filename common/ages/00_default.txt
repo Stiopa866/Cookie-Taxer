@@ -1,0 +1,13 @@
+age_of_discovery = {
+	start = 1400
+	
+	can_start = {
+		always = yes
+	}
+	
+	objectives = {
+	}		
+	
+	abilities = {
+	}
+}

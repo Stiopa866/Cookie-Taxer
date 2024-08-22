@@ -1,0 +1,2 @@
+# Special countries..
+PLA = "countries/Player.txt"

@@ -1,0 +1,63 @@
+just_personality = {
+	ruler_allow = {
+	}
+
+	heir_allow = {
+	}
+	
+	consort_allow = {
+	}
+
+	chance = {
+	}
+}
+
+righteous_personality = {
+	ruler_allow = {
+		chance = {
+		}
+	}
+
+	heir_allow = {
+	
+		chance = {
+		}
+	}
+	
+	consort_allow = {
+		chance = {
+		}
+	}
+	
+	allow = {
+	}
+	
+	chance = {
+	}
+	
+}
+tolerant_personality = {
+	ruler_allow = {
+	}
+
+	heir_allow = {
+		allow = {
+		}
+	}
+	
+	consort_allow = {
+		allow = {
+
+
+
+		}
+	}
+	
+	allow = {
+	}
+	
+	chance = {
+	}
+	
+
+}}

@@ -1,0 +1,4 @@
+add_core = SL5
+owner = SL5
+controller = SL5
+is_city = yes

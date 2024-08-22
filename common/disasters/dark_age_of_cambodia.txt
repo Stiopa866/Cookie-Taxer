@@ -1,0 +1,25 @@
+dark_age_of_cambodia = {
+		potential = {
+		always = no
+	}
+	can_start = {
+		always = no
+	}
+	can_stop = {
+		always = no
+	}
+	progress = {
+	}
+	can_end = {
+		always = no
+	}
+	modifier = {
+	}
+	
+	on_start = placeholder.1
+	on_end = placeholder.1
+	
+	on_monthly = {
+	}
+}
+
