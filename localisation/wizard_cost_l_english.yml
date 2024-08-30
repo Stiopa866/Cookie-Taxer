@@ -1,0 +1,2 @@
+﻿l_english:
+ wizard_cost_tt: "[wizard_cost_mantissa.GetValue] [Root.CLOC_WIZARD_COST_EXP]"

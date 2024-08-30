@@ -1,0 +1,2403 @@
+get_bank_cost = {
+	if = {
+		limit = { check_variable = { which = bank_count value = 200 } }
+		if = {
+			limit = { check_variable = { which = bank_count value = 300 } }
+			if = {
+				limit = { check_variable = { which = bank_count value = 350 } }
+				if = {
+					limit = { check_variable = { which = bank_count value = 375 } }
+					if = {
+						limit = { check_variable = { which = bank_count value = 388 } }
+						if = {
+							limit = { check_variable = { which = bank_count value = 394 } }
+							if = {
+								limit = { check_variable = { which = bank_count value = 397 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 399 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 400 } }
+										set_variable = { which = bank_cost_4 value = 172872.000 }    set_variable = { which = bank_cost_3 value = 469027.103 }    set_variable = { which = bank_cost_2 value = 0.57 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 617008.000 }    set_variable = { which = bank_cost_3 value = 63054.659 }    set_variable = { which = bank_cost_2 value = 0.54 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = bank_count value = 398 } }
+										set_variable = { which = bank_cost_4 value = 296336.000 }    set_variable = { which = bank_cost_3 value = 858941.354 }    set_variable = { which = bank_cost_2 value = 0.50 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 569464.000 }    set_variable = { which = bank_cost_3 value = 844723.757 }    set_variable = { which = bank_cost_2 value = 0.47 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 395 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 396 } }
+										set_variable = { which = bank_cost_4 value = 139664.000 }    set_variable = { which = bank_cost_3 value = 9147.467 }    set_variable = { which = bank_cost_2 value = 0.45 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 678896.000 }    set_variable = { which = bank_cost_3 value = 341625.86 }    set_variable = { which = bank_cost_2 value = 0.42 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 900184.000 }    set_variable = { which = bank_cost_3 value = 832196.694 }    set_variable = { which = bank_cost_2 value = 0.39 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = bank_count value = 391 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 392 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 393 } }
+										set_variable = { which = bank_cost_4 value = 479016.000 }    set_variable = { which = bank_cost_3 value = 471492.657 }    set_variable = { which = bank_cost_2 value = 0.37 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 971788.000 }    set_variable = { which = bank_cost_3 value = 250698.642 }    set_variable = { which = bank_cost_2 value = 0.35 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 108932.000 }    set_variable = { which = bank_cost_3 value = 161522.712 }    set_variable = { which = bank_cost_2 value = 0.33 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 389 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 390 } }
+										set_variable = { which = bank_cost_4 value = 581308.000 }    set_variable = { which = bank_cost_3 value = 196164.357 }    set_variable = { which = bank_cost_2 value = 0.31 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 721836.000 }    set_variable = { which = bank_cost_3 value = 347285.378 }    set_variable = { which = bank_cost_2 value = 0.29 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 334748.000 }    set_variable = { which = bank_cost_3 value = 607982.482 }    set_variable = { which = bank_cost_2 value = 0.27 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = bank_count value = 381 } }
+							if = {
+								limit = { check_variable = { which = bank_count value = 384 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 386 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 387 } }
+										set_variable = { which = bank_cost_4 value = 370412.000 }    set_variable = { which = bank_cost_3 value = 971761.507 }    set_variable = { which = bank_cost_2 value = 0.25 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 206412.000 }    set_variable = { which = bank_cost_3 value = 432513.177 }    set_variable = { which = bank_cost_2 value = 0.24 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = bank_count value = 385 } }
+										set_variable = { which = bank_cost_4 value = 999448.000 }    set_variable = { which = bank_cost_3 value = 984490.288 }    set_variable = { which = bank_cost_2 value = 0.22 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 938332.000 }    set_variable = { which = bank_cost_3 value = 622286.254 }    set_variable = { which = bank_cost_2 value = 0.21 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 382 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 383 } }
+										set_variable = { which = bank_cost_4 value = 275948.000 }    set_variable = { which = bank_cost_3 value = 340814.915 }    set_variable = { which = bank_cost_2 value = 0.20 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 766652.000 }    set_variable = { which = bank_cost_3 value = 135291.547 }    set_variable = { which = bank_cost_2 value = 0.19 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 602682.000 }    set_variable = { which = bank_cost_3 value = 1215.2 }    set_variable = { which = bank_cost_2 value = 0.18 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = bank_count value = 378 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 379 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 380 } }
+										set_variable = { which = bank_cost_4 value = 145516.000 }    set_variable = { which = bank_cost_3 value = 934350.896 }    set_variable = { which = bank_cost_2 value = 0.16 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 701334.000 }    set_variable = { which = bank_cost_3 value = 930715.800 }    set_variable = { which = bank_cost_2 value = 0.15 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 308876.000 }    set_variable = { which = bank_cost_3 value = 986562.371 }    set_variable = { which = bank_cost_2 value = 0.14 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 376 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 377 } }
+										set_variable = { which = bank_cost_4 value = 6470.000 }    set_variable = { which = bank_cost_3 value = 98365.354 }    set_variable = { which = bank_cost_2 value = 0.14 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 336284.000 }    set_variable = { which = bank_cost_3 value = 262808.423 }    set_variable = { which = bank_cost_2 value = 0.13 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 940060.000 }    set_variable = { which = bank_cost_3 value = 476771.799 }    set_variable = { which = bank_cost_2 value = 0.12 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = bank_count value = 362 } }
+						if = {
+							limit = { check_variable = { which = bank_count value = 368 } }
+							if = {
+								limit = { check_variable = { which = bank_count value = 371 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 373 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 374 } }
+										set_variable = { which = bank_cost_4 value = 13228.000 }    set_variable = { which = bank_cost_3 value = 737320.602 }    set_variable = { which = bank_cost_2 value = 0.11 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 124392.000 }    set_variable = { which = bank_cost_3 value = 41693.887 }    set_variable = { which = bank_cost_2 value = 0.11 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = bank_count value = 372 } }
+										set_variable = { which = bank_cost_4 value = 484846.000 }    set_variable = { which = bank_cost_3 value = 387294.343 }    set_variable = { which = bank_cost_2 value = 0.10 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 177656.000 }    set_variable = { which = bank_cost_3 value = 771678.592 }    set_variable = { which = bank_cost_2 value = 0.9 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 369 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 370 } }
+										set_variable = { which = bank_cost_4 value = 137024.000 }    set_variable = { which = bank_cost_3 value = 192548.64 }    set_variable = { which = bank_cost_2 value = 0.9 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 814697.000 }    set_variable = { which = bank_cost_3 value = 647740.417 }    set_variable = { which = bank_cost_2 value = 0.8 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 488898.000 }    set_variable = { which = bank_cost_3 value = 135221.465 }    set_variable = { which = bank_cost_2 value = 0.8 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = bank_count value = 365 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 366 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 367 } }
+										set_variable = { which = bank_cost_4 value = 70459.000 }    set_variable = { which = bank_cost_3 value = 653077.578 }    set_variable = { which = bank_cost_2 value = 0.7 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 47468.000 }    set_variable = { which = bank_cost_3 value = 199508.540 }    set_variable = { which = bank_cost_2 value = 0.7 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 890375.000 }    set_variable = { which = bank_cost_3 value = 772820.827 }    set_variable = { which = bank_cost_2 value = 0.6 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 363 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 364 } }
+										set_variable = { which = bank_cost_4 value = 820673.000 }    set_variable = { which = bank_cost_3 value = 371421.286 }    set_variable = { which = bank_cost_2 value = 0.6 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 333654.000 }    set_variable = { which = bank_cost_3 value = 993811.182 }    set_variable = { which = bank_cost_2 value = 0.5 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 264961.000 }    set_variable = { which = bank_cost_3 value = 638580.604 }    set_variable = { which = bank_cost_2 value = 0.5 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = bank_count value = 356 } }
+							if = {
+								limit = { check_variable = { which = bank_count value = 359 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 360 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 361 } }
+										set_variable = { which = bank_cost_4 value = 507020.000 }    set_variable = { which = bank_cost_3 value = 304403.202 }    set_variable = { which = bank_cost_2 value = 0.5 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 719680.000 }    set_variable = { which = bank_cost_3 value = 990031.234 }    set_variable = { which = bank_cost_2 value = 0.4 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 544384.000 }    set_variable = { which = bank_cost_3 value = 694290.907 }    set_variable = { which = bank_cost_2 value = 0.4 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 357 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 358 } }
+										set_variable = { which = bank_cost_4 value = 926984.000 }    set_variable = { which = bank_cost_3 value = 416077.993 }    set_variable = { which = bank_cost_2 value = 0.4 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 185310.000 }    set_variable = { which = bank_cost_3 value = 154353.710 }    set_variable = { which = bank_cost_2 value = 0.4 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 427385.000 }    set_variable = { which = bank_cost_3 value = 908140.837 }    set_variable = { which = bank_cost_2 value = 0.3 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = bank_count value = 353 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 354 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 355 } }
+										set_variable = { which = bank_cost_4 value = 838556.000 }    set_variable = { which = bank_cost_3 value = 676520.72 }    set_variable = { which = bank_cost_2 value = 0.3 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 214069.000 }    set_variable = { which = bank_cost_3 value = 458626.597 }    set_variable = { which = bank_cost_2 value = 0.3 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 921044.000 }    set_variable = { which = bank_cost_3 value = 253646.845 }    set_variable = { which = bank_cost_2 value = 0.3 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 351 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 352 } }
+										set_variable = { which = bank_cost_4 value = 233344.000 }    set_variable = { which = bank_cost_3 value = 60815.471 }    set_variable = { which = bank_cost_2 value = 0.3 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 697407.000 }    set_variable = { which = bank_cost_3 value = 879412.484 }    set_variable = { which = bank_cost_2 value = 0.2 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 859273.000 }    set_variable = { which = bank_cost_3 value = 708760.568 }    set_variable = { which = bank_cost_2 value = 0.2 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = bank_count value = 325 } }
+					if = {
+						limit = { check_variable = { which = bank_count value = 337 } }
+						if = {
+							limit = { check_variable = { which = bank_count value = 343 } }
+							if = {
+								limit = { check_variable = { which = bank_count value = 346 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 348 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 349 } }
+										set_variable = { which = bank_cost_4 value = 315403.000 }    set_variable = { which = bank_cost_3 value = 548222.548 }    set_variable = { which = bank_cost_2 value = 0.2 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 644781.000 }    set_variable = { which = bank_cost_3 value = 397199.10 }    set_variable = { which = bank_cost_2 value = 0.2 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = bank_count value = 347 } }
+										set_variable = { which = bank_cost_4 value = 339400.000 }    set_variable = { which = bank_cost_3 value = 255126.68 }    set_variable = { which = bank_cost_2 value = 0.2 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 376669.000 }    set_variable = { which = bank_cost_3 value = 121473.253 }    set_variable = { which = bank_cost_2 value = 0.2 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 344 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 345 } }
+										set_variable = { which = bank_cost_4 value = 572596.000 }    set_variable = { which = bank_cost_3 value = 995741.536 }    set_variable = { which = bank_cost_2 value = 0.1 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 320410.000 }    set_variable = { which = bank_cost_3 value = 877461.464 }    set_variable = { which = bank_cost_2 value = 0.1 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 757677.000 }    set_variable = { which = bank_cost_3 value = 766191.405 }    set_variable = { which = bank_cost_2 value = 0.1 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = bank_count value = 340 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 341 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 342 } }
+										set_variable = { which = bank_cost_4 value = 817194.000 }    set_variable = { which = bank_cost_3 value = 661515.903 }    set_variable = { which = bank_cost_2 value = 0.1 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 4886.000 }    set_variable = { which = bank_cost_3 value = 563044.124 }    set_variable = { which = bank_cost_2 value = 0.1 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 112781.000 }    set_variable = { which = bank_cost_3 value = 470408.395 }    set_variable = { which = bank_cost_2 value = 0.1 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 338 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 339 } }
+										set_variable = { which = bank_cost_4 value = 418420.000 }    set_variable = { which = bank_cost_3 value = 383262.836 }    set_variable = { which = bank_cost_2 value = 0.1 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 244986.000 }    set_variable = { which = bank_cost_3 value = 301282.66 }    set_variable = { which = bank_cost_2 value = 0.1 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 60194.000 }    set_variable = { which = bank_cost_3 value = 224159.987 }    set_variable = { which = bank_cost_2 value = 0.1 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = bank_count value = 331 } }
+							if = {
+								limit = { check_variable = { which = bank_count value = 334 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 335 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 336 } }
+										set_variable = { which = bank_cost_4 value = 577793.000 }    set_variable = { which = bank_cost_3 value = 151608.642 }    set_variable = { which = bank_cost_2 value = 0.1 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 594349.000 }    set_variable = { which = bank_cost_3 value = 83357.142 }    set_variable = { which = bank_cost_2 value = 0.1 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 546895.000 }    set_variable = { which = bank_cost_3 value = 19150.651 }    set_variable = { which = bank_cost_2 value = 0.1 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 332 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 333 } }
+										set_variable = { which = bank_cost_4 value = 14953.000 }    set_variable = { which = bank_cost_3 value = 958749.437 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 614255.000 }    set_variable = { which = bank_cost_3 value = 901927.974 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 940032.000 }    set_variable = { which = bank_cost_3 value = 848474.105 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = bank_count value = 328 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 329 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 330 } }
+										set_variable = { which = bank_cost_4 value = 415835.000 }    set_variable = { which = bank_cost_3 value = 798188.246 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 90155.000 }    set_variable = { which = bank_cost_3 value = 750882.640 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 598453.000 }    set_variable = { which = bank_cost_3 value = 706380.658 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 326 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 327 } }
+										set_variable = { which = bank_cost_4 value = 673051.000 }    set_variable = { which = bank_cost_3 value = 664516.141 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 738524.000 }    set_variable = { which = bank_cost_3 value = 625132.776 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 276127.000 }    set_variable = { which = bank_cost_3 value = 588083.515 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = bank_count value = 312 } }
+						if = {
+							limit = { check_variable = { which = bank_count value = 318 } }
+							if = {
+								limit = { check_variable = { which = bank_count value = 321 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 323 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 324 } }
+										set_variable = { which = bank_cost_4 value = 778107.000 }    set_variable = { which = bank_cost_3 value = 553230.23 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 241869.000 }    set_variable = { which = bank_cost_3 value = 520442.167 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = bank_count value = 322 } }
+										set_variable = { which = bank_cost_4 value = 275512.000 }    set_variable = { which = bank_cost_3 value = 489597.523 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 481.000 }    set_variable = { which = bank_cost_3 value = 460580.925 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 319 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 320 } }
+										set_variable = { which = bank_cost_4 value = 44667.000 }    set_variable = { which = bank_cost_3 value = 433284.31 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 20383.000 }    set_variable = { which = bank_cost_3 value = 407604.921 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 976842.000 }    set_variable = { which = bank_cost_3 value = 383447.714 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = bank_count value = 315 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 316 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 317 } }
+										set_variable = { which = bank_cost_4 value = 406249.000 }    set_variable = { which = bank_cost_3 value = 360722.215 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 466838.000 }    set_variable = { which = bank_cost_3 value = 339343.570 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 165416.000 }    set_variable = { which = bank_cost_3 value = 319231.957 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 313 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 314 } }
+										set_variable = { which = bank_cost_4 value = 316478.000 }    set_variable = { which = bank_cost_3 value = 300312.283 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 165078.000 }    set_variable = { which = bank_cost_3 value = 282513.907 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 626602.000 }    set_variable = { which = bank_cost_3 value = 265770.373 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = bank_count value = 306 } }
+							if = {
+								limit = { check_variable = { which = bank_count value = 309 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 310 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 311 } }
+										set_variable = { which = bank_cost_4 value = 158610.000 }    set_variable = { which = bank_cost_3 value = 250019.166 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 338297.000 }    set_variable = { which = bank_cost_3 value = 235201.473 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 274033.000 }    set_variable = { which = bank_cost_3 value = 221261.969 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 307 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 308 } }
+										set_variable = { which = bank_cost_4 value = 31075.000 }    set_variable = { which = bank_cost_3 value = 208148.607 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 300165.000 }    set_variable = { which = bank_cost_3 value = 195812.424 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 583410.000 }    set_variable = { which = bank_cost_3 value = 184207.360 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = bank_count value = 303 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 304 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 305 } }
+										set_variable = { which = bank_cost_4 value = 214873.000 }    set_variable = { which = bank_cost_3 value = 173290.85 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 573728.000 }    set_variable = { which = bank_cost_3 value = 163019.835 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 885915.000 }    set_variable = { which = bank_cost_3 value = 153358.264 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 301 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 302 } }
+										set_variable = { which = bank_cost_4 value = 46016.000 }    set_variable = { which = bank_cost_3 value = 144269.299 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 924757.000 }    set_variable = { which = bank_cost_3 value = 135719.1 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 659225.000 }    set_variable = { which = bank_cost_3 value = 127675.448 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = { check_variable = { which = bank_count value = 250 } }
+				if = {
+					limit = { check_variable = { which = bank_count value = 275 } }
+					if = {
+						limit = { check_variable = { which = bank_count value = 287 } }
+						if = {
+							limit = { check_variable = { which = bank_count value = 293 } }
+							if = {
+								limit = { check_variable = { which = bank_count value = 296 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 298 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 299 } }
+										set_variable = { which = bank_cost_4 value = 452705.000 }    set_variable = { which = bank_cost_3 value = 120108.606 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 439045.000 }    set_variable = { which = bank_cost_3 value = 112990.222 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = bank_count value = 297 } }
+										set_variable = { which = bank_cost_4 value = 192893.000 }    set_variable = { which = bank_cost_3 value = 106293.718 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 491903.000 }    set_variable = { which = bank_cost_3 value = 99994.90 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 294 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 295 } }
+										set_variable = { which = bank_cost_4 value = 960398.000 }    set_variable = { which = bank_cost_3 value = 94067.817 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 245906.000 }    set_variable = { which = bank_cost_3 value = 88492.773 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 400664.000 }    set_variable = { which = bank_cost_3 value = 83248.140 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = bank_count value = 290 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 291 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 292 } }
+										set_variable = { which = bank_cost_4 value = 159609.000 }    set_variable = { which = bank_cost_3 value = 78314.337 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 824655.000 }    set_variable = { which = bank_cost_3 value = 73672.941 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 482272.000 }    set_variable = { which = bank_cost_3 value = 69306.624 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 288 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 289 } }
+										set_variable = { which = bank_cost_4 value = 297528.000 }    set_variable = { which = bank_cost_3 value = 65199.82 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 643018.000 }    set_variable = { which = bank_cost_3 value = 61334.978 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 835388.000 }    set_variable = { which = bank_cost_3 value = 57699.885 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = bank_count value = 281 } }
+							if = {
+								limit = { check_variable = { which = bank_count value = 284 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 285 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 286 } }
+										set_variable = { which = bank_cost_4 value = 265652.000 }    set_variable = { which = bank_cost_3 value = 54280.231 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 722156.000 }    set_variable = { which = bank_cost_3 value = 51063.246 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 716986.000 }    set_variable = { which = bank_cost_3 value = 48036.920 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 282 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 283 } }
+										set_variable = { which = bank_cost_4 value = 637804.000 }    set_variable = { which = bank_cost_3 value = 45189.953 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 557671.000 }    set_variable = { which = bank_cost_3 value = 42511.715 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 545316.000 }    set_variable = { which = bank_cost_3 value = 39992.206 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = bank_count value = 278 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 279 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 280 } }
+										set_variable = { which = bank_cost_4 value = 327673.000 }    set_variable = { which = bank_cost_3 value = 37622.19 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 165261.000 }    set_variable = { which = bank_cost_3 value = 35392.304 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 809277.000 }    set_variable = { which = bank_cost_3 value = 33294.735 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 276 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 277 } }
+										set_variable = { which = bank_cost_4 value = 417005.000 }    set_variable = { which = bank_cost_3 value = 31321.482 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 309506.000 }    set_variable = { which = bank_cost_3 value = 29465.176 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 462377.000 }    set_variable = { which = bank_cost_3 value = 27718.886 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = bank_count value = 262 } }
+						if = {
+							limit = { check_variable = { which = bank_count value = 268 } }
+							if = {
+								limit = { check_variable = { which = bank_count value = 271 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 273 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 274 } }
+										set_variable = { which = bank_cost_4 value = 626883.000 }    set_variable = { which = bank_cost_3 value = 26076.92 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 984838.000 }    set_variable = { which = bank_cost_3 value = 24530.660 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = bank_count value = 272 } }
+										set_variable = { which = bank_cost_4 value = 246320.000 }    set_variable = { which = bank_cost_3 value = 23076.821 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 104722.000 }    set_variable = { which = bank_cost_3 value = 21709.145 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 269 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 270 } }
+										set_variable = { which = bank_cost_4 value = 968695.000 }    set_variable = { which = bank_cost_3 value = 20422.525 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 895291.000 }    set_variable = { which = bank_cost_3 value = 19212.159 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 653143.000 }    set_variable = { which = bank_cost_3 value = 18073.527 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = bank_count value = 265 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 266 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 267 } }
+										set_variable = { which = bank_cost_4 value = 848677.000 }    set_variable = { which = bank_cost_3 value = 17002.377 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 52377.000 }    set_variable = { which = bank_cost_3 value = 15994.711 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 865830.000 }    set_variable = { which = bank_cost_3 value = 15046.764 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 263 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 264 } }
+										set_variable = { which = bank_cost_4 value = 873781.000 }    set_variable = { which = bank_cost_3 value = 14154.999 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 428769.000 }    set_variable = { which = bank_cost_3 value = 13316.86 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 218973.000 }    set_variable = { which = bank_cost_3 value = 12526.892 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = bank_count value = 256 } }
+							if = {
+								limit = { check_variable = { which = bank_count value = 259 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 260 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 261 } }
+										set_variable = { which = bank_cost_4 value = 572882.000 }    set_variable = { which = bank_cost_3 value = 11784.470 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 457085.000 }    set_variable = { which = bank_cost_3 value = 11086.49 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 126139.000 }    set_variable = { which = bank_cost_3 value = 10429.21 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 257 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 258 } }
+										set_variable = { which = bank_cost_4 value = 385831.000 }    set_variable = { which = bank_cost_3 value = 9810.932 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 433520.000 }    set_variable = { which = bank_cost_3 value = 9229.475 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 241317.000 }    set_variable = { which = bank_cost_3 value = 8682.479 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = bank_count value = 253 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 254 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 255 } }
+										set_variable = { which = bank_cost_4 value = 449968.000 }    set_variable = { which = bank_cost_3 value = 8167.901 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 743150.000 }    set_variable = { which = bank_cost_3 value = 7683.820 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 673706.000 }    set_variable = { which = bank_cost_3 value = 7228.429 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 251 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 252 } }
+										set_variable = { which = bank_cost_4 value = 915058.000 }    set_variable = { which = bank_cost_3 value = 6800.27 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 912566.000 }    set_variable = { which = bank_cost_3 value = 6397.15 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 911163.000 }    set_variable = { which = bank_cost_3 value = 6017.888 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = bank_count value = 225 } }
+					if = {
+						limit = { check_variable = { which = bank_count value = 237 } }
+						if = {
+							limit = { check_variable = { which = bank_count value = 243 } }
+							if = {
+								limit = { check_variable = { which = bank_count value = 246 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 248 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 249 } }
+										set_variable = { which = bank_cost_4 value = 336936.000 }    set_variable = { which = bank_cost_3 value = 5661.231 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 511699.000 }    set_variable = { which = bank_cost_3 value = 5325.711 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = bank_count value = 247 } }
+										set_variable = { which = bank_cost_4 value = 680808.000 }    set_variable = { which = bank_cost_3 value = 5010.76 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 335661.000 }    set_variable = { which = bank_cost_3 value = 4713.148 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 244 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 245 } }
+										set_variable = { which = bank_cost_4 value = 813416.000 }    set_variable = { which = bank_cost_3 value = 4433.817 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 157494.000 }    set_variable = { which = bank_cost_3 value = 4171.42 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 223418.000 }    set_variable = { which = bank_cost_3 value = 3923.840 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = bank_count value = 240 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 241 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 242 } }
+										set_variable = { which = bank_cost_4 value = 15445.000 }    set_variable = { which = bank_cost_3 value = 3691.289 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 240306.000 }    set_variable = { which = bank_cost_3 value = 3472.520 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 65198.000 }    set_variable = { which = bank_cost_3 value = 3266.717 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 238 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 239 } }
+										set_variable = { which = bank_cost_4 value = 67920.000 }    set_variable = { which = bank_cost_3 value = 3073.111 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 367751.000 }    set_variable = { which = bank_cost_3 value = 2890.979 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 926389.000 }    set_variable = { which = bank_cost_3 value = 2719.641 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = bank_count value = 231 } }
+							if = {
+								limit = { check_variable = { which = bank_count value = 234 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 235 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 236 } }
+										set_variable = { which = bank_cost_4 value = 8832.000 }    set_variable = { which = bank_cost_3 value = 2558.459 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 794762.000 }    set_variable = { which = bank_cost_3 value = 2406.828 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 131479.000 }    set_variable = { which = bank_cost_3 value = 2264.185 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 232 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 233 } }
+										set_variable = { which = bank_cost_4 value = 420018.000 }    set_variable = { which = bank_cost_3 value = 2129.995 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 626545.000 }    set_variable = { which = bank_cost_3 value = 2003.758 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 411614.000 }    set_variable = { which = bank_cost_3 value = 1885.3 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = bank_count value = 228 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 229 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 230 } }
+										set_variable = { which = bank_cost_4 value = 370286.000 }    set_variable = { which = bank_cost_3 value = 1773.286 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 376562.000 }    set_variable = { which = bank_cost_3 value = 1668.190 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 25929.000 }    set_variable = { which = bank_cost_3 value = 1569.323 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 226 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 227 } }
+										set_variable = { which = bank_cost_4 value = 170206.000 }    set_variable = { which = bank_cost_3 value = 1476.315 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 539234.000 }    set_variable = { which = bank_cost_3 value = 1388.819 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 444246.000 }    set_variable = { which = bank_cost_3 value = 1306.509 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = bank_count value = 212 } }
+						if = {
+							limit = { check_variable = { which = bank_count value = 218 } }
+							if = {
+								limit = { check_variable = { which = bank_count value = 221 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 223 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 224 } }
+										set_variable = { which = bank_cost_4 value = 558087.000 }    set_variable = { which = bank_cost_3 value = 1229.77 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 767720.000 }    set_variable = { which = bank_cost_3 value = 1156.234 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = bank_count value = 222 } }
+										set_variable = { which = bank_cost_4 value = 94751.000 }    set_variable = { which = bank_cost_3 value = 1087.709 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 679916.000 }    set_variable = { which = bank_cost_3 value = 1023.244 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 219 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 220 } }
+										set_variable = { which = bank_cost_4 value = 827767.000 }    set_variable = { which = bank_cost_3 value = 962.600 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 107965.000 }    set_variable = { which = bank_cost_3 value = 905.551 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 509845.000 }    set_variable = { which = bank_cost_3 value = 851.882 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = bank_count value = 215 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 216 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 217 } }
+										set_variable = { which = bank_cost_4 value = 647079.000 }    set_variable = { which = bank_cost_3 value = 801.394 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 9482.000 }    set_variable = { which = bank_cost_3 value = 753.899 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 259155.000 }    set_variable = { which = bank_cost_3 value = 709.218 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 213 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 214 } }
+										set_variable = { which = bank_cost_4 value = 568349.000 }    set_variable = { which = bank_cost_3 value = 667.185 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 996565.000 }    set_variable = { which = bank_cost_3 value = 627.643 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 904577.000 }    set_variable = { which = bank_cost_3 value = 590.445 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = bank_count value = 206 } }
+							if = {
+								limit = { check_variable = { which = bank_count value = 209 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 210 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 211 } }
+										set_variable = { which = bank_cost_4 value = 403177.000 }    set_variable = { which = bank_cost_3 value = 555.452 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 834597.000 }    set_variable = { which = bank_cost_3 value = 522.532 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 284663.000 }    set_variable = { which = bank_cost_3 value = 491.564 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 207 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 208 } }
+										set_variable = { which = bank_cost_4 value = 123860.000 }    set_variable = { which = bank_cost_3 value = 462.431 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 575597.000 }    set_variable = { which = bank_cost_3 value = 435.24 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 310063.000 }    set_variable = { which = bank_cost_3 value = 409.242 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = bank_count value = 203 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 204 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 205 } }
+										set_variable = { which = bank_cost_4 value = 62148.000 }    set_variable = { which = bank_cost_3 value = 384.988 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 272011.000 }    set_variable = { which = bank_cost_3 value = 362.171 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 746953.000 }    set_variable = { which = bank_cost_3 value = 340.706 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 201 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 202 } }
+										set_variable = { which = bank_cost_4 value = 343324.000 }    set_variable = { which = bank_cost_3 value = 320.514 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 667285.000 }    set_variable = { which = bank_cost_3 value = 301.518 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 793306.000 }    set_variable = { which = bank_cost_3 value = 283.648 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	else = {
+		if = {
+			limit = { check_variable = { which = bank_count value = 100 } }
+			if = {
+				limit = { check_variable = { which = bank_count value = 150 } }
+				if = {
+					limit = { check_variable = { which = bank_count value = 175 } }
+					if = {
+						limit = { check_variable = { which = bank_count value = 187 } }
+						if = {
+							limit = { check_variable = { which = bank_count value = 193 } }
+							if = {
+								limit = { check_variable = { which = bank_count value = 196 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 198 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 199 } }
+										set_variable = { which = bank_cost_4 value = 999347.000 }    set_variable = { which = bank_cost_3 value = 266.837 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 517730.000 }    set_variable = { which = bank_cost_3 value = 251.23 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = bank_count value = 197 } }
+										set_variable = { which = bank_cost_4 value = 300781.000 }    set_variable = { which = bank_cost_3 value = 236.146 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 800359.000 }    set_variable = { which = bank_cost_3 value = 222.150 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 194 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 195 } }
+										set_variable = { which = bank_cost_4 value = 760450.000 }    set_variable = { which = bank_cost_3 value = 208.984 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 22060.000 }    set_variable = { which = bank_cost_3 value = 196.599 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 339662.000 }    set_variable = { which = bank_cost_3 value = 184.947 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = bank_count value = 190 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 191 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 192 } }
+										set_variable = { which = bank_cost_4 value = 208525.000 }    set_variable = { which = bank_cost_3 value = 173.986 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 702281.000 }    set_variable = { which = bank_cost_3 value = 163.674 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 320114.000 }    set_variable = { which = bank_cost_3 value = 153.974 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 188 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 189 } }
+										set_variable = { which = bank_cost_4 value = 843004.000 }    set_variable = { which = bank_cost_3 value = 144.848 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 198499.000 }    set_variable = { which = bank_cost_3 value = 136.264 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 333489.000 }    set_variable = { which = bank_cost_3 value = 128.188 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = bank_count value = 181 } }
+							if = {
+								limit = { check_variable = { which = bank_count value = 184 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 185 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 186 } }
+										set_variable = { which = bank_cost_4 value = 94533.000 }    set_variable = { which = bank_cost_3 value = 120.591 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 115271.000 }    set_variable = { which = bank_cost_3 value = 113.444 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 710509.000 }    set_variable = { which = bank_cost_3 value = 106.720 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 182 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 183 } }
+										set_variable = { which = bank_cost_4 value = 776584.000 }    set_variable = { which = bank_cost_3 value = 100.395 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 697633.000 }    set_variable = { which = bank_cost_3 value = 94.445 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 257416.000 }    set_variable = { which = bank_cost_3 value = 88.848 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = bank_count value = 178 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 179 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 180 } }
+										set_variable = { which = bank_cost_4 value = 556365.000 }    set_variable = { which = bank_cost_3 value = 83.582 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 933551.000 }    set_variable = { which = bank_cost_3 value = 78.628 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 893275.000 }    set_variable = { which = bank_cost_3 value = 73.968 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 176 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 177 } }
+										set_variable = { which = bank_cost_4 value = 36007.000 }    set_variable = { which = bank_cost_3 value = 69.585 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 993421.000 }    set_variable = { which = bank_cost_3 value = 65.460 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 367282.000 }    set_variable = { which = bank_cost_3 value = 61.581 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = bank_count value = 162 } }
+						if = {
+							limit = { check_variable = { which = bank_count value = 168 } }
+							if = {
+								limit = { check_variable = { which = bank_count value = 171 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 173 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 174 } }
+										set_variable = { which = bank_cost_4 value = 671949.000 }    set_variable = { which = bank_cost_3 value = 57.931 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 280291.000 }    set_variable = { which = bank_cost_3 value = 54.498 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = bank_count value = 172 } }
+										set_variable = { which = bank_cost_4 value = 372804.000 }    set_variable = { which = bank_cost_3 value = 51.268 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 889750.000 }    set_variable = { which = bank_cost_3 value = 48.229 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 169 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 170 } }
+										set_variable = { which = bank_cost_4 value = 486124.000 }    set_variable = { which = bank_cost_3 value = 45.371 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 489298.000 }    set_variable = { which = bank_cost_3 value = 42.682 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 859171.000 }    set_variable = { which = bank_cost_3 value = 40.152 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = bank_count value = 165 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 166 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 167 } }
+										set_variable = { which = bank_cost_4 value = 150678.000 }    set_variable = { which = bank_cost_3 value = 37.773 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 478530.000 }    set_variable = { which = bank_cost_3 value = 35.534 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 484036.000 }    set_variable = { which = bank_cost_3 value = 33.428 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 163 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 164 } }
+										set_variable = { which = bank_cost_4 value = 303891.000 }    set_variable = { which = bank_cost_3 value = 31.447 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 540819.000 }    set_variable = { which = bank_cost_3 value = 29.583 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 235954.000 }    set_variable = { which = bank_cost_3 value = 27.830 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = bank_count value = 156 } }
+							if = {
+								limit = { check_variable = { which = bank_count value = 159 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 160 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 161 } }
+										set_variable = { which = bank_cost_4 value = 842854.000 }    set_variable = { which = bank_cost_3 value = 26.180 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 203061.000 }    set_variable = { which = bank_cost_3 value = 24.629 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 523106.000 }    set_variable = { which = bank_cost_3 value = 23.169 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 157 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 158 } }
+										set_variable = { which = bank_cost_4 value = 352875.000 }    set_variable = { which = bank_cost_3 value = 21.796 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 565263.000 }    set_variable = { which = bank_cost_3 value = 20.504 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 337030.000 }    set_variable = { which = bank_cost_3 value = 19.289 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = bank_count value = 153 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 154 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 155 } }
+										set_variable = { which = bank_cost_4 value = 130790.000 }    set_variable = { which = bank_cost_3 value = 18.146 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 678072.000 }    set_variable = { which = bank_cost_3 value = 17.70 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 963379.000 }    set_variable = { which = bank_cost_3 value = 16.58 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 151 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 152 } }
+										set_variable = { which = bank_cost_4 value = 209199.000 }    set_variable = { which = bank_cost_3 value = 15.107 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 861899.000 }    set_variable = { which = bank_cost_3 value = 14.211 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 578457.000 }    set_variable = { which = bank_cost_3 value = 13.369 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = bank_count value = 125 } }
+					if = {
+						limit = { check_variable = { which = bank_count value = 137 } }
+						if = {
+							limit = { check_variable = { which = bank_count value = 143 } }
+							if = {
+								limit = { check_variable = { which = bank_count value = 146 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 148 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 149 } }
+										set_variable = { which = bank_cost_4 value = 213976.000 }    set_variable = { which = bank_cost_3 value = 12.577 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 809949.000 }    set_variable = { which = bank_cost_3 value = 11.831 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = bank_count value = 147 } }
+										set_variable = { which = bank_cost_4 value = 583207.000 }    set_variable = { which = bank_cost_3 value = 11.130 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 915529.000 }    set_variable = { which = bank_cost_3 value = 10.470 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 144 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 145 } }
+										set_variable = { which = bank_cost_4 value = 343865.000 }    set_variable = { which = bank_cost_3 value = 9.850 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 551143.000 }    set_variable = { which = bank_cost_3 value = 9.266 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 357614.000 }    set_variable = { which = bank_cost_3 value = 8.717 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = bank_count value = 140 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 141 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 142 } }
+										set_variable = { which = bank_cost_4 value = 712713.000 }    set_variable = { which = bank_cost_3 value = 8.200 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 687406.000 }    set_variable = { which = bank_cost_3 value = 7.714 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 466986.000 }    set_variable = { which = bank_cost_3 value = 7.257 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 138 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 139 } }
+										set_variable = { which = bank_cost_4 value = 344295.000 }    set_variable = { which = bank_cost_3 value = 6.827 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 713354.000 }    set_variable = { which = bank_cost_3 value = 6.422 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 63362.000 }    set_variable = { which = bank_cost_3 value = 6.42 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = bank_count value = 131 } }
+							if = {
+								limit = { check_variable = { which = bank_count value = 134 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 135 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 136 } }
+										set_variable = { which = bank_cost_4 value = 973059.000 }    set_variable = { which = bank_cost_3 value = 5.683 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 105418.000 }    set_variable = { which = bank_cost_3 value = 5.347 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 202651.000 }    set_variable = { which = bank_cost_3 value = 5.30 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 132 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 133 } }
+										set_variable = { which = bank_cost_4 value = 81515.000 }    set_variable = { which = bank_cost_3 value = 4.732 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 628895.000 }    set_variable = { which = bank_cost_3 value = 4.451 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 797643.000 }    set_variable = { which = bank_cost_3 value = 4.187 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = bank_count value = 128 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 129 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 130 } }
+										set_variable = { which = bank_cost_4 value = 602675.000 }    set_variable = { which = bank_cost_3 value = 3.939 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 117286.000 }    set_variable = { which = bank_cost_3 value = 3.706 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 469695.000 }    set_variable = { which = bank_cost_3 value = 3.486 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 126 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 127 } }
+										set_variable = { which = bank_cost_4 value = 839788.000 }    set_variable = { which = bank_cost_3 value = 3.279 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 456057.000 }    set_variable = { which = bank_cost_3 value = 3.85 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 592716.000 }    set_variable = { which = bank_cost_3 value = 2.902 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = bank_count value = 112 } }
+						if = {
+							limit = { check_variable = { which = bank_count value = 118 } }
+							if = {
+								limit = { check_variable = { which = bank_count value = 121 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 123 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 124 } }
+										set_variable = { which = bank_cost_4 value = 566995.000 }    set_variable = { which = bank_cost_3 value = 2.730 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 736590.000 }    set_variable = { which = bank_cost_3 value = 2.568 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = bank_count value = 122 } }
+										set_variable = { which = bank_cost_4 value = 497262.000 }    set_variable = { which = bank_cost_3 value = 2.416 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 280585.000 }    set_variable = { which = bank_cost_3 value = 2.273 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 119 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 120 } }
+										set_variable = { which = bank_cost_4 value = 551821.000 }    set_variable = { which = bank_cost_3 value = 2.138 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 807921.000 }    set_variable = { which = bank_cost_3 value = 2.11 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 575655.000 }    set_variable = { which = bank_cost_3 value = 1.892 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = bank_count value = 115 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 116 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 117 } }
+										set_variable = { which = bank_cost_4 value = 409835.000 }    set_variable = { which = bank_cost_3 value = 1.780 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 891661.000 }    set_variable = { which = bank_cost_3 value = 1.674 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 627150.000 }    set_variable = { which = bank_cost_3 value = 1.575 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 113 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 114 } }
+										set_variable = { which = bank_cost_4 value = 245673.000 }    set_variable = { which = bank_cost_3 value = 1.482 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 398563.000 }    set_variable = { which = bank_cost_3 value = 1.394 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 757821.000 }    set_variable = { which = bank_cost_3 value = 1.311 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = bank_count value = 106 } }
+							if = {
+								limit = { check_variable = { which = bank_count value = 109 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 110 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 111 } }
+										set_variable = { which = bank_cost_4 value = 14883.000 }    set_variable = { which = bank_cost_3 value = 1.234 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 879476.000 }    set_variable = { which = bank_cost_3 value = 1.160 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 78529.000 }    set_variable = { which = bank_cost_3 value = 1.92 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 107 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 108 } }
+										set_variable = { which = bank_cost_4 value = 355154.000 }    set_variable = { which = bank_cost_3 value = 1.27 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 467689.000 }    set_variable = { which = bank_cost_3 value = 0.966 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 188795.000 }    set_variable = { which = bank_cost_3 value = 0.909 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = bank_count value = 103 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 104 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 105 } }
+										set_variable = { which = bank_cost_4 value = 304605.000 }    set_variable = { which = bank_cost_3 value = 0.855 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 613928.000 }    set_variable = { which = bank_cost_3 value = 0.804 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 927495.000 }    set_variable = { which = bank_cost_3 value = 0.756 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 101 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 102 } }
+										set_variable = { which = bank_cost_4 value = 67258.000 }    set_variable = { which = bank_cost_3 value = 0.712 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 865718.000 }    set_variable = { which = bank_cost_3 value = 0.669 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 165304.000 }    set_variable = { which = bank_cost_3 value = 0.630 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = { check_variable = { which = bank_count value = 50 } }
+				if = {
+					limit = { check_variable = { which = bank_count value = 75 } }
+					if = {
+						limit = { check_variable = { which = bank_count value = 87 } }
+						if = {
+							limit = { check_variable = { which = bank_count value = 93 } }
+							if = {
+								limit = { check_variable = { which = bank_count value = 96 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 98 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 99 } }
+										set_variable = { which = bank_cost_4 value = 817783.000 }    set_variable = { which = bank_cost_3 value = 0.592 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 683710.000 }    set_variable = { which = bank_cost_3 value = 0.557 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = bank_count value = 97 } }
+										set_variable = { which = bank_cost_4 value = 631900.000 }    set_variable = { which = bank_cost_3 value = 0.524 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 538946.000 }    set_variable = { which = bank_cost_3 value = 0.493 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 94 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 95 } }
+										set_variable = { which = bank_cost_4 value = 288755.000 }    set_variable = { which = bank_cost_3 value = 0.464 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 772112.000 }    set_variable = { which = bank_cost_3 value = 0.436 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 886276.000 }    set_variable = { which = bank_cost_3 value = 0.410 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = bank_count value = 90 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 91 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 92 } }
+										set_variable = { which = bank_cost_4 value = 534597.000 }    set_variable = { which = bank_cost_3 value = 0.386 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 626149.000 }    set_variable = { which = bank_cost_3 value = 0.363 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 75399.000 }    set_variable = { which = bank_cost_3 value = 0.342 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 88 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 89 } }
+										set_variable = { which = bank_cost_4 value = 801880.000 }    set_variable = { which = bank_cost_3 value = 0.321 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 729897.000 }    set_variable = { which = bank_cost_3 value = 0.302 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 788238.000 }    set_variable = { which = bank_cost_3 value = 0.284 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = bank_count value = 81 } }
+							if = {
+								limit = { check_variable = { which = bank_count value = 84 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 85 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 86 } }
+										set_variable = { which = bank_cost_4 value = 909913.000 }    set_variable = { which = bank_cost_3 value = 0.267 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 31903.000 }    set_variable = { which = bank_cost_3 value = 0.252 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 94923.000 }    set_variable = { which = bank_cost_3 value = 0.237 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 82 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 83 } }
+										set_variable = { which = bank_cost_4 value = 43201.000 }    set_variable = { which = bank_cost_3 value = 0.223 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 824272.000 }    set_variable = { which = bank_cost_3 value = 0.209 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 388779.000 }    set_variable = { which = bank_cost_3 value = 0.197 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = bank_count value = 78 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 79 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 80 } }
+										set_variable = { which = bank_cost_4 value = 690291.000 }    set_variable = { which = bank_cost_3 value = 0.185 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 685128.000 }    set_variable = { which = bank_cost_3 value = 0.174 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 332199.000 }    set_variable = { which = bank_cost_3 value = 0.164 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 76 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 77 } }
+										set_variable = { which = bank_cost_4 value = 592850.000 }    set_variable = { which = bank_cost_3 value = 0.154 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 430715.000 }    set_variable = { which = bank_cost_3 value = 0.145 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 811585.000 }    set_variable = { which = bank_cost_3 value = 0.136 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = bank_count value = 62 } }
+						if = {
+							limit = { check_variable = { which = bank_count value = 68 } }
+							if = {
+								limit = { check_variable = { which = bank_count value = 71 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 73 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 74 } }
+										set_variable = { which = bank_cost_4 value = 703278.000 }    set_variable = { which = bank_cost_3 value = 0.128 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 75520.000 }    set_variable = { which = bank_cost_3 value = 0.121 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = bank_count value = 72 } }
+										set_variable = { which = bank_cost_4 value = 899831.000 }    set_variable = { which = bank_cost_3 value = 0.113 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 149418.000 }    set_variable = { which = bank_cost_3 value = 0.107 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 69 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 70 } }
+										set_variable = { which = bank_cost_4 value = 799076.000 }    set_variable = { which = bank_cost_3 value = 0.100 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 825095.000 }    set_variable = { which = bank_cost_3 value = 0.94 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 205169.000 }    set_variable = { which = bank_cost_3 value = 0.89 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = bank_count value = 65 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 66 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 67 } }
+										set_variable = { which = bank_cost_4 value = 918315.000 }    set_variable = { which = bank_cost_3 value = 0.83 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 944793.000 }    set_variable = { which = bank_cost_3 value = 0.78 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 266033.000 }    set_variable = { which = bank_cost_3 value = 0.74 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 63 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 64 } }
+										set_variable = { which = bank_cost_4 value = 864565.000 }    set_variable = { which = bank_cost_3 value = 0.69 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 723956.000 }    set_variable = { which = bank_cost_3 value = 0.65 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 828745.000 }    set_variable = { which = bank_cost_3 value = 0.61 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = bank_count value = 56 } }
+							if = {
+								limit = { check_variable = { which = bank_count value = 59 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 60 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 61 } }
+										set_variable = { which = bank_cost_4 value = 164389.000 }    set_variable = { which = bank_cost_3 value = 0.58 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 717205.000 }    set_variable = { which = bank_cost_3 value = 0.54 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 474322.000 }    set_variable = { which = bank_cost_3 value = 0.51 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 57 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 58 } }
+										set_variable = { which = bank_cost_4 value = 423633.000 }    set_variable = { which = bank_cost_3 value = 0.48 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 553747.000 }    set_variable = { which = bank_cost_3 value = 0.45 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 853949.000 }    set_variable = { which = bank_cost_3 value = 0.42 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = bank_count value = 53 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 54 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 55 } }
+										set_variable = { which = bank_cost_4 value = 314157.000 }    set_variable = { which = bank_cost_3 value = 0.40 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 924889.000 }    set_variable = { which = bank_cost_3 value = 0.37 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 677224.000 }    set_variable = { which = bank_cost_3 value = 0.35 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 51 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 52 } }
+										set_variable = { which = bank_cost_4 value = 562769.000 }    set_variable = { which = bank_cost_3 value = 0.33 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 573630.000 }    set_variable = { which = bank_cost_3 value = 0.31 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 702380.000 }    set_variable = { which = bank_cost_3 value = 0.29 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = bank_count value = 25 } }
+					if = {
+						limit = { check_variable = { which = bank_count value = 37 } }
+						if = {
+							limit = { check_variable = { which = bank_count value = 43 } }
+							if = {
+								limit = { check_variable = { which = bank_count value = 46 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 48 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 49 } }
+										set_variable = { which = bank_cost_4 value = 942032.000 }    set_variable = { which = bank_cost_3 value = 0.27 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 286013.000 }    set_variable = { which = bank_cost_3 value = 0.26 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = bank_count value = 47 } }
+										set_variable = { which = bank_cost_4 value = 728140.000 }    set_variable = { which = bank_cost_3 value = 0.24 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 262597.000 }    set_variable = { which = bank_cost_3 value = 0.23 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 44 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 45 } }
+										set_variable = { which = bank_cost_4 value = 883910.000 }    set_variable = { which = bank_cost_3 value = 0.21 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 586934.000 }    set_variable = { which = bank_cost_3 value = 0.20 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 366824.000 }    set_variable = { which = bank_cost_3 value = 0.19 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = bank_count value = 40 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 41 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 42 } }
+										set_variable = { which = bank_cost_4 value = 219025.000 }    set_variable = { which = bank_cost_3 value = 0.18 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 139252.000 }    set_variable = { which = bank_cost_3 value = 0.17 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 123473.000 }    set_variable = { which = bank_cost_3 value = 0.16 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 38 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 39 } }
+										set_variable = { which = bank_cost_4 value = 167896.000 }    set_variable = { which = bank_cost_3 value = 0.15 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 268952.000 }    set_variable = { which = bank_cost_3 value = 0.14 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 423285.000 }    set_variable = { which = bank_cost_3 value = 0.13 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = bank_count value = 31 } }
+							if = {
+								limit = { check_variable = { which = bank_count value = 34 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 35 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 36 } }
+										set_variable = { which = bank_cost_4 value = 627737.000 }    set_variable = { which = bank_cost_3 value = 0.12 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 879339.000 }    set_variable = { which = bank_cost_3 value = 0.11 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 175295.000 }    set_variable = { which = bank_cost_3 value = 0.11 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 32 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 33 } }
+										set_variable = { which = bank_cost_4 value = 512978.000 }    set_variable = { which = bank_cost_3 value = 0.10 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 889913.000 }    set_variable = { which = bank_cost_3 value = 0.9 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 303775.000 }    set_variable = { which = bank_cost_3 value = 0.9 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = bank_count value = 28 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 29 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 30 } }
+										set_variable = { which = bank_cost_4 value = 752376.000 }    set_variable = { which = bank_cost_3 value = 0.8 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 233655.000 }    set_variable = { which = bank_cost_3 value = 0.8 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 745678.000 }    set_variable = { which = bank_cost_3 value = 0.7 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 26 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 27 } }
+										set_variable = { which = bank_cost_4 value = 286620.000 }    set_variable = { which = bank_cost_3 value = 0.7 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 854770.000 }    set_variable = { which = bank_cost_3 value = 0.6 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 448514.000 }    set_variable = { which = bank_cost_3 value = 0.6 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = bank_count value = 12 } }
+						if = {
+							limit = { check_variable = { which = bank_count value = 18 } }
+							if = {
+								limit = { check_variable = { which = bank_count value = 21 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 23 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 24 } }
+										set_variable = { which = bank_cost_4 value = 66334.000 }    set_variable = { which = bank_cost_3 value = 0.6 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 706806.000 }    set_variable = { which = bank_cost_3 value = 0.5 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = bank_count value = 22 } }
+										set_variable = { which = bank_cost_4 value = 368585.000 }    set_variable = { which = bank_cost_3 value = 0.5 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 50409.000 }    set_variable = { which = bank_cost_3 value = 0.5 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 19 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 20 } }
+										set_variable = { which = bank_cost_4 value = 751090.000 }    set_variable = { which = bank_cost_3 value = 0.4 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 469511.000 }    set_variable = { which = bank_cost_3 value = 0.4 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 204620.000 }    set_variable = { which = bank_cost_3 value = 0.4 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = bank_count value = 15 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 16 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 17 } }
+										set_variable = { which = bank_cost_4 value = 955428.000 }    set_variable = { which = bank_cost_3 value = 0.3 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 721005.000 }    set_variable = { which = bank_cost_3 value = 0.3 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 500475.000 }    set_variable = { which = bank_cost_3 value = 0.3 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 13 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 14 } }
+										set_variable = { which = bank_cost_4 value = 293015.000 }    set_variable = { which = bank_cost_3 value = 0.3 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 97850.000 }    set_variable = { which = bank_cost_3 value = 0.3 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 914252.000 }    set_variable = { which = bank_cost_3 value = 0.2 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = bank_count value = 6 } }
+							if = {
+								limit = { check_variable = { which = bank_count value = 9 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 10 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 11 } }
+										set_variable = { which = bank_cost_4 value = 741535.000 }    set_variable = { which = bank_cost_3 value = 0.2 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 579055.000 }    set_variable = { which = bank_cost_3 value = 0.2 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 426204.000 }    set_variable = { which = bank_cost_3 value = 0.2 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 7 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 8 } }
+										set_variable = { which = bank_cost_4 value = 282412.000 }    set_variable = { which = bank_cost_3 value = 0.2 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 147142.000 }    set_variable = { which = bank_cost_3 value = 0.2 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 19889.000 }    set_variable = { which = bank_cost_3 value = 0.2 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = bank_count value = 3 } }
+								if = {
+									limit = { check_variable = { which = bank_count value = 4 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 5 } }
+										set_variable = { which = bank_cost_4 value = 900178.000 }    set_variable = { which = bank_cost_3 value = 0.1 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 787561.000 }    set_variable = { which = bank_cost_3 value = 0.1 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 681619.000 }    set_variable = { which = bank_cost_3 value = 0.1 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = bank_count value = 1 } }
+									if = {
+										limit = { check_variable = { which = bank_count value = 2 } }
+										set_variable = { which = bank_cost_4 value = 581956.000 }    set_variable = { which = bank_cost_3 value = 0.1 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = bank_cost_4 value = 488200.000 }    set_variable = { which = bank_cost_3 value = 0.1 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = bank_cost_4 value = 400000.000 }    set_variable = { which = bank_cost_3 value = 0.1 }    set_variable = { which = bank_cost_2 value = 0.0 }    set_variable = { which = bank_cost_1 value = 0.0 }    set_variable = { which = bank_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}get_msd = { ln = bank_cost mantissa = bank_cost_mantissa exponent = bank_cost_exp}
+}

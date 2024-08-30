@@ -1,0 +1,2403 @@
+get_farm_cost = {
+	if = {
+		limit = { check_variable = { which = farm_count value = 200 } }
+		if = {
+			limit = { check_variable = { which = farm_count value = 300 } }
+			if = {
+				limit = { check_variable = { which = farm_count value = 350 } }
+				if = {
+					limit = { check_variable = { which = farm_count value = 375 } }
+					if = {
+						limit = { check_variable = { which = farm_count value = 388 } }
+						if = {
+							limit = { check_variable = { which = farm_count value = 394 } }
+							if = {
+								limit = { check_variable = { which = farm_count value = 397 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 399 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 400 } }
+										set_variable = { which = farm_cost_4 value = 581064.000 }    set_variable = { which = farm_cost_3 value = 45154.235 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 375413.000 }    set_variable = { which = farm_cost_3 value = 42478.114 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = farm_count value = 398 } }
+										set_variable = { which = farm_cost_4 value = 778375.000 }    set_variable = { which = farm_cost_3 value = 39960.596 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 952376.000 }    set_variable = { which = farm_cost_3 value = 37592.282 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 395 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 396 } }
+										set_variable = { which = farm_cost_4 value = 152752.000 }    set_variable = { which = farm_cost_3 value = 35364.330 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 710961.000 }    set_variable = { which = farm_cost_3 value = 33268.419 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 974564.000 }    set_variable = { which = farm_cost_3 value = 31296.725 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = farm_count value = 391 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 392 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 393 } }
+										set_variable = { which = farm_cost_4 value = 88019.000 }    set_variable = { which = farm_cost_3 value = 29441.887 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 505192.000 }    set_variable = { which = farm_cost_3 value = 27696.977 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 130942.000 }    set_variable = { which = farm_cost_3 value = 26055.482 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 389 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 390 } }
+										set_variable = { which = farm_cost_4 value = 995242.000 }    set_variable = { which = farm_cost_3 value = 24511.271 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 368995.000 }    set_variable = { which = farm_cost_3 value = 23058.581 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 236120.000 }    set_variable = { which = farm_cost_3 value = 21691.986 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = farm_count value = 381 } }
+							if = {
+								limit = { check_variable = { which = farm_count value = 384 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 386 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 387 } }
+										set_variable = { which = farm_cost_4 value = 41505.000 }    set_variable = { which = farm_cost_3 value = 20406.384 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 639233.000 }    set_variable = { which = farm_cost_3 value = 19196.974 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = farm_count value = 385 } }
+										set_variable = { which = farm_cost_4 value = 369928.000 }    set_variable = { which = farm_cost_3 value = 18059.242 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 200308.000 }    set_variable = { which = farm_cost_3 value = 16988.939 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 382 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 383 } }
+										set_variable = { which = farm_cost_4 value = 862002.000 }    set_variable = { which = farm_cost_3 value = 15982.68 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 930388.000 }    set_variable = { which = farm_cost_3 value = 15034.871 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 787759.000 }    set_variable = { which = farm_cost_3 value = 14143.811 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = farm_count value = 378 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 379 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 380 } }
+										set_variable = { which = farm_cost_4 value = 418400.000 }    set_variable = { which = farm_cost_3 value = 13305.561 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 986265.000 }    set_variable = { which = farm_cost_3 value = 12516.990 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 148885.000 }    set_variable = { which = farm_cost_3 value = 11775.156 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 376 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 377 } }
+										set_variable = { which = farm_cost_4 value = 63862.000 }    set_variable = { which = farm_cost_3 value = 11077.287 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 46907.000 }    set_variable = { which = farm_cost_3 value = 10420.778 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 842810.000 }    set_variable = { which = farm_cost_3 value = 9803.177 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = farm_count value = 362 } }
+						if = {
+							limit = { check_variable = { which = farm_count value = 368 } }
+							if = {
+								limit = { check_variable = { which = farm_count value = 371 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 373 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 374 } }
+										set_variable = { which = farm_cost_4 value = 473010.000 }    set_variable = { which = farm_cost_3 value = 9222.180 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 625597.000 }    set_variable = { which = farm_cost_3 value = 8675.616 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = farm_count value = 372 } }
+										set_variable = { which = farm_cost_4 value = 555595.000 }    set_variable = { which = farm_cost_3 value = 8161.445 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 465282.000 }    set_variable = { which = farm_cost_3 value = 7677.747 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 369 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 370 } }
+										set_variable = { which = farm_cost_4 value = 336107.000 }    set_variable = { which = farm_cost_3 value = 7222.716 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 185425.000 }    set_variable = { which = farm_cost_3 value = 6794.653 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 722884.000 }    set_variable = { which = farm_cost_3 value = 6391.959 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = farm_count value = 365 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 366 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 367 } }
+										set_variable = { which = farm_cost_4 value = 382769.000 }    set_variable = { which = farm_cost_3 value = 6013.132 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 710037.000 }    set_variable = { which = farm_cost_3 value = 5656.756 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 79056.000 }    set_variable = { which = farm_cost_3 value = 5321.502 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 363 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 364 } }
+										set_variable = { which = farm_cost_4 value = 725359.000 }    set_variable = { which = farm_cost_3 value = 5006.116 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 71833.000 }    set_variable = { which = farm_cost_3 value = 4709.423 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 331922.000 }    set_variable = { which = farm_cost_3 value = 4430.313 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = farm_count value = 356 } }
+							if = {
+								limit = { check_variable = { which = farm_count value = 359 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 360 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 361 } }
+										set_variable = { which = farm_cost_4 value = 373398.000 }    set_variable = { which = farm_cost_3 value = 4167.745 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 827279.000 }    set_variable = { which = farm_cost_3 value = 3920.738 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 427356.000 }    set_variable = { which = farm_cost_3 value = 3688.371 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 357 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 358 } }
+										set_variable = { which = farm_cost_4 value = 566656.000 }    set_variable = { which = farm_cost_3 value = 3469.775 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 58002.000 }    set_variable = { which = farm_cost_3 value = 3264.135 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 86550.000 }    set_variable = { which = farm_cost_3 value = 3070.682 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = farm_count value = 353 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 354 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 355 } }
+										set_variable = { which = farm_cost_4 value = 342944.000 }    set_variable = { which = farm_cost_3 value = 2888.694 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 326382.000 }    set_variable = { which = farm_cost_3 value = 2717.492 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 807509.000 }    set_variable = { which = farm_cost_3 value = 2556.436 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 351 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 352 } }
+										set_variable = { which = farm_cost_4 value = 441683.000 }    set_variable = { which = farm_cost_3 value = 2404.926 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 523690.000 }    set_variable = { which = farm_cost_3 value = 2262.395 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 875532.000 }    set_variable = { which = farm_cost_3 value = 2128.311 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = farm_count value = 325 } }
+					if = {
+						limit = { check_variable = { which = farm_count value = 337 } }
+						if = {
+							limit = { check_variable = { which = farm_count value = 343 } }
+							if = {
+								limit = { check_variable = { which = farm_count value = 346 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 348 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 349 } }
+										set_variable = { which = farm_cost_4 value = 859390.000 }    set_variable = { which = farm_cost_3 value = 2002.174 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 508363.000 }    set_variable = { which = farm_cost_3 value = 1883.513 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = farm_count value = 347 } }
+										set_variable = { which = farm_cost_4 value = 767980.000 }    set_variable = { which = farm_cost_3 value = 1771.884 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 841938.000 }    set_variable = { which = farm_cost_3 value = 1666.871 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 344 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 345 } }
+										set_variable = { which = farm_cost_4 value = 635878.000 }    set_variable = { which = farm_cost_3 value = 1568.82 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 293394.000 }    set_variable = { which = farm_cost_3 value = 1475.148 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 818809.000 }    set_variable = { which = farm_cost_3 value = 1387.721 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = farm_count value = 340 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 341 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 342 } }
+										set_variable = { which = farm_cost_4 value = 781570.000 }    set_variable = { which = farm_cost_3 value = 1305.476 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 97432.000 }    set_variable = { which = farm_cost_3 value = 1228.106 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 881874.000 }    set_variable = { which = farm_cost_3 value = 1155.320 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 338 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 339 } }
+										set_variable = { which = farm_cost_4 value = 371471.000 }    set_variable = { which = farm_cost_3 value = 1086.849 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 909192.000 }    set_variable = { which = farm_cost_3 value = 1022.435 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 989833.000 }    set_variable = { which = farm_cost_3 value = 961.839 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = farm_count value = 331 } }
+							if = {
+								limit = { check_variable = { which = farm_count value = 334 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 335 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 336 } }
+										set_variable = { which = farm_cost_4 value = 362025.000 }    set_variable = { which = farm_cost_3 value = 904.835 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 183466.000 }    set_variable = { which = farm_cost_3 value = 851.209 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 226215.000 }    set_variable = { which = farm_cost_3 value = 800.761 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 332 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 333 } }
+										set_variable = { which = farm_cost_4 value = 129083.000 }    set_variable = { which = farm_cost_3 value = 753.303 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 694339.000 }    set_variable = { which = farm_cost_3 value = 708.657 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 226095.000 }    set_variable = { which = farm_cost_3 value = 666.658 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = farm_count value = 328 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 329 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 330 } }
+										set_variable = { which = farm_cost_4 value = 907898.000 }    set_variable = { which = farm_cost_3 value = 627.147 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 217213.000 }    set_variable = { which = farm_cost_3 value = 589.979 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 374613.000 }    set_variable = { which = farm_cost_3 value = 555.13 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 326 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 327 } }
+										set_variable = { which = farm_cost_4 value = 825600.000 }    set_variable = { which = farm_cost_3 value = 522.119 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 753151.000 }    set_variable = { which = farm_cost_3 value = 491.175 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 619145.000 }    set_variable = { which = farm_cost_3 value = 462.65 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = farm_count value = 312 } }
+						if = {
+							limit = { check_variable = { which = farm_count value = 318 } }
+							if = {
+								limit = { check_variable = { which = farm_count value = 321 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 323 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 324 } }
+										set_variable = { which = farm_cost_4 value = 732968.000 }    set_variable = { which = farm_cost_3 value = 434.680 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 845690.000 }    set_variable = { which = farm_cost_3 value = 408.918 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = farm_count value = 322 } }
+										set_variable = { which = farm_cost_4 value = 768287.000 }    set_variable = { which = farm_cost_3 value = 384.683 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 12500.000 }    set_variable = { which = farm_cost_3 value = 361.885 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 319 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 320 } }
+										set_variable = { which = farm_cost_4 value = 452963.000 }    set_variable = { which = farm_cost_3 value = 340.437 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 9373.000 }    set_variable = { which = farm_cost_3 value = 320.261 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 347481.000 }    set_variable = { which = farm_cost_3 value = 301.280 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = farm_count value = 315 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 316 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 317 } }
+										set_variable = { which = farm_cost_4 value = 597819.000 }    set_variable = { which = farm_cost_3 value = 283.424 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 91081.000 }    set_variable = { which = farm_cost_3 value = 266.627 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 109201.000 }    set_variable = { which = farm_cost_3 value = 250.825 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 313 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 314 } }
+										set_variable = { which = farm_cost_4 value = 651177.000 }    set_variable = { which = farm_cost_3 value = 235.959 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 212772.000 }    set_variable = { which = farm_cost_3 value = 221.975 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 579278.000 }    set_variable = { which = farm_cost_3 value = 208.819 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = farm_count value = 306 } }
+							if = {
+								limit = { check_variable = { which = farm_count value = 309 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 310 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 311 } }
+										set_variable = { which = farm_cost_4 value = 630553.000 }    set_variable = { which = farm_cost_3 value = 196.443 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 157622.000 }    set_variable = { which = farm_cost_3 value = 184.801 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 690143.000 }    set_variable = { which = farm_cost_3 value = 173.848 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 307 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 308 } }
+										set_variable = { which = farm_cost_4 value = 334095.000 }    set_variable = { which = farm_cost_3 value = 163.545 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 619092.000 }    set_variable = { which = farm_cost_3 value = 153.852 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 354744.000 }    set_variable = { which = farm_cost_3 value = 144.734 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = farm_count value = 303 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 304 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 305 } }
+										set_variable = { which = farm_cost_4 value = 495525.000 }    set_variable = { which = farm_cost_3 value = 136.156 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 13665.000 }    set_variable = { which = farm_cost_3 value = 128.87 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 779553.000 }    set_variable = { which = farm_cost_3 value = 120.495 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 301 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 302 } }
+										set_variable = { which = farm_cost_4 value = 449250.000 }    set_variable = { which = farm_cost_3 value = 113.354 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 358655.000 }    set_variable = { which = farm_cost_3 value = 106.636 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 423946.000 }    set_variable = { which = farm_cost_3 value = 100.316 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = { check_variable = { which = farm_count value = 250 } }
+				if = {
+					limit = { check_variable = { which = farm_count value = 275 } }
+					if = {
+						limit = { check_variable = { which = farm_count value = 287 } }
+						if = {
+							limit = { check_variable = { which = farm_count value = 293 } }
+							if = {
+								limit = { check_variable = { which = farm_count value = 296 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 298 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 299 } }
+										set_variable = { which = farm_cost_4 value = 47927.000 }    set_variable = { which = farm_cost_3 value = 94.371 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 31916.000 }    set_variable = { which = farm_cost_3 value = 88.778 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = farm_count value = 297 } }
+										set_variable = { which = farm_cost_4 value = 492865.000 }    set_variable = { which = farm_cost_3 value = 83.516 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 785386.000 }    set_variable = { which = farm_cost_3 value = 78.566 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 294 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 295 } }
+										set_variable = { which = farm_cost_4 value = 428397.000 }    set_variable = { which = farm_cost_3 value = 73.910 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 36121.000 }    set_variable = { which = farm_cost_3 value = 69.530 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 253171.000 }    set_variable = { which = farm_cost_3 value = 65.409 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = farm_count value = 290 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 291 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 292 } }
+										set_variable = { which = farm_cost_4 value = 693482.000 }    set_variable = { which = farm_cost_3 value = 61.532 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 882862.000 }    set_variable = { which = farm_cost_3 value = 57.885 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 204950.000 }    set_variable = { which = farm_cost_3 value = 54.455 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 288 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 289 } }
+										set_variable = { which = farm_cost_4 value = 850376.000 }    set_variable = { which = farm_cost_3 value = 51.227 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 768933.000 }    set_variable = { which = farm_cost_3 value = 48.191 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 624584.000 }    set_variable = { which = farm_cost_3 value = 45.335 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = farm_count value = 281 } }
+							if = {
+								limit = { check_variable = { which = farm_count value = 284 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 285 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 286 } }
+										set_variable = { which = farm_cost_4 value = 753137.000 }    set_variable = { which = farm_cost_3 value = 42.648 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 122424.000 }    set_variable = { which = farm_cost_3 value = 40.121 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 294849.000 }    set_variable = { which = farm_cost_3 value = 37.743 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 282 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 283 } }
+										set_variable = { which = farm_cost_4 value = 392143.000 }    set_variable = { which = farm_cost_3 value = 35.506 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 62223.000 }    set_variable = { which = farm_cost_3 value = 33.402 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 447999.000 }    set_variable = { which = farm_cost_3 value = 31.422 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = farm_count value = 278 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 279 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 280 } }
+										set_variable = { which = farm_cost_4 value = 158043.000 }    set_variable = { which = farm_cost_3 value = 29.560 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 238986.000 }    set_variable = { which = farm_cost_3 value = 27.808 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 149564.000 }    set_variable = { which = farm_cost_3 value = 26.160 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 276 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 277 } }
+										set_variable = { which = farm_cost_4 value = 736184.000 }    set_variable = { which = farm_cost_3 value = 24.609 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 209957.000 }    set_variable = { which = farm_cost_3 value = 23.151 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 125077.000 }    set_variable = { which = farm_cost_3 value = 21.779 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = farm_count value = 262 } }
+						if = {
+							limit = { check_variable = { which = farm_count value = 268 } }
+							if = {
+								limit = { check_variable = { which = farm_count value = 271 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 273 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 274 } }
+										set_variable = { which = farm_cost_4 value = 358492.000 }    set_variable = { which = farm_cost_3 value = 20.488 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 90773.000 }    set_variable = { which = farm_cost_3 value = 19.274 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = farm_count value = 272 } }
+										set_variable = { which = farm_cost_4 value = 788122.000 }    set_variable = { which = farm_cost_3 value = 18.131 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 185439.000 }    set_variable = { which = farm_cost_3 value = 17.57 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 269 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 270 } }
+										set_variable = { which = farm_cost_4 value = 270403.000 }    set_variable = { which = farm_cost_3 value = 16.46 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 268489.000 }    set_variable = { which = farm_cost_3 value = 15.95 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 628870.000 }    set_variable = { which = farm_cost_3 value = 14.200 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = farm_count value = 265 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 266 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 267 } }
+										set_variable = { which = farm_cost_4 value = 11166.000 }    set_variable = { which = farm_cost_3 value = 13.359 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 272969.000 }    set_variable = { which = farm_cost_3 value = 12.567 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 458108.000 }    set_variable = { which = farm_cost_3 value = 11.822 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 263 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 264 } }
+										set_variable = { which = farm_cost_4 value = 785615.000 }    set_variable = { which = farm_cost_3 value = 11.121 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 639336.000 }    set_variable = { which = farm_cost_3 value = 10.462 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 558172.000 }    set_variable = { which = farm_cost_3 value = 9.842 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = farm_count value = 256 } }
+							if = {
+								limit = { check_variable = { which = farm_count value = 259 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 260 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 261 } }
+										set_variable = { which = farm_cost_4 value = 226878.000 }    set_variable = { which = farm_cost_3 value = 9.259 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 467430.000 }    set_variable = { which = farm_cost_3 value = 8.710 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 230884.000 }    set_variable = { which = farm_cost_3 value = 8.194 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 257 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 258 } }
+										set_variable = { which = farm_cost_4 value = 589731.000 }    set_variable = { which = farm_cost_3 value = 7.708 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 730697.000 }    set_variable = { which = farm_cost_3 value = 7.251 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 947975.000 }    set_variable = { which = farm_cost_3 value = 6.821 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = farm_count value = 253 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 254 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 255 } }
+										set_variable = { which = farm_cost_4 value = 636853.000 }    set_variable = { which = farm_cost_3 value = 6.417 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 287726.000 }    set_variable = { which = farm_cost_3 value = 6.37 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 480457.000 }    set_variable = { which = farm_cost_3 value = 5.679 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 251 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 252 } }
+										set_variable = { which = farm_cost_4 value = 879076.000 }    set_variable = { which = farm_cost_3 value = 5.342 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 226788.000 }    set_variable = { which = farm_cost_3 value = 5.26 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 341287.000 }    set_variable = { which = farm_cost_3 value = 4.728 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = farm_count value = 225 } }
+					if = {
+						limit = { check_variable = { which = farm_count value = 237 } }
+						if = {
+							limit = { check_variable = { which = farm_count value = 243 } }
+							if = {
+								limit = { check_variable = { which = farm_count value = 246 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 248 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 249 } }
+										set_variable = { which = farm_cost_4 value = 110336.000 }    set_variable = { which = farm_cost_3 value = 4.448 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 487616.000 }    set_variable = { which = farm_cost_3 value = 4.184 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = farm_count value = 247 } }
+										set_variable = { which = farm_cost_4 value = 488820.000 }    set_variable = { which = farm_cost_3 value = 3.936 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 187978.000 }    set_variable = { which = farm_cost_3 value = 3.703 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 244 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 245 } }
+										set_variable = { which = farm_cost_4 value = 713996.000 }    set_variable = { which = farm_cost_3 value = 3.483 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 247409.000 }    set_variable = { which = farm_cost_3 value = 3.277 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 17318.000 }    set_variable = { which = farm_cost_3 value = 3.83 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = farm_count value = 240 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 241 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 242 } }
+										set_variable = { which = farm_cost_4 value = 298512.000 }    set_variable = { which = farm_cost_3 value = 2.900 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 408760.000 }    set_variable = { which = farm_cost_3 value = 2.728 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 706265.000 }    set_variable = { which = farm_cost_3 value = 2.566 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 238 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 239 } }
+										set_variable = { which = farm_cost_4 value = 587267.000 }    set_variable = { which = farm_cost_3 value = 2.414 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 483788.000 }    set_variable = { which = farm_cost_3 value = 2.271 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 861513.000 }    set_variable = { which = farm_cost_3 value = 2.136 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = farm_count value = 231 } }
+							if = {
+								limit = { check_variable = { which = farm_count value = 234 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 235 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 236 } }
+										set_variable = { which = farm_cost_4 value = 217792.000 }    set_variable = { which = farm_cost_3 value = 2.10 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 79767.000 }    set_variable = { which = farm_cost_3 value = 1.891 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 2603.000 }    set_variable = { which = farm_cost_3 value = 1.779 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 232 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 233 } }
+										set_variable = { which = farm_cost_4 value = 567830.000 }    set_variable = { which = farm_cost_3 value = 1.673 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 381778.000 }    set_variable = { which = farm_cost_3 value = 1.574 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 74109.000 }    set_variable = { which = farm_cost_3 value = 1.481 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = farm_count value = 228 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 229 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 230 } }
+										set_variable = { which = farm_cost_4 value = 296433.000 }    set_variable = { which = farm_cost_3 value = 1.393 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 721010.000 }    set_variable = { which = farm_cost_3 value = 1.310 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 39520.000 }    set_variable = { which = farm_cost_3 value = 1.233 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 226 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 227 } }
+										set_variable = { which = farm_cost_4 value = 961919.000 }    set_variable = { which = farm_cost_3 value = 1.159 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 215352.000 }    set_variable = { which = farm_cost_3 value = 1.91 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 543134.000 }    set_variable = { which = farm_cost_3 value = 1.26 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = farm_count value = 212 } }
+						if = {
+							limit = { check_variable = { which = farm_count value = 218 } }
+							if = {
+								limit = { check_variable = { which = farm_count value = 221 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 223 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 224 } }
+										set_variable = { which = farm_cost_4 value = 703795.000 }    set_variable = { which = farm_cost_3 value = 0.965 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 470174.000 }    set_variable = { which = farm_cost_3 value = 0.908 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = farm_count value = 222 } }
+										set_variable = { which = farm_cost_4 value = 628574.000 }    set_variable = { which = farm_cost_3 value = 0.854 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 977962.000 }    set_variable = { which = farm_cost_3 value = 0.803 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 219 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 220 } }
+										set_variable = { which = farm_cost_4 value = 329221.000 }    set_variable = { which = farm_cost_3 value = 0.756 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 504441.000 }    set_variable = { which = farm_cost_3 value = 0.711 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 336257.000 }    set_variable = { which = farm_cost_3 value = 0.669 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = farm_count value = 215 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 216 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 217 } }
+										set_variable = { which = farm_cost_4 value = 667222.000 }    set_variable = { which = farm_cost_3 value = 0.629 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 349221.000 }    set_variable = { which = farm_cost_3 value = 0.592 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 242917.000 }    set_variable = { which = farm_cost_3 value = 0.557 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 213 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 214 } }
+										set_variable = { which = farm_cost_4 value = 217232.000 }    set_variable = { which = farm_cost_3 value = 0.524 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 148854.000 }    set_variable = { which = farm_cost_3 value = 0.493 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 921782.000 }    set_variable = { which = farm_cost_3 value = 0.463 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = farm_count value = 206 } }
+							if = {
+								limit = { check_variable = { which = farm_count value = 209 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 210 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 211 } }
+										set_variable = { which = farm_cost_4 value = 426888.000 }    set_variable = { which = farm_cost_3 value = 0.436 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 561512.000 }    set_variable = { which = farm_cost_3 value = 0.410 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 229080.000 }    set_variable = { which = farm_cost_3 value = 0.386 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 207 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 208 } }
+										set_variable = { which = farm_cost_4 value = 338740.000 }    set_variable = { which = farm_cost_3 value = 0.363 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 805023.000 }    set_variable = { which = farm_cost_3 value = 0.341 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 547529.000 }    set_variable = { which = farm_cost_3 value = 0.321 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = farm_count value = 203 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 204 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 205 } }
+										set_variable = { which = farm_cost_4 value = 490620.000 }    set_variable = { which = farm_cost_3 value = 0.302 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 563142.000 }    set_variable = { which = farm_cost_3 value = 0.284 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 698158.000 }    set_variable = { which = farm_cost_3 value = 0.267 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 201 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 202 } }
+										set_variable = { which = farm_cost_4 value = 832698.000 }    set_variable = { which = farm_cost_3 value = 0.251 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 907524.000 }    set_variable = { which = farm_cost_3 value = 0.236 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 866909.000 }    set_variable = { which = farm_cost_3 value = 0.222 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	else = {
+		if = {
+			limit = { check_variable = { which = farm_count value = 100 } }
+			if = {
+				limit = { check_variable = { which = farm_count value = 150 } }
+				if = {
+					limit = { check_variable = { which = farm_count value = 175 } }
+					if = {
+						limit = { check_variable = { which = farm_count value = 187 } }
+						if = {
+							limit = { check_variable = { which = farm_count value = 193 } }
+							if = {
+								limit = { check_variable = { which = farm_count value = 196 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 198 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 199 } }
+										set_variable = { which = farm_cost_4 value = 658428.000 }    set_variable = { which = farm_cost_3 value = 0.209 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 232763.000 }    set_variable = { which = farm_cost_3 value = 0.197 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = farm_count value = 197 } }
+										set_variable = { which = farm_cost_4 value = 543522.000 }    set_variable = { which = farm_cost_3 value = 0.185 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 547057.000 }    set_variable = { which = farm_cost_3 value = 0.174 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 194 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 195 } }
+										set_variable = { which = farm_cost_4 value = 202311.000 }    set_variable = { which = farm_cost_3 value = 0.164 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 470660.000 }    set_variable = { which = farm_cost_3 value = 0.154 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 315766.000 }    set_variable = { which = farm_cost_3 value = 0.145 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = farm_count value = 190 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 191 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 192 } }
+										set_variable = { which = farm_cost_4 value = 703449.000 }    set_variable = { which = farm_cost_3 value = 0.136 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 601551.000 }    set_variable = { which = farm_cost_3 value = 0.128 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 979822.000 }    set_variable = { which = farm_cost_3 value = 0.120 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 188 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 189 } }
+										set_variable = { which = farm_cost_4 value = 809805.000 }    set_variable = { which = farm_cost_3 value = 0.113 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 64727.000 }    set_variable = { which = farm_cost_3 value = 0.107 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 719404.000 }    set_variable = { which = farm_cost_3 value = 0.100 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = farm_count value = 181 } }
+							if = {
+								limit = { check_variable = { which = farm_count value = 184 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 185 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 186 } }
+										set_variable = { which = farm_cost_4 value = 750145.000 }    set_variable = { which = farm_cost_3 value = 0.94 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 134661.000 }    set_variable = { which = farm_cost_3 value = 0.89 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 851986.000 }    set_variable = { which = farm_cost_3 value = 0.83 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 182 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 183 } }
+										set_variable = { which = farm_cost_4 value = 882395.000 }    set_variable = { which = farm_cost_3 value = 0.78 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 207333.000 }    set_variable = { which = farm_cost_3 value = 0.74 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 809345.000 }    set_variable = { which = farm_cost_3 value = 0.69 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = farm_count value = 178 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 179 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 180 } }
+										set_variable = { which = farm_cost_4 value = 672008.000 }    set_variable = { which = farm_cost_3 value = 0.65 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 779876.000 }    set_variable = { which = farm_cost_3 value = 0.61 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 118416.000 }    set_variable = { which = farm_cost_3 value = 0.58 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 176 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 177 } }
+										set_variable = { which = farm_cost_4 value = 673956.000 }    set_variable = { which = farm_cost_3 value = 0.54 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 433637.000 }    set_variable = { which = farm_cost_3 value = 0.51 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 385360.000 }    set_variable = { which = farm_cost_3 value = 0.48 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = farm_count value = 162 } }
+						if = {
+							limit = { check_variable = { which = farm_count value = 168 } }
+							if = {
+								limit = { check_variable = { which = farm_count value = 171 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 173 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 174 } }
+										set_variable = { which = farm_cost_4 value = 517742.000 }    set_variable = { which = farm_cost_3 value = 0.45 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 820077.000 }    set_variable = { which = farm_cost_3 value = 0.42 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = farm_count value = 172 } }
+										set_variable = { which = farm_cost_4 value = 282292.000 }    set_variable = { which = farm_cost_3 value = 0.40 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 894913.000 }    set_variable = { which = farm_cost_3 value = 0.37 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 169 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 170 } }
+										set_variable = { which = farm_cost_4 value = 649024.000 }    set_variable = { which = farm_cost_3 value = 0.35 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 536241.000 }    set_variable = { which = farm_cost_3 value = 0.33 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 548675.000 }    set_variable = { which = farm_cost_3 value = 0.31 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = farm_count value = 165 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 166 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 167 } }
+										set_variable = { which = farm_cost_4 value = 678904.000 }    set_variable = { which = farm_cost_3 value = 0.29 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 919947.000 }    set_variable = { which = farm_cost_3 value = 0.27 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 265237.000 }    set_variable = { which = farm_cost_3 value = 0.26 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 163 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 164 } }
+										set_variable = { which = farm_cost_4 value = 708595.000 }    set_variable = { which = farm_cost_3 value = 0.24 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 244210.000 }    set_variable = { which = farm_cost_3 value = 0.23 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 866613.000 }    set_variable = { which = farm_cost_3 value = 0.21 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = farm_count value = 156 } }
+							if = {
+								limit = { check_variable = { which = farm_count value = 159 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 160 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 161 } }
+										set_variable = { which = farm_cost_4 value = 570662.000 }    set_variable = { which = farm_cost_3 value = 0.20 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 351516.000 }    set_variable = { which = farm_cost_3 value = 0.19 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 204625.000 }    set_variable = { which = farm_cost_3 value = 0.18 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 157 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 158 } }
+										set_variable = { which = farm_cost_4 value = 125705.000 }    set_variable = { which = farm_cost_3 value = 0.17 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 110729.000 }    set_variable = { which = farm_cost_3 value = 0.16 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 155907.000 }    set_variable = { which = farm_cost_3 value = 0.15 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = farm_count value = 153 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 154 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 155 } }
+										set_variable = { which = farm_cost_4 value = 257674.000 }    set_variable = { which = farm_cost_3 value = 0.14 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 412675.000 }    set_variable = { which = farm_cost_3 value = 0.13 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 617756.000 }    set_variable = { which = farm_cost_3 value = 0.12 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 151 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 152 } }
+										set_variable = { which = farm_cost_4 value = 869950.000 }    set_variable = { which = farm_cost_3 value = 0.11 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 166462.000 }    set_variable = { which = farm_cost_3 value = 0.11 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 504668.000 }    set_variable = { which = farm_cost_3 value = 0.10 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = farm_count value = 125 } }
+					if = {
+						limit = { check_variable = { which = farm_count value = 137 } }
+						if = {
+							limit = { check_variable = { which = farm_count value = 143 } }
+							if = {
+								limit = { check_variable = { which = farm_count value = 146 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 148 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 149 } }
+										set_variable = { which = farm_cost_4 value = 882096.000 }    set_variable = { which = farm_cost_3 value = 0.9 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 296422.000 }    set_variable = { which = farm_cost_3 value = 0.9 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = farm_count value = 147 } }
+										set_variable = { which = farm_cost_4 value = 745458.000 }    set_variable = { which = farm_cost_3 value = 0.8 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 227147.000 }    set_variable = { which = farm_cost_3 value = 0.8 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 144 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 145 } }
+										set_variable = { which = farm_cost_4 value = 739555.000 }    set_variable = { which = farm_cost_3 value = 0.7 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 280861.000 }    set_variable = { which = farm_cost_3 value = 0.7 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 849352.000 }    set_variable = { which = farm_cost_3 value = 0.6 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = farm_count value = 140 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 141 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 142 } }
+										set_variable = { which = farm_cost_4 value = 443417.000 }    set_variable = { which = farm_cost_3 value = 0.6 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 61540.000 }    set_variable = { which = farm_cost_3 value = 0.6 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 702295.000 }    set_variable = { which = farm_cost_3 value = 0.5 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 138 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 139 } }
+										set_variable = { which = farm_cost_4 value = 364341.000 }    set_variable = { which = farm_cost_3 value = 0.5 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 46417.000 }    set_variable = { which = farm_cost_3 value = 0.5 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 747335.000 }    set_variable = { which = farm_cost_3 value = 0.4 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = farm_count value = 131 } }
+							if = {
+								limit = { check_variable = { which = farm_count value = 134 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 135 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 136 } }
+										set_variable = { which = farm_cost_4 value = 465978.000 }    set_variable = { which = farm_cost_3 value = 0.4 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 201297.000 }    set_variable = { which = farm_cost_3 value = 0.4 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 952302.000 }    set_variable = { which = farm_cost_3 value = 0.3 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 132 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 133 } }
+										set_variable = { which = farm_cost_4 value = 718064.000 }    set_variable = { which = farm_cost_3 value = 0.3 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 497708.000 }    set_variable = { which = farm_cost_3 value = 0.3 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 290412.000 }    set_variable = { which = farm_cost_3 value = 0.3 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = farm_count value = 128 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 129 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 130 } }
+										set_variable = { which = farm_cost_4 value = 95402.000 }    set_variable = { which = farm_cost_3 value = 0.3 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 911949.000 }    set_variable = { which = farm_cost_3 value = 0.2 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 739369.000 }    set_variable = { which = farm_cost_3 value = 0.2 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 126 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 127 } }
+										set_variable = { which = farm_cost_4 value = 577016.000 }    set_variable = { which = farm_cost_3 value = 0.2 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 424286.000 }    set_variable = { which = farm_cost_3 value = 0.2 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 280608.000 }    set_variable = { which = farm_cost_3 value = 0.2 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = farm_count value = 112 } }
+						if = {
+							limit = { check_variable = { which = farm_count value = 118 } }
+							if = {
+								limit = { check_variable = { which = farm_count value = 121 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 123 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 124 } }
+										set_variable = { which = farm_cost_4 value = 145445.000 }    set_variable = { which = farm_cost_3 value = 0.2 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 18293.000 }    set_variable = { which = farm_cost_3 value = 0.2 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = farm_count value = 122 } }
+										set_variable = { which = farm_cost_4 value = 898676.000 }    set_variable = { which = farm_cost_3 value = 0.1 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 786149.000 }    set_variable = { which = farm_cost_3 value = 0.1 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 119 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 120 } }
+										set_variable = { which = farm_cost_4 value = 680290.000 }    set_variable = { which = farm_cost_3 value = 0.1 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 580706.000 }    set_variable = { which = farm_cost_3 value = 0.1 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 487023.000 }    set_variable = { which = farm_cost_3 value = 0.1 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = farm_count value = 115 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 116 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 117 } }
+										set_variable = { which = farm_cost_4 value = 398893.000 }    set_variable = { which = farm_cost_3 value = 0.1 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 315986.000 }    set_variable = { which = farm_cost_3 value = 0.1 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 237992.000 }    set_variable = { which = farm_cost_3 value = 0.1 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 113 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 114 } }
+										set_variable = { which = farm_cost_4 value = 164621.000 }    set_variable = { which = farm_cost_3 value = 0.1 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 95598.000 }    set_variable = { which = farm_cost_3 value = 0.1 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 30666.000 }    set_variable = { which = farm_cost_3 value = 0.1 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = farm_count value = 106 } }
+							if = {
+								limit = { check_variable = { which = farm_count value = 109 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 110 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 111 } }
+										set_variable = { which = farm_cost_4 value = 969583.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 912119.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 858061.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 107 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 108 } }
+										set_variable = { which = farm_cost_4 value = 807207.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 759367.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 714362.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = farm_count value = 103 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 104 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 105 } }
+										set_variable = { which = farm_cost_4 value = 672025.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 632196.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 594728.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 101 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 102 } }
+										set_variable = { which = farm_cost_4 value = 559481.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 526323.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 495129.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = { check_variable = { which = farm_count value = 50 } }
+				if = {
+					limit = { check_variable = { which = farm_count value = 75 } }
+					if = {
+						limit = { check_variable = { which = farm_count value = 87 } }
+						if = {
+							limit = { check_variable = { which = farm_count value = 93 } }
+							if = {
+								limit = { check_variable = { which = farm_count value = 96 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 98 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 99 } }
+										set_variable = { which = farm_cost_4 value = 465785.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 438180.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = farm_count value = 97 } }
+										set_variable = { which = farm_cost_4 value = 412210.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 387780.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 94 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 95 } }
+										set_variable = { which = farm_cost_4 value = 364798.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 343178.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 322839.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = farm_count value = 90 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 91 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 92 } }
+										set_variable = { which = farm_cost_4 value = 303705.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 285706.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 268773.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 88 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 89 } }
+										set_variable = { which = farm_cost_4 value = 252844.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 237859.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 223762.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = farm_count value = 81 } }
+							if = {
+								limit = { check_variable = { which = farm_count value = 84 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 85 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 86 } }
+										set_variable = { which = farm_cost_4 value = 210500.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 198025.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 186288.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 82 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 83 } }
+										set_variable = { which = farm_cost_4 value = 175248.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 164861.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 155091.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = farm_count value = 78 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 79 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 80 } }
+										set_variable = { which = farm_cost_4 value = 145899.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 137252.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 129118.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 76 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 77 } }
+										set_variable = { which = farm_cost_4 value = 121465.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 114266.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 107494.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = farm_count value = 62 } }
+						if = {
+							limit = { check_variable = { which = farm_count value = 68 } }
+							if = {
+								limit = { check_variable = { which = farm_count value = 71 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 73 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 74 } }
+										set_variable = { which = farm_cost_4 value = 101124.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 95130.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = farm_count value = 72 } }
+										set_variable = { which = farm_cost_4 value = 89492.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 84188.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 69 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 70 } }
+										set_variable = { which = farm_cost_4 value = 79199.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 74505.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 70089.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = farm_count value = 65 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 66 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 67 } }
+										set_variable = { which = farm_cost_4 value = 65935.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 62028.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 58351.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 63 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 64 } }
+										set_variable = { which = farm_cost_4 value = 54893.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 51640.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 48579.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = farm_count value = 56 } }
+							if = {
+								limit = { check_variable = { which = farm_count value = 59 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 60 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 61 } }
+										set_variable = { which = farm_cost_4 value = 45700.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 42992.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 40444.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 57 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 58 } }
+										set_variable = { which = farm_cost_4 value = 38047.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 35792.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 33670.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = farm_count value = 53 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 54 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 55 } }
+										set_variable = { which = farm_cost_4 value = 31675.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 29798.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 28032.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 51 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 52 } }
+										set_variable = { which = farm_cost_4 value = 26370.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 24807.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 23337.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = farm_count value = 25 } }
+					if = {
+						limit = { check_variable = { which = farm_count value = 37 } }
+						if = {
+							limit = { check_variable = { which = farm_count value = 43 } }
+							if = {
+								limit = { check_variable = { which = farm_count value = 46 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 48 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 49 } }
+										set_variable = { which = farm_cost_4 value = 21954.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 20653.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = farm_count value = 47 } }
+										set_variable = { which = farm_cost_4 value = 19429.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 18277.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 44 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 45 } }
+										set_variable = { which = farm_cost_4 value = 17194.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 16175.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 15216.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = farm_count value = 40 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 41 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 42 } }
+										set_variable = { which = farm_cost_4 value = 14314.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 13466.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 12668.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 38 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 39 } }
+										set_variable = { which = farm_cost_4 value = 11917.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 11211.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 10546.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = farm_count value = 31 } }
+							if = {
+								limit = { check_variable = { which = farm_count value = 34 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 35 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 36 } }
+										set_variable = { which = farm_cost_4 value = 9921.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 9333.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 8780.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 32 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 33 } }
+										set_variable = { which = farm_cost_4 value = 8260.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 7770.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 7310.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = farm_count value = 28 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 29 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 30 } }
+										set_variable = { which = farm_cost_4 value = 6876.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 6469.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 6085.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 26 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 27 } }
+										set_variable = { which = farm_cost_4 value = 5725.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 5385.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 5066.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = farm_count value = 12 } }
+						if = {
+							limit = { check_variable = { which = farm_count value = 18 } }
+							if = {
+								limit = { check_variable = { which = farm_count value = 21 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 23 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 24 } }
+										set_variable = { which = farm_cost_4 value = 4766.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 4483.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = farm_count value = 22 } }
+										set_variable = { which = farm_cost_4 value = 4218.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 3968.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 19 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 20 } }
+										set_variable = { which = farm_cost_4 value = 3732.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 3511.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 3303.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = farm_count value = 15 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 16 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 17 } }
+										set_variable = { which = farm_cost_4 value = 3107.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 2923.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 2750.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 13 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 14 } }
+										set_variable = { which = farm_cost_4 value = 2587.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 2434.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 2289.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = farm_count value = 6 } }
+							if = {
+								limit = { check_variable = { which = farm_count value = 9 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 10 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 11 } }
+										set_variable = { which = farm_cost_4 value = 2154.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 2026.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 1906.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 7 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 8 } }
+										set_variable = { which = farm_cost_4 value = 1793.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 1687.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 1587.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = farm_count value = 3 } }
+								if = {
+									limit = { check_variable = { which = farm_count value = 4 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 5 } }
+										set_variable = { which = farm_cost_4 value = 1492.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 1404.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 1321.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = farm_count value = 1 } }
+									if = {
+										limit = { check_variable = { which = farm_count value = 2 } }
+										set_variable = { which = farm_cost_4 value = 1242.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = farm_cost_4 value = 1169.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = farm_cost_4 value = 1100.000 }    set_variable = { which = farm_cost_3 value = 0.0 }    set_variable = { which = farm_cost_2 value = 0.0 }    set_variable = { which = farm_cost_1 value = 0.0 }    set_variable = { which = farm_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}get_msd = { ln = farm_cost mantissa = farm_cost_mantissa exponent = farm_cost_exp}
+}

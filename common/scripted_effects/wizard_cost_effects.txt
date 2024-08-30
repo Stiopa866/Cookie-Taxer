@@ -1,0 +1,2403 @@
+get_wizard_cost = {
+	if = {
+		limit = { check_variable = { which = wizard_count value = 200 } }
+		if = {
+			limit = { check_variable = { which = wizard_count value = 300 } }
+			if = {
+				limit = { check_variable = { which = wizard_count value = 350 } }
+				if = {
+					limit = { check_variable = { which = wizard_count value = 375 } }
+					if = {
+						limit = { check_variable = { which = wizard_count value = 388 } }
+						if = {
+							limit = { check_variable = { which = wizard_count value = 394 } }
+							if = {
+								limit = { check_variable = { which = wizard_count value = 397 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 399 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 400 } }
+										set_variable = { which = wizard_cost_4 value = 319040.000 }    set_variable = { which = wizard_cost_3 value = 270674.319 }    set_variable = { which = wizard_cost_2 value = 13.546 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 7168.000 }    set_variable = { which = wizard_cost_3 value = 434312.624 }    set_variable = { which = wizard_cost_2 value = 12.743 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = wizard_count value = 398 } }
+										set_variable = { which = wizard_cost_4 value = 708096.000 }    set_variable = { which = wizard_cost_3 value = 179033.512 }    set_variable = { which = wizard_cost_2 value = 11.988 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 801792.000 }    set_variable = { which = wizard_cost_3 value = 684885.712 }    set_variable = { which = wizard_cost_2 value = 11.277 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 395 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 396 } }
+										set_variable = { which = wizard_cost_4 value = 777664.000 }    set_variable = { which = wizard_cost_3 value = 299045.825 }    set_variable = { which = wizard_cost_2 value = 10.609 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 597504.000 }    set_variable = { which = wizard_cost_3 value = 525913.288 }    set_variable = { which = wizard_cost_2 value = 9.980 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 330176.000 }    set_variable = { which = wizard_cost_3 value = 17792.369 }    set_variable = { which = wizard_cost_2 value = 9.389 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = wizard_count value = 391 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 392 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 393 } }
+										set_variable = { which = wizard_cost_4 value = 767168.000 }    set_variable = { which = wizard_cost_3 value = 566126.405 }    set_variable = { which = wizard_cost_2 value = 8.832 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 636096.000 }    set_variable = { which = wizard_cost_3 value = 93251.557 }    set_variable = { which = wizard_cost_2 value = 8.309 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 819072.000 }    set_variable = { which = wizard_cost_3 value = 644639.282 }    set_variable = { which = wizard_cost_2 value = 7.816 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 389 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 390 } }
+										set_variable = { which = wizard_cost_4 value = 736512.000 }    set_variable = { which = wizard_cost_3 value = 381598.572 }    set_variable = { which = wizard_cost_2 value = 7.353 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 718208.000 }    set_variable = { which = wizard_cost_3 value = 574410.698 }    set_variable = { which = wizard_cost_2 value = 6.917 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 47872.000 }    set_variable = { which = wizard_cost_3 value = 595870.836 }    set_variable = { which = wizard_cost_2 value = 6.507 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = wizard_count value = 381 } }
+							if = {
+								limit = { check_variable = { which = wizard_count value = 384 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 386 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 387 } }
+										set_variable = { which = wizard_cost_4 value = 596288.000 }    set_variable = { which = wizard_cost_3 value = 915212.451 }    set_variable = { which = wizard_cost_2 value = 6.121 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 82304.000 }    set_variable = { which = wizard_cost_3 value = 92391.770 }    set_variable = { which = wizard_cost_2 value = 5.759 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = wizard_count value = 385 } }
+										set_variable = { which = wizard_cost_4 value = 441216.000 }    set_variable = { which = wizard_cost_3 value = 772710.978 }    set_variable = { which = wizard_cost_2 value = 5.417 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 606464.000 }    set_variable = { which = wizard_cost_3 value = 681760.92 }    set_variable = { which = wizard_cost_2 value = 5.96 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 382 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 383 } }
+										set_variable = { which = wizard_cost_4 value = 759296.000 }    set_variable = { which = wizard_cost_3 value = 620658.600 }    set_variable = { which = wizard_cost_2 value = 4.794 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 425216.000 }    set_variable = { which = wizard_cost_3 value = 461579.116 }    set_variable = { which = wizard_cost_2 value = 4.510 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 775232.000 }    set_variable = { which = wizard_cost_3 value = 143536.327 }    set_variable = { which = wizard_cost_2 value = 4.243 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = wizard_count value = 378 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 379 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 380 } }
+										set_variable = { which = wizard_cost_4 value = 14336.000 }    set_variable = { which = wizard_cost_3 value = 668425.520 }    set_variable = { which = wizard_cost_2 value = 3.991 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 600128.000 }    set_variable = { which = wizard_cost_3 value = 97295.879 }    set_variable = { which = wizard_cost_2 value = 3.755 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 663488.000 }    set_variable = { which = wizard_cost_3 value = 546844.665 }    set_variable = { which = wizard_cost_2 value = 3.532 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 376 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 377 } }
+										set_variable = { which = wizard_cost_4 value = 667776.000 }    set_variable = { which = wizard_cost_3 value = 186119.158 }    set_variable = { which = wizard_cost_2 value = 3.323 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 123904.000 }    set_variable = { which = wizard_cost_3 value = 233414.72 }    set_variable = { which = wizard_cost_2 value = 3.126 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 14144.000 }    set_variable = { which = wizard_cost_3 value = 953352.843 }    set_variable = { which = wizard_cost_2 value = 2.940 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = wizard_count value = 362 } }
+						if = {
+							limit = { check_variable = { which = wizard_count value = 368 } }
+							if = {
+								limit = { check_variable = { which = wizard_count value = 371 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 373 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 374 } }
+										set_variable = { which = wizard_cost_4 value = 117824.000 }    set_variable = { which = wizard_cost_3 value = 654141.903 }    set_variable = { which = wizard_cost_2 value = 2.766 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 320576.000 }    set_variable = { which = wizard_cost_3 value = 684987.679 }    set_variable = { which = wizard_cost_2 value = 2.602 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = wizard_count value = 372 } }
+										set_variable = { which = wizard_cost_4 value = 571008.000 }    set_variable = { which = wizard_cost_3 value = 433666.678 }    set_variable = { which = wizard_cost_2 value = 2.448 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 732928.000 }    set_variable = { which = wizard_cost_3 value = 324239.584 }    set_variable = { which = wizard_cost_2 value = 2.303 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 369 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 370 } }
+										set_variable = { which = wizard_cost_4 value = 298240.000 }    set_variable = { which = wizard_cost_3 value = 814900.832 }    set_variable = { which = wizard_cost_2 value = 2.166 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 750144.000 }    set_variable = { which = wizard_cost_3 value = 395955.627 }    set_variable = { which = wizard_cost_2 value = 2.38 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 240064.000 }    set_variable = { which = wizard_cost_3 value = 587916.865 }    set_variable = { which = wizard_cost_2 value = 1.917 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = wizard_count value = 365 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 366 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 367 } }
+										set_variable = { which = wizard_cost_4 value = 894080.000 }    set_variable = { which = wizard_cost_3 value = 939714.830 }    set_variable = { which = wizard_cost_2 value = 1.803 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 188992.000 }    set_variable = { which = wizard_cost_3 value = 27013.11 }    set_variable = { which = wizard_cost_2 value = 1.697 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 16832.000 }    set_variable = { which = wizard_cost_3 value = 450623.717 }    set_variable = { which = wizard_cost_2 value = 1.596 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 363 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 364 } }
+										set_variable = { which = wizard_cost_4 value = 729920.000 }    set_variable = { which = wizard_cost_3 value = 835017.607 }    set_variable = { which = wizard_cost_2 value = 1.501 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 75392.000 }    set_variable = { which = wizard_cost_3 value = 826921.550 }    set_variable = { which = wizard_cost_2 value = 1.412 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 740864.000 }    set_variable = { which = wizard_cost_3 value = 93999.576 }    set_variable = { which = wizard_cost_2 value = 1.329 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = wizard_count value = 356 } }
+							if = {
+								limit = { check_variable = { which = wizard_count value = 359 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 360 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 361 } }
+										set_variable = { which = wizard_cost_4 value = 511808.000 }    set_variable = { which = wizard_cost_3 value = 323612.19 }    set_variable = { which = wizard_cost_2 value = 1.250 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 924480.000 }    set_variable = { which = wizard_cost_3 value = 221648.183 }    set_variable = { which = wizard_cost_2 value = 1.176 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 890496.000 }    set_variable = { which = wizard_cost_3 value = 511428.206 }    set_variable = { which = wizard_cost_2 value = 1.106 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 357 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 358 } }
+										set_variable = { which = wizard_cost_4 value = 74816.000 }    set_variable = { which = wizard_cost_3 value = 932669.997 }    set_variable = { which = wizard_cost_2 value = 1.40 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 823040.000 }    set_variable = { which = wizard_cost_3 value = 240517.400 }    set_variable = { which = wizard_cost_2 value = 0.979 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 26432.000 }    set_variable = { which = wizard_cost_3 value = 204625.965 }    set_variable = { which = wizard_cost_2 value = 0.921 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = wizard_count value = 353 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 354 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 355 } }
+										set_variable = { which = wizard_cost_4 value = 373952.000 }    set_variable = { which = wizard_cost_3 value = 608302.883 }    set_variable = { which = wizard_cost_2 value = 0.866 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 744960.000 }    set_variable = { which = wizard_cost_3 value = 247697.914 }    set_variable = { which = wizard_cost_2 value = 0.815 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 817536.000 }    set_variable = { which = wizard_cost_3 value = 931042.252 }    set_variable = { which = wizard_cost_2 value = 0.766 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 351 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 352 } }
+										set_variable = { which = wizard_cost_4 value = 2496.000 }    set_variable = { which = wizard_cost_3 value = 477932.505 }    set_variable = { which = wizard_cost_2 value = 0.721 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 245952.000 }    set_variable = { which = wizard_cost_3 value = 718657.107 }    set_variable = { which = wizard_cost_2 value = 0.678 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 685888.000 }    set_variable = { which = wizard_cost_3 value = 493562.659 }    set_variable = { which = wizard_cost_2 value = 0.638 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = wizard_count value = 325 } }
+					if = {
+						limit = { check_variable = { which = wizard_count value = 337 } }
+						if = {
+							limit = { check_variable = { which = wizard_count value = 343 } }
+							if = {
+								limit = { check_variable = { which = wizard_count value = 346 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 348 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 349 } }
+										set_variable = { which = wizard_cost_4 value = 202048.000 }    set_variable = { which = wizard_cost_3 value = 652457.817 }    set_variable = { which = wizard_cost_2 value = 0.600 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 127104.000 }    set_variable = { which = wizard_cost_3 value = 54052.509 }    set_variable = { which = wizard_cost_2 value = 0.565 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = wizard_count value = 347 } }
+										set_variable = { which = wizard_cost_4 value = 287104.000 }    set_variable = { which = wizard_cost_3 value = 565430.394 }    set_variable = { which = wizard_cost_2 value = 0.531 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 643520.000 }    set_variable = { which = wizard_cost_3 value = 61552.581 }    set_variable = { which = wizard_cost_2 value = 0.500 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 344 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 345 } }
+										set_variable = { which = wizard_cost_4 value = 540544.000 }    set_variable = { which = wizard_cost_3 value = 424790.763 }    set_variable = { which = wizard_cost_2 value = 0.470 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 382400.000 }    set_variable = { which = wizard_cost_3 value = 544488.18 }    set_variable = { which = wizard_cost_2 value = 0.442 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 881024.000 }    set_variable = { which = wizard_cost_3 value = 316545.642 }    set_variable = { which = wizard_cost_2 value = 0.416 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = wizard_count value = 340 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 341 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 342 } }
+										set_variable = { which = wizard_cost_4 value = 195712.000 }    set_variable = { which = wizard_cost_3 value = 643034.471 }    set_variable = { which = wizard_cost_2 value = 0.391 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 723136.000 }    set_variable = { which = wizard_cost_3 value = 431829.229 }    set_variable = { which = wizard_cost_2 value = 0.368 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 298368.000 }    set_variable = { which = wizard_cost_3 value = 596264.562 }    set_variable = { which = wizard_cost_2 value = 0.346 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 338 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 339 } }
+										set_variable = { which = wizard_cost_4 value = 484864.000 }    set_variable = { which = wizard_cost_3 value = 54811.441 }    set_variable = { which = wizard_cost_2 value = 0.326 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 746816.000 }    set_variable = { which = wizard_cost_3 value = 730772.757 }    set_variable = { which = wizard_cost_2 value = 0.306 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 902976.000 }    set_variable = { which = wizard_cost_3 value = 551996.949 }    set_variable = { which = wizard_cost_2 value = 0.288 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = wizard_count value = 331 } }
+							if = {
+								limit = { check_variable = { which = wizard_count value = 334 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 335 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 336 } }
+										set_variable = { which = wizard_cost_4 value = 622720.000 }    set_variable = { which = wizard_cost_3 value = 450608.607 }    set_variable = { which = wizard_cost_2 value = 0.271 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 96640.000 }    set_variable = { which = wizard_cost_3 value = 362755.40 }    set_variable = { which = wizard_cost_2 value = 0.255 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 625248.000 }    set_variable = { which = wizard_cost_3 value = 228367.864 }    set_variable = { which = wizard_cost_2 value = 0.240 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 332 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 333 } }
+										set_variable = { which = wizard_cost_4 value = 953216.000 }    set_variable = { which = wizard_cost_3 value = 990938.724 }    set_variable = { which = wizard_cost_2 value = 0.225 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 931552.000 }    set_variable = { which = wizard_cost_3 value = 597308.301 }    set_variable = { which = wizard_cost_2 value = 0.212 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 722048.000 }    set_variable = { which = wizard_cost_3 value = 997467.828 }    set_variable = { which = wizard_cost_2 value = 0.199 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = wizard_count value = 328 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 329 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 330 } }
+										set_variable = { which = wizard_cost_4 value = 446944.000 }    set_variable = { which = wizard_cost_3 value = 144372.369 }    set_variable = { which = wizard_cost_2 value = 0.188 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 108128.000 }    set_variable = { which = wizard_cost_3 value = 993765.164 }    set_variable = { which = wizard_cost_2 value = 0.176 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 921088.000 }    set_variable = { which = wizard_cost_3 value = 504012.383 }    set_variable = { which = wizard_cost_2 value = 0.166 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 326 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 327 } }
+										set_variable = { which = wizard_cost_4 value = 76320.000 }    set_variable = { which = wizard_cost_3 value = 635947.680 }    set_variable = { which = wizard_cost_2 value = 0.156 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 509216.000 }    set_variable = { which = wizard_cost_3 value = 352725.945 }    set_variable = { which = wizard_cost_2 value = 0.147 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 658720.000 }    set_variable = { which = wizard_cost_3 value = 619685.743 }    set_variable = { which = wizard_cost_2 value = 0.138 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = wizard_count value = 312 } }
+						if = {
+							limit = { check_variable = { which = wizard_count value = 318 } }
+							if = {
+								limit = { check_variable = { which = wizard_count value = 321 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 323 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 324 } }
+										set_variable = { which = wizard_cost_4 value = 553856.000 }    set_variable = { which = wizard_cost_3 value = 404219.890 }    set_variable = { which = wizard_cost_2 value = 0.130 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 12096.000 }    set_variable = { which = wizard_cost_3 value = 675653.707 }    set_variable = { which = wizard_cost_2 value = 0.122 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = wizard_count value = 322 } }
+										set_variable = { which = wizard_cost_4 value = 370752.000 }    set_variable = { which = wizard_cost_3 value = 405130.486 }    set_variable = { which = wizard_cost_2 value = 0.115 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 113584.000 }    set_variable = { which = wizard_cost_3 value = 565503.750 }    set_variable = { which = wizard_cost_2 value = 0.108 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 319 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 320 } }
+										set_variable = { which = wizard_cost_4 value = 100288.000 }    set_variable = { which = wizard_cost_3 value = 131235.889 }    set_variable = { which = wizard_cost_2 value = 0.102 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 947584.000 }    set_variable = { which = wizard_cost_3 value = 78302.811 }    set_variable = { which = wizard_cost_2 value = 0.96 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 541488.000 }    set_variable = { which = wizard_cost_3 value = 384104.244 }    set_variable = { which = wizard_cost_2 value = 0.90 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = wizard_count value = 315 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 316 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 317 } }
+										set_variable = { which = wizard_cost_4 value = 758688.000 }    set_variable = { which = wizard_cost_3 value = 27379.345 }    set_variable = { which = wizard_cost_2 value = 0.85 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 326144.000 }    set_variable = { which = wizard_cost_3 value = 988127.324 }    set_variable = { which = wizard_cost_2 value = 0.79 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 419712.000 }    set_variable = { which = wizard_cost_3 value = 247532.760 }    set_variable = { which = wizard_cost_2 value = 0.75 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 313 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 314 } }
+										set_variable = { which = wizard_cost_4 value = 170000.000 }    set_variable = { which = wizard_cost_3 value = 787895.353 }    set_variable = { which = wizard_cost_2 value = 0.70 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 768584.000 }    set_variable = { which = wizard_cost_3 value = 592563.831 }    set_variable = { which = wizard_cost_2 value = 0.66 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 413528.000 }    set_variable = { which = wizard_cost_3 value = 645873.783 }    set_variable = { which = wizard_cost_2 value = 0.62 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = wizard_count value = 306 } }
+							if = {
+								limit = { check_variable = { which = wizard_count value = 309 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 310 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 311 } }
+										set_variable = { which = wizard_cost_4 value = 958176.000 }    set_variable = { which = wizard_cost_3 value = 933089.165 }    set_variable = { which = wizard_cost_2 value = 0.58 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 884456.000 }    set_variable = { which = wizard_cost_3 value = 440347.286 }    set_variable = { which = wizard_cost_2 value = 0.55 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 165064.000 }    set_variable = { which = wizard_cost_3 value = 154607.43 }    set_variable = { which = wizard_cost_2 value = 0.52 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 307 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 308 } }
+										set_variable = { which = wizard_cost_4 value = 753584.000 }    set_variable = { which = wizard_cost_3 value = 63600.228 }    set_variable = { which = wizard_cost_2 value = 0.49 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 896128.000 }    set_variable = { which = wizard_cost_3 value = 155785.727 }    set_variable = { which = wizard_cost_2 value = 0.46 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 232488.000 }    set_variable = { which = wizard_cost_3 value = 420306.423 }    set_variable = { which = wizard_cost_2 value = 0.43 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = wizard_count value = 303 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 304 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 305 } }
+										set_variable = { which = wizard_cost_4 value = 791624.000 }    set_variable = { which = wizard_cost_3 value = 846948.657 }    set_variable = { which = wizard_cost_2 value = 0.40 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 521752.000 }    set_variable = { which = wizard_cost_3 value = 426104.99 }    set_variable = { which = wizard_cost_2 value = 0.38 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 965896.000 }    set_variable = { which = wizard_cost_3 value = 148733.865 }    set_variable = { which = wizard_cost_2 value = 0.36 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 301 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 302 } }
+										set_variable = { which = wizard_cost_4 value = 132552.000 }    set_variable = { which = wizard_cost_3 value = 6334.775 }    set_variable = { which = wizard_cost_2 value = 0.34 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 549908.000 }    set_variable = { which = wizard_cost_3 value = 990907.596 }    set_variable = { which = wizard_cost_2 value = 0.31 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 960408.000 }    set_variable = { which = wizard_cost_3 value = 94927.183 }    set_variable = { which = wizard_cost_2 value = 0.30 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = { check_variable = { which = wizard_count value = 250 } }
+				if = {
+					limit = { check_variable = { which = wizard_count value = 275 } }
+					if = {
+						limit = { check_variable = { which = wizard_count value = 287 } }
+						if = {
+							limit = { check_variable = { which = wizard_count value = 293 } }
+							if = {
+								limit = { check_variable = { which = wizard_count value = 296 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 298 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 299 } }
+										set_variable = { which = wizard_cost_4 value = 137732.000 }    set_variable = { which = wizard_cost_3 value = 311314.378 }    set_variable = { which = wizard_cost_2 value = 0.28 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 917900.000 }    set_variable = { which = wizard_cost_3 value = 633409.574 }    set_variable = { which = wizard_cost_2 value = 0.26 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = wizard_count value = 297 } }
+										set_variable = { which = wizard_cost_4 value = 753436.000 }    set_variable = { which = wizard_cost_3 value = 54947.859 }    set_variable = { which = wizard_cost_2 value = 0.25 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 948676.000 }    set_variable = { which = wizard_cost_3 value = 570035.615 }    set_variable = { which = wizard_cost_2 value = 0.23 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 294 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 295 } }
+										set_variable = { which = wizard_cost_4 value = 236760.000 }    set_variable = { which = wizard_cost_3 value = 173128.519 }    set_variable = { which = wizard_cost_2 value = 0.22 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 535052.000 }    set_variable = { which = wizard_cost_3 value = 859010.836 }    set_variable = { which = wizard_cost_2 value = 0.20 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 585188.000 }    set_variable = { which = wizard_cost_3 value = 622775.951 }    set_variable = { which = wizard_cost_2 value = 0.19 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = wizard_count value = 290 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 291 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 292 } }
+										set_variable = { which = wizard_cost_4 value = 764992.000 }    set_variable = { which = wizard_cost_3 value = 459808.44 }    set_variable = { which = wizard_cost_2 value = 0.18 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 668856.000 }    set_variable = { which = wizard_cost_3 value = 365764.858 }    set_variable = { which = wizard_cost_2 value = 0.17 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 107108.000 }    set_variable = { which = wizard_cost_3 value = 336561.485 }    set_variable = { which = wizard_cost_2 value = 0.16 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 288 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 289 } }
+										set_variable = { which = wizard_cost_4 value = 988814.000 }    set_variable = { which = wizard_cost_3 value = 368355.112 }    set_variable = { which = wizard_cost_2 value = 0.15 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 139996.000 }    set_variable = { which = wizard_cost_3 value = 457530.680 }    set_variable = { which = wizard_cost_2 value = 0.14 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 484474.000 }    set_variable = { which = wizard_cost_3 value = 600687.375 }    set_variable = { which = wizard_cost_2 value = 0.13 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = wizard_count value = 281 } }
+							if = {
+								limit = { check_variable = { which = wizard_count value = 284 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 285 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 286 } }
+										set_variable = { which = wizard_cost_4 value = 189534.000 }    set_variable = { which = wizard_cost_3 value = 794625.941 }    set_variable = { which = wizard_cost_2 value = 0.12 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 365508.000 }    set_variable = { which = wizard_cost_3 value = 36336.727 }    set_variable = { which = wizard_cost_2 value = 0.12 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 718258.000 }    set_variable = { which = wizard_cost_3 value = 322988.454 }    set_variable = { which = wizard_cost_2 value = 0.11 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 282 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 283 } }
+										set_variable = { which = wizard_cost_4 value = 196856.000 }    set_variable = { which = wizard_cost_3 value = 651917.643 }    set_variable = { which = wizard_cost_2 value = 0.10 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 165434.000 }    set_variable = { which = wizard_cost_3 value = 20618.667 }    set_variable = { which = wizard_cost_2 value = 0.10 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 967484.000 }    set_variable = { which = wizard_cost_3 value = 426734.399 }    set_variable = { which = wizard_cost_2 value = 0.9 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = wizard_count value = 278 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 279 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 280 } }
+										set_variable = { which = wizard_cost_4 value = 951538.000 }    set_variable = { which = wizard_cost_3 value = 868047.412 }    set_variable = { which = wizard_cost_2 value = 0.8 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 97401.000 }    set_variable = { which = wizard_cost_3 value = 342471.696 }    set_variable = { which = wizard_cost_2 value = 0.8 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 329636.000 }    set_variable = { which = wizard_cost_3 value = 848044.869 }    set_variable = { which = wizard_cost_2 value = 0.7 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 276 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 277 } }
+										set_variable = { which = wizard_cost_4 value = 437098.000 }    set_variable = { which = wizard_cost_3 value = 382920.855 }    set_variable = { which = wizard_cost_2 value = 0.7 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 240920.000 }    set_variable = { which = wizard_cost_3 value = 945362.987 }    set_variable = { which = wizard_cost_2 value = 0.6 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 274621.000 }    set_variable = { which = wizard_cost_3 value = 533737.523 }    set_variable = { which = wizard_cost_2 value = 0.6 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = wizard_count value = 262 } }
+						if = {
+							limit = { check_variable = { which = wizard_count value = 268 } }
+							if = {
+								limit = { check_variable = { which = wizard_count value = 271 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 273 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 274 } }
+										set_variable = { which = wizard_cost_4 value = 765400.000 }    set_variable = { which = wizard_cost_3 value = 146507.547 }    set_variable = { which = wizard_cost_2 value = 0.6 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 140546.000 }    set_variable = { which = wizard_cost_3 value = 782227.232 }    set_variable = { which = wizard_cost_2 value = 0.5 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = wizard_count value = 272 } }
+										set_variable = { which = wizard_cost_4 value = 632687.000 }    set_variable = { which = wizard_cost_3 value = 439536.436 }    set_variable = { which = wizard_cost_2 value = 0.5 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 827552.000 }    set_variable = { which = wizard_cost_3 value = 117155.631 }    set_variable = { which = wizard_cost_2 value = 0.5 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 269 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 270 } }
+										set_variable = { which = wizard_cost_4 value = 192429.000 }    set_variable = { which = wizard_cost_3 value = 813881.121 }    set_variable = { which = wizard_cost_2 value = 0.4 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 747346.000 }    set_variable = { which = wizard_cost_3 value = 528580.546 }    set_variable = { which = wizard_cost_2 value = 0.4 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 98162.000 }    set_variable = { which = wizard_cost_3 value = 260188.661 }    set_variable = { which = wizard_cost_2 value = 0.4 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = wizard_count value = 265 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 266 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 267 } }
+										set_variable = { which = wizard_cost_4 value = 45308.000 }    set_variable = { which = wizard_cost_3 value = 7703.350 }    set_variable = { which = wizard_cost_2 value = 0.4 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 917505.000 }    set_variable = { which = wizard_cost_3 value = 770181.890 }    set_variable = { which = wizard_cost_2 value = 0.3 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 659930.000 }    set_variable = { which = wizard_cost_3 value = 546737.432 }    set_variable = { which = wizard_cost_2 value = 0.3 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 263 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 264 } }
+										set_variable = { which = wizard_cost_4 value = 534271.000 }    set_variable = { which = wizard_cost_3 value = 336535.684 }    set_variable = { which = wizard_cost_2 value = 0.3 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 67047.000 }    set_variable = { which = wizard_cost_3 value = 138791.801 }    set_variable = { which = wizard_cost_2 value = 0.3 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 615284.000 }    set_variable = { which = wizard_cost_3 value = 952767.451 }    set_variable = { which = wizard_cost_2 value = 0.2 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = wizard_count value = 256 } }
+							if = {
+								limit = { check_variable = { which = wizard_count value = 259 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 260 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 261 } }
+										set_variable = { which = wizard_cost_4 value = 607982.000 }    set_variable = { which = wizard_cost_3 value = 777768.63 }    set_variable = { which = wizard_cost_2 value = 0.2 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 170256.000 }    set_variable = { which = wizard_cost_3 value = 613140.229 }    set_variable = { which = wizard_cost_2 value = 0.2 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 447089.000 }    set_variable = { which = wizard_cost_3 value = 458269.265 }    set_variable = { which = wizard_cost_2 value = 0.2 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 257 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 258 } }
+										set_variable = { which = wizard_cost_4 value = 517488.000 }    set_variable = { which = wizard_cost_3 value = 312576.919 }    set_variable = { which = wizard_cost_2 value = 0.2 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 329716.000 }    set_variable = { which = wizard_cost_3 value = 175519.209 }    set_variable = { which = wizard_cost_2 value = 0.2 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 596158.000 }    set_variable = { which = wizard_cost_3 value = 46584.392 }    set_variable = { which = wizard_cost_2 value = 0.2 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = wizard_count value = 253 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 254 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 255 } }
+										set_variable = { which = wizard_cost_4 value = 64118.000 }    set_variable = { which = wizard_cost_3 value = 925291.56 }    set_variable = { which = wizard_cost_2 value = 0.1 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 28333.000 }    set_variable = { which = wizard_cost_3 value = 811186.318 }    set_variable = { which = wizard_cost_2 value = 0.1 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 373785.000 }    set_variable = { which = wizard_cost_3 value = 703844.137 }    set_variable = { which = wizard_cost_2 value = 0.1 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 251 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 252 } }
+										set_variable = { which = wizard_cost_4 value = 835169.000 }    set_variable = { which = wizard_cost_3 value = 602863.722 }    set_variable = { which = wizard_cost_2 value = 0.1 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 533555.000 }    set_variable = { which = wizard_cost_3 value = 507868.36 }    set_variable = { which = wizard_cost_2 value = 0.1 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 202780.000 }    set_variable = { which = wizard_cost_3 value = 418502.386 }    set_variable = { which = wizard_cost_2 value = 0.1 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = wizard_count value = 225 } }
+					if = {
+						limit = { check_variable = { which = wizard_count value = 237 } }
+						if = {
+							limit = { check_variable = { which = wizard_count value = 243 } }
+							if = {
+								limit = { check_variable = { which = wizard_count value = 246 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 248 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 249 } }
+										set_variable = { which = wizard_cost_4 value = 849276.000 }    set_variable = { which = wizard_cost_3 value = 334433.100 }    set_variable = { which = wizard_cost_2 value = 0.1 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 900542.000 }    set_variable = { which = wizard_cost_3 value = 255346.284 }    set_variable = { which = wizard_cost_2 value = 0.1 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = wizard_count value = 247 } }
+										set_variable = { which = wizard_cost_4 value = 190538.000 }    set_variable = { which = wizard_cost_3 value = 180946.646 }    set_variable = { which = wizard_cost_2 value = 0.1 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 405962.000 }    set_variable = { which = wizard_cost_3 value = 110956.393 }    set_variable = { which = wizard_cost_2 value = 0.1 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 244 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 245 } }
+										set_variable = { which = wizard_cost_4 value = 876729.000 }    set_variable = { which = wizard_cost_3 value = 45114.198 }    set_variable = { which = wizard_cost_2 value = 0.1 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 837938.000 }    set_variable = { which = wizard_cost_3 value = 983174.222 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 520168.000 }    set_variable = { which = wizard_cost_3 value = 924905.195 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = wizard_count value = 240 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 241 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 242 } }
+										set_variable = { which = wizard_cost_4 value = 640798.000 }    set_variable = { which = wizard_cost_3 value = 870089.553 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 72246.000 }    set_variable = { which = wizard_cost_3 value = 818522.628 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 654042.000 }    set_variable = { which = wizard_cost_3 value = 770011.879 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 238 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 239 } }
+										set_variable = { which = wizard_cost_4 value = 295430.000 }    set_variable = { which = wizard_cost_3 value = 724376.180 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 684317.000 }    set_variable = { which = wizard_cost_3 value = 681445.136 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 77439.000 }    set_variable = { which = wizard_cost_3 value = 641058.454 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = wizard_count value = 231 } }
+							if = {
+								limit = { check_variable = { which = wizard_count value = 234 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 235 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 236 } }
+										set_variable = { which = wizard_cost_4 value = 796274.000 }    set_variable = { which = wizard_cost_3 value = 603065.337 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 194049.000 }    set_variable = { which = wizard_cost_3 value = 567323.930 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 991579.000 }    set_variable = { which = wizard_cost_3 value = 533700.780 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 232 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 233 } }
+										set_variable = { which = wizard_cost_4 value = 4308.000 }    set_variable = { which = wizard_cost_3 value = 502070.349 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 400101.000 }    set_variable = { which = wizard_cost_3 value = 472314.533 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 737631.000 }    set_variable = { which = wizard_cost_3 value = 444322.232 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = wizard_count value = 228 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 229 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 230 } }
+										set_variable = { which = wizard_cost_4 value = 138881.000 }    set_variable = { which = wizard_cost_3 value = 417988.930 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 46925.000 }    set_variable = { which = wizard_cost_3 value = 393216.303 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 111877.000 }    set_variable = { which = wizard_cost_3 value = 369911.856 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 226 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 227 } }
+										set_variable = { which = wizard_cost_4 value = 834315.000 }    set_variable = { which = wizard_cost_3 value = 347988.575 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 676684.000 }    set_variable = { which = wizard_cost_3 value = 327364.605 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 429618.000 }    set_variable = { which = wizard_cost_3 value = 307962.940 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = wizard_count value = 212 } }
+						if = {
+							limit = { check_variable = { which = wizard_count value = 218 } }
+							if = {
+								limit = { check_variable = { which = wizard_count value = 221 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 223 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 224 } }
+										set_variable = { which = wizard_cost_4 value = 692020.000 }    set_variable = { which = wizard_cost_3 value = 289711.138 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 391364.000 }    set_variable = { which = wizard_cost_3 value = 272541.52 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = wizard_count value = 222 } }
+										set_variable = { which = wizard_cost_4 value = 334303.000 }    set_variable = { which = wizard_cost_3 value = 256388.572 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 837538.000 }    set_variable = { which = wizard_cost_3 value = 241193.388 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 219 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 220 } }
+										set_variable = { which = wizard_cost_4 value = 545191.000 }    set_variable = { which = wizard_cost_3 value = 226898.766 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 591901.000 }    set_variable = { which = wizard_cost_3 value = 213451.332 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 320698.000 }    set_variable = { which = wizard_cost_3 value = 200800.877 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = wizard_count value = 215 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 216 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 217 } }
+										set_variable = { which = wizard_cost_4 value = 811569.000 }    set_variable = { which = wizard_cost_3 value = 188900.166 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 520761.000 }    set_variable = { which = wizard_cost_3 value = 177704.766 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 372305.000 }    set_variable = { which = wizard_cost_3 value = 167172.875 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 213 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 214 } }
+										set_variable = { which = wizard_cost_4 value = 682319.000 }    set_variable = { which = wizard_cost_3 value = 157265.169 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 333320.000 }    set_variable = { which = wizard_cost_3 value = 147944.656 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 650348.000 }    set_variable = { which = wizard_cost_3 value = 139176.534 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = wizard_count value = 206 } }
+							if = {
+								limit = { check_variable = { which = wizard_count value = 209 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 210 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 211 } }
+										set_variable = { which = wizard_cost_4 value = 463169.000 }    set_variable = { which = wizard_cost_3 value = 130928.66 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 869397.000 }    set_variable = { which = wizard_cost_3 value = 123168.453 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 242142.000 }    set_variable = { which = wizard_cost_3 value = 115868.724 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 207 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 208 } }
+										set_variable = { which = wizard_cost_4 value = 52814.000 }    set_variable = { which = wizard_cost_3 value = 109001.622 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 105187.000 }    set_variable = { which = wizard_cost_3 value = 102541.507 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 800741.000 }    set_variable = { which = wizard_cost_3 value = 96464.258 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = wizard_count value = 203 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 204 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 205 } }
+										set_variable = { which = wizard_cost_4 value = 77837.000 }    set_variable = { which = wizard_cost_3 value = 90747.186 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 688464.000 }    set_variable = { which = wizard_cost_3 value = 85368.942 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 496203.000 }    set_variable = { which = wizard_cost_3 value = 80309.447 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 201 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 202 } }
+										set_variable = { which = wizard_cost_4 value = 497839.000 }    set_variable = { which = wizard_cost_3 value = 75549.809 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 288654.000 }    set_variable = { which = wizard_cost_3 value = 71072.257 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 708047.000 }    set_variable = { which = wizard_cost_3 value = 66860.72 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	else = {
+		if = {
+			limit = { check_variable = { which = wizard_count value = 100 } }
+			if = {
+				limit = { check_variable = { which = wizard_count value = 150 } }
+				if = {
+					limit = { check_variable = { which = wizard_count value = 175 } }
+					if = {
+						limit = { check_variable = { which = wizard_count value = 187 } }
+						if = {
+							limit = { check_variable = { which = wizard_count value = 193 } }
+							if = {
+								limit = { check_variable = { which = wizard_count value = 196 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 198 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 199 } }
+										set_variable = { which = wizard_cost_4 value = 417730.000 }    set_variable = { which = wizard_cost_3 value = 62897.528 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 179426.000 }    set_variable = { which = wizard_cost_3 value = 59169.829 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = wizard_count value = 197 } }
+										set_variable = { which = wizard_cost_4 value = 612818.000 }    set_variable = { which = wizard_cost_3 value = 55663.56 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 227487.000 }    set_variable = { which = wizard_cost_3 value = 52364.117 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 194 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 195 } }
+										set_variable = { which = wizard_cost_4 value = 534795.000 }    set_variable = { which = wizard_cost_3 value = 49260.693 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 57192.000 }    set_variable = { which = wizard_cost_3 value = 46341.198 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 63209.000 }    set_variable = { which = wizard_cost_3 value = 43594.730 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = wizard_count value = 190 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 191 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 192 } }
+										set_variable = { which = wizard_cost_4 value = 866613.000 }    set_variable = { which = wizard_cost_3 value = 41011.34 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 537735.000 }    set_variable = { which = wizard_cost_3 value = 38580.465 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 884041.000 }    set_variable = { which = wizard_cost_3 value = 36293.946 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 188 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 189 } }
+										set_variable = { which = wizard_cost_4 value = 565419.000 }    set_variable = { which = wizard_cost_3 value = 34142.941 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 217704.000 }    set_variable = { which = wizard_cost_3 value = 32119.418 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 465385.000 }    set_variable = { which = wizard_cost_3 value = 30215.821 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = wizard_count value = 181 } }
+							if = {
+								limit = { check_variable = { which = wizard_count value = 184 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 185 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 186 } }
+										set_variable = { which = wizard_cost_4 value = 711557.000 }    set_variable = { which = wizard_cost_3 value = 28425.43 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 599771.000 }    set_variable = { which = wizard_cost_3 value = 26740.398 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 48703.000 }    set_variable = { which = wizard_cost_3 value = 25155.596 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 182 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 183 } }
+										set_variable = { which = wizard_cost_4 value = 766418.000 }    set_variable = { which = wizard_cost_3 value = 23664.718 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 156555.000 }    set_variable = { which = wizard_cost_3 value = 22262.200 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 533918.000 }    set_variable = { which = wizard_cost_3 value = 20942.803 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = wizard_count value = 178 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 179 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 180 } }
+										set_variable = { which = wizard_cost_4 value = 571889.000 }    set_variable = { which = wizard_cost_3 value = 19701.602 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 908645.000 }    set_variable = { which = wizard_cost_3 value = 18533.962 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 843504.000 }    set_variable = { which = wizard_cost_3 value = 17435.524 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 176 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 177 } }
+										set_variable = { which = wizard_cost_4 value = 58799.000 }    set_variable = { which = wizard_cost_3 value = 16402.187 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 306491.000 }    set_variable = { which = wizard_cost_3 value = 15430.91 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 2343.000 }    set_variable = { which = wizard_cost_3 value = 14515.608 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = wizard_count value = 162 } }
+						if = {
+							limit = { check_variable = { which = wizard_count value = 168 } }
+							if = {
+								limit = { check_variable = { which = wizard_count value = 171 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 173 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 174 } }
+										set_variable = { which = wizard_cost_4 value = 673888.000 }    set_variable = { which = wizard_cost_3 value = 13655.322 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 211560.000 }    set_variable = { which = wizard_cost_3 value = 12846.23 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = wizard_count value = 172 } }
+										set_variable = { which = wizard_cost_4 value = 875409.000 }    set_variable = { which = wizard_cost_3 value = 12084.687 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 12614.000 }    set_variable = { which = wizard_cost_3 value = 11368.474 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 169 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 170 } }
+										set_variable = { which = wizard_cost_4 value = 443663.000 }    set_variable = { which = wizard_cost_3 value = 10694.707 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 477576.000 }    set_variable = { which = wizard_cost_3 value = 10060.872 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 518886.000 }    set_variable = { which = wizard_cost_3 value = 9464.602 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = wizard_count value = 165 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 166 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 167 } }
+										set_variable = { which = wizard_cost_4 value = 231313.000 }    set_variable = { which = wizard_cost_3 value = 8903.671 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 225130.000 }    set_variable = { which = wizard_cost_3 value = 8375.984 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 237187.000 }    set_variable = { which = wizard_cost_3 value = 7879.571 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 163 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 164 } }
+										set_variable = { which = wizard_cost_4 value = 774400.000 }    set_variable = { which = wizard_cost_3 value = 7412.578 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 193227.000 }    set_variable = { which = wizard_cost_3 value = 6973.263 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 189301.000 }    set_variable = { which = wizard_cost_3 value = 6559.984 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = wizard_count value = 156 } }
+							if = {
+								limit = { check_variable = { which = wizard_count value = 159 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 160 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 161 } }
+										set_variable = { which = wizard_cost_4 value = 672908.000 }    set_variable = { which = wizard_cost_3 value = 6171.198 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 7439.000 }    set_variable = { which = wizard_cost_3 value = 5805.455 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 589312.000 }    set_variable = { which = wizard_cost_3 value = 5461.387 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 157 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 158 } }
+										set_variable = { which = wizard_cost_4 value = 749118.000 }    set_variable = { which = wizard_cost_3 value = 5137.711 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 954956.000 }    set_variable = { which = wizard_cost_3 value = 4833.218 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 300052.000 }    set_variable = { which = wizard_cost_3 value = 4546.772 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = wizard_count value = 153 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 154 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 155 } }
+										set_variable = { which = wizard_cost_4 value = 257810.000 }    set_variable = { which = wizard_cost_3 value = 4277.302 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 688438.000 }    set_variable = { which = wizard_cost_3 value = 4023.802 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 82256.000 }    set_variable = { which = wizard_cost_3 value = 3785.327 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 151 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 152 } }
+										set_variable = { which = wizard_cost_4 value = 25641.000 }    set_variable = { which = wizard_cost_3 value = 3560.985 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 876426.000 }    set_variable = { which = wizard_cost_3 value = 3349.938 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 636337.000 }    set_variable = { which = wizard_cost_3 value = 3151.400 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = wizard_count value = 125 } }
+					if = {
+						limit = { check_variable = { which = wizard_count value = 137 } }
+						if = {
+							limit = { check_variable = { which = wizard_count value = 143 } }
+							if = {
+								limit = { check_variable = { which = wizard_count value = 146 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 148 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 149 } }
+										set_variable = { which = wizard_cost_4 value = 8783.000 }    set_variable = { which = wizard_cost_3 value = 2964.629 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 631029.000 }    set_variable = { which = wizard_cost_3 value = 2788.926 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = wizard_count value = 147 } }
+										set_variable = { which = wizard_cost_4 value = 470394.000 }    set_variable = { which = wizard_cost_3 value = 2623.637 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 374782.000 }    set_variable = { which = wizard_cost_3 value = 2468.144 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 144 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 145 } }
+										set_variable = { which = wizard_cost_4 value = 768375.000 }    set_variable = { which = wizard_cost_3 value = 2321.866 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 483890.000 }    set_variable = { which = wizard_cost_3 value = 2184.258 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 723320.000 }    set_variable = { which = wizard_cost_3 value = 2054.805 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = wizard_count value = 140 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 141 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 142 } }
+										set_variable = { which = wizard_cost_4 value = 139530.000 }    set_variable = { which = wizard_cost_3 value = 1933.25 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 31543.000 }    set_variable = { which = wizard_cost_3 value = 1818.462 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 646795.000 }    set_variable = { which = wizard_cost_3 value = 1710.688 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 138 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 139 } }
+										set_variable = { which = wizard_cost_4 value = 584003.000 }    set_variable = { which = wizard_cost_3 value = 1609.302 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 290689.000 }    set_variable = { which = wizard_cost_3 value = 1513.925 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 649755.000 }    set_variable = { which = wizard_cost_3 value = 1424.200 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = wizard_count value = 131 } }
+							if = {
+								limit = { check_variable = { which = wizard_count value = 134 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 135 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 136 } }
+										set_variable = { which = wizard_cost_4 value = 649816.000 }    set_variable = { which = wizard_cost_3 value = 1339.793 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 134352.000 }    set_variable = { which = wizard_cost_3 value = 1260.389 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 624978.000 }    set_variable = { which = wizard_cost_3 value = 1185.690 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 132 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 133 } }
+										set_variable = { which = wizard_cost_4 value = 214467.000 }    set_variable = { which = wizard_cost_3 value = 1115.419 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 525369.000 }    set_variable = { which = wizard_cost_3 value = 1049.312 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 730356.000 }    set_variable = { which = wizard_cost_3 value = 987.123 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = wizard_count value = 128 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 129 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 130 } }
+										set_variable = { which = wizard_cost_4 value = 630627.000 }    set_variable = { which = wizard_cost_3 value = 928.620 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 788924.000 }    set_variable = { which = wizard_cost_3 value = 873.584 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 713946.000 }    set_variable = { which = wizard_cost_3 value = 821.810 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 126 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 127 } }
+										set_variable = { which = wizard_cost_4 value = 93082.000 }    set_variable = { which = wizard_cost_3 value = 773.105 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 70632.000 }    set_variable = { which = wizard_cost_3 value = 727.286 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 568797.000 }    set_variable = { which = wizard_cost_3 value = 684.182 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = wizard_count value = 112 } }
+						if = {
+							limit = { check_variable = { which = wizard_count value = 118 } }
+							if = {
+								limit = { check_variable = { which = wizard_count value = 121 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 123 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 124 } }
+										set_variable = { which = wizard_cost_4 value = 648916.000 }    set_variable = { which = wizard_cost_3 value = 643.633 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 910551.000 }    set_variable = { which = wizard_cost_3 value = 605.487 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = wizard_count value = 122 } }
+										set_variable = { which = wizard_cost_4 value = 926200.000 }    set_variable = { which = wizard_cost_3 value = 569.602 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 709502.000 }    set_variable = { which = wizard_cost_3 value = 535.844 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 119 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 120 } }
+										set_variable = { which = wizard_cost_4 value = 214959.000 }    set_variable = { which = wizard_cost_3 value = 504.87 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 867318.000 }    set_variable = { which = wizard_cost_3 value = 474.211 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 118832.000 }    set_variable = { which = wizard_cost_3 value = 446.107 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = wizard_count value = 115 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 116 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 117 } }
+										set_variable = { which = wizard_cost_4 value = 32767.000 }    set_variable = { which = wizard_cost_3 value = 419.668 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 891597.000 }    set_variable = { which = wizard_cost_3 value = 394.795 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 828407.000 }    set_variable = { which = wizard_cost_3 value = 371.397 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 113 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 114 } }
+										set_variable = { which = wizard_cost_4 value = 480157.000 }    set_variable = { which = wizard_cost_3 value = 349.386 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 661484.000 }    set_variable = { which = wizard_cost_3 value = 328.679 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 57840.000 }    set_variable = { which = wizard_cost_3 value = 309.200 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = wizard_count value = 106 } }
+							if = {
+								limit = { check_variable = { which = wizard_count value = 109 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 110 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 111 } }
+										set_variable = { which = wizard_cost_4 value = 936820.000 }    set_variable = { which = wizard_cost_3 value = 290.874 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 876594.000 }    set_variable = { which = wizard_cost_3 value = 273.635 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 510437.000 }    set_variable = { which = wizard_cost_3 value = 257.418 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 107 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 108 } }
+										set_variable = { which = wizard_cost_4 value = 286394.000 }    set_variable = { which = wizard_cost_3 value = 242.162 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 241199.000 }    set_variable = { which = wizard_cost_3 value = 227.810 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 787581.000 }    set_variable = { which = wizard_cost_3 value = 214.308 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = wizard_count value = 103 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 104 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 105 } }
+										set_variable = { which = wizard_cost_4 value = 514187.000 }    set_variable = { which = wizard_cost_3 value = 201.607 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 997354.000 }    set_variable = { which = wizard_cost_3 value = 189.658 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 624039.000 }    set_variable = { which = wizard_cost_3 value = 178.418 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 101 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 102 } }
+										set_variable = { which = wizard_cost_4 value = 425249.000 }    set_variable = { which = wizard_cost_3 value = 167.844 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 919331.000 }    set_variable = { which = wizard_cost_3 value = 157.896 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 964563.000 }    set_variable = { which = wizard_cost_3 value = 148.538 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = { check_variable = { which = wizard_count value = 50 } }
+				if = {
+					limit = { check_variable = { which = wizard_count value = 75 } }
+					if = {
+						limit = { check_variable = { which = wizard_count value = 87 } }
+						if = {
+							limit = { check_variable = { which = wizard_count value = 93 } }
+							if = {
+								limit = { check_variable = { which = wizard_count value = 96 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 98 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 99 } }
+										set_variable = { which = wizard_cost_4 value = 620473.000 }    set_variable = { which = wizard_cost_3 value = 139.735 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 17378.000 }    set_variable = { which = wizard_cost_3 value = 131.454 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = wizard_count value = 97 } }
+										set_variable = { which = wizard_cost_4 value = 233658.000 }    set_variable = { which = wizard_cost_3 value = 123.663 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 180299.000 }    set_variable = { which = wizard_cost_3 value = 116.334 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 94 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 95 } }
+										set_variable = { which = wizard_cost_4 value = 492285.000 }    set_variable = { which = wizard_cost_3 value = 109.439 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 426421.000 }    set_variable = { which = wizard_cost_3 value = 102.953 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 765212.000 }    set_variable = { which = wizard_cost_3 value = 96.851 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = wizard_count value = 90 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 91 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 92 } }
+										set_variable = { which = wizard_cost_4 value = 726446.000 }    set_variable = { which = wizard_cost_3 value = 91.111 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 878124.000 }    set_variable = { which = wizard_cost_3 value = 85.711 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 58442.000 }    set_variable = { which = wizard_cost_3 value = 80.632 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 88 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 89 } }
+										set_variable = { which = wizard_cost_4 value = 300510.000 }    set_variable = { which = wizard_cost_3 value = 75.853 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 761533.000 }    set_variable = { which = wizard_cost_3 value = 71.357 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 656193.000 }    set_variable = { which = wizard_cost_3 value = 67.128 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = wizard_count value = 81 } }
+							if = {
+								limit = { check_variable = { which = wizard_count value = 84 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 85 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 86 } }
+										set_variable = { which = wizard_cost_4 value = 193973.000 }    set_variable = { which = wizard_cost_3 value = 63.150 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 520200.000 }    set_variable = { which = wizard_cost_3 value = 59.407 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 660584.000 }    set_variable = { which = wizard_cost_3 value = 55.886 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 82 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 83 } }
+										set_variable = { which = wizard_cost_4 value = 469034.000 }    set_variable = { which = wizard_cost_3 value = 52.574 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 578584.000 }    set_variable = { which = wizard_cost_3 value = 49.458 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 355206.000 }    set_variable = { which = wizard_cost_3 value = 46.527 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = wizard_count value = 78 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 79 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 80 } }
+										set_variable = { which = wizard_cost_4 value = 854380.000 }    set_variable = { which = wizard_cost_3 value = 43.769 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 780225.000 }    set_variable = { which = wizard_cost_3 value = 41.175 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 447061.000 }    set_variable = { which = wizard_cost_3 value = 38.735 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 76 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 77 } }
+										set_variable = { which = wizard_cost_4 value = 743237.000 }    set_variable = { which = wizard_cost_3 value = 36.439 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 97118.000 }    set_variable = { which = wizard_cost_3 value = 34.280 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 445078.000 }    set_variable = { which = wizard_cost_3 value = 32.248 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = wizard_count value = 62 } }
+						if = {
+							limit = { check_variable = { which = wizard_count value = 68 } }
+							if = {
+								limit = { check_variable = { which = wizard_count value = 71 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 73 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 74 } }
+										set_variable = { which = wizard_cost_4 value = 201391.000 }    set_variable = { which = wizard_cost_3 value = 30.337 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 229906.000 }    set_variable = { which = wizard_cost_3 value = 28.539 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = wizard_count value = 72 } }
+										set_variable = { which = wizard_cost_4 value = 817410.000 }    set_variable = { which = wizard_cost_3 value = 26.847 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 648551.000 }    set_variable = { which = wizard_cost_3 value = 25.256 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 69 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 70 } }
+										set_variable = { which = wizard_cost_4 value = 782268.000 }    set_variable = { which = wizard_cost_3 value = 23.759 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 629603.000 }    set_variable = { which = wizard_cost_3 value = 22.351 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 932834.000 }    set_variable = { which = wizard_cost_3 value = 21.26 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = wizard_count value = 65 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 66 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 67 } }
+										set_variable = { which = wizard_cost_4 value = 745846.000 }    set_variable = { which = wizard_cost_3 value = 19.780 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 415659.000 }    set_variable = { which = wizard_cost_3 value = 18.608 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 565061.000 }    set_variable = { which = wizard_cost_3 value = 17.505 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 63 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 64 } }
+										set_variable = { which = wizard_cost_4 value = 76256.000 }    set_variable = { which = wizard_cost_3 value = 16.468 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 75500.000 }    set_variable = { which = wizard_cost_3 value = 15.492 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 918626.000 }    set_variable = { which = wizard_cost_3 value = 14.573 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = wizard_count value = 56 } }
+							if = {
+								limit = { check_variable = { which = wizard_count value = 59 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 60 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 61 } }
+										set_variable = { which = wizard_cost_4 value = 177447.000 }    set_variable = { which = wizard_cost_3 value = 13.710 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 626949.000 }    set_variable = { which = wizard_cost_3 value = 12.897 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 233254.000 }    set_variable = { which = wizard_cost_3 value = 12.133 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 57 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 58 } }
+										set_variable = { which = wizard_cost_4 value = 142290.000 }    set_variable = { which = wizard_cost_3 value = 11.414 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 669134.000 }    set_variable = { which = wizard_cost_3 value = 10.737 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 287991.000 }    set_variable = { which = wizard_cost_3 value = 10.101 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = wizard_count value = 53 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 54 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 55 } }
+										set_variable = { which = wizard_cost_4 value = 622757.000 }    set_variable = { which = wizard_cost_3 value = 9.502 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 438154.000 }    set_variable = { which = wizard_cost_3 value = 8.939 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 631377.000 }    set_variable = { which = wizard_cost_3 value = 8.409 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 51 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 52 } }
+										set_variable = { which = wizard_cost_4 value = 224249.000 }    set_variable = { which = wizard_cost_3 value = 7.911 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 355832.000 }    set_variable = { which = wizard_cost_3 value = 7.442 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 275477.000 }    set_variable = { which = wizard_cost_3 value = 7.1 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = wizard_count value = 25 } }
+					if = {
+						limit = { check_variable = { which = wizard_count value = 37 } }
+						if = {
+							limit = { check_variable = { which = wizard_count value = 43 } }
+							if = {
+								limit = { check_variable = { which = wizard_count value = 46 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 48 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 49 } }
+										set_variable = { which = wizard_cost_4 value = 336290.000 }    set_variable = { which = wizard_cost_3 value = 6.586 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 988984.000 }    set_variable = { which = wizard_cost_3 value = 6.195 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = wizard_count value = 47 } }
+										set_variable = { which = wizard_cost_4 value = 776090.000 }    set_variable = { which = wizard_cost_3 value = 5.828 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 326520.000 }    set_variable = { which = wizard_cost_3 value = 5.483 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 44 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 45 } }
+										set_variable = { which = wizard_cost_4 value = 350442.000 }    set_variable = { which = wizard_cost_3 value = 5.158 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 634470.000 }    set_variable = { which = wizard_cost_3 value = 4.852 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 37131.000 }    set_variable = { which = wizard_cost_3 value = 4.565 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = wizard_count value = 40 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 41 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 42 } }
+										set_variable = { which = wizard_cost_4 value = 484601.000 }    set_variable = { which = wizard_cost_3 value = 4.294 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 966699.000 }    set_variable = { which = wizard_cost_3 value = 4.39 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 533113.000 }    set_variable = { which = wizard_cost_3 value = 3.800 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 38 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 39 } }
+										set_variable = { which = wizard_cost_4 value = 289852.000 }    set_variable = { which = wizard_cost_3 value = 3.575 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 395910.000 }    set_variable = { which = wizard_cost_3 value = 3.363 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 60122.000 }    set_variable = { which = wizard_cost_3 value = 3.164 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = wizard_count value = 31 } }
+							if = {
+								limit = { check_variable = { which = wizard_count value = 34 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 35 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 36 } }
+										set_variable = { which = wizard_cost_4 value = 538214.000 }    set_variable = { which = wizard_cost_3 value = 2.976 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 130023.000 }    set_variable = { which = wizard_cost_3 value = 2.800 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 176880.000 }    set_variable = { which = wizard_cost_3 value = 2.634 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 32 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 33 } }
+										set_variable = { which = wizard_cost_4 value = 59153.000 }    set_variable = { which = wizard_cost_3 value = 2.478 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 193935.000 }    set_variable = { which = wizard_cost_3 value = 2.331 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 32864.000 }    set_variable = { which = wizard_cost_3 value = 2.193 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = wizard_count value = 28 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 29 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 30 } }
+										set_variable = { which = wizard_cost_4 value = 60079.000 }    set_variable = { which = wizard_cost_3 value = 2.63 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 790291.000 }    set_variable = { which = wizard_cost_3 value = 1.940 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 766972.000 }    set_variable = { which = wizard_cost_3 value = 1.825 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 26 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 27 } }
+										set_variable = { which = wizard_cost_4 value = 560651.000 }    set_variable = { which = wizard_cost_3 value = 1.717 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 767310.000 }    set_variable = { which = wizard_cost_3 value = 1.615 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 6877.000 }    set_variable = { which = wizard_cost_3 value = 1.520 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = wizard_count value = 12 } }
+						if = {
+							limit = { check_variable = { which = wizard_count value = 18 } }
+							if = {
+								limit = { check_variable = { which = wizard_count value = 21 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 23 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 24 } }
+										set_variable = { which = wizard_cost_4 value = 921803.000 }    set_variable = { which = wizard_cost_3 value = 1.429 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 175732.000 }    set_variable = { which = wizard_cost_3 value = 1.345 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = wizard_count value = 22 } }
+										set_variable = { which = wizard_cost_4 value = 452241.000 }    set_variable = { which = wizard_cost_3 value = 1.265 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 453660.000 }    set_variable = { which = wizard_cost_3 value = 1.190 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 19 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 20 } }
+										set_variable = { which = wizard_cost_4 value = 899963.000 }    set_variable = { which = wizard_cost_3 value = 1.119 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 527716.000 }    set_variable = { which = wizard_cost_3 value = 1.53 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 89103.000 }    set_variable = { which = wizard_cost_3 value = 0.991 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = wizard_count value = 15 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 16 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 17 } }
+										set_variable = { which = wizard_cost_4 value = 350991.000 }    set_variable = { which = wizard_cost_3 value = 0.932 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 94064.000 }    set_variable = { which = wizard_cost_3 value = 0.877 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 112008.000 }    set_variable = { which = wizard_cost_3 value = 0.825 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 13 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 14 } }
+										set_variable = { which = wizard_cost_4 value = 210732.000 }    set_variable = { which = wizard_cost_3 value = 0.776 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 207650.000 }    set_variable = { which = wizard_cost_3 value = 0.730 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 930997.000 }    set_variable = { which = wizard_cost_3 value = 0.686 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = wizard_count value = 6 } }
+							if = {
+								limit = { check_variable = { which = wizard_count value = 9 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 10 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 11 } }
+										set_variable = { which = wizard_cost_4 value = 219188.000 }    set_variable = { which = wizard_cost_3 value = 0.646 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 920215.000 }    set_variable = { which = wizard_cost_3 value = 0.607 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 891077.000 }    set_variable = { which = wizard_cost_3 value = 0.571 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 7 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 8 } }
+										set_variable = { which = wizard_cost_4 value = 997250.000 }    set_variable = { which = wizard_cost_3 value = 0.537 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 112182.000 }    set_variable = { which = wizard_cost_3 value = 0.506 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 116823.000 }    set_variable = { which = wizard_cost_3 value = 0.476 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = wizard_count value = 3 } }
+								if = {
+									limit = { check_variable = { which = wizard_count value = 4 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 5 } }
+										set_variable = { which = wizard_cost_4 value = 899174.000 }    set_variable = { which = wizard_cost_3 value = 0.447 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 353880.000 }    set_variable = { which = wizard_cost_3 value = 0.421 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 381825.000 }    set_variable = { which = wizard_cost_3 value = 0.396 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = wizard_count value = 1 } }
+									if = {
+										limit = { check_variable = { which = wizard_count value = 2 } }
+										set_variable = { which = wizard_cost_4 value = 889769.000 }    set_variable = { which = wizard_cost_3 value = 0.372 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = wizard_cost_4 value = 790000.000 }    set_variable = { which = wizard_cost_3 value = 0.350 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = wizard_cost_4 value = 0.000 }    set_variable = { which = wizard_cost_3 value = 0.330 }    set_variable = { which = wizard_cost_2 value = 0.0 }    set_variable = { which = wizard_cost_1 value = 0.0 }    set_variable = { which = wizard_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}get_msd = { ln = wizard_cost mantissa = wizard_cost_mantissa exponent = wizard_cost_exp}
+}

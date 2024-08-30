@@ -1,0 +1,2403 @@
+get_mine_cost = {
+	if = {
+		limit = { check_variable = { which = mine_count value = 200 } }
+		if = {
+			limit = { check_variable = { which = mine_count value = 300 } }
+			if = {
+				limit = { check_variable = { which = mine_count value = 350 } }
+				if = {
+					limit = { check_variable = { which = mine_count value = 375 } }
+					if = {
+						limit = { check_variable = { which = mine_count value = 388 } }
+						if = {
+							limit = { check_variable = { which = mine_count value = 394 } }
+							if = {
+								limit = { check_variable = { which = mine_count value = 397 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 399 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 400 } }
+										set_variable = { which = mine_cost_4 value = 884338.000 }    set_variable = { which = mine_cost_3 value = 492591.660 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 368145.000 }    set_variable = { which = mine_cost_3 value = 463397.611 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = mine_count value = 398 } }
+										set_variable = { which = mine_cost_4 value = 36825.000 }    set_variable = { which = mine_cost_3 value = 435933.783 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 207738.000 }    set_variable = { which = mine_cost_3 value = 410097.632 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 395 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 396 } }
+										set_variable = { which = mine_cost_4 value = 575482.000 }    set_variable = { which = mine_cost_3 value = 385792.692 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 28676.000 }    set_variable = { which = mine_cost_3 value = 362928.215 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 813430.000 }    set_variable = { which = mine_cost_3 value = 341418.828 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = mine_count value = 391 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 392 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 393 } }
+										set_variable = { which = mine_cost_4 value = 778391.000 }    set_variable = { which = mine_cost_3 value = 321184.222 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 511186.000 }    set_variable = { which = mine_cost_3 value = 302148.845 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 246648.000 }    set_variable = { which = mine_cost_3 value = 284241.623 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 389 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 390 } }
+										set_variable = { which = mine_cost_4 value = 493554.000 }    set_variable = { which = mine_cost_3 value = 267395.694 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 389044.000 }    set_variable = { which = mine_cost_3 value = 251548.160 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 848583.000 }    set_variable = { which = mine_cost_3 value = 236639.849 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = mine_count value = 381 } }
+							if = {
+								limit = { check_variable = { which = mine_count value = 384 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 386 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 387 } }
+										set_variable = { which = mine_cost_4 value = 634603.000 }    set_variable = { which = mine_cost_3 value = 222615.98 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 518912.000 }    set_variable = { which = mine_cost_3 value = 209421.541 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = mine_count value = 385 } }
+										set_variable = { which = mine_cost_4 value = 762852.000 }    set_variable = { which = mine_cost_3 value = 197009.916 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 185185.000 }    set_variable = { which = mine_cost_3 value = 185333.882 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 382 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 383 } }
+										set_variable = { which = mine_cost_4 value = 130936.000 }    set_variable = { which = mine_cost_3 value = 174349.842 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 695142.000 }    set_variable = { which = mine_cost_3 value = 164016.784 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 593737.000 }    set_variable = { which = mine_cost_3 value = 154296.128 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = mine_count value = 378 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 379 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 380 } }
+										set_variable = { which = mine_cost_4 value = 109818.000 }    set_variable = { which = mine_cost_3 value = 145151.579 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 577440.000 }    set_variable = { which = mine_cost_3 value = 136548.992 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 896933.000 }    set_variable = { which = mine_cost_3 value = 128456.248 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 376 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 377 } }
+										set_variable = { which = mine_cost_4 value = 605769.000 }    set_variable = { which = mine_cost_3 value = 120843.131 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 57168.000 }    set_variable = { which = mine_cost_3 value = 113681.215 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 285200.000 }    set_variable = { which = mine_cost_3 value = 106943.758 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = mine_count value = 362 } }
+						if = {
+							limit = { check_variable = { which = mine_count value = 368 } }
+							if = {
+								limit = { check_variable = { which = mine_count value = 371 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 373 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 374 } }
+										set_variable = { which = mine_cost_4 value = 160113.000 }    set_variable = { which = mine_cost_3 value = 100605.605 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 461066.000 }    set_variable = { which = mine_cost_3 value = 94643.90 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = mine_count value = 372 } }
+										set_variable = { which = mine_cost_4 value = 515584.000 }    set_variable = { which = mine_cost_3 value = 89033.951 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 75808.000 }    set_variable = { which = mine_cost_3 value = 83757.245 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 369 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 370 } }
+										set_variable = { which = mine_cost_4 value = 121174.000 }    set_variable = { which = mine_cost_3 value = 78793.269 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 295554.000 }    set_variable = { which = mine_cost_3 value = 74123.489 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 704190.000 }    set_variable = { which = mine_cost_3 value = 69730.469 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = mine_count value = 365 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 366 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 367 } }
+										set_variable = { which = mine_cost_4 value = 812032.000 }    set_variable = { which = mine_cost_3 value = 65597.807 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 200406.000 }    set_variable = { which = mine_cost_3 value = 61710.73 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 953346.000 }    set_variable = { which = mine_cost_3 value = 58052.749 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 363 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 364 } }
+										set_variable = { which = mine_cost_4 value = 458462.000 }    set_variable = { which = mine_cost_3 value = 54612.182 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 420002.000 }    set_variable = { which = mine_cost_3 value = 51375.524 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 893699.000 }    set_variable = { which = mine_cost_3 value = 48330.690 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = mine_count value = 356 } }
+							if = {
+								limit = { check_variable = { which = mine_count value = 359 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 360 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 361 } }
+										set_variable = { which = mine_cost_4 value = 164345.000 }    set_variable = { which = mine_cost_3 value = 45466.313 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 297597.000 }    set_variable = { which = mine_cost_3 value = 42771.696 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 207523.000 }    set_variable = { which = mine_cost_3 value = 40236.779 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 357 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 358 } }
+										set_variable = { which = mine_cost_4 value = 90802.000 }    set_variable = { which = mine_cost_3 value = 37852.97 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 87302.000 }    set_variable = { which = mine_cost_3 value = 35608.746 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 35091.000 }    set_variable = { which = mine_cost_3 value = 33498.350 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = mine_count value = 353 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 354 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 355 } }
+										set_variable = { which = mine_cost_4 value = 195759.000 }    set_variable = { which = mine_cost_3 value = 31513.29 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 833263.000 }    set_variable = { which = mine_cost_3 value = 29645.370 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 536466.000 }    set_variable = { which = mine_cost_3 value = 27888.401 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 351 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 352 } }
+										set_variable = { which = mine_cost_4 value = 182000.000 }    set_variable = { which = mine_cost_3 value = 26235.561 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 440263.000 }    set_variable = { which = mine_cost_3 value = 24680.678 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 733079.000 }    set_variable = { which = mine_cost_3 value = 23217.947 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = mine_count value = 325 } }
+					if = {
+						limit = { check_variable = { which = mine_count value = 337 } }
+						if = {
+							limit = { check_variable = { which = mine_count value = 343 } }
+							if = {
+								limit = { check_variable = { which = mine_count value = 346 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 348 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 349 } }
+										set_variable = { which = mine_cost_4 value = 556989.000 }    set_variable = { which = mine_cost_3 value = 21841.907 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 91240.000 }    set_variable = { which = mine_cost_3 value = 20547.420 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = mine_count value = 347 } }
+										set_variable = { which = mine_cost_4 value = 14337.000 }    set_variable = { which = mine_cost_3 value = 19329.652 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 457514.000 }    set_variable = { which = mine_cost_3 value = 18184.56 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 344 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 345 } }
+										set_variable = { which = mine_cost_4 value = 27765.000 }    set_variable = { which = mine_cost_3 value = 17106.356 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 837032.000 }    set_variable = { which = mine_cost_3 value = 16092.526 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 477922.000 }    set_variable = { which = mine_cost_3 value = 15138.783 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = mine_count value = 340 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 341 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 342 } }
+										set_variable = { which = mine_cost_4 value = 889861.000 }    set_variable = { which = mine_cost_3 value = 14241.564 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 62899.000 }    set_variable = { which = mine_cost_3 value = 13397.521 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 529538.000 }    set_variable = { which = mine_cost_3 value = 12603.500 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 338 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 339 } }
+										set_variable = { which = mine_cost_4 value = 597872.000 }    set_variable = { which = mine_cost_3 value = 11856.538 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 282099.000 }    set_variable = { which = mine_cost_3 value = 11153.846 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 889087.000 }    set_variable = { which = mine_cost_3 value = 10492.799 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = mine_count value = 331 } }
+							if = {
+								limit = { check_variable = { which = mine_count value = 334 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 335 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 336 } }
+										set_variable = { which = mine_cost_4 value = 222095.000 }    set_variable = { which = mine_cost_3 value = 9870.931 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 365094.000 }    set_variable = { which = mine_cost_3 value = 9285.918 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 13259.000 }    set_variable = { which = mine_cost_3 value = 8735.577 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 332 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 333 } }
+										set_variable = { which = mine_cost_4 value = 317271.000 }    set_variable = { which = mine_cost_3 value = 8217.852 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 210979.000 }    set_variable = { which = mine_cost_3 value = 7730.811 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 193771.000 }    set_variable = { which = mine_cost_3 value = 7272.635 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = mine_count value = 328 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 329 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 330 } }
+										set_variable = { which = mine_cost_4 value = 540707.000 }    set_variable = { which = mine_cost_3 value = 6841.613 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 915058.000 }    set_variable = { which = mine_cost_3 value = 6436.136 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 359415.000 }    set_variable = { which = mine_cost_3 value = 6054.691 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 326 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 327 } }
+										set_variable = { which = mine_cost_4 value = 642911.000 }    set_variable = { which = mine_cost_3 value = 5695.852 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 943473.000 }    set_variable = { which = mine_cost_3 value = 5358.280 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 845223.000 }    set_variable = { which = mine_cost_3 value = 5040.715 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = mine_count value = 312 } }
+						if = {
+							limit = { check_variable = { which = mine_count value = 318 } }
+							if = {
+								limit = { check_variable = { which = mine_count value = 321 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 323 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 324 } }
+										set_variable = { which = mine_cost_4 value = 632383.000 }    set_variable = { which = mine_cost_3 value = 4741.971 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 862073.000 }    set_variable = { which = mine_cost_3 value = 4460.932 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = mine_count value = 322 } }
+										set_variable = { which = mine_cost_4 value = 199504.000 }    set_variable = { which = mine_cost_3 value = 4196.550 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 500004.000 }    set_variable = { which = mine_cost_3 value = 3947.836 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 319 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 320 } }
+										set_variable = { which = mine_cost_4 value = 123240.000 }    set_variable = { which = mine_cost_3 value = 3713.863 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 465889.000 }    set_variable = { which = mine_cost_3 value = 3493.756 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 699801.000 }    set_variable = { which = mine_cost_3 value = 3286.694 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = mine_count value = 315 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 316 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 317 } }
+										set_variable = { which = mine_cost_4 value = 703482.000 }    set_variable = { which = mine_cost_3 value = 3091.904 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 175430.000 }    set_variable = { which = mine_cost_3 value = 2908.659 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 918560.000 }    set_variable = { which = mine_cost_3 value = 2736.273 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 313 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 314 } }
+										set_variable = { which = mine_cost_4 value = 285569.000 }    set_variable = { which = mine_cost_3 value = 2574.105 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 775700.000 }    set_variable = { which = mine_cost_3 value = 2421.547 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 773942.000 }    set_variable = { which = mine_cost_3 value = 2278.31 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = mine_count value = 306 } }
+							if = {
+								limit = { check_variable = { which = mine_count value = 309 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 310 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 311 } }
+										set_variable = { which = mine_cost_4 value = 424216.000 }    set_variable = { which = mine_cost_3 value = 2143.21 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 628613.000 }    set_variable = { which = mine_cost_3 value = 2016.12 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 165206.000 }    set_variable = { which = mine_cost_3 value = 1896.531 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 307 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 308 } }
+										set_variable = { which = mine_cost_4 value = 917409.000 }    set_variable = { which = mine_cost_3 value = 1784.130 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 208287.000 }    set_variable = { which = mine_cost_3 value = 1678.392 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 233572.000 }    set_variable = { which = mine_cost_3 value = 1578.920 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = mine_count value = 303 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 304 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 305 } }
+										set_variable = { which = mine_cost_4 value = 587556.000 }    set_variable = { which = mine_cost_3 value = 1485.343 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 876346.000 }    set_variable = { which = mine_cost_3 value = 1397.312 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 413307.000 }    set_variable = { which = mine_cost_3 value = 1314.499 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 301 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 302 } }
+										set_variable = { which = mine_cost_4 value = 991823.000 }    set_variable = { which = mine_cost_3 value = 1236.593 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 730783.000 }    set_variable = { which = mine_cost_3 value = 1163.305 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 988507.000 }    set_variable = { which = mine_cost_3 value = 1094.360 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = { check_variable = { which = mine_count value = 250 } }
+				if = {
+					limit = { check_variable = { which = mine_count value = 275 } }
+					if = {
+						limit = { check_variable = { which = mine_count value = 287 } }
+						if = {
+							limit = { check_variable = { which = mine_count value = 293 } }
+							if = {
+								limit = { check_variable = { which = mine_count value = 296 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 298 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 299 } }
+										set_variable = { which = mine_cost_4 value = 341023.000 }    set_variable = { which = mine_cost_3 value = 1029.502 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 620906.000 }    set_variable = { which = mine_cost_3 value = 968.487 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = mine_count value = 297 } }
+										set_variable = { which = mine_cost_4 value = 13081.000 }    set_variable = { which = mine_cost_3 value = 911.89 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 204216.000 }    set_variable = { which = mine_cost_3 value = 857.92 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 294 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 295 } }
+										set_variable = { which = mine_cost_4 value = 582517.000 }    set_variable = { which = mine_cost_3 value = 806.295 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 484964.000 }    set_variable = { which = mine_cost_3 value = 758.509 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 489148.000 }    set_variable = { which = mine_cost_3 value = 713.555 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = mine_count value = 290 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 291 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 292 } }
+										set_variable = { which = mine_cost_4 value = 747082.000 }    set_variable = { which = mine_cost_3 value = 671.265 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 358497.000 }    set_variable = { which = mine_cost_3 value = 631.482 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 781276.000 }    set_variable = { which = mine_cost_3 value = 594.56 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 288 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 289 } }
+										set_variable = { which = mine_cost_4 value = 276835.000 }    set_variable = { which = mine_cost_3 value = 558.849 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 388368.000 }    set_variable = { which = mine_cost_3 value = 525.728 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 450017.000 }    set_variable = { which = mine_cost_3 value = 494.570 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = mine_count value = 281 } }
+							if = {
+								limit = { check_variable = { which = mine_count value = 284 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 285 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 286 } }
+										set_variable = { which = mine_cost_4 value = 125134.000 }    set_variable = { which = mine_cost_3 value = 465.259 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 971904.000 }    set_variable = { which = mine_cost_3 value = 437.684 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 34717.000 }    set_variable = { which = mine_cost_3 value = 411.745 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 282 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 283 } }
+										set_variable = { which = mine_cost_4 value = 459752.000 }    set_variable = { which = mine_cost_3 value = 387.342 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 133351.000 }    set_variable = { which = mine_cost_3 value = 364.386 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 341816.000 }    set_variable = { which = mine_cost_3 value = 342.790 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = mine_count value = 278 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 279 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 280 } }
+										set_variable = { which = mine_cost_4 value = 451380.000 }    set_variable = { which = mine_cost_3 value = 322.474 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 607130.000 }    set_variable = { which = mine_cost_3 value = 303.362 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 449793.000 }    set_variable = { which = mine_cost_3 value = 285.383 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 276 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 277 } }
+										set_variable = { which = mine_cost_4 value = 849288.000 }    set_variable = { which = mine_cost_3 value = 268.469 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 654081.000 }    set_variable = { which = mine_cost_3 value = 252.558 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 455391.000 }    set_variable = { which = mine_cost_3 value = 237.590 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = mine_count value = 262 } }
+						if = {
+							limit = { check_variable = { which = mine_count value = 268 } }
+							if = {
+								limit = { check_variable = { which = mine_count value = 271 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 273 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 274 } }
+										set_variable = { which = mine_cost_4 value = 365373.000 }    set_variable = { which = mine_cost_3 value = 223.509 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 808441.000 }    set_variable = { which = mine_cost_3 value = 210.262 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = mine_count value = 272 } }
+										set_variable = { which = mine_cost_4 value = 324968.000 }    set_variable = { which = mine_cost_3 value = 197.801 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 386611.000 }    set_variable = { which = mine_cost_3 value = 186.78 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 269 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 270 } }
+										set_variable = { which = mine_cost_4 value = 222588.000 }    set_variable = { which = mine_cost_3 value = 175.50 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 656245.000 }    set_variable = { which = mine_cost_3 value = 164.675 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 951312.000 }    set_variable = { which = mine_cost_3 value = 154.915 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = mine_count value = 265 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 266 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 267 } }
+										set_variable = { which = mine_cost_4 value = 667274.000 }    set_variable = { which = mine_cost_3 value = 145.734 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 523306.000 }    set_variable = { which = mine_cost_3 value = 137.97 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 270278.000 }    set_variable = { which = mine_cost_3 value = 128.972 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 263 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 264 } }
+										set_variable = { which = mine_cost_4 value = 570346.000 }    set_variable = { which = mine_cost_3 value = 121.328 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 883675.000 }    set_variable = { which = mine_cost_3 value = 114.137 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 361876.000 }    set_variable = { which = mine_cost_3 value = 107.373 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = mine_count value = 256 } }
+							if = {
+								limit = { check_variable = { which = mine_count value = 259 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 260 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 261 } }
+										set_variable = { which = mine_cost_4 value = 747767.000 }    set_variable = { which = mine_cost_3 value = 101.9 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 281060.000 }    set_variable = { which = mine_cost_3 value = 95.23 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 609652.000 }    set_variable = { which = mine_cost_3 value = 89.391 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 257 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 258 } }
+										set_variable = { which = mine_cost_4 value = 706164.000 }    set_variable = { which = mine_cost_3 value = 84.93 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 789430.000 }    set_variable = { which = mine_cost_3 value = 79.109 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 250639.000 }    set_variable = { which = mine_cost_3 value = 74.421 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = mine_count value = 253 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 254 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 255 } }
+										set_variable = { which = mine_cost_4 value = 583856.000 }    set_variable = { which = mine_cost_3 value = 70.10 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 320655.000 }    set_variable = { which = mine_cost_3 value = 65.861 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 968631.000 }    set_variable = { which = mine_cost_3 value = 61.957 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 251 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 252 } }
+										set_variable = { which = mine_cost_4 value = 953557.000 }    set_variable = { which = mine_cost_3 value = 58.285 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 564964.000 }    set_variable = { which = mine_cost_3 value = 54.831 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 904952.000 }    set_variable = { which = mine_cost_3 value = 51.581 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = mine_count value = 225 } }
+					if = {
+						limit = { check_variable = { which = mine_count value = 237 } }
+						if = {
+							limit = { check_variable = { which = mine_count value = 243 } }
+							if = {
+								limit = { check_variable = { which = mine_count value = 246 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 248 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 249 } }
+										set_variable = { which = mine_cost_4 value = 840030.000 }    set_variable = { which = mine_cost_3 value = 48.524 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 955814.000 }    set_variable = { which = mine_cost_3 value = 45.648 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = mine_count value = 247 } }
+										set_variable = { which = mine_cost_4 value = 514406.000 }    set_variable = { which = mine_cost_3 value = 42.943 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 414305.000 }    set_variable = { which = mine_cost_3 value = 40.398 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 244 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 245 } }
+										set_variable = { which = mine_cost_4 value = 152686.000 }    set_variable = { which = mine_cost_3 value = 38.4 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 789921.000 }    set_variable = { which = mine_cost_3 value = 35.751 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 916200.000 }    set_variable = { which = mine_cost_3 value = 33.632 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = mine_count value = 240 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 241 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 242 } }
+										set_variable = { which = mine_cost_4 value = 620132.000 }    set_variable = { which = mine_cost_3 value = 31.639 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 459202.000 }    set_variable = { which = mine_cost_3 value = 29.764 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 431987.000 }    set_variable = { which = mine_cost_3 value = 28.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 238 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 239 } }
+										set_variable = { which = mine_cost_4 value = 952010.000 }    set_variable = { which = mine_cost_3 value = 26.340 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 823152.000 }    set_variable = { which = mine_cost_3 value = 24.779 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 216511.000 }    set_variable = { which = mine_cost_3 value = 23.311 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = mine_count value = 231 } }
+							if = {
+								limit = { check_variable = { which = mine_count value = 234 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 235 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 236 } }
+										set_variable = { which = mine_cost_4 value = 648647.000 }    set_variable = { which = mine_cost_3 value = 21.929 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 961097.000 }    set_variable = { which = mine_cost_3 value = 20.629 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 301126.000 }    set_variable = { which = mine_cost_3 value = 19.407 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 232 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 233 } }
+										set_variable = { which = mine_cost_4 value = 103600.000 }    set_variable = { which = mine_cost_3 value = 18.257 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 73941.000 }    set_variable = { which = mine_cost_3 value = 17.175 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 172099.000 }    set_variable = { which = mine_cost_3 value = 16.157 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = mine_count value = 228 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 229 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 230 } }
+										set_variable = { which = mine_cost_4 value = 597459.000 }    set_variable = { which = mine_cost_3 value = 15.199 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 774656.000 }    set_variable = { which = mine_cost_3 value = 14.298 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 340222.000 }    set_variable = { which = mine_cost_3 value = 13.451 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 226 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 227 } }
+										set_variable = { which = mine_cost_4 value = 130030.000 }    set_variable = { which = mine_cost_3 value = 12.654 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 167479.000 }    set_variable = { which = mine_cost_3 value = 11.904 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 652379.000 }    set_variable = { which = mine_cost_3 value = 11.198 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = mine_count value = 212 } }
+						if = {
+							limit = { check_variable = { which = mine_count value = 218 } }
+							if = {
+								limit = { check_variable = { which = mine_count value = 221 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 223 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 224 } }
+										set_variable = { which = mine_cost_4 value = 950497.000 }    set_variable = { which = mine_cost_3 value = 10.534 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 583723.000 }    set_variable = { which = mine_cost_3 value = 9.910 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = mine_count value = 222 } }
+										set_variable = { which = mine_cost_4 value = 220812.000 }    set_variable = { which = mine_cost_3 value = 9.323 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 668685.000 }    set_variable = { which = mine_cost_3 value = 8.770 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 219 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 220 } }
+										set_variable = { which = mine_cost_4 value = 864238.000 }    set_variable = { which = mine_cost_3 value = 8.250 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 866639.000 }    set_variable = { which = mine_cost_3 value = 7.761 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 850084.000 }    set_variable = { which = mine_cost_3 value = 7.301 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = mine_count value = 215 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 216 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 217 } }
+										set_variable = { which = mine_cost_4 value = 96974.000 }    set_variable = { which = mine_cost_3 value = 6.869 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 991509.000 }    set_variable = { which = mine_cost_3 value = 6.461 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 13649.000 }    set_variable = { which = mine_cost_3 value = 6.79 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 213 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 214 } }
+										set_variable = { which = mine_cost_4 value = 733442.000 }    set_variable = { which = mine_cost_3 value = 5.718 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 805684.000 }    set_variable = { which = mine_cost_3 value = 5.379 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 964896.000 }    set_variable = { which = mine_cost_3 value = 5.60 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = mine_count value = 206 } }
+							if = {
+								limit = { check_variable = { which = mine_count value = 209 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 210 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 211 } }
+										set_variable = { which = mine_cost_4 value = 20598.000 }    set_variable = { which = mine_cost_3 value = 4.761 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 852867.000 }    set_variable = { which = mine_cost_3 value = 4.478 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 408154.000 }    set_variable = { which = mine_cost_3 value = 4.213 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 207 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 208 } }
+										set_variable = { which = mine_cost_4 value = 695347.000 }    set_variable = { which = mine_cost_3 value = 3.963 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 782076.000 }    set_variable = { which = mine_cost_3 value = 3.728 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 791229.000 }    set_variable = { which = mine_cost_3 value = 3.507 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = mine_count value = 203 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 204 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 205 } }
+										set_variable = { which = mine_cost_4 value = 897675.000 }    set_variable = { which = mine_cost_3 value = 3.299 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 325188.000 }    set_variable = { which = mine_cost_3 value = 3.104 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 343545.000 }    set_variable = { which = mine_cost_3 value = 2.920 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 201 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 202 } }
+										set_variable = { which = mine_cost_4 value = 265799.000 }    set_variable = { which = mine_cost_3 value = 2.747 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 445719.000 }    set_variable = { which = mine_cost_3 value = 2.584 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 275371.000 }    set_variable = { which = mine_cost_3 value = 2.431 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	else = {
+		if = {
+			limit = { check_variable = { which = mine_count value = 100 } }
+			if = {
+				limit = { check_variable = { which = mine_count value = 150 } }
+				if = {
+					limit = { check_variable = { which = mine_count value = 175 } }
+					if = {
+						limit = { check_variable = { which = mine_count value = 187 } }
+						if = {
+							limit = { check_variable = { which = mine_count value = 193 } }
+							if = {
+								limit = { check_variable = { which = mine_count value = 196 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 198 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 199 } }
+										set_variable = { which = mine_cost_4 value = 182851.000 }    set_variable = { which = mine_cost_3 value = 2.287 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 630151.000 }    set_variable = { which = mine_cost_3 value = 2.151 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = mine_count value = 197 } }
+										set_variable = { which = mine_cost_4 value = 111149.000 }    set_variable = { which = mine_cost_3 value = 2.24 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 149717.000 }    set_variable = { which = mine_cost_3 value = 1.904 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 194 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 195 } }
+										set_variable = { which = mine_cost_4 value = 297946.000 }    set_variable = { which = mine_cost_3 value = 1.791 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 134474.000 }    set_variable = { which = mine_cost_3 value = 1.685 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 262911.000 }    set_variable = { which = mine_cost_3 value = 1.585 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = mine_count value = 190 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 191 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 192 } }
+										set_variable = { which = mine_cost_4 value = 310358.000 }    set_variable = { which = mine_cost_3 value = 1.491 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 926019.000 }    set_variable = { which = mine_cost_3 value = 1.402 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 779886.000 }    set_variable = { which = mine_cost_3 value = 1.319 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 188 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 189 } }
+										set_variable = { which = mine_cost_4 value = 561511.000 }    set_variable = { which = mine_cost_3 value = 1.241 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 978844.000 }    set_variable = { which = mine_cost_3 value = 1.167 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 757144.000 }    set_variable = { which = mine_cost_3 value = 1.98 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = mine_count value = 181 } }
+							if = {
+								limit = { check_variable = { which = mine_count value = 184 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 185 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 186 } }
+										set_variable = { which = mine_cost_4 value = 637953.000 }    set_variable = { which = mine_cost_3 value = 1.33 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 378130.000 }    set_variable = { which = mine_cost_3 value = 0.972 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 748947.000 }    set_variable = { which = mine_cost_3 value = 0.914 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 182 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 183 } }
+										set_variable = { which = mine_cost_4 value = 535227.000 }    set_variable = { which = mine_cost_3 value = 0.860 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 534551.000 }    set_variable = { which = mine_cost_3 value = 0.809 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 556492.000 }    set_variable = { which = mine_cost_3 value = 0.761 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = mine_count value = 178 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 179 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 180 } }
+										set_variable = { which = mine_cost_4 value = 421911.000 }    set_variable = { which = mine_cost_3 value = 0.716 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 962287.000 }    set_variable = { which = mine_cost_3 value = 0.673 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 19085.000 }    set_variable = { which = mine_cost_3 value = 0.634 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 176 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 177 } }
+										set_variable = { which = mine_cost_4 value = 443165.000 }    set_variable = { which = mine_cost_3 value = 0.596 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 94229.000 }    set_variable = { which = mine_cost_3 value = 0.561 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 840290.000 }    set_variable = { which = mine_cost_3 value = 0.527 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = mine_count value = 162 } }
+						if = {
+							limit = { check_variable = { which = mine_count value = 168 } }
+							if = {
+								limit = { check_variable = { which = mine_count value = 171 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 173 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 174 } }
+										set_variable = { which = mine_cost_4 value = 557188.000 }    set_variable = { which = mine_cost_3 value = 0.496 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 128116.000 }    set_variable = { which = mine_cost_3 value = 0.467 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = mine_count value = 172 } }
+										set_variable = { which = mine_cost_4 value = 443195.000 }    set_variable = { which = mine_cost_3 value = 0.439 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 399055.000 }    set_variable = { which = mine_cost_3 value = 0.413 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 169 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 170 } }
+										set_variable = { which = mine_cost_4 value = 898452.000 }    set_variable = { which = mine_cost_3 value = 0.388 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 849908.000 }    set_variable = { which = mine_cost_3 value = 0.365 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 167364.000 }    set_variable = { which = mine_cost_3 value = 0.344 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = mine_count value = 165 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 166 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 167 } }
+										set_variable = { which = mine_cost_4 value = 769862.000 }    set_variable = { which = mine_cost_3 value = 0.323 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 581244.000 }    set_variable = { which = mine_cost_3 value = 0.304 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 529863.000 }    set_variable = { which = mine_cost_3 value = 0.286 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 163 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 164 } }
+										set_variable = { which = mine_cost_4 value = 548319.000 }    set_variable = { which = mine_cost_3 value = 0.269 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 573207.000 }    set_variable = { which = mine_cost_3 value = 0.253 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 544879.000 }    set_variable = { which = mine_cost_3 value = 0.238 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = mine_count value = 156 } }
+							if = {
+								limit = { check_variable = { which = mine_count value = 159 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 160 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 161 } }
+										set_variable = { which = mine_cost_4 value = 407224.000 }    set_variable = { which = mine_cost_3 value = 0.224 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 107454.000 }    set_variable = { which = mine_cost_3 value = 0.211 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 595912.000 }    set_variable = { which = mine_cost_3 value = 0.198 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 157 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 158 } }
+										set_variable = { which = mine_cost_4 value = 825881.000 }    set_variable = { which = mine_cost_3 value = 0.186 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 753416.000 }    set_variable = { which = mine_cost_3 value = 0.175 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 337174.000 }    set_variable = { which = mine_cost_3 value = 0.165 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = mine_count value = 153 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 154 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 155 } }
+										set_variable = { which = mine_cost_4 value = 538263.000 }    set_variable = { which = mine_cost_3 value = 0.155 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 320097.000 }    set_variable = { which = mine_cost_3 value = 0.146 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 648257.000 }    set_variable = { which = mine_cost_3 value = 0.137 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 151 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 152 } }
+										set_variable = { which = mine_cost_4 value = 490364.000 }    set_variable = { which = mine_cost_3 value = 0.129 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 815959.000 }    set_variable = { which = mine_cost_3 value = 0.121 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 596386.000 }    set_variable = { which = mine_cost_3 value = 0.114 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = mine_count value = 125 } }
+					if = {
+						limit = { check_variable = { which = mine_count value = 137 } }
+						if = {
+							limit = { check_variable = { which = mine_count value = 143 } }
+							if = {
+								limit = { check_variable = { which = mine_count value = 146 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 148 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 149 } }
+										set_variable = { which = mine_cost_4 value = 804691.000 }    set_variable = { which = mine_cost_3 value = 0.107 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 415513.000 }    set_variable = { which = mine_cost_3 value = 0.101 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = mine_count value = 147 } }
+										set_variable = { which = mine_cost_4 value = 404998.000 }    set_variable = { which = mine_cost_3 value = 0.95 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 750704.000 }    set_variable = { which = mine_cost_3 value = 0.89 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 144 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 145 } }
+										set_variable = { which = mine_cost_4 value = 431518.000 }    set_variable = { which = mine_cost_3 value = 0.84 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 427581.000 }    set_variable = { which = mine_cost_3 value = 0.79 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 720208.000 }    set_variable = { which = mine_cost_3 value = 0.74 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = mine_count value = 140 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 141 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 142 } }
+										set_variable = { which = mine_cost_4 value = 291823.000 }    set_variable = { which = mine_cost_3 value = 0.70 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 125892.000 }    set_variable = { which = mine_cost_3 value = 0.66 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 206859.000 }    set_variable = { which = mine_cost_3 value = 0.62 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 138 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 139 } }
+										set_variable = { which = mine_cost_4 value = 520093.000 }    set_variable = { which = mine_cost_3 value = 0.58 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 51828.000 }    set_variable = { which = mine_cost_3 value = 0.55 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 789114.000 }    set_variable = { which = mine_cost_3 value = 0.51 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = mine_count value = 131 } }
+							if = {
+								limit = { check_variable = { which = mine_count value = 134 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 135 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 136 } }
+										set_variable = { which = mine_cost_4 value = 719769.000 }    set_variable = { which = mine_cost_3 value = 0.48 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 832332.000 }    set_variable = { which = mine_cost_3 value = 0.45 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 116022.000 }    set_variable = { which = mine_cost_3 value = 0.43 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 132 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 133 } }
+										set_variable = { which = mine_cost_4 value = 560698.000 }    set_variable = { which = mine_cost_3 value = 0.40 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 156819.000 }    set_variable = { which = mine_cost_3 value = 0.38 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 895408.000 }    set_variable = { which = mine_cost_3 value = 0.35 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = mine_count value = 128 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 129 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 130 } }
+										set_variable = { which = mine_cost_4 value = 768022.000 }    set_variable = { which = mine_cost_3 value = 0.33 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 766719.000 }    set_variable = { which = mine_cost_3 value = 0.31 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 884025.000 }    set_variable = { which = mine_cost_3 value = 0.29 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 126 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 127 } }
+										set_variable = { which = mine_cost_4 value = 112912.000 }    set_variable = { which = mine_cost_3 value = 0.28 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 446766.000 }    set_variable = { which = mine_cost_3 value = 0.26 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 879366.000 }    set_variable = { which = mine_cost_3 value = 0.24 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = mine_count value = 112 } }
+						if = {
+							limit = { check_variable = { which = mine_count value = 118 } }
+							if = {
+								limit = { check_variable = { which = mine_count value = 121 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 123 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 124 } }
+										set_variable = { which = mine_cost_4 value = 404859.000 }    set_variable = { which = mine_cost_3 value = 0.23 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 17742.000 }    set_variable = { which = mine_cost_3 value = 0.22 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = mine_count value = 122 } }
+										set_variable = { which = mine_cost_4 value = 712833.000 }    set_variable = { which = mine_cost_3 value = 0.20 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 485262.000 }    set_variable = { which = mine_cost_3 value = 0.19 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 119 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 120 } }
+										set_variable = { which = mine_cost_4 value = 330444.000 }    set_variable = { which = mine_cost_3 value = 0.18 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 244067.000 }    set_variable = { which = mine_cost_3 value = 0.17 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 222077.000 }    set_variable = { which = mine_cost_3 value = 0.16 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = mine_count value = 115 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 116 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 117 } }
+										set_variable = { which = mine_cost_4 value = 260655.000 }    set_variable = { which = mine_cost_3 value = 0.15 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 356214.000 }    set_variable = { which = mine_cost_3 value = 0.14 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 505375.000 }    set_variable = { which = mine_cost_3 value = 0.13 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 113 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 114 } }
+										set_variable = { which = mine_cost_4 value = 704962.000 }    set_variable = { which = mine_cost_3 value = 0.12 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 951987.000 }    set_variable = { which = mine_cost_3 value = 0.11 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 243638.000 }    set_variable = { which = mine_cost_3 value = 0.11 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = mine_count value = 106 } }
+							if = {
+								limit = { check_variable = { which = mine_count value = 109 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 110 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 111 } }
+										set_variable = { which = mine_cost_4 value = 577270.000 }    set_variable = { which = mine_cost_3 value = 0.10 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 950395.000 }    set_variable = { which = mine_cost_3 value = 0.9 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 360673.000 }    set_variable = { which = mine_cost_3 value = 0.9 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 107 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 108 } }
+										set_variable = { which = mine_cost_4 value = 805901.000 }    set_variable = { which = mine_cost_3 value = 0.8 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 284008.000 }    set_variable = { which = mine_cost_3 value = 0.8 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 793046.000 }    set_variable = { which = mine_cost_3 value = 0.7 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = mine_count value = 103 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 104 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 105 } }
+										set_variable = { which = mine_cost_4 value = 331182.000 }    set_variable = { which = mine_cost_3 value = 0.7 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 896690.000 }    set_variable = { which = mine_cost_3 value = 0.6 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 487949.000 }    set_variable = { which = mine_cost_3 value = 0.6 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 101 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 102 } }
+										set_variable = { which = mine_cost_4 value = 103433.000 }    set_variable = { which = mine_cost_3 value = 0.6 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 741706.000 }    set_variable = { which = mine_cost_3 value = 0.5 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 401416.000 }    set_variable = { which = mine_cost_3 value = 0.5 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = { check_variable = { which = mine_count value = 50 } }
+				if = {
+					limit = { check_variable = { which = mine_count value = 75 } }
+					if = {
+						limit = { check_variable = { which = mine_count value = 87 } }
+						if = {
+							limit = { check_variable = { which = mine_count value = 93 } }
+							if = {
+								limit = { check_variable = { which = mine_count value = 96 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 98 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 99 } }
+										set_variable = { which = mine_cost_4 value = 81295.000 }    set_variable = { which = mine_cost_3 value = 0.5 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 780146.000 }    set_variable = { which = mine_cost_3 value = 0.4 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = mine_count value = 97 } }
+										set_variable = { which = mine_cost_4 value = 496844.000 }    set_variable = { which = mine_cost_3 value = 0.4 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 230333.000 }    set_variable = { which = mine_cost_3 value = 0.4 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 94 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 95 } }
+										set_variable = { which = mine_cost_4 value = 979617.000 }    set_variable = { which = mine_cost_3 value = 0.3 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 743760.000 }    set_variable = { which = mine_cost_3 value = 0.3 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 521882.000 }    set_variable = { which = mine_cost_3 value = 0.3 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = mine_count value = 90 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 91 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 92 } }
+										set_variable = { which = mine_cost_4 value = 313153.000 }    set_variable = { which = mine_cost_3 value = 0.3 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 116795.000 }    set_variable = { which = mine_cost_3 value = 0.3 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 932074.000 }    set_variable = { which = mine_cost_3 value = 0.2 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 88 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 89 } }
+										set_variable = { which = mine_cost_4 value = 758301.000 }    set_variable = { which = mine_cost_3 value = 0.2 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 594827.000 }    set_variable = { which = mine_cost_3 value = 0.2 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 441042.000 }    set_variable = { which = mine_cost_3 value = 0.2 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = mine_count value = 81 } }
+							if = {
+								limit = { check_variable = { which = mine_count value = 84 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 85 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 86 } }
+										set_variable = { which = mine_cost_4 value = 296370.000 }    set_variable = { which = mine_cost_3 value = 0.2 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 160273.000 }    set_variable = { which = mine_cost_3 value = 0.2 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 32242.000 }    set_variable = { which = mine_cost_3 value = 0.2 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 82 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 83 } }
+										set_variable = { which = mine_cost_4 value = 911798.000 }    set_variable = { which = mine_cost_3 value = 0.1 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 798493.000 }    set_variable = { which = mine_cost_3 value = 0.1 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 691903.000 }    set_variable = { which = mine_cost_3 value = 0.1 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = mine_count value = 78 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 79 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 80 } }
+										set_variable = { which = mine_cost_4 value = 591631.000 }    set_variable = { which = mine_cost_3 value = 0.1 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 497301.000 }    set_variable = { which = mine_cost_3 value = 0.1 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 408561.000 }    set_variable = { which = mine_cost_3 value = 0.1 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 76 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 77 } }
+										set_variable = { which = mine_cost_4 value = 325081.000 }    set_variable = { which = mine_cost_3 value = 0.1 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 246548.000 }    set_variable = { which = mine_cost_3 value = 0.1 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 172670.000 }    set_variable = { which = mine_cost_3 value = 0.1 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = mine_count value = 62 } }
+						if = {
+							limit = { check_variable = { which = mine_count value = 68 } }
+							if = {
+								limit = { check_variable = { which = mine_count value = 71 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 73 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 74 } }
+										set_variable = { which = mine_cost_4 value = 103170.000 }    set_variable = { which = mine_cost_3 value = 0.1 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 37790.000 }    set_variable = { which = mine_cost_3 value = 0.1 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = mine_count value = 72 } }
+										set_variable = { which = mine_cost_4 value = 976284.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 918423.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 69 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 70 } }
+										set_variable = { which = mine_cost_4 value = 863992.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 812786.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 764615.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = mine_count value = 65 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 66 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 67 } }
+										set_variable = { which = mine_cost_4 value = 719299.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 676669.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 636566.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 63 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 64 } }
+										set_variable = { which = mine_cost_4 value = 598839.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 563348.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 529960.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = mine_count value = 56 } }
+							if = {
+								limit = { check_variable = { which = mine_count value = 59 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 60 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 61 } }
+										set_variable = { which = mine_cost_4 value = 498551.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 469004.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 441208.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 57 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 58 } }
+										set_variable = { which = mine_cost_4 value = 415059.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 390460.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 367319.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = mine_count value = 53 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 54 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 55 } }
+										set_variable = { which = mine_cost_4 value = 345549.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 325070.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 305804.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 51 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 52 } }
+										set_variable = { which = mine_cost_4 value = 287680.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 270631.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 254591.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = mine_count value = 25 } }
+					if = {
+						limit = { check_variable = { which = mine_count value = 37 } }
+						if = {
+							limit = { check_variable = { which = mine_count value = 43 } }
+							if = {
+								limit = { check_variable = { which = mine_count value = 46 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 48 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 49 } }
+										set_variable = { which = mine_cost_4 value = 239503.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 225308.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = mine_count value = 47 } }
+										set_variable = { which = mine_cost_4 value = 211955.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 199393.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 44 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 45 } }
+										set_variable = { which = mine_cost_4 value = 187576.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 176459.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 166001.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = mine_count value = 40 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 41 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 42 } }
+										set_variable = { which = mine_cost_4 value = 156163.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 146907.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 138201.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 38 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 39 } }
+										set_variable = { which = mine_cost_4 value = 130010.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 122305.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 115056.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = mine_count value = 31 } }
+							if = {
+								limit = { check_variable = { which = mine_count value = 34 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 35 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 36 } }
+										set_variable = { which = mine_cost_4 value = 108237.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 101822.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 95788.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 32 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 33 } }
+										set_variable = { which = mine_cost_4 value = 90111.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 84770.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 79746.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = mine_count value = 28 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 29 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 30 } }
+										set_variable = { which = mine_cost_4 value = 75020.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 70574.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 66391.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 26 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 27 } }
+										set_variable = { which = mine_cost_4 value = 62456.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 58755.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 55272.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = mine_count value = 12 } }
+						if = {
+							limit = { check_variable = { which = mine_count value = 18 } }
+							if = {
+								limit = { check_variable = { which = mine_count value = 21 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 23 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 24 } }
+										set_variable = { which = mine_cost_4 value = 51997.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 48915.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = mine_count value = 22 } }
+										set_variable = { which = mine_cost_4 value = 46016.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 43289.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 19 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 20 } }
+										set_variable = { which = mine_cost_4 value = 40723.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 38310.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 36039.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = mine_count value = 15 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 16 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 17 } }
+										set_variable = { which = mine_cost_4 value = 33903.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 31894.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 30004.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 13 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 14 } }
+										set_variable = { which = mine_cost_4 value = 28225.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 26553.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 24979.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = mine_count value = 6 } }
+							if = {
+								limit = { check_variable = { which = mine_count value = 9 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 10 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 11 } }
+										set_variable = { which = mine_cost_4 value = 23498.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 22106.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 20796.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 7 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 8 } }
+										set_variable = { which = mine_cost_4 value = 19563.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 18404.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 17313.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = mine_count value = 3 } }
+								if = {
+									limit = { check_variable = { which = mine_count value = 4 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 5 } }
+										set_variable = { which = mine_cost_4 value = 16287.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 15321.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 14413.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = mine_count value = 1 } }
+									if = {
+										limit = { check_variable = { which = mine_count value = 2 } }
+										set_variable = { which = mine_cost_4 value = 13559.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = mine_cost_4 value = 12756.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = mine_cost_4 value = 12000.000 }    set_variable = { which = mine_cost_3 value = 0.0 }    set_variable = { which = mine_cost_2 value = 0.0 }    set_variable = { which = mine_cost_1 value = 0.0 }    set_variable = { which = mine_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}get_msd = { ln = mine_cost mantissa = mine_cost_mantissa exponent = mine_cost_exp}
+}

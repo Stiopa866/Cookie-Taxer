@@ -1,0 +1,2403 @@
+get_temple_cost = {
+	if = {
+		limit = { check_variable = { which = temple_count value = 200 } }
+		if = {
+			limit = { check_variable = { which = temple_count value = 300 } }
+			if = {
+				limit = { check_variable = { which = temple_count value = 350 } }
+				if = {
+					limit = { check_variable = { which = temple_count value = 375 } }
+					if = {
+						limit = { check_variable = { which = temple_count value = 388 } }
+						if = {
+							limit = { check_variable = { which = temple_count value = 394 } }
+							if = {
+								limit = { check_variable = { which = temple_count value = 397 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 399 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 400 } }
+										set_variable = { which = temple_cost_4 value = 981888.000 }    set_variable = { which = temple_cost_3 value = 861014.738 }    set_variable = { which = temple_cost_2 value = 8.209 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 428928.000 }    set_variable = { which = temple_cost_3 value = 293522.802 }    set_variable = { which = temple_cost_2 value = 7.723 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = temple_count value = 398 } }
+										set_variable = { which = temple_cost_4 value = 762048.000 }    set_variable = { which = temple_cost_3 value = 563050.613 }    set_variable = { which = temple_cost_2 value = 7.265 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 637760.000 }    set_variable = { which = temple_cost_3 value = 960536.795 }    set_variable = { which = temple_cost_2 value = 6.834 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 395 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 396 } }
+										set_variable = { which = temple_cost_4 value = 379968.000 }    set_variable = { which = temple_cost_3 value = 878209.591 }    set_variable = { which = temple_cost_2 value = 6.429 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 270656.000 }    set_variable = { which = temple_cost_3 value = 803583.811 }    set_variable = { which = temple_cost_2 value = 6.48 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 169152.000 }    set_variable = { which = temple_cost_3 value = 313813.557 }    set_variable = { which = temple_cost_2 value = 5.690 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = temple_count value = 391 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 392 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 393 } }
+										set_variable = { which = temple_cost_4 value = 859200.000 }    set_variable = { which = temple_cost_3 value = 70379.639 }    set_variable = { which = temple_cost_2 value = 5.353 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 112320.000 }    set_variable = { which = temple_cost_3 value = 814091.853 }    set_variable = { which = temple_cost_2 value = 5.35 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 132864.000 }    set_variable = { which = temple_cost_3 value = 360387.444 }    set_variable = { which = temple_cost_2 value = 4.737 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 389 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 390 } }
+										set_variable = { which = temple_cost_4 value = 901056.000 }    set_variable = { which = temple_cost_3 value = 594908.225 }    set_variable = { which = temple_cost_2 value = 4.456 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 404928.000 }    set_variable = { which = temple_cost_3 value = 469339.817 }    set_variable = { which = temple_cost_2 value = 4.192 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 392448.000 }    set_variable = { which = temple_cost_3 value = 997497.476 }    set_variable = { which = temple_cost_2 value = 3.943 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = temple_count value = 381 } }
+							if = {
+								limit = { check_variable = { which = temple_count value = 384 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 386 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 387 } }
+										set_variable = { which = temple_cost_4 value = 58496.000 }    set_variable = { which = temple_cost_3 value = 251643.910 }    set_variable = { which = temple_cost_2 value = 3.710 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 201536.000 }    set_variable = { which = temple_cost_3 value = 359025.315 }    set_variable = { which = temple_cost_2 value = 3.490 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = temple_count value = 385 } }
+										set_variable = { which = temple_cost_4 value = 206720.000 }    set_variable = { which = temple_cost_3 value = 498612.714 }    set_variable = { which = temple_cost_2 value = 3.283 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 761664.000 }    set_variable = { which = temple_cost_3 value = 898036.419 }    set_variable = { which = temple_cost_2 value = 3.88 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 382 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 383 } }
+										set_variable = { which = temple_cost_4 value = 278656.000 }    set_variable = { which = temple_cost_3 value = 830702.182 }    set_variable = { which = temple_cost_2 value = 2.905 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 378624.000 }    set_variable = { which = temple_cost_3 value = 613078.252 }    set_variable = { which = temple_cost_2 value = 2.733 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 954624.000 }    set_variable = { which = temple_cost_3 value = 602143.228 }    set_variable = { which = temple_cost_2 value = 2.571 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = temple_count value = 378 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 379 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 380 } }
+										set_variable = { which = temple_cost_4 value = 644928.000 }    set_variable = { which = temple_cost_3 value = 192985.163 }    set_variable = { which = temple_cost_2 value = 2.419 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 333248.000 }    set_variable = { which = temple_cost_3 value = 816542.957 }    set_variable = { which = temple_cost_2 value = 2.275 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 553792.000 }    set_variable = { which = temple_cost_3 value = 937481.615 }    set_variable = { which = temple_cost_2 value = 2.140 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 376 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 377 } }
+										set_variable = { which = temple_cost_4 value = 495552.000 }    set_variable = { which = temple_cost_3 value = 52193.429 }    set_variable = { which = temple_cost_2 value = 2.14 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 469056.000 }    set_variable = { which = temple_cost_3 value = 686917.619 }    set_variable = { which = temple_cost_2 value = 1.894 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 8448.000 }    set_variable = { which = temple_cost_3 value = 395971.420 }    set_variable = { which = temple_cost_2 value = 1.782 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = temple_count value = 362 } }
+						if = {
+							limit = { check_variable = { which = temple_count value = 368 } }
+							if = {
+								limit = { check_variable = { which = temple_count value = 371 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 373 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 374 } }
+										set_variable = { which = temple_cost_4 value = 889536.000 }    set_variable = { which = temple_cost_3 value = 760086.1 }    set_variable = { which = temple_cost_2 value = 1.676 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 770240.000 }    set_variable = { which = temple_cost_3 value = 384841.17 }    set_variable = { which = temple_cost_2 value = 1.577 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = temple_count value = 372 } }
+										set_variable = { which = temple_cost_4 value = 406656.000 }    set_variable = { which = temple_cost_3 value = 899191.926 }    set_variable = { which = temple_cost_2 value = 1.483 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 807936.000 }    set_variable = { which = temple_cost_3 value = 954084.596 }    set_variable = { which = temple_cost_2 value = 1.395 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 369 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 370 } }
+										set_variable = { which = temple_cost_4 value = 574784.000 }    set_variable = { which = temple_cost_3 value = 221152.19 }    set_variable = { which = temple_cost_2 value = 1.313 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 242496.000 }    set_variable = { which = temple_cost_3 value = 391488.259 }    set_variable = { which = temple_cost_2 value = 1.235 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 842432.000 }    set_variable = { which = temple_cost_3 value = 174495.69 }    set_variable = { which = temple_cost_2 value = 1.162 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = temple_count value = 365 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 366 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 367 } }
+										set_variable = { which = temple_cost_4 value = 208448.000 }    set_variable = { which = temple_cost_3 value = 296796.867 }    set_variable = { which = temple_cost_2 value = 1.93 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 781184.000 }    set_variable = { which = temple_cost_3 value = 501220.6 }    set_variable = { which = temple_cost_2 value = 1.28 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 767808.000 }    set_variable = { which = temple_cost_3 value = 545832.555 }    set_variable = { which = temple_cost_2 value = 0.967 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 363 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 364 } }
+										set_variable = { which = temple_cost_4 value = 381824.000 }    set_variable = { which = temple_cost_3 value = 203040.974 }    set_variable = { which = temple_cost_2 value = 0.910 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 379072.000 }    set_variable = { which = temple_cost_3 value = 258740.333 }    set_variable = { which = temple_cost_2 value = 0.856 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 994432.000 }    set_variable = { which = temple_cost_3 value = 511514.894 }    set_variable = { which = temple_cost_2 value = 0.805 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = temple_count value = 356 } }
+							if = {
+								limit = { check_variable = { which = temple_count value = 359 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 360 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 361 } }
+										set_variable = { which = temple_cost_4 value = 431360.000 }    set_variable = { which = temple_cost_3 value = 771886.72 }    set_variable = { which = temple_cost_2 value = 0.757 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 954304.000 }    set_variable = { which = temple_cost_3 value = 861604.959 }    set_variable = { which = temple_cost_2 value = 0.712 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 54784.000 }    set_variable = { which = temple_cost_3 value = 612986.792 }    set_variable = { which = temple_cost_2 value = 0.670 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 357 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 358 } }
+										set_variable = { which = temple_cost_4 value = 712064.000 }    set_variable = { which = temple_cost_3 value = 868284.846 }    set_variable = { which = temple_cost_2 value = 0.630 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 44224.000 }    set_variable = { which = temple_cost_3 value = 479101.455 }    set_variable = { which = temple_cost_2 value = 0.593 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 197824.000 }    set_variable = { which = temple_cost_3 value = 305833.918 }    set_variable = { which = temple_cost_2 value = 0.558 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = temple_count value = 353 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 354 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 355 } }
+										set_variable = { which = temple_cost_4 value = 650880.000 }    set_variable = { which = temple_cost_3 value = 217153.262 }    set_variable = { which = temple_cost_2 value = 0.525 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 724224.000 }    set_variable = { which = temple_cost_3 value = 89513.887 }    set_variable = { which = temple_cost_2 value = 0.494 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 434880.000 }    set_variable = { which = temple_cost_3 value = 806692.274 }    set_variable = { which = temple_cost_2 value = 0.464 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 351 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 352 } }
+										set_variable = { which = temple_cost_4 value = 334848.000 }    set_variable = { which = temple_cost_3 value = 259353.33 }    set_variable = { which = temple_cost_2 value = 0.437 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 58176.000 }    set_variable = { which = temple_cost_3 value = 344640.671 }    set_variable = { which = temple_cost_2 value = 0.411 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 324736.000 }    set_variable = { which = temple_cost_3 value = 965795.551 }    set_variable = { which = temple_cost_2 value = 0.386 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = temple_count value = 325 } }
+					if = {
+						limit = { check_variable = { which = temple_count value = 337 } }
+						if = {
+							limit = { check_variable = { which = temple_count value = 343 } }
+							if = {
+								limit = { check_variable = { which = temple_count value = 346 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 348 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 349 } }
+										set_variable = { which = temple_cost_4 value = 486144.000 }    set_variable = { which = temple_cost_3 value = 31792.616 }    set_variable = { which = temple_cost_2 value = 0.364 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 683072.000 }    set_variable = { which = temple_cost_3 value = 457001.520 }    set_variable = { which = temple_cost_2 value = 0.342 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = temple_count value = 347 } }
+										set_variable = { which = temple_cost_4 value = 628544.000 }    set_variable = { which = temple_cost_3 value = 160866.905 }    set_variable = { which = temple_cost_2 value = 0.322 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 238528.000 }    set_variable = { which = temple_cost_3 value = 67607.625 }    set_variable = { which = temple_cost_2 value = 0.303 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 344 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 345 } }
+										set_variable = { which = temple_cost_4 value = 85152.000 }    set_variable = { which = temple_cost_3 value = 105933.796 }    set_variable = { which = temple_cost_2 value = 0.285 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 201472.000 }    set_variable = { which = temple_cost_3 value = 208780.617 }    set_variable = { which = temple_cost_2 value = 0.268 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 382432.000 }    set_variable = { which = temple_cost_3 value = 313057.965 }    set_variable = { which = temple_cost_2 value = 0.252 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = temple_count value = 340 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 341 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 342 } }
+										set_variable = { which = temple_cost_4 value = 27712.000 }    set_variable = { which = temple_cost_3 value = 359414.831 }    set_variable = { which = temple_cost_2 value = 0.237 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 983712.000 }    set_variable = { which = temple_cost_3 value = 292017.714 }    set_variable = { which = temple_cost_2 value = 0.223 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 968704.000 }    set_variable = { which = temple_cost_3 value = 58342.158 }    set_variable = { which = temple_cost_2 value = 0.210 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 338 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 339 } }
+										set_variable = { which = temple_cost_4 value = 202944.000 }    set_variable = { which = temple_cost_3 value = 608976.631 }    set_variable = { which = temple_cost_2 value = 0.197 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 998048.000 }    set_variable = { which = temple_cost_3 value = 897438.34 }    set_variable = { which = temple_cost_2 value = 0.185 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 456320.000 }    set_variable = { which = temple_cost_3 value = 879998.151 }    set_variable = { which = temple_cost_2 value = 0.174 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = temple_count value = 331 } }
+							if = {
+								limit = { check_variable = { which = temple_count value = 334 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 335 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 336 } }
+										set_variable = { which = temple_cost_4 value = 256192.000 }    set_variable = { which = temple_cost_3 value = 515520.368 }    set_variable = { which = temple_cost_2 value = 0.164 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 907040.000 }    set_variable = { which = temple_cost_3 value = 765306.84 }    set_variable = { which = temple_cost_2 value = 0.154 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 984992.000 }    set_variable = { which = temple_cost_3 value = 592950.220 }    set_variable = { which = temple_cost_2 value = 0.145 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 332 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 333 } }
+										set_variable = { which = temple_cost_4 value = 850432.000 }    set_variable = { which = temple_cost_3 value = 964205.287 }    set_variable = { which = temple_cost_2 value = 0.136 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 322160.000 }    set_variable = { which = temple_cost_3 value = 846853.516 }    set_variable = { which = temple_cost_2 value = 0.128 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 861840.000 }    set_variable = { which = temple_cost_3 value = 210586.562 }    set_variable = { which = temple_cost_2 value = 0.121 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = temple_count value = 328 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 329 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 330 } }
+										set_variable = { which = temple_cost_4 value = 119360.000 }    set_variable = { which = temple_cost_3 value = 26892.345 }    set_variable = { which = temple_cost_2 value = 0.114 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 307952.000 }    set_variable = { which = temple_cost_3 value = 268948.584 }    set_variable = { which = temple_cost_2 value = 0.107 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 921872.000 }    set_variable = { which = temple_cost_3 value = 911522.656 }    set_variable = { which = temple_cost_2 value = 0.100 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 326 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 327 } }
+										set_variable = { which = temple_cost_4 value = 864432.000 }    set_variable = { which = temple_cost_3 value = 930877.381 }    set_variable = { which = temple_cost_2 value = 0.94 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 217712.000 }    set_variable = { which = temple_cost_3 value = 304682.391 }    set_variable = { which = temple_cost_2 value = 0.89 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 732560.000 }    set_variable = { which = temple_cost_3 value = 11930.753 }    set_variable = { which = temple_cost_2 value = 0.84 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = temple_count value = 312 } }
+						if = {
+							limit = { check_variable = { which = temple_count value = 318 } }
+							if = {
+								limit = { check_variable = { which = temple_count value = 321 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 323 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 324 } }
+										set_variable = { which = temple_cost_4 value = 729600.000 }    set_variable = { which = temple_cost_3 value = 32860.539 }    set_variable = { which = temple_cost_2 value = 0.79 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 552784.000 }    set_variable = { which = temple_cost_3 value = 348881.34 }    set_variable = { which = temple_cost_2 value = 0.74 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = temple_count value = 322 } }
+										set_variable = { which = temple_cost_4 value = 73184.000 }    set_variable = { which = temple_cost_3 value = 942503.325 }    set_variable = { which = temple_cost_2 value = 0.69 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 68840.000 }    set_variable = { which = temple_cost_3 value = 797275.0 }    set_variable = { which = temple_cost_2 value = 0.65 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 319 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 320 } }
+										set_variable = { which = temple_cost_4 value = 666840.000 }    set_variable = { which = temple_cost_3 value = 897718.720 }    set_variable = { which = temple_cost_2 value = 0.61 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 483384.000 }    set_variable = { which = temple_cost_3 value = 229274.431 }    set_variable = { which = temple_cost_2 value = 0.58 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 691808.000 }    set_variable = { which = temple_cost_3 value = 778244.996 }    set_variable = { which = temple_cost_2 value = 0.54 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = temple_count value = 315 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 316 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 317 } }
+										set_variable = { which = temple_cost_4 value = 35568.000 }    set_variable = { which = temple_cost_3 value = 531745.58 }    set_variable = { which = temple_cost_2 value = 0.51 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 834024.000 }    set_variable = { which = temple_cost_3 value = 477652.923 }    set_variable = { which = temple_cost_2 value = 0.48 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 345272.000 }    set_variable = { which = temple_cost_3 value = 604565.309 }    set_variable = { which = temple_cost_2 value = 0.45 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 313 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 314 } }
+										set_variable = { which = temple_cost_4 value = 496968.000 }    set_variable = { which = temple_cost_3 value = 901754.759 }    set_variable = { which = temple_cost_2 value = 0.42 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 11264.000 }    set_variable = { which = temple_cost_3 value = 359129.595 }    set_variable = { which = temple_cost_2 value = 0.40 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 371840.000 }    set_variable = { which = temple_cost_3 value = 967196.232 }    set_variable = { which = temple_cost_2 value = 0.37 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = temple_count value = 306 } }
+							if = {
+								limit = { check_variable = { which = temple_count value = 309 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 310 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 311 } }
+										set_variable = { which = temple_cost_4 value = 944348.000 }    set_variable = { which = temple_cost_3 value = 717023.736 }    set_variable = { which = temple_cost_2 value = 0.35 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 899672.000 }    set_variable = { which = temple_cost_3 value = 600210.476 }    set_variable = { which = temple_cost_2 value = 0.33 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 433372.000 }    set_variable = { which = temple_cost_3 value = 608852.753 }    set_variable = { which = temple_cost_2 value = 0.31 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 307 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 308 } }
+										set_variable = { which = temple_cost_4 value = 153688.000 }    set_variable = { which = temple_cost_3 value = 735515.290 }    set_variable = { which = temple_cost_2 value = 0.29 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 452200.000 }    set_variable = { which = temple_cost_3 value = 973203.471 }    set_variable = { which = temple_cost_2 value = 0.27 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 201508.000 }    set_variable = { which = temple_cost_3 value = 315337.226 }    set_variable = { which = temple_cost_2 value = 0.26 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = temple_count value = 303 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 304 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 305 } }
+										set_variable = { which = temple_cost_4 value = 267648.000 }    set_variable = { which = temple_cost_3 value = 755726.459 }    set_variable = { which = temple_cost_2 value = 0.24 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 104092.000 }    set_variable = { which = temple_cost_3 value = 288547.939 }    set_variable = { which = temple_cost_2 value = 0.23 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 130848.000 }    set_variable = { which = temple_cost_3 value = 908323.555 }    set_variable = { which = temple_cost_2 value = 0.21 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 301 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 302 } }
+										set_variable = { which = temple_cost_4 value = 716696.000 }    set_variable = { which = temple_cost_3 value = 609899.863 }    set_variable = { which = temple_cost_2 value = 0.20 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 393884.000 }    set_variable = { which = temple_cost_3 value = 388428.846 }    set_variable = { which = temple_cost_2 value = 0.19 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 460852.000 }    set_variable = { which = temple_cost_3 value = 239349.808 }    set_variable = { which = temple_cost_2 value = 0.18 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = { check_variable = { which = temple_count value = 250 } }
+				if = {
+					limit = { check_variable = { which = temple_count value = 275 } }
+					if = {
+						limit = { check_variable = { which = temple_count value = 287 } }
+						if = {
+							limit = { check_variable = { which = temple_count value = 293 } }
+							if = {
+								limit = { check_variable = { which = temple_count value = 296 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 298 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 299 } }
+										set_variable = { which = temple_cost_4 value = 386504.000 }    set_variable = { which = temple_cost_3 value = 158372.350 }    set_variable = { which = temple_cost_2 value = 0.17 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 435092.000 }    set_variable = { which = temple_cost_3 value = 141460.348 }    set_variable = { which = temple_cost_2 value = 0.16 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = temple_count value = 297 } }
+										set_variable = { which = temple_cost_4 value = 699052.000 }    set_variable = { which = temple_cost_3 value = 184816.884 }    set_variable = { which = temple_cost_2 value = 0.15 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 271924.000 }    set_variable = { which = temple_cost_3 value = 284870.70 }    set_variable = { which = temple_cost_2 value = 0.14 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 294 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 295 } }
+										set_variable = { which = temple_cost_4 value = 628338.000 }    set_variable = { which = temple_cost_3 value = 438259.708 }    set_variable = { which = temple_cost_2 value = 0.13 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 415184.000 }    set_variable = { which = temple_cost_3 value = 641824.749 }    set_variable = { which = temple_cost_2 value = 0.12 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 809204.000 }    set_variable = { which = temple_cost_3 value = 892591.485 }    set_variable = { which = temple_cost_2 value = 0.11 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = temple_count value = 290 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 291 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 292 } }
+										set_variable = { which = temple_cost_4 value = 372724.000 }    set_variable = { which = temple_cost_3 value = 187762.451 }    set_variable = { which = temple_cost_2 value = 0.11 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 950822.000 }    set_variable = { which = temple_cost_3 value = 524705.974 }    set_variable = { which = temple_cost_2 value = 0.10 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 610368.000 }    set_variable = { which = temple_cost_3 value = 900946.354 }    set_variable = { which = temple_cost_2 value = 0.9 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 288 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 289 } }
+										set_variable = { which = temple_cost_4 value = 932614.000 }    set_variable = { which = temple_cost_3 value = 314154.613 }    set_variable = { which = temple_cost_2 value = 0.9 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 145452.000 }    set_variable = { which = temple_cost_3 value = 762139.806 }    set_variable = { which = temple_cost_2 value = 0.8 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 626954.000 }    set_variable = { which = temple_cost_3 value = 242840.833 }    set_variable = { which = temple_cost_2 value = 0.8 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = temple_count value = 281 } }
+							if = {
+								limit = { check_variable = { which = temple_count value = 284 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 285 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 286 } }
+										set_variable = { which = temple_cost_4 value = 236082.000 }    set_variable = { which = temple_cost_3 value = 754318.752 }    set_variable = { which = temple_cost_2 value = 0.7 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 736672.000 }    set_variable = { which = temple_cost_3 value = 294749.531 }    set_variable = { which = temple_cost_2 value = 0.7 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 283793.000 }    set_variable = { which = temple_cost_3 value = 862417.245 }    set_variable = { which = temple_cost_2 value = 0.6 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 282 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 283 } }
+										set_variable = { which = temple_cost_4 value = 543549.000 }    set_variable = { which = temple_cost_3 value = 455707.662 }    set_variable = { which = temple_cost_2 value = 0.6 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 524506.000 }    set_variable = { which = temple_cost_3 value = 73102.222 }    set_variable = { which = temple_cost_2 value = 0.6 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 616657.000 }    set_variable = { which = temple_cost_3 value = 713172.363 }    set_variable = { which = temple_cost_2 value = 0.5 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = temple_count value = 278 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 279 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 280 } }
+										set_variable = { which = temple_cost_4 value = 667599.000 }    set_variable = { which = temple_cost_3 value = 374574.189 }    set_variable = { which = temple_cost_2 value = 0.5 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 180243.000 }    set_variable = { which = temple_cost_3 value = 56043.452 }    set_variable = { which = temple_cost_2 value = 0.5 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 896749.000 }    set_variable = { which = temple_cost_3 value = 756390.829 }    set_variable = { which = temple_cost_2 value = 0.4 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 276 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 277 } }
+										set_variable = { which = temple_cost_4 value = 143696.000 }    set_variable = { which = temple_cost_3 value = 474497.488 }    set_variable = { which = temple_cost_2 value = 0.4 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 358133.000 }    set_variable = { which = temple_cost_3 value = 209310.901 }    set_variable = { which = temple_cost_2 value = 0.4 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 196739.000 }    set_variable = { which = temple_cost_3 value = 959840.923 }    set_variable = { which = temple_cost_2 value = 0.3 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = temple_count value = 262 } }
+						if = {
+							limit = { check_variable = { which = temple_count value = 268 } }
+							if = {
+								limit = { check_variable = { which = temple_count value = 271 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 273 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 274 } }
+										set_variable = { which = temple_cost_4 value = 554788.000 }    set_variable = { which = temple_cost_3 value = 725156.89 }    set_variable = { which = temple_cost_2 value = 0.3 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 691240.000 }    set_variable = { which = temple_cost_3 value = 504380.140 }    set_variable = { which = temple_cost_2 value = 0.3 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = temple_count value = 272 } }
+										set_variable = { which = temple_cost_4 value = 474356.000 }    set_variable = { which = temple_cost_3 value = 296688.749 }    set_variable = { which = temple_cost_2 value = 0.3 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 531849.000 }    set_variable = { which = temple_cost_3 value = 101306.443 }    set_variable = { which = temple_cost_2 value = 0.3 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 269 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 270 } }
+										set_variable = { which = temple_cost_4 value = 813593.000 }    set_variable = { which = temple_cost_3 value = 917503.709 }    set_variable = { which = temple_cost_2 value = 0.2 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 755967.000 }    set_variable = { which = temple_cost_3 value = 744594.270 }    set_variable = { which = temple_cost_2 value = 0.2 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 877674.000 }    set_variable = { which = temple_cost_3 value = 581932.521 }    set_variable = { which = temple_cost_2 value = 0.2 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = temple_count value = 265 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 266 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 267 } }
+										set_variable = { which = temple_cost_4 value = 239580.000 }    set_variable = { which = temple_cost_3 value = 428911.121 }    set_variable = { which = temple_cost_2 value = 0.2 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 768185.000 }    set_variable = { which = temple_cost_3 value = 284958.721 }    set_variable = { which = temple_cost_2 value = 0.2 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 975715.000 }    set_variable = { which = temple_cost_3 value = 149537.837 }    set_variable = { which = temple_cost_2 value = 0.2 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 263 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 264 } }
+										set_variable = { which = temple_cost_4 value = 111679.000 }    set_variable = { which = temple_cost_3 value = 22142.839 }    set_variable = { which = temple_cost_2 value = 0.2 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 252756.000 }    set_variable = { which = temple_cost_3 value = 902298.61 }    set_variable = { which = temple_cost_2 value = 0.1 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 281990.000 }    set_variable = { which = temple_cost_3 value = 789556.31 }    set_variable = { which = temple_cost_2 value = 0.1 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = temple_count value = 256 } }
+							if = {
+								limit = { check_variable = { which = temple_count value = 259 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 260 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 261 } }
+										set_variable = { which = temple_cost_4 value = 126049.000 }    set_variable = { which = temple_cost_3 value = 683495.796 }    set_variable = { which = temple_cost_2 value = 0.1 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 12276.000 }    set_variable = { which = temple_cost_3 value = 583721.351 }    set_variable = { which = temple_cost_2 value = 0.1 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 877023.000 }    set_variable = { which = temple_cost_3 value = 489860.160 }    set_variable = { which = temple_cost_2 value = 0.1 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 257 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 258 } }
+										set_variable = { which = temple_cost_4 value = 404538.000 }    set_variable = { which = temple_cost_3 value = 401561.769 }    set_variable = { which = temple_cost_2 value = 0.1 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 502858.000 }    set_variable = { which = temple_cost_3 value = 318496.490 }    set_variable = { which = temple_cost_2 value = 0.1 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 331004.000 }    set_variable = { which = temple_cost_3 value = 240354.177 }    set_variable = { which = temple_cost_2 value = 0.1 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = temple_count value = 253 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 254 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 255 } }
+										set_variable = { which = temple_cost_4 value = 281284.000 }    set_variable = { which = temple_cost_3 value = 166843.64 }    set_variable = { which = temple_cost_2 value = 0.1 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 592929.000 }    set_variable = { which = temple_cost_3 value = 97688.677 }    set_variable = { which = temple_cost_2 value = 0.1 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 529566.000 }    set_variable = { which = temple_cost_3 value = 32632.810 }    set_variable = { which = temple_cost_2 value = 0.1 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 251 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 252 } }
+										set_variable = { which = temple_cost_4 value = 294042.000 }    set_variable = { which = temple_cost_3 value = 971432.559 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 80942.000 }    set_variable = { which = temple_cost_3 value = 913859.416 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 880473.000 }    set_variable = { which = temple_cost_3 value = 859698.415 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = temple_count value = 225 } }
+					if = {
+						limit = { check_variable = { which = temple_count value = 237 } }
+						if = {
+							limit = { check_variable = { which = temple_count value = 243 } }
+							if = {
+								limit = { check_variable = { which = temple_count value = 246 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 248 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 249 } }
+										set_variable = { which = temple_cost_4 value = 848046.000 }    set_variable = { which = temple_cost_3 value = 808747.333 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 242752.000 }    set_variable = { which = temple_cost_3 value = 760815.930 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = temple_count value = 247 } }
+										set_variable = { which = temple_cost_4 value = 115477.000 }    set_variable = { which = temple_cost_3 value = 715725.240 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 94522.000 }    set_variable = { which = temple_cost_3 value = 673306.905 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 244 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 245 } }
+										set_variable = { which = temple_cost_4 value = 773775.000 }    set_variable = { which = temple_cost_3 value = 633402.544 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 356326.000 }    set_variable = { which = temple_cost_3 value = 595863.165 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 345556.000 }    set_variable = { which = temple_cost_3 value = 560548.603 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = temple_count value = 240 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 241 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 242 } }
+										set_variable = { which = temple_cost_4 value = 206544.000 }    set_variable = { which = temple_cost_3 value = 527327.2 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 43785.000 }    set_variable = { which = temple_cost_3 value = 496074.320 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 456995.000 }    set_variable = { which = temple_cost_3 value = 466673.866 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 238 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 239 } }
+										set_variable = { which = temple_cost_4 value = 845715.000 }    set_variable = { which = temple_cost_3 value = 439015.866 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 535950.000 }    set_variable = { which = temple_cost_3 value = 412997.52 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 198448.000 }    set_variable = { which = temple_cost_3 value = 388520.275 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = temple_count value = 231 } }
+							if = {
+								limit = { check_variable = { which = temple_count value = 234 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 235 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 236 } }
+										set_variable = { which = temple_cost_4 value = 118953.000 }    set_variable = { which = temple_cost_3 value = 365494.144 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 966090.000 }    set_variable = { which = temple_cost_3 value = 343832.684 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 782775.000 }    set_variable = { which = temple_cost_3 value = 323455.18 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 232 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 233 } }
+										set_variable = { which = temple_cost_4 value = 2611.000 }    set_variable = { which = temple_cost_3 value = 304285.60 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 363698.000 }    set_variable = { which = temple_cost_3 value = 286251.232 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 659170.000 }    set_variable = { which = temple_cost_3 value = 269286.201 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = temple_count value = 228 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 229 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 230 } }
+										set_variable = { which = temple_cost_4 value = 326594.000 }    set_variable = { which = temple_cost_3 value = 253326.624 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 937530.000 }    set_variable = { which = temple_cost_3 value = 238312.910 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 704167.000 }    set_variable = { which = temple_cost_3 value = 224189.3 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 226 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 227 } }
+										set_variable = { which = temple_cost_4 value = 172312.000 }    set_variable = { which = temple_cost_3 value = 210902.167 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 319202.000 }    set_variable = { which = temple_cost_3 value = 198402.791 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 320980.000 }    set_variable = { which = temple_cost_3 value = 186644.206 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = temple_count value = 212 } }
+						if = {
+							limit = { check_variable = { which = temple_count value = 218 } }
+							if = {
+								limit = { check_variable = { which = temple_count value = 221 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 223 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 224 } }
+										set_variable = { which = temple_cost_4 value = 298194.000 }    set_variable = { which = temple_cost_3 value = 175582.508 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 388706.000 }    set_variable = { which = temple_cost_3 value = 165176.395 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = temple_count value = 222 } }
+										set_variable = { which = temple_cost_4 value = 535941.000 }    set_variable = { which = temple_cost_3 value = 155387.13 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 416690.000 }    set_variable = { which = temple_cost_3 value = 146177.811 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 219 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 220 } }
+										set_variable = { which = temple_cost_4 value = 966782.000 }    set_variable = { which = temple_cost_3 value = 137514.403 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 995092.000 }    set_variable = { which = temple_cost_3 value = 129364.443 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 406483.000 }    set_variable = { which = temple_cost_3 value = 121697.501 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = temple_count value = 215 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 216 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 217 } }
+										set_variable = { which = temple_cost_4 value = 582769.000 }    set_variable = { which = temple_cost_3 value = 114484.949 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 497431.000 }    set_variable = { which = temple_cost_3 value = 107699.858 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 165033.000 }    set_variable = { which = temple_cost_3 value = 101316.894 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 213 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 214 } }
+										set_variable = { which = temple_cost_4 value = 49890.000 }    set_variable = { which = temple_cost_3 value = 95312.224 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 80800.000 }    set_variable = { which = temple_cost_3 value = 89663.428 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 939605.000 }    set_variable = { which = temple_cost_3 value = 84349.414 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = temple_count value = 206 } }
+							if = {
+								limit = { check_variable = { which = temple_count value = 209 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 210 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 211 } }
+										set_variable = { which = temple_cost_4 value = 311011.000 }    set_variable = { which = temple_cost_3 value = 79350.343 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 799634.000 }    set_variable = { which = temple_cost_3 value = 74647.547 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 237661.000 }    set_variable = { which = temple_cost_3 value = 70223.469 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 207 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 208 } }
+										set_variable = { which = temple_cost_4 value = 122918.000 }    set_variable = { which = temple_cost_3 value = 66061.589 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 942538.000 }    set_variable = { which = temple_cost_3 value = 62146.367 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 151964.000 }    set_variable = { which = temple_cost_3 value = 58463.187 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = temple_count value = 203 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 204 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 205 } }
+										set_variable = { which = temple_cost_4 value = 592628.000 }    set_variable = { which = temple_cost_3 value = 54998.294 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 144523.000 }    set_variable = { which = temple_cost_3 value = 51738.753 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 421941.000 }    set_variable = { which = temple_cost_3 value = 48672.392 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 201 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 202 } }
+										set_variable = { which = temple_cost_4 value = 332023.000 }    set_variable = { which = temple_cost_3 value = 45787.763 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 326457.000 }    set_variable = { which = temple_cost_3 value = 43074.95 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 186695.000 }    set_variable = { which = temple_cost_3 value = 40521.256 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	else = {
+		if = {
+			limit = { check_variable = { which = temple_count value = 100 } }
+			if = {
+				limit = { check_variable = { which = temple_count value = 150 } }
+				if = {
+					limit = { check_variable = { which = temple_count value = 175 } }
+					if = {
+						limit = { check_variable = { which = temple_count value = 187 } }
+						if = {
+							limit = { check_variable = { which = temple_count value = 193 } }
+							if = {
+								limit = { check_variable = { which = temple_count value = 196 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 198 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 199 } }
+										set_variable = { which = temple_cost_4 value = 192563.000 }    set_variable = { which = temple_cost_3 value = 38119.714 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 532985.000 }    set_variable = { which = temple_cost_3 value = 35860.502 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = temple_count value = 197 } }
+										set_variable = { which = temple_cost_4 value = 825950.000 }    set_variable = { which = temple_cost_3 value = 33735.185 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 622719.000 }    set_variable = { which = temple_cost_3 value = 31735.828 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 194 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 195 } }
+										set_variable = { which = temple_cost_4 value = 778663.000 }    set_variable = { which = temple_cost_3 value = 29854.965 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 580116.000 }    set_variable = { which = temple_cost_3 value = 28085.574 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 523157.000 }    set_variable = { which = temple_cost_3 value = 26421.48 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = temple_count value = 190 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 191 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 192 } }
+										set_variable = { which = temple_cost_4 value = 646432.000 }    set_variable = { which = temple_cost_3 value = 24855.172 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 325900.000 }    set_variable = { which = temple_cost_3 value = 23382.100 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 444873.000 }    set_variable = { which = temple_cost_3 value = 21996.331 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 188 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 189 } }
+										set_variable = { which = temple_cost_4 value = 857830.000 }    set_variable = { which = temple_cost_3 value = 20692.691 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 71335.000 }    set_variable = { which = temple_cost_3 value = 19466.314 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 69930.000 }    set_variable = { which = temple_cost_3 value = 18312.619 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = temple_count value = 181 } }
+							if = {
+								limit = { check_variable = { which = temple_count value = 184 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 185 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 186 } }
+										set_variable = { which = temple_cost_4 value = 219125.000 }    set_variable = { which = temple_cost_3 value = 17227.299 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 181679.000 }    set_variable = { which = temple_cost_3 value = 16206.302 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 787092.000 }    set_variable = { which = temple_cost_3 value = 15245.815 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 182 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 183 } }
+										set_variable = { which = temple_cost_4 value = 797829.000 }    set_variable = { which = temple_cost_3 value = 14342.253 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 519124.000 }    set_variable = { which = temple_cost_3 value = 13492.242 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 202375.000 }    set_variable = { which = temple_cost_3 value = 12692.608 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = temple_count value = 178 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 179 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 180 } }
+										set_variable = { which = temple_cost_4 value = 195084.000 }    set_variable = { which = temple_cost_3 value = 11940.365 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 793118.000 }    set_variable = { which = temple_cost_3 value = 11232.704 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 753639.000 }    set_variable = { which = temple_cost_3 value = 10566.984 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 176 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 177 } }
+										set_variable = { which = temple_cost_4 value = 429575.000 }    set_variable = { which = temple_cost_3 value = 9940.719 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 488782.000 }    set_variable = { which = temple_cost_3 value = 9351.570 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 183238.000 }    set_variable = { which = temple_cost_3 value = 8797.338 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = temple_count value = 162 } }
+						if = {
+							limit = { check_variable = { which = temple_count value = 168 } }
+							if = {
+								limit = { check_variable = { which = temple_count value = 171 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 173 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 174 } }
+										set_variable = { which = temple_cost_4 value = 135689.000 }    set_variable = { which = temple_cost_3 value = 8275.953 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 613066.000 }    set_variable = { which = temple_cost_3 value = 7785.468 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = temple_count value = 172 } }
+										set_variable = { which = temple_cost_4 value = 257823.000 }    set_variable = { which = temple_cost_3 value = 7324.53 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 250069.000 }    set_variable = { which = temple_cost_3 value = 6889.984 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 169 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 170 } }
+										set_variable = { which = temple_cost_4 value = 874947.000 }    set_variable = { which = temple_cost_3 value = 6481.640 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 471258.000 }    set_variable = { which = temple_cost_3 value = 6097.498 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 738719.000 }    set_variable = { which = temple_cost_3 value = 5736.122 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = temple_count value = 165 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 166 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 167 } }
+										set_variable = { which = temple_cost_4 value = 382614.000 }    set_variable = { which = temple_cost_3 value = 5396.164 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 75836.000 }    set_variable = { which = temple_cost_3 value = 5076.354 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 719507.000 }    set_variable = { which = temple_cost_3 value = 4775.497 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 163 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 164 } }
+										set_variable = { which = temple_cost_4 value = 984485.000 }    set_variable = { which = temple_cost_3 value = 4492.471 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 117107.000 }    set_variable = { which = temple_cost_3 value = 4226.220 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 993515.000 }    set_variable = { which = temple_cost_3 value = 3975.747 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = temple_count value = 156 } }
+							if = {
+								limit = { check_variable = { which = temple_count value = 159 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 160 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 161 } }
+										set_variable = { which = temple_cost_4 value = 407823.000 }    set_variable = { which = temple_cost_3 value = 3740.120 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 580266.000 }    set_variable = { which = temple_cost_3 value = 3518.457 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 872310.000 }    set_variable = { which = temple_cost_3 value = 3309.931 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 157 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 158 } }
+										set_variable = { which = temple_cost_4 value = 696435.000 }    set_variable = { which = temple_cost_3 value = 3113.764 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 609064.000 }    set_variable = { which = temple_cost_3 value = 2929.223 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 575789.000 }    set_variable = { which = temple_cost_3 value = 2755.619 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = temple_count value = 153 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 154 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 155 } }
+										set_variable = { which = temple_cost_4 value = 398673.000 }    set_variable = { which = temple_cost_3 value = 2592.304 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 296023.000 }    set_variable = { which = temple_cost_3 value = 2438.668 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 625610.000 }    set_variable = { which = temple_cost_3 value = 2294.137 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 151 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 152 } }
+										set_variable = { which = temple_cost_4 value = 742812.000 }    set_variable = { which = temple_cost_3 value = 2158.172 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 985713.000 }    set_variable = { which = temple_cost_3 value = 2030.265 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 779598.000 }    set_variable = { which = temple_cost_3 value = 1909.939 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = temple_count value = 125 } }
+					if = {
+						limit = { check_variable = { which = temple_count value = 137 } }
+						if = {
+							limit = { check_variable = { which = temple_count value = 143 } }
+							if = {
+								limit = { check_variable = { which = temple_count value = 146 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 148 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 149 } }
+										set_variable = { which = temple_cost_4 value = 853808.000 }    set_variable = { which = temple_cost_3 value = 1796.744 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 564260.000 }    set_variable = { which = temple_cost_3 value = 1690.258 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = temple_count value = 147 } }
+										set_variable = { which = temple_cost_4 value = 315390.000 }    set_variable = { which = temple_cost_3 value = 1590.83 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 75625.000 }    set_variable = { which = temple_cost_3 value = 1495.845 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 144 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 145 } }
+										set_variable = { which = temple_cost_4 value = 980833.000 }    set_variable = { which = temple_cost_3 value = 1407.191 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 20539.000 }    set_variable = { which = temple_cost_3 value = 1323.793 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 802012.000 }    set_variable = { which = temple_cost_3 value = 1245.336 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = temple_count value = 140 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 141 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 142 } }
+										set_variable = { which = temple_cost_4 value = 387594.000 }    set_variable = { which = temple_cost_3 value = 1171.530 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 200935.000 }    set_variable = { which = temple_cost_3 value = 1102.98 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 998057.000 }    set_variable = { which = temple_cost_3 value = 1036.780 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 138 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 139 } }
+										set_variable = { which = temple_cost_4 value = 899395.000 }    set_variable = { which = temple_cost_3 value = 975.334 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 479205.000 }    set_variable = { which = temple_cost_3 value = 917.530 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 908942.000 }    set_variable = { which = temple_cost_3 value = 863.151 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = temple_count value = 131 } }
+							if = {
+								limit = { check_variable = { which = temple_count value = 134 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 135 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 136 } }
+										set_variable = { which = temple_cost_4 value = 151403.000 }    set_variable = { which = temple_cost_3 value = 811.996 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 202637.000 }    set_variable = { which = temple_cost_3 value = 763.872 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 378774.000 }    set_variable = { which = temple_cost_3 value = 718.600 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 132 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 133 } }
+										set_variable = { which = temple_cost_4 value = 645131.000 }    set_variable = { which = temple_cost_3 value = 676.11 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 985072.000 }    set_variable = { which = temple_cost_3 value = 635.946 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 806276.000 }    set_variable = { which = temple_cost_3 value = 598.256 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = temple_count value = 128 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 129 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 130 } }
+										set_variable = { which = temple_cost_4 value = 382198.000 }    set_variable = { which = temple_cost_3 value = 562.800 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 326621.000 }    set_variable = { which = temple_cost_3 value = 529.445 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 99361.000 }    set_variable = { which = temple_cost_3 value = 498.67 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 126 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 127 } }
+										set_variable = { which = temple_cost_4 value = 541261.000 }    set_variable = { which = temple_cost_3 value = 468.548 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 436746.000 }    set_variable = { which = temple_cost_3 value = 440.779 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 102301.000 }    set_variable = { which = temple_cost_3 value = 414.656 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = temple_count value = 112 } }
+						if = {
+							limit = { check_variable = { which = temple_count value = 118 } }
+							if = {
+								limit = { check_variable = { which = temple_count value = 121 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 123 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 124 } }
+										set_variable = { which = temple_cost_4 value = 999343.000 }    set_variable = { which = temple_cost_3 value = 390.80 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 370031.000 }    set_variable = { which = temple_cost_3 value = 366.962 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = temple_count value = 122 } }
+										set_variable = { which = temple_cost_4 value = 894667.000 }    set_variable = { which = temple_cost_3 value = 345.213 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 369395.000 }    set_variable = { which = temple_cost_3 value = 324.754 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 119 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 120 } }
+										set_variable = { which = temple_cost_4 value = 403005.000 }    set_variable = { which = temple_cost_3 value = 305.507 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 131708.000 }    set_variable = { which = temple_cost_3 value = 287.401 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 950807.000 }    set_variable = { which = temple_cost_3 value = 270.367 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = temple_count value = 115 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 116 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 117 } }
+										set_variable = { which = temple_cost_4 value = 262283.000 }    set_variable = { which = temple_cost_3 value = 254.344 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 237331.000 }    set_variable = { which = temple_cost_3 value = 239.270 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 592974.000 }    set_variable = { which = temple_cost_3 value = 225.89 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 113 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 114 } }
+										set_variable = { which = temple_cost_4 value = 381913.000 }    set_variable = { which = temple_cost_3 value = 211.749 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 794838.000 }    set_variable = { which = temple_cost_3 value = 199.199 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 974448.000 }    set_variable = { which = temple_cost_3 value = 187.393 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = temple_count value = 106 } }
+							if = {
+								limit = { check_variable = { which = temple_count value = 109 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 110 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 111 } }
+										set_variable = { which = temple_cost_4 value = 840497.000 }    set_variable = { which = temple_cost_3 value = 176.287 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 925209.000 }    set_variable = { which = temple_cost_3 value = 165.839 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 218446.000 }    set_variable = { which = temple_cost_3 value = 156.11 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 107 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 108 } }
+										set_variable = { which = temple_cost_4 value = 22057.000 }    set_variable = { which = temple_cost_3 value = 146.765 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 812847.000 }    set_variable = { which = temple_cost_3 value = 138.66 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 113685.000 }    set_variable = { which = temple_cost_3 value = 129.884 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = temple_count value = 103 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 104 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 105 } }
+										set_variable = { which = temple_cost_4 value = 372234.000 }    set_variable = { which = temple_cost_3 value = 122.186 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 846881.000 }    set_variable = { which = temple_cost_3 value = 114.944 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 499418.000 }    set_variable = { which = temple_cost_3 value = 108.132 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 101 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 102 } }
+										set_variable = { which = temple_cost_4 value = 894090.000 }    set_variable = { which = temple_cost_3 value = 101.723 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 102624.000 }    set_variable = { which = temple_cost_3 value = 95.695 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 614887.000 }    set_variable = { which = temple_cost_3 value = 90.23 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = { check_variable = { which = temple_count value = 50 } }
+				if = {
+					limit = { check_variable = { which = temple_count value = 75 } }
+					if = {
+						limit = { check_variable = { which = temple_count value = 87 } }
+						if = {
+							limit = { check_variable = { which = temple_count value = 93 } }
+							if = {
+								limit = { check_variable = { which = temple_count value = 96 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 98 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 99 } }
+										set_variable = { which = temple_cost_4 value = 254832.000 }    set_variable = { which = temple_cost_3 value = 84.688 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 101441.000 }    set_variable = { which = temple_cost_3 value = 79.669 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = temple_count value = 97 } }
+										set_variable = { which = temple_cost_4 value = 414338.000 }    set_variable = { which = temple_cost_3 value = 74.947 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 563817.000 }    set_variable = { which = temple_cost_3 value = 70.505 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 94 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 95 } }
+										set_variable = { which = temple_cost_4 value = 965021.000 }    set_variable = { which = temple_cost_3 value = 66.326 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 16012.000 }    set_variable = { which = temple_cost_3 value = 62.396 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 39522.000 }    set_variable = { which = temple_cost_3 value = 58.698 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = temple_count value = 90 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 91 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 92 } }
+										set_variable = { which = temple_cost_4 value = 228149.000 }    set_variable = { which = temple_cost_3 value = 55.219 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 592802.000 }    set_variable = { which = temple_cost_3 value = 51.946 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 914207.000 }    set_variable = { which = temple_cost_3 value = 48.867 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 88 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 89 } }
+										set_variable = { which = temple_cost_4 value = 697279.000 }    set_variable = { which = temple_cost_3 value = 45.971 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 128202.000 }    set_variable = { which = temple_cost_3 value = 43.247 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 34056.000 }    set_variable = { which = temple_cost_3 value = 40.684 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = temple_count value = 81 } }
+							if = {
+								limit = { check_variable = { which = temple_count value = 84 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 85 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 86 } }
+										set_variable = { which = temple_cost_4 value = 844832.000 }    set_variable = { which = temple_cost_3 value = 38.272 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 557697.000 }    set_variable = { which = temple_cost_3 value = 36.4 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 703384.000 }    set_variable = { which = temple_cost_3 value = 33.870 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 82 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 83 } }
+										set_variable = { which = temple_cost_4 value = 314566.000 }    set_variable = { which = temple_cost_3 value = 31.863 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 896111.000 }    set_variable = { which = temple_cost_3 value = 29.974 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 397094.000 }    set_variable = { which = temple_cost_3 value = 28.198 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = temple_count value = 78 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 79 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 80 } }
+										set_variable = { which = temple_cost_4 value = 184472.000 }    set_variable = { which = temple_cost_3 value = 26.527 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 18318.000 }    set_variable = { which = temple_cost_3 value = 24.955 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 28521.000 }    set_variable = { which = temple_cost_3 value = 23.476 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 76 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 77 } }
+										set_variable = { which = temple_cost_4 value = 692870.000 }    set_variable = { which = temple_cost_3 value = 22.84 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 816435.000 }    set_variable = { which = temple_cost_3 value = 20.775 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 512168.000 }    set_variable = { which = temple_cost_3 value = 19.544 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = temple_count value = 62 } }
+						if = {
+							limit = { check_variable = { which = temple_count value = 68 } }
+							if = {
+								limit = { check_variable = { which = temple_count value = 71 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 73 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 74 } }
+										set_variable = { which = temple_cost_4 value = 182661.000 }    set_variable = { which = temple_cost_3 value = 18.386 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 502973.000 }    set_variable = { which = temple_cost_3 value = 17.296 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = temple_count value = 72 } }
+										set_variable = { which = temple_cost_4 value = 404490.000 }    set_variable = { which = temple_cost_3 value = 16.271 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 59728.000 }    set_variable = { which = temple_cost_3 value = 15.307 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 69 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 70 } }
+										set_variable = { which = temple_cost_4 value = 868041.000 }    set_variable = { which = temple_cost_3 value = 14.399 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 442183.000 }    set_variable = { which = temple_cost_3 value = 13.546 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 595657.000 }    set_variable = { which = temple_cost_3 value = 12.743 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = temple_count value = 65 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 66 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 67 } }
+										set_variable = { which = temple_cost_4 value = 330816.000 }    set_variable = { which = temple_cost_3 value = 11.988 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 827672.000 }    set_variable = { which = temple_cost_3 value = 11.277 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 433370.000 }    set_variable = { which = temple_cost_3 value = 10.609 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 63 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 64 } }
+										set_variable = { which = temple_cost_4 value = 652276.000 }    set_variable = { which = temple_cost_3 value = 9.980 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 136666.000 }    set_variable = { which = temple_cost_3 value = 9.389 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 677955.000 }    set_variable = { which = temple_cost_3 value = 8.832 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = temple_count value = 56 } }
+							if = {
+								limit = { check_variable = { which = temple_count value = 59 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 60 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 61 } }
+										set_variable = { which = temple_cost_4 value = 198453.000 }    set_variable = { which = temple_cost_3 value = 8.309 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 743605.000 }    set_variable = { which = temple_cost_3 value = 7.816 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 474699.000 }    set_variable = { which = temple_cost_3 value = 7.353 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 57 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 58 } }
+										set_variable = { which = temple_cost_4 value = 661994.000 }    set_variable = { which = temple_cost_3 value = 6.917 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 678263.000 }    set_variable = { which = temple_cost_3 value = 6.507 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 992722.000 }    set_variable = { which = temple_cost_3 value = 6.121 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = temple_count value = 53 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 54 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 55 } }
+										set_variable = { which = temple_cost_4 value = 165307.000 }    set_variable = { which = temple_cost_3 value = 5.759 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 841305.000 }    set_variable = { which = temple_cost_3 value = 5.417 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 746289.000 }    set_variable = { which = temple_cost_3 value = 5.96 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 51 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 52 } }
+										set_variable = { which = temple_cost_4 value = 681363.000 }    set_variable = { which = temple_cost_3 value = 4.794 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 518686.000 }    set_variable = { which = temple_cost_3 value = 4.510 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 197258.000 }    set_variable = { which = temple_cost_3 value = 4.243 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = temple_count value = 25 } }
+					if = {
+						limit = { check_variable = { which = temple_count value = 37 } }
+						if = {
+							limit = { check_variable = { which = temple_count value = 43 } }
+							if = {
+								limit = { check_variable = { which = temple_count value = 46 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 48 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 49 } }
+										set_variable = { which = temple_cost_4 value = 718964.000 }    set_variable = { which = temple_cost_3 value = 3.991 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 144839.000 }    set_variable = { which = temple_cost_3 value = 3.755 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = temple_count value = 47 } }
+										set_variable = { which = temple_cost_4 value = 591570.000 }    set_variable = { which = temple_cost_3 value = 3.532 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 228194.000 }    set_variable = { which = temple_cost_3 value = 3.323 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 44 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 45 } }
+										set_variable = { which = temple_cost_4 value = 272995.000 }    set_variable = { which = temple_cost_3 value = 3.126 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 990588.000 }    set_variable = { which = temple_cost_3 value = 2.940 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 689170.000 }    set_variable = { which = temple_cost_3 value = 2.766 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = temple_count value = 40 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 41 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 42 } }
+										set_variable = { which = temple_cost_4 value = 717940.000 }    set_variable = { which = temple_cost_3 value = 2.602 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 464666.000 }    set_variable = { which = temple_cost_3 value = 2.448 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 353402.000 }    set_variable = { which = temple_cost_3 value = 2.303 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 38 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 39 } }
+										set_variable = { which = temple_cost_4 value = 842334.000 }    set_variable = { which = temple_cost_3 value = 2.166 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 421763.000 }    set_variable = { which = temple_cost_3 value = 2.38 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 612195.000 }    set_variable = { which = temple_cost_3 value = 1.917 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = temple_count value = 31 } }
+							if = {
+								limit = { check_variable = { which = temple_count value = 34 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 35 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 36 } }
+										set_variable = { which = temple_cost_4 value = 962554.000 }    set_variable = { which = temple_cost_3 value = 1.803 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 48499.000 }    set_variable = { which = temple_cost_3 value = 1.697 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 470836.000 }    set_variable = { which = temple_cost_3 value = 1.596 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 32 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 33 } }
+										set_variable = { which = temple_cost_4 value = 854032.000 }    set_variable = { which = temple_cost_3 value = 1.501 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 844809.000 }    set_variable = { which = temple_cost_3 value = 1.412 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 110827.000 }    set_variable = { which = temple_cost_3 value = 1.329 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = temple_count value = 28 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 29 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 30 } }
+										set_variable = { which = temple_cost_4 value = 339442.000 }    set_variable = { which = temple_cost_3 value = 1.250 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 236540.000 }    set_variable = { which = temple_cost_3 value = 1.176 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 525437.000 }    set_variable = { which = temple_cost_3 value = 1.106 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 26 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 27 } }
+										set_variable = { which = temple_cost_4 value = 945849.000 }    set_variable = { which = temple_cost_3 value = 1.40 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 252915.000 }    set_variable = { which = temple_cost_3 value = 0.979 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 216289.000 }    set_variable = { which = temple_cost_3 value = 0.921 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = temple_count value = 12 } }
+						if = {
+							limit = { check_variable = { which = temple_count value = 18 } }
+							if = {
+								limit = { check_variable = { which = temple_count value = 21 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 23 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 24 } }
+										set_variable = { which = temple_cost_4 value = 619275.000 }    set_variable = { which = temple_cost_3 value = 0.866 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 258019.000 }    set_variable = { which = temple_cost_3 value = 0.815 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = temple_count value = 22 } }
+										set_variable = { which = temple_cost_4 value = 940752.000 }    set_variable = { which = temple_cost_3 value = 0.766 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 487067.000 }    set_variable = { which = temple_cost_3 value = 0.721 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 19 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 20 } }
+										set_variable = { which = temple_cost_4 value = 727250.000 }    set_variable = { which = temple_cost_3 value = 0.678 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 501646.000 }    set_variable = { which = temple_cost_3 value = 0.638 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 660062.000 }    set_variable = { which = temple_cost_3 value = 0.600 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = temple_count value = 15 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 16 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 17 } }
+										set_variable = { which = temple_cost_4 value = 61206.000 }    set_variable = { which = temple_cost_3 value = 0.565 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 572160.000 }    set_variable = { which = temple_cost_3 value = 0.531 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 67883.000 }    set_variable = { which = temple_cost_3 value = 0.500 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 13 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 14 } }
+										set_variable = { which = temple_cost_4 value = 430746.000 }    set_variable = { which = temple_cost_3 value = 0.470 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 550091.000 }    set_variable = { which = temple_cost_3 value = 0.442 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 321816.000 }    set_variable = { which = temple_cost_3 value = 0.416 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = temple_count value = 6 } }
+							if = {
+								limit = { check_variable = { which = temple_count value = 9 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 10 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 11 } }
+										set_variable = { which = temple_cost_4 value = 647993.000 }    set_variable = { which = temple_cost_3 value = 0.391 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 436493.000 }    set_variable = { which = temple_cost_3 value = 0.368 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 600652.000 }    set_variable = { which = temple_cost_3 value = 0.346 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 7 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 8 } }
+										set_variable = { which = temple_cost_4 value = 58939.000 }    set_variable = { which = temple_cost_3 value = 0.326 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 734656.000 }    set_variable = { which = temple_cost_3 value = 0.306 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 555650.000 }    set_variable = { which = temple_cost_3 value = 0.288 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = temple_count value = 3 } }
+								if = {
+									limit = { check_variable = { which = temple_count value = 4 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 5 } }
+										set_variable = { which = temple_cost_4 value = 454045.000 }    set_variable = { which = temple_cost_3 value = 0.271 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 365988.000 }    set_variable = { which = temple_cost_3 value = 0.255 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 231409.000 }    set_variable = { which = temple_cost_3 value = 0.240 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = temple_count value = 1 } }
+									if = {
+										limit = { check_variable = { which = temple_count value = 2 } }
+										set_variable = { which = temple_cost_4 value = 993799.000 }    set_variable = { which = temple_cost_3 value = 0.225 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = temple_cost_4 value = 600000.000 }    set_variable = { which = temple_cost_3 value = 0.212 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = temple_cost_4 value = 0.000 }    set_variable = { which = temple_cost_3 value = 0.200 }    set_variable = { which = temple_cost_2 value = 0.0 }    set_variable = { which = temple_cost_1 value = 0.0 }    set_variable = { which = temple_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}get_msd = { ln = temple_cost mantissa = temple_cost_mantissa exponent = temple_cost_exp}
+}

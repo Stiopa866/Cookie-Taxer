@@ -1,0 +1,2 @@
+﻿l_english:
+ temple_cost_tt: "[temple_cost_mantissa.GetValue] [Root.CLOC_TEMPLE_COST_EXP]"
