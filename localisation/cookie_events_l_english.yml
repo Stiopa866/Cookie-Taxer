@@ -1,0 +1,20 @@
+﻿l_english:
+ cookies.1.t: "Cookie Factory Explodes"
+ cookies.1.d: "My great cookie master! A tragedy has hit our country. One of our cookie industrial complexes has exploded. Many think that it was due to incompetence in the working force in there, however some more radical cookie enjoyers blame ]neighbor_country.GetName], thinking that they're trying to stop our rightful cause in acquiring all the cookies in the world."
+ cookies.1.a: "What a tragedy!"
+ cookies.1.b: "Let us blame [neighbor_country.GetName] for this."
+ 
+ cookies.2.t: "The Cookie Hunter"
+ cookies.2.d: "Rumors have emerged that in a forest near us lies a great hoard of cookies, guarded by a bunch of deers. [Heir.GetName] has offered up to go on an expedition to claim those cookies for [ROOT.GetName], knowing the risks of angering the deer gods."
+ cookies.2.a: "That's a lot of cookies we're talking about...."
+ cookies.2.b: "Dear God, no."
+ 
+ cookies.3.t: "The Evil Cookie Merchant"
+ cookies.3.d: "Although the cookie economy has been prospering, one of the greatest grandmas making them has fallen ill. A slimy merchant however has the cure for that. Rumors have reached to you that this merchant is indeed Dutch, and you know that buying the cure from him will be used for evil purposes."
+ cookies.3.a: "A bargain with the devil must be made."
+ cookies.3.b: "I am sorry grandma...."
+ 
+ cookies.4.t: "Mana? In my Cookie Factory?"
+ cookies.4.d: "One of the workers in the cookie factories has reported to you an issue. As he was sitting there, minding his own business, producing even more cookies, the strangest thing has happened. Instead of the delicious cookies, a bird, a piece of paper, and 2 crossed swords came out of the machine. He remarked it as 'queer' and decided to report this directly to you. What will you do about this issue?"
+ cookies.4.a: "We only care about cookies."
+ cookies.4.b: "Guess we're doing mana now."
