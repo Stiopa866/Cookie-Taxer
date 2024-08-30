@@ -17,7 +17,7 @@ purchase_upgrade = {
 	}
 	
 	based_on_var_fire = { var = num_of_$x$ functor = purchase_upgrade_cost }
-	based_on_var_and_plus_one_fire = { var = num_of_$x$ functor = change_upgrade arg_1 = $x$ arg_1_name = type }\\\\\\\\\\\\\\\\\\\
+	based_on_var_and_plus_one_fire = { var = num_of_$x$ functor = change_upgrade arg_1 = $x$ arg_1_name = type }
 }
 
 #change_upgrade = { current = int next = int+1 type = modifierprefix }
