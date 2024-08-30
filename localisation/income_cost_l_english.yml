@@ -1,0 +1,2 @@
+﻿l_english:
+ income_cost_tt: "[income_cost_mantissa.GetValue] [Root.CLOC_INCOME_COST_EXP]"

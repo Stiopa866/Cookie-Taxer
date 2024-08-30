@@ -670,7 +670,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "text_COOKIE"
-			position = { x = 450 y = 52 }
+			position = { x = 420 y = 51 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}

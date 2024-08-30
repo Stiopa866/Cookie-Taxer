@@ -30,3 +30,30 @@ custom_window = {
 		has_country_flag = cookie_clicker_window
 	}
 }
+
+custom_button = {
+	name = click_cookie_button
+	potential = {
+
+	}
+	trigger = {
+
+	}
+	effect = {
+		hidden_effect = {
+			add_cookies = { value = 1 }
+		}
+	}
+}
+
+custom_button = {
+	name = cookie_upgrade_click
+	potential = {
+	}
+	trigger = {
+		#upgrade trigger here
+	}
+	effect = {
+		#upgrade effect here
+	}
+}

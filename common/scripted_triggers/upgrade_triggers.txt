@@ -1,0 +1,8 @@
+upgrade_cost = {
+	custom_trigger_tooltip = {
+		tooltip = $type$_cost_tt
+		FROM = {
+			long_gte = { ln0 = cookies ln1 = $type$_cost }
+		}
+	}
+}

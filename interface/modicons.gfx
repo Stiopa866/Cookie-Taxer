@@ -49,5 +49,17 @@ spriteTypes = {
 		name = "GFX_ct_temple"
 		texturefile = "gfx//interface//buildings//temple.dds"
 		loadType = "INGAME"
+  }
+	spriteType = {
+		name = "GFX_big_cookie"
+		texturefile = "gfx/interface/cookie_big.dds"
+	}
+	spriteType = {
+		name = "GFX_medium_cookie"
+		texturefile = "gfx/interface/cookie_medium.dds"
+	}
+	spriteType = {
+		name = "GFX_cookie_upgrade_click"
+		texturefile = "gfx/interface/cookie_upgrade_click.dds"
 	}
 }

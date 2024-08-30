@@ -90,7 +90,7 @@ country_event = {
 	}
 }
 
-#
+#Illegal Cookie Trafficking
 country_event = {
 	id = cookies.5
 	title = cookies.5.t
@@ -98,6 +98,18 @@ country_event = {
 	picture = EXPLORERS_eventPicture
 
 	is_triggered_only = yes
+	
+	immediate = {
+		random_neighbor_country = {
+			save_event_target_as = neighbor_country
+		}
+		
+		event_target:neighbor_country = {
+			random_neighbor_province = {
+				save_event_target_as = neighbor_province
+			}
+		}
+	}
 
 	option = {
 		name = cookies.5.a
@@ -106,6 +118,161 @@ country_event = {
 	
 	option = {
 		name = cookies.5.b
+		
+	}
+}
+
+#Seizing the Means of Cookies
+country_event = {
+	id = cookies.6
+	title = cookies.6.t
+	desc = cookies.6.d
+	picture = EXPLORERS_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = cookies.6.a
+		
+	}
+	
+	option = {
+		name = cookies.6.b
+		
+	}
+}
+
+#Cookies of Iron
+country_event = {
+	id = cookies.7
+	title = cookies.7.t
+	desc = cookies.7.d
+	picture = EXPLORERS_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = cookies.7.a
+		
+	}
+}
+
+#Cookie Gambling
+country_event = {
+	id = cookies.8
+	title = cookies.8.t
+	desc = cookies.8.d
+	picture = EXPLORERS_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = cookies.8.a
+		
+	}
+}
+
+#Emperor Coo Ke the Wise
+country_event = {
+	id = cookies.9
+	title = cookies.9.t
+	desc = cookies.9.d
+	picture = EXPLORERS_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = cookies.9.a
+		
+	}
+	
+	option = {
+		name = cookies.9.b
+		
+	}
+}
+
+#Ryan Cookie
+country_event = {
+	id = cookies.10
+	title = cookies.10.t
+	desc = cookies.10.d
+	picture = EXPLORERS_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = cookies.10.a
+		
+	}
+	
+	option = {
+		name = cookies.10.b
+		
+	}
+}
+
+#The Cookie Trade Must FLow
+country_event = {
+	id = cookies.11
+	title = cookies.11.t
+	desc = cookies.11.d
+	picture = EXPLORERS_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = cookies.11.a
+		
+	}
+	
+	option = {
+		name = cookies.11.b
+		
+	}
+}
+
+#The Cookie Schism
+country_event = {
+	id = cookies.12
+	title = cookies.12.t
+	desc = cookies.12.d
+	picture = EXPLORERS_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = cookies.12.a
+		
+	}
+	
+	option = {
+		name = cookies.12.b
+		
+	}
+	
+	option = {
+		name = cookies.12.c
+		
+	}
+}
+
+#Let Him Cook
+country_event = {
+	id = cookies.13
+	title = cookies.13.t
+	desc = cookies.13.d
+	picture = EXPLORERS_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = cookies.13.a
+		
+	}
+	
+	option = {
+		name = cookies.13.b
 		
 	}
 }

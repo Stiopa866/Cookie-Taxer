@@ -1,77 +1,2688 @@
+siege_1 = {
+	siege_ability = 0.02
+}
+siege_2 = {
+	siege_ability = 0.04
+}
+siege_3 = {
+	siege_ability = 0.06
+}
+siege_4 = {
+	siege_ability = 0.08
+}
+siege_5 = {
+	siege_ability = 0.1
+}
+siege_6 = {
+	siege_ability = 0.12
+}
+siege_7 = {
+	siege_ability = 0.14
+}
+siege_8 = {
+	siege_ability = 0.16
+}
+siege_9 = {
+	siege_ability = 0.18
+}
+siege_10 = {
+	siege_ability = 0.2
+}
+siege_11 = {
+	siege_ability = 0.22
+}
+siege_12 = {
+	siege_ability = 0.24
+}
+siege_13 = {
+	siege_ability = 0.26
+}
+siege_14 = {
+	siege_ability = 0.28
+}
+siege_15 = {
+	siege_ability = 0.3
+}
+siege_16 = {
+	siege_ability = 0.32
+}
+siege_17 = {
+	siege_ability = 0.34
+}
+siege_18 = {
+	siege_ability = 0.36
+}
+siege_19 = {
+	siege_ability = 0.38
+}
+siege_20 = {
+	siege_ability = 0.4
+}
+siege_21 = {
+	siege_ability = 0.42
+}
+siege_22 = {
+	siege_ability = 0.44
+}
+siege_23 = {
+	siege_ability = 0.46
+}
+siege_24 = {
+	siege_ability = 0.48
+}
+siege_25 = {
+	siege_ability = 0.5
+}
+siege_26 = {
+	siege_ability = 0.52
+}
+siege_27 = {
+	siege_ability = 0.54
+}
+siege_28 = {
+	siege_ability = 0.56
+}
+siege_29 = {
+	siege_ability = 0.58
+}
+siege_30 = {
+	siege_ability = 0.6
+}
+siege_31 = {
+	siege_ability = 0.62
+}
+siege_32 = {
+	siege_ability = 0.64
+}
+siege_33 = {
+	siege_ability = 0.66
+}
+siege_34 = {
+	siege_ability = 0.68
+}
+siege_35 = {
+	siege_ability = 0.7
+}
+siege_36 = {
+	siege_ability = 0.72
+}
+siege_37 = {
+	siege_ability = 0.74
+}
+siege_38 = {
+	siege_ability = 0.76
+}
+siege_39 = {
+	siege_ability = 0.78
+}
+siege_40 = {
+	siege_ability = 0.8
+}
+siege_41 = {
+	siege_ability = 0.82
+}
+siege_42 = {
+	siege_ability = 0.84
+}
+siege_43 = {
+	siege_ability = 0.86
+}
+siege_44 = {
+	siege_ability = 0.88
+}
+siege_45 = {
+	siege_ability = 0.9
+}
+siege_46 = {
+	siege_ability = 0.92
+}
+siege_47 = {
+	siege_ability = 0.94
+}
+siege_48 = {
+	siege_ability = 0.96
+}
+siege_49 = {
+	siege_ability = 0.98
+}
+siege_50 = {
+	siege_ability = 1.0
+}
+siege_51 = {
+	siege_ability = 1.02
+}
+siege_52 = {
+	siege_ability = 1.04
+}
+siege_53 = {
+	siege_ability = 1.06
+}
+siege_54 = {
+	siege_ability = 1.08
+}
+siege_55 = {
+	siege_ability = 1.1
+}
+siege_56 = {
+	siege_ability = 1.12
+}
+siege_57 = {
+	siege_ability = 1.14
+}
+siege_58 = {
+	siege_ability = 1.16
+}
+siege_59 = {
+	siege_ability = 1.18
+}
+siege_60 = {
+	siege_ability = 1.2
+}
+siege_61 = {
+	siege_ability = 1.22
+}
+siege_62 = {
+	siege_ability = 1.24
+}
+siege_63 = {
+	siege_ability = 1.26
+}
+siege_64 = {
+	siege_ability = 1.28
+}
+siege_65 = {
+	siege_ability = 1.3
+}
+siege_66 = {
+	siege_ability = 1.32
+}
+siege_67 = {
+	siege_ability = 1.34
+}
+siege_68 = {
+	siege_ability = 1.36
+}
+siege_69 = {
+	siege_ability = 1.38
+}
+siege_70 = {
+	siege_ability = 1.4
+}
+siege_71 = {
+	siege_ability = 1.42
+}
+siege_72 = {
+	siege_ability = 1.44
+}
+siege_73 = {
+	siege_ability = 1.46
+}
+siege_74 = {
+	siege_ability = 1.48
+}
+siege_75 = {
+	siege_ability = 1.5
+}
+siege_76 = {
+	siege_ability = 1.52
+}
+siege_77 = {
+	siege_ability = 1.54
+}
+siege_78 = {
+	siege_ability = 1.56
+}
+siege_79 = {
+	siege_ability = 1.58
+}
+siege_80 = {
+	siege_ability = 1.6
+}
+siege_81 = {
+	siege_ability = 1.62
+}
+siege_82 = {
+	siege_ability = 1.64
+}
+siege_83 = {
+	siege_ability = 1.66
+}
+siege_84 = {
+	siege_ability = 1.68
+}
+siege_85 = {
+	siege_ability = 1.7
+}
+siege_86 = {
+	siege_ability = 1.72
+}
+siege_87 = {
+	siege_ability = 1.74
+}
+siege_88 = {
+	siege_ability = 1.76
+}
+siege_89 = {
+	siege_ability = 1.78
+}
+siege_90 = {
+	siege_ability = 1.8
+}
+siege_91 = {
+	siege_ability = 1.82
+}
+siege_92 = {
+	siege_ability = 1.84
+}
+siege_93 = {
+	siege_ability = 1.86
+}
+siege_94 = {
+	siege_ability = 1.88
+}
+siege_95 = {
+	siege_ability = 1.9
+}
+siege_96 = {
+	siege_ability = 1.92
+}
+siege_97 = {
+	siege_ability = 1.94
+}
+siege_98 = {
+	siege_ability = 1.96
+}
+siege_99 = {
+	siege_ability = 1.98
+}
+siege_100 = {
+	siege_ability = 2.0
+}
+siege_101 = {
+	siege_ability = 2.02
+}
+siege_102 = {
+	siege_ability = 2.04
+}
+siege_103 = {
+	siege_ability = 2.06
+}
+siege_104 = {
+	siege_ability = 2.08
+}
+siege_105 = {
+	siege_ability = 2.1
+}
+siege_106 = {
+	siege_ability = 2.12
+}
+siege_107 = {
+	siege_ability = 2.14
+}
+siege_108 = {
+	siege_ability = 2.16
+}
+siege_109 = {
+	siege_ability = 2.18
+}
+siege_110 = {
+	siege_ability = 2.2
+}
+siege_111 = {
+	siege_ability = 2.22
+}
+siege_112 = {
+	siege_ability = 2.24
+}
+siege_113 = {
+	siege_ability = 2.26
+}
+siege_114 = {
+	siege_ability = 2.28
+}
+siege_115 = {
+	siege_ability = 2.3
+}
+siege_116 = {
+	siege_ability = 2.32
+}
+siege_117 = {
+	siege_ability = 2.34
+}
+siege_118 = {
+	siege_ability = 2.36
+}
+siege_119 = {
+	siege_ability = 2.38
+}
+siege_120 = {
+	siege_ability = 2.4
+}
+siege_121 = {
+	siege_ability = 2.42
+}
+siege_122 = {
+	siege_ability = 2.44
+}
+siege_123 = {
+	siege_ability = 2.46
+}
+siege_124 = {
+	siege_ability = 2.48
+}
+siege_125 = {
+	siege_ability = 2.5
+}
+siege_126 = {
+	siege_ability = 2.52
+}
+siege_127 = {
+	siege_ability = 2.54
+}
+siege_128 = {
+	siege_ability = 2.56
+}
 expansion_1 = {
-	ae_impact = -0.25
-	administrative_efficiency = 0.25
-	core_creation = -0.25
+	administrative_efficiency = 0.005
+	ae_impact = 0.005
+	core_creation = 0.005
 }
-
 expansion_2 = {
-	ae_impact = -0.5
-	administrative_efficiency = 0.5
-	core_creation = -0.5
+	administrative_efficiency = 0.01
+	ae_impact = 0.01
+	core_creation = 0.01
 }
-
 expansion_3 = {
-	ae_impact = -0.75
-	administrative_efficiency = 0.75
-	core_creation = -0.75
+	administrative_efficiency = 0.015
+	ae_impact = 0.015
+	core_creation = 0.015
 }
-
+expansion_4 = {
+	administrative_efficiency = 0.02
+	ae_impact = 0.02
+	core_creation = 0.02
+}
+expansion_5 = {
+	administrative_efficiency = 0.025
+	ae_impact = 0.025
+	core_creation = 0.025
+}
+expansion_6 = {
+	administrative_efficiency = 0.03
+	ae_impact = 0.03
+	core_creation = 0.03
+}
+expansion_7 = {
+	administrative_efficiency = 0.035
+	ae_impact = 0.035
+	core_creation = 0.035
+}
+expansion_8 = {
+	administrative_efficiency = 0.04
+	ae_impact = 0.04
+	core_creation = 0.04
+}
+expansion_9 = {
+	administrative_efficiency = 0.045
+	ae_impact = 0.045
+	core_creation = 0.045
+}
+expansion_10 = {
+	administrative_efficiency = 0.05
+	ae_impact = 0.05
+	core_creation = 0.05
+}
+expansion_11 = {
+	administrative_efficiency = 0.055
+	ae_impact = 0.055
+	core_creation = 0.055
+}
+expansion_12 = {
+	administrative_efficiency = 0.06
+	ae_impact = 0.06
+	core_creation = 0.06
+}
+expansion_13 = {
+	administrative_efficiency = 0.065
+	ae_impact = 0.065
+	core_creation = 0.065
+}
+expansion_14 = {
+	administrative_efficiency = 0.07
+	ae_impact = 0.07
+	core_creation = 0.07
+}
+expansion_15 = {
+	administrative_efficiency = 0.075
+	ae_impact = 0.075
+	core_creation = 0.075
+}
+expansion_16 = {
+	administrative_efficiency = 0.08
+	ae_impact = 0.08
+	core_creation = 0.08
+}
+expansion_17 = {
+	administrative_efficiency = 0.085
+	ae_impact = 0.085
+	core_creation = 0.085
+}
+expansion_18 = {
+	administrative_efficiency = 0.09
+	ae_impact = 0.09
+	core_creation = 0.09
+}
+expansion_19 = {
+	administrative_efficiency = 0.095
+	ae_impact = 0.095
+	core_creation = 0.095
+}
+expansion_20 = {
+	administrative_efficiency = 0.1
+	ae_impact = 0.1
+	core_creation = 0.1
+}
+expansion_21 = {
+	administrative_efficiency = 0.105
+	ae_impact = 0.105
+	core_creation = 0.105
+}
+expansion_22 = {
+	administrative_efficiency = 0.11
+	ae_impact = 0.11
+	core_creation = 0.11
+}
+expansion_23 = {
+	administrative_efficiency = 0.115
+	ae_impact = 0.115
+	core_creation = 0.115
+}
+expansion_24 = {
+	administrative_efficiency = 0.12
+	ae_impact = 0.12
+	core_creation = 0.12
+}
+expansion_25 = {
+	administrative_efficiency = 0.125
+	ae_impact = 0.125
+	core_creation = 0.125
+}
+expansion_26 = {
+	administrative_efficiency = 0.13
+	ae_impact = 0.13
+	core_creation = 0.13
+}
+expansion_27 = {
+	administrative_efficiency = 0.135
+	ae_impact = 0.135
+	core_creation = 0.135
+}
+expansion_28 = {
+	administrative_efficiency = 0.14
+	ae_impact = 0.14
+	core_creation = 0.14
+}
+expansion_29 = {
+	administrative_efficiency = 0.145
+	ae_impact = 0.145
+	core_creation = 0.145
+}
+expansion_30 = {
+	administrative_efficiency = 0.15
+	ae_impact = 0.15
+	core_creation = 0.15
+}
+expansion_31 = {
+	administrative_efficiency = 0.155
+	ae_impact = 0.155
+	core_creation = 0.155
+}
+expansion_32 = {
+	administrative_efficiency = 0.16
+	ae_impact = 0.16
+	core_creation = 0.16
+}
+expansion_33 = {
+	administrative_efficiency = 0.165
+	ae_impact = 0.165
+	core_creation = 0.165
+}
+expansion_34 = {
+	administrative_efficiency = 0.17
+	ae_impact = 0.17
+	core_creation = 0.17
+}
+expansion_35 = {
+	administrative_efficiency = 0.175
+	ae_impact = 0.175
+	core_creation = 0.175
+}
+expansion_36 = {
+	administrative_efficiency = 0.18
+	ae_impact = 0.18
+	core_creation = 0.18
+}
+expansion_37 = {
+	administrative_efficiency = 0.185
+	ae_impact = 0.185
+	core_creation = 0.185
+}
+expansion_38 = {
+	administrative_efficiency = 0.19
+	ae_impact = 0.19
+	core_creation = 0.19
+}
+expansion_39 = {
+	administrative_efficiency = 0.195
+	ae_impact = 0.195
+	core_creation = 0.195
+}
+expansion_40 = {
+	administrative_efficiency = 0.2
+	ae_impact = 0.2
+	core_creation = 0.2
+}
+expansion_41 = {
+	administrative_efficiency = 0.205
+	ae_impact = 0.205
+	core_creation = 0.205
+}
+expansion_42 = {
+	administrative_efficiency = 0.21
+	ae_impact = 0.21
+	core_creation = 0.21
+}
+expansion_43 = {
+	administrative_efficiency = 0.215
+	ae_impact = 0.215
+	core_creation = 0.215
+}
+expansion_44 = {
+	administrative_efficiency = 0.22
+	ae_impact = 0.22
+	core_creation = 0.22
+}
+expansion_45 = {
+	administrative_efficiency = 0.225
+	ae_impact = 0.225
+	core_creation = 0.225
+}
+expansion_46 = {
+	administrative_efficiency = 0.23
+	ae_impact = 0.23
+	core_creation = 0.23
+}
+expansion_47 = {
+	administrative_efficiency = 0.235
+	ae_impact = 0.235
+	core_creation = 0.235
+}
+expansion_48 = {
+	administrative_efficiency = 0.24
+	ae_impact = 0.24
+	core_creation = 0.24
+}
+expansion_49 = {
+	administrative_efficiency = 0.245
+	ae_impact = 0.245
+	core_creation = 0.245
+}
+expansion_50 = {
+	administrative_efficiency = 0.25
+	ae_impact = 0.25
+	core_creation = 0.25
+}
+expansion_51 = {
+	administrative_efficiency = 0.255
+	ae_impact = 0.255
+	core_creation = 0.255
+}
+expansion_52 = {
+	administrative_efficiency = 0.26
+	ae_impact = 0.26
+	core_creation = 0.26
+}
+expansion_53 = {
+	administrative_efficiency = 0.265
+	ae_impact = 0.265
+	core_creation = 0.265
+}
+expansion_54 = {
+	administrative_efficiency = 0.27
+	ae_impact = 0.27
+	core_creation = 0.27
+}
+expansion_55 = {
+	administrative_efficiency = 0.275
+	ae_impact = 0.275
+	core_creation = 0.275
+}
+expansion_56 = {
+	administrative_efficiency = 0.28
+	ae_impact = 0.28
+	core_creation = 0.28
+}
+expansion_57 = {
+	administrative_efficiency = 0.285
+	ae_impact = 0.285
+	core_creation = 0.285
+}
+expansion_58 = {
+	administrative_efficiency = 0.29
+	ae_impact = 0.29
+	core_creation = 0.29
+}
+expansion_59 = {
+	administrative_efficiency = 0.295
+	ae_impact = 0.295
+	core_creation = 0.295
+}
+expansion_60 = {
+	administrative_efficiency = 0.3
+	ae_impact = 0.3
+	core_creation = 0.3
+}
+expansion_61 = {
+	administrative_efficiency = 0.305
+	ae_impact = 0.305
+	core_creation = 0.305
+}
+expansion_62 = {
+	administrative_efficiency = 0.31
+	ae_impact = 0.31
+	core_creation = 0.31
+}
+expansion_63 = {
+	administrative_efficiency = 0.315
+	ae_impact = 0.315
+	core_creation = 0.315
+}
+expansion_64 = {
+	administrative_efficiency = 0.32
+	ae_impact = 0.32
+	core_creation = 0.32
+}
+expansion_65 = {
+	administrative_efficiency = 0.325
+	ae_impact = 0.325
+	core_creation = 0.325
+}
+expansion_66 = {
+	administrative_efficiency = 0.33
+	ae_impact = 0.33
+	core_creation = 0.33
+}
+expansion_67 = {
+	administrative_efficiency = 0.335
+	ae_impact = 0.335
+	core_creation = 0.335
+}
+expansion_68 = {
+	administrative_efficiency = 0.34
+	ae_impact = 0.34
+	core_creation = 0.34
+}
+expansion_69 = {
+	administrative_efficiency = 0.345
+	ae_impact = 0.345
+	core_creation = 0.345
+}
+expansion_70 = {
+	administrative_efficiency = 0.35
+	ae_impact = 0.35
+	core_creation = 0.35
+}
+expansion_71 = {
+	administrative_efficiency = 0.355
+	ae_impact = 0.355
+	core_creation = 0.355
+}
+expansion_72 = {
+	administrative_efficiency = 0.36
+	ae_impact = 0.36
+	core_creation = 0.36
+}
+expansion_73 = {
+	administrative_efficiency = 0.365
+	ae_impact = 0.365
+	core_creation = 0.365
+}
+expansion_74 = {
+	administrative_efficiency = 0.37
+	ae_impact = 0.37
+	core_creation = 0.37
+}
+expansion_75 = {
+	administrative_efficiency = 0.375
+	ae_impact = 0.375
+	core_creation = 0.375
+}
+expansion_76 = {
+	administrative_efficiency = 0.38
+	ae_impact = 0.38
+	core_creation = 0.38
+}
+expansion_77 = {
+	administrative_efficiency = 0.385
+	ae_impact = 0.385
+	core_creation = 0.385
+}
+expansion_78 = {
+	administrative_efficiency = 0.39
+	ae_impact = 0.39
+	core_creation = 0.39
+}
+expansion_79 = {
+	administrative_efficiency = 0.395
+	ae_impact = 0.395
+	core_creation = 0.395
+}
+expansion_80 = {
+	administrative_efficiency = 0.4
+	ae_impact = 0.4
+	core_creation = 0.4
+}
+expansion_81 = {
+	administrative_efficiency = 0.405
+	ae_impact = 0.405
+	core_creation = 0.405
+}
+expansion_82 = {
+	administrative_efficiency = 0.41
+	ae_impact = 0.41
+	core_creation = 0.41
+}
+expansion_83 = {
+	administrative_efficiency = 0.415
+	ae_impact = 0.415
+	core_creation = 0.415
+}
+expansion_84 = {
+	administrative_efficiency = 0.42
+	ae_impact = 0.42
+	core_creation = 0.42
+}
+expansion_85 = {
+	administrative_efficiency = 0.425
+	ae_impact = 0.425
+	core_creation = 0.425
+}
+expansion_86 = {
+	administrative_efficiency = 0.43
+	ae_impact = 0.43
+	core_creation = 0.43
+}
+expansion_87 = {
+	administrative_efficiency = 0.435
+	ae_impact = 0.435
+	core_creation = 0.435
+}
+expansion_88 = {
+	administrative_efficiency = 0.44
+	ae_impact = 0.44
+	core_creation = 0.44
+}
+expansion_89 = {
+	administrative_efficiency = 0.445
+	ae_impact = 0.445
+	core_creation = 0.445
+}
+expansion_90 = {
+	administrative_efficiency = 0.45
+	ae_impact = 0.45
+	core_creation = 0.45
+}
+expansion_91 = {
+	administrative_efficiency = 0.455
+	ae_impact = 0.455
+	core_creation = 0.455
+}
+expansion_92 = {
+	administrative_efficiency = 0.46
+	ae_impact = 0.46
+	core_creation = 0.46
+}
+expansion_93 = {
+	administrative_efficiency = 0.465
+	ae_impact = 0.465
+	core_creation = 0.465
+}
+expansion_94 = {
+	administrative_efficiency = 0.47
+	ae_impact = 0.47
+	core_creation = 0.47
+}
+expansion_95 = {
+	administrative_efficiency = 0.475
+	ae_impact = 0.475
+	core_creation = 0.475
+}
+expansion_96 = {
+	administrative_efficiency = 0.48
+	ae_impact = 0.48
+	core_creation = 0.48
+}
+expansion_97 = {
+	administrative_efficiency = 0.485
+	ae_impact = 0.485
+	core_creation = 0.485
+}
+expansion_98 = {
+	administrative_efficiency = 0.49
+	ae_impact = 0.49
+	core_creation = 0.49
+}
+expansion_99 = {
+	administrative_efficiency = 0.495
+	ae_impact = 0.495
+	core_creation = 0.495
+}
+expansion_100 = {
+	administrative_efficiency = 0.5
+	ae_impact = 0.5
+	core_creation = 0.5
+}
+expansion_101 = {
+	administrative_efficiency = 0.505
+	ae_impact = 0.505
+	core_creation = 0.505
+}
+expansion_102 = {
+	administrative_efficiency = 0.51
+	ae_impact = 0.51
+	core_creation = 0.51
+}
+expansion_103 = {
+	administrative_efficiency = 0.515
+	ae_impact = 0.515
+	core_creation = 0.515
+}
+expansion_104 = {
+	administrative_efficiency = 0.52
+	ae_impact = 0.52
+	core_creation = 0.52
+}
+expansion_105 = {
+	administrative_efficiency = 0.525
+	ae_impact = 0.525
+	core_creation = 0.525
+}
+expansion_106 = {
+	administrative_efficiency = 0.53
+	ae_impact = 0.53
+	core_creation = 0.53
+}
+expansion_107 = {
+	administrative_efficiency = 0.535
+	ae_impact = 0.535
+	core_creation = 0.535
+}
+expansion_108 = {
+	administrative_efficiency = 0.54
+	ae_impact = 0.54
+	core_creation = 0.54
+}
+expansion_109 = {
+	administrative_efficiency = 0.545
+	ae_impact = 0.545
+	core_creation = 0.545
+}
+expansion_110 = {
+	administrative_efficiency = 0.55
+	ae_impact = 0.55
+	core_creation = 0.55
+}
+expansion_111 = {
+	administrative_efficiency = 0.555
+	ae_impact = 0.555
+	core_creation = 0.555
+}
+expansion_112 = {
+	administrative_efficiency = 0.56
+	ae_impact = 0.56
+	core_creation = 0.56
+}
+expansion_113 = {
+	administrative_efficiency = 0.565
+	ae_impact = 0.565
+	core_creation = 0.565
+}
+expansion_114 = {
+	administrative_efficiency = 0.57
+	ae_impact = 0.57
+	core_creation = 0.57
+}
+expansion_115 = {
+	administrative_efficiency = 0.575
+	ae_impact = 0.575
+	core_creation = 0.575
+}
+expansion_116 = {
+	administrative_efficiency = 0.58
+	ae_impact = 0.58
+	core_creation = 0.58
+}
+expansion_117 = {
+	administrative_efficiency = 0.585
+	ae_impact = 0.585
+	core_creation = 0.585
+}
+expansion_118 = {
+	administrative_efficiency = 0.59
+	ae_impact = 0.59
+	core_creation = 0.59
+}
+expansion_119 = {
+	administrative_efficiency = 0.595
+	ae_impact = 0.595
+	core_creation = 0.595
+}
+expansion_120 = {
+	administrative_efficiency = 0.6
+	ae_impact = 0.6
+	core_creation = 0.6
+}
+expansion_121 = {
+	administrative_efficiency = 0.605
+	ae_impact = 0.605
+	core_creation = 0.605
+}
+expansion_122 = {
+	administrative_efficiency = 0.61
+	ae_impact = 0.61
+	core_creation = 0.61
+}
+expansion_123 = {
+	administrative_efficiency = 0.615
+	ae_impact = 0.615
+	core_creation = 0.615
+}
+expansion_124 = {
+	administrative_efficiency = 0.62
+	ae_impact = 0.62
+	core_creation = 0.62
+}
+expansion_125 = {
+	administrative_efficiency = 0.625
+	ae_impact = 0.625
+	core_creation = 0.625
+}
+expansion_126 = {
+	administrative_efficiency = 0.63
+	ae_impact = 0.63
+	core_creation = 0.63
+}
+expansion_127 = {
+	administrative_efficiency = 0.635
+	ae_impact = 0.635
+	core_creation = 0.635
+}
+expansion_128 = {
+	administrative_efficiency = 0.64
+	ae_impact = 0.64
+	core_creation = 0.64
+}
 morale_1 = {
-	land_morale = 1
+	land_morale = 0.01
 }
-
 morale_2 = {
-	land_morale = 3
+	land_morale = 0.02
 }
-
 morale_3 = {
-	land_morale = 9
+	land_morale = 0.03
 }
-
+morale_4 = {
+	land_morale = 0.04
+}
+morale_5 = {
+	land_morale = 0.05
+}
+morale_6 = {
+	land_morale = 0.06
+}
+morale_7 = {
+	land_morale = 0.07
+}
+morale_8 = {
+	land_morale = 0.08
+}
+morale_9 = {
+	land_morale = 0.09
+}
+morale_10 = {
+	land_morale = 0.1
+}
+morale_11 = {
+	land_morale = 0.11
+}
+morale_12 = {
+	land_morale = 0.12
+}
+morale_13 = {
+	land_morale = 0.13
+}
+morale_14 = {
+	land_morale = 0.14
+}
+morale_15 = {
+	land_morale = 0.15
+}
+morale_16 = {
+	land_morale = 0.16
+}
+morale_17 = {
+	land_morale = 0.17
+}
+morale_18 = {
+	land_morale = 0.18
+}
+morale_19 = {
+	land_morale = 0.19
+}
+morale_20 = {
+	land_morale = 0.2
+}
+morale_21 = {
+	land_morale = 0.21
+}
+morale_22 = {
+	land_morale = 0.22
+}
+morale_23 = {
+	land_morale = 0.23
+}
+morale_24 = {
+	land_morale = 0.24
+}
+morale_25 = {
+	land_morale = 0.25
+}
+morale_26 = {
+	land_morale = 0.26
+}
+morale_27 = {
+	land_morale = 0.27
+}
+morale_28 = {
+	land_morale = 0.28
+}
+morale_29 = {
+	land_morale = 0.29
+}
+morale_30 = {
+	land_morale = 0.3
+}
+morale_31 = {
+	land_morale = 0.31
+}
+morale_32 = {
+	land_morale = 0.32
+}
+morale_33 = {
+	land_morale = 0.33
+}
+morale_34 = {
+	land_morale = 0.34
+}
+morale_35 = {
+	land_morale = 0.35
+}
+morale_36 = {
+	land_morale = 0.36
+}
+morale_37 = {
+	land_morale = 0.37
+}
+morale_38 = {
+	land_morale = 0.38
+}
+morale_39 = {
+	land_morale = 0.39
+}
+morale_40 = {
+	land_morale = 0.4
+}
+morale_41 = {
+	land_morale = 0.41
+}
+morale_42 = {
+	land_morale = 0.42
+}
+morale_43 = {
+	land_morale = 0.43
+}
+morale_44 = {
+	land_morale = 0.44
+}
+morale_45 = {
+	land_morale = 0.45
+}
+morale_46 = {
+	land_morale = 0.46
+}
+morale_47 = {
+	land_morale = 0.47
+}
+morale_48 = {
+	land_morale = 0.48
+}
+morale_49 = {
+	land_morale = 0.49
+}
+morale_50 = {
+	land_morale = 0.5
+}
+morale_51 = {
+	land_morale = 0.51
+}
+morale_52 = {
+	land_morale = 0.52
+}
+morale_53 = {
+	land_morale = 0.53
+}
+morale_54 = {
+	land_morale = 0.54
+}
+morale_55 = {
+	land_morale = 0.55
+}
+morale_56 = {
+	land_morale = 0.56
+}
+morale_57 = {
+	land_morale = 0.57
+}
+morale_58 = {
+	land_morale = 0.58
+}
+morale_59 = {
+	land_morale = 0.59
+}
+morale_60 = {
+	land_morale = 0.6
+}
+morale_61 = {
+	land_morale = 0.61
+}
+morale_62 = {
+	land_morale = 0.62
+}
+morale_63 = {
+	land_morale = 0.63
+}
+morale_64 = {
+	land_morale = 0.64
+}
+morale_65 = {
+	land_morale = 0.65
+}
+morale_66 = {
+	land_morale = 0.66
+}
+morale_67 = {
+	land_morale = 0.67
+}
+morale_68 = {
+	land_morale = 0.68
+}
+morale_69 = {
+	land_morale = 0.69
+}
+morale_70 = {
+	land_morale = 0.7
+}
+morale_71 = {
+	land_morale = 0.71
+}
+morale_72 = {
+	land_morale = 0.72
+}
+morale_73 = {
+	land_morale = 0.73
+}
+morale_74 = {
+	land_morale = 0.74
+}
+morale_75 = {
+	land_morale = 0.75
+}
+morale_76 = {
+	land_morale = 0.76
+}
+morale_77 = {
+	land_morale = 0.77
+}
+morale_78 = {
+	land_morale = 0.78
+}
+morale_79 = {
+	land_morale = 0.79
+}
+morale_80 = {
+	land_morale = 0.8
+}
+morale_81 = {
+	land_morale = 0.81
+}
+morale_82 = {
+	land_morale = 0.82
+}
+morale_83 = {
+	land_morale = 0.83
+}
+morale_84 = {
+	land_morale = 0.84
+}
+morale_85 = {
+	land_morale = 0.85
+}
+morale_86 = {
+	land_morale = 0.86
+}
+morale_87 = {
+	land_morale = 0.87
+}
+morale_88 = {
+	land_morale = 0.88
+}
+morale_89 = {
+	land_morale = 0.89
+}
+morale_90 = {
+	land_morale = 0.9
+}
+morale_91 = {
+	land_morale = 0.91
+}
+morale_92 = {
+	land_morale = 0.92
+}
+morale_93 = {
+	land_morale = 0.93
+}
+morale_94 = {
+	land_morale = 0.94
+}
+morale_95 = {
+	land_morale = 0.95
+}
+morale_96 = {
+	land_morale = 0.96
+}
+morale_97 = {
+	land_morale = 0.97
+}
+morale_98 = {
+	land_morale = 0.98
+}
+morale_99 = {
+	land_morale = 0.99
+}
+morale_100 = {
+	land_morale = 1.0
+}
+morale_101 = {
+	land_morale = 1.01
+}
+morale_102 = {
+	land_morale = 1.02
+}
+morale_103 = {
+	land_morale = 1.03
+}
+morale_104 = {
+	land_morale = 1.04
+}
+morale_105 = {
+	land_morale = 1.05
+}
+morale_106 = {
+	land_morale = 1.06
+}
+morale_107 = {
+	land_morale = 1.07
+}
+morale_108 = {
+	land_morale = 1.08
+}
+morale_109 = {
+	land_morale = 1.09
+}
+morale_110 = {
+	land_morale = 1.1
+}
+morale_111 = {
+	land_morale = 1.11
+}
+morale_112 = {
+	land_morale = 1.12
+}
+morale_113 = {
+	land_morale = 1.13
+}
+morale_114 = {
+	land_morale = 1.14
+}
+morale_115 = {
+	land_morale = 1.15
+}
+morale_116 = {
+	land_morale = 1.16
+}
+morale_117 = {
+	land_morale = 1.17
+}
+morale_118 = {
+	land_morale = 1.18
+}
+morale_119 = {
+	land_morale = 1.19
+}
+morale_120 = {
+	land_morale = 1.2
+}
+morale_121 = {
+	land_morale = 1.21
+}
+morale_122 = {
+	land_morale = 1.22
+}
+morale_123 = {
+	land_morale = 1.23
+}
+morale_124 = {
+	land_morale = 1.24
+}
+morale_125 = {
+	land_morale = 1.25
+}
+morale_126 = {
+	land_morale = 1.26
+}
+morale_127 = {
+	land_morale = 1.27
+}
+morale_128 = {
+	land_morale = 1.28
+}
 income_1 = {
+	global_tax_income = 1
+}
+income_2 = {
+	global_tax_income = 2
+}
+income_3 = {
+	global_tax_income = 3
+}
+income_4 = {
+	global_tax_income = 4
+}
+income_5 = {
+	global_tax_income = 5
+}
+income_6 = {
+	global_tax_income = 6
+}
+income_7 = {
+	global_tax_income = 7
+}
+income_8 = {
+	global_tax_income = 8
+}
+income_9 = {
+	global_tax_income = 9
+}
+income_10 = {
+	global_tax_income = 10
+}
+income_11 = {
+	global_tax_income = 11
+}
+income_12 = {
+	global_tax_income = 12
+}
+income_13 = {
+	global_tax_income = 13
+}
+income_14 = {
+	global_tax_income = 14
+}
+income_15 = {
+	global_tax_income = 15
+}
+income_16 = {
+	global_tax_income = 16
+}
+income_17 = {
+	global_tax_income = 17
+}
+income_18 = {
+	global_tax_income = 18
+}
+income_19 = {
+	global_tax_income = 19
+}
+income_20 = {
+	global_tax_income = 20
+}
+income_21 = {
+	global_tax_income = 21
+}
+income_22 = {
+	global_tax_income = 22
+}
+income_23 = {
+	global_tax_income = 23
+}
+income_24 = {
+	global_tax_income = 24
+}
+income_25 = {
+	global_tax_income = 25
+}
+income_26 = {
+	global_tax_income = 26
+}
+income_27 = {
+	global_tax_income = 27
+}
+income_28 = {
+	global_tax_income = 28
+}
+income_29 = {
+	global_tax_income = 29
+}
+income_30 = {
+	global_tax_income = 30
+}
+income_31 = {
+	global_tax_income = 31
+}
+income_32 = {
+	global_tax_income = 32
+}
+income_33 = {
+	global_tax_income = 33
+}
+income_34 = {
+	global_tax_income = 34
+}
+income_35 = {
+	global_tax_income = 35
+}
+income_36 = {
+	global_tax_income = 36
+}
+income_37 = {
+	global_tax_income = 37
+}
+income_38 = {
+	global_tax_income = 38
+}
+income_39 = {
+	global_tax_income = 39
+}
+income_40 = {
+	global_tax_income = 40
+}
+income_41 = {
+	global_tax_income = 41
+}
+income_42 = {
+	global_tax_income = 42
+}
+income_43 = {
+	global_tax_income = 43
+}
+income_44 = {
+	global_tax_income = 44
+}
+income_45 = {
+	global_tax_income = 45
+}
+income_46 = {
+	global_tax_income = 46
+}
+income_47 = {
+	global_tax_income = 47
+}
+income_48 = {
+	global_tax_income = 48
+}
+income_49 = {
+	global_tax_income = 49
+}
+income_50 = {
+	global_tax_income = 50
+}
+income_51 = {
+	global_tax_income = 51
+}
+income_52 = {
+	global_tax_income = 52
+}
+income_53 = {
+	global_tax_income = 53
+}
+income_54 = {
+	global_tax_income = 54
+}
+income_55 = {
+	global_tax_income = 55
+}
+income_56 = {
+	global_tax_income = 56
+}
+income_57 = {
+	global_tax_income = 57
+}
+income_58 = {
+	global_tax_income = 58
+}
+income_59 = {
+	global_tax_income = 59
+}
+income_60 = {
+	global_tax_income = 60
+}
+income_61 = {
+	global_tax_income = 61
+}
+income_62 = {
+	global_tax_income = 62
+}
+income_63 = {
+	global_tax_income = 63
+}
+income_64 = {
+	global_tax_income = 64
+}
+income_65 = {
+	global_tax_income = 65
+}
+income_66 = {
+	global_tax_income = 66
+}
+income_67 = {
+	global_tax_income = 67
+}
+income_68 = {
+	global_tax_income = 68
+}
+income_69 = {
+	global_tax_income = 69
+}
+income_70 = {
+	global_tax_income = 70
+}
+income_71 = {
+	global_tax_income = 71
+}
+income_72 = {
+	global_tax_income = 72
+}
+income_73 = {
+	global_tax_income = 73
+}
+income_74 = {
+	global_tax_income = 74
+}
+income_75 = {
+	global_tax_income = 75
+}
+income_76 = {
+	global_tax_income = 76
+}
+income_77 = {
+	global_tax_income = 77
+}
+income_78 = {
+	global_tax_income = 78
+}
+income_79 = {
+	global_tax_income = 79
+}
+income_80 = {
+	global_tax_income = 80
+}
+income_81 = {
+	global_tax_income = 81
+}
+income_82 = {
+	global_tax_income = 82
+}
+income_83 = {
+	global_tax_income = 83
+}
+income_84 = {
+	global_tax_income = 84
+}
+income_85 = {
+	global_tax_income = 85
+}
+income_86 = {
+	global_tax_income = 86
+}
+income_87 = {
+	global_tax_income = 87
+}
+income_88 = {
+	global_tax_income = 88
+}
+income_89 = {
+	global_tax_income = 89
+}
+income_90 = {
 	global_tax_income = 90
 }
-
-income_2 = {
-	global_tax_income = 270
+income_91 = {
+	global_tax_income = 91
 }
-
-income_3 = {
-	global_tax_income = 810
+income_92 = {
+	global_tax_income = 92
 }
-
+income_93 = {
+	global_tax_income = 93
+}
+income_94 = {
+	global_tax_income = 94
+}
+income_95 = {
+	global_tax_income = 95
+}
+income_96 = {
+	global_tax_income = 96
+}
+income_97 = {
+	global_tax_income = 97
+}
+income_98 = {
+	global_tax_income = 98
+}
+income_99 = {
+	global_tax_income = 99
+}
+income_100 = {
+	global_tax_income = 100
+}
+income_101 = {
+	global_tax_income = 101
+}
+income_102 = {
+	global_tax_income = 102
+}
+income_103 = {
+	global_tax_income = 103
+}
+income_104 = {
+	global_tax_income = 104
+}
+income_105 = {
+	global_tax_income = 105
+}
+income_106 = {
+	global_tax_income = 106
+}
+income_107 = {
+	global_tax_income = 107
+}
+income_108 = {
+	global_tax_income = 108
+}
+income_109 = {
+	global_tax_income = 109
+}
+income_110 = {
+	global_tax_income = 110
+}
+income_111 = {
+	global_tax_income = 111
+}
+income_112 = {
+	global_tax_income = 112
+}
+income_113 = {
+	global_tax_income = 113
+}
+income_114 = {
+	global_tax_income = 114
+}
+income_115 = {
+	global_tax_income = 115
+}
+income_116 = {
+	global_tax_income = 116
+}
+income_117 = {
+	global_tax_income = 117
+}
+income_118 = {
+	global_tax_income = 118
+}
+income_119 = {
+	global_tax_income = 119
+}
+income_120 = {
+	global_tax_income = 120
+}
+income_121 = {
+	global_tax_income = 121
+}
+income_122 = {
+	global_tax_income = 122
+}
+income_123 = {
+	global_tax_income = 123
+}
+income_124 = {
+	global_tax_income = 124
+}
+income_125 = {
+	global_tax_income = 125
+}
+income_126 = {
+	global_tax_income = 126
+}
+income_127 = {
+	global_tax_income = 127
+}
+income_128 = {
+	global_tax_income = 128
+}
+army_size_1 = {
+	land_forcelimit = 2
+	global_manpower = 1
+}
+army_size_2 = {
+	land_forcelimit = 4
+	global_manpower = 2
+}
+army_size_3 = {
+	land_forcelimit = 6
+	global_manpower = 3
+}
+army_size_4 = {
+	land_forcelimit = 8
+	global_manpower = 4
+}
+army_size_5 = {
+	land_forcelimit = 10
+	global_manpower = 5
+}
+army_size_6 = {
+	land_forcelimit = 12
+	global_manpower = 6
+}
+army_size_7 = {
+	land_forcelimit = 14
+	global_manpower = 7
+}
+army_size_8 = {
+	land_forcelimit = 16
+	global_manpower = 8
+}
+army_size_9 = {
+	land_forcelimit = 18
+	global_manpower = 9
+}
+army_size_10 = {
+	land_forcelimit = 20
+	global_manpower = 10
+}
+army_size_11 = {
+	land_forcelimit = 22
+	global_manpower = 11
+}
+army_size_12 = {
+	land_forcelimit = 24
+	global_manpower = 12
+}
+army_size_13 = {
+	land_forcelimit = 26
+	global_manpower = 13
+}
+army_size_14 = {
+	land_forcelimit = 28
+	global_manpower = 14
+}
+army_size_15 = {
+	land_forcelimit = 30
+	global_manpower = 15
+}
+army_size_16 = {
+	land_forcelimit = 32
+	global_manpower = 16
+}
+army_size_17 = {
+	land_forcelimit = 34
+	global_manpower = 17
+}
+army_size_18 = {
+	land_forcelimit = 36
+	global_manpower = 18
+}
+army_size_19 = {
+	land_forcelimit = 38
+	global_manpower = 19
+}
+army_size_20 = {
+	land_forcelimit = 40
+	global_manpower = 20
+}
+army_size_21 = {
+	land_forcelimit = 42
+	global_manpower = 21
+}
+army_size_22 = {
+	land_forcelimit = 44
+	global_manpower = 22
+}
+army_size_23 = {
+	land_forcelimit = 46
+	global_manpower = 23
+}
+army_size_24 = {
+	land_forcelimit = 48
+	global_manpower = 24
+}
+army_size_25 = {
+	land_forcelimit = 50
+	global_manpower = 25
+}
+army_size_26 = {
+	land_forcelimit = 52
+	global_manpower = 26
+}
+army_size_27 = {
+	land_forcelimit = 54
+	global_manpower = 27
+}
+army_size_28 = {
+	land_forcelimit = 56
+	global_manpower = 28
+}
+army_size_29 = {
+	land_forcelimit = 58
+	global_manpower = 29
+}
+army_size_30 = {
+	land_forcelimit = 60
+	global_manpower = 30
+}
+army_size_31 = {
+	land_forcelimit = 62
+	global_manpower = 31
+}
+army_size_32 = {
+	land_forcelimit = 64
+	global_manpower = 32
+}
+army_size_33 = {
+	land_forcelimit = 66
+	global_manpower = 33
+}
+army_size_34 = {
+	land_forcelimit = 68
+	global_manpower = 34
+}
+army_size_35 = {
+	land_forcelimit = 70
+	global_manpower = 35
+}
+army_size_36 = {
+	land_forcelimit = 72
+	global_manpower = 36
+}
+army_size_37 = {
+	land_forcelimit = 74
+	global_manpower = 37
+}
+army_size_38 = {
+	land_forcelimit = 76
+	global_manpower = 38
+}
+army_size_39 = {
+	land_forcelimit = 78
+	global_manpower = 39
+}
+army_size_40 = {
+	land_forcelimit = 80
+	global_manpower = 40
+}
+army_size_41 = {
+	land_forcelimit = 82
+	global_manpower = 41
+}
+army_size_42 = {
+	land_forcelimit = 84
+	global_manpower = 42
+}
+army_size_43 = {
+	land_forcelimit = 86
+	global_manpower = 43
+}
+army_size_44 = {
+	land_forcelimit = 88
+	global_manpower = 44
+}
+army_size_45 = {
+	land_forcelimit = 90
+	global_manpower = 45
+}
+army_size_46 = {
+	land_forcelimit = 92
+	global_manpower = 46
+}
+army_size_47 = {
+	land_forcelimit = 94
+	global_manpower = 47
+}
+army_size_48 = {
+	land_forcelimit = 96
+	global_manpower = 48
+}
+army_size_49 = {
+	land_forcelimit = 98
+	global_manpower = 49
+}
+army_size_50 = {
+	land_forcelimit = 100
+	global_manpower = 50
+}
+army_size_51 = {
+	land_forcelimit = 102
+	global_manpower = 51
+}
+army_size_52 = {
+	land_forcelimit = 104
+	global_manpower = 52
+}
+army_size_53 = {
+	land_forcelimit = 106
+	global_manpower = 53
+}
+army_size_54 = {
+	land_forcelimit = 108
+	global_manpower = 54
+}
+army_size_55 = {
+	land_forcelimit = 110
+	global_manpower = 55
+}
+army_size_56 = {
+	land_forcelimit = 112
+	global_manpower = 56
+}
+army_size_57 = {
+	land_forcelimit = 114
+	global_manpower = 57
+}
+army_size_58 = {
+	land_forcelimit = 116
+	global_manpower = 58
+}
+army_size_59 = {
+	land_forcelimit = 118
+	global_manpower = 59
+}
+army_size_60 = {
+	land_forcelimit = 120
+	global_manpower = 60
+}
+army_size_61 = {
+	land_forcelimit = 122
+	global_manpower = 61
+}
+army_size_62 = {
+	land_forcelimit = 124
+	global_manpower = 62
+}
+army_size_63 = {
+	land_forcelimit = 126
+	global_manpower = 63
+}
+army_size_64 = {
+	land_forcelimit = 128
+	global_manpower = 64
+}
+army_size_65 = {
+	land_forcelimit = 130
+	global_manpower = 65
+}
+army_size_66 = {
+	land_forcelimit = 132
+	global_manpower = 66
+}
+army_size_67 = {
+	land_forcelimit = 134
+	global_manpower = 67
+}
+army_size_68 = {
+	land_forcelimit = 136
+	global_manpower = 68
+}
+army_size_69 = {
+	land_forcelimit = 138
+	global_manpower = 69
+}
+army_size_70 = {
+	land_forcelimit = 140
+	global_manpower = 70
+}
+army_size_71 = {
+	land_forcelimit = 142
+	global_manpower = 71
+}
+army_size_72 = {
+	land_forcelimit = 144
+	global_manpower = 72
+}
+army_size_73 = {
+	land_forcelimit = 146
+	global_manpower = 73
+}
+army_size_74 = {
+	land_forcelimit = 148
+	global_manpower = 74
+}
+army_size_75 = {
+	land_forcelimit = 150
+	global_manpower = 75
+}
+army_size_76 = {
+	land_forcelimit = 152
+	global_manpower = 76
+}
+army_size_77 = {
+	land_forcelimit = 154
+	global_manpower = 77
+}
+army_size_78 = {
+	land_forcelimit = 156
+	global_manpower = 78
+}
+army_size_79 = {
+	land_forcelimit = 158
+	global_manpower = 79
+}
+army_size_80 = {
+	land_forcelimit = 160
+	global_manpower = 80
+}
+army_size_81 = {
+	land_forcelimit = 162
+	global_manpower = 81
+}
+army_size_82 = {
+	land_forcelimit = 164
+	global_manpower = 82
+}
+army_size_83 = {
+	land_forcelimit = 166
+	global_manpower = 83
+}
+army_size_84 = {
+	land_forcelimit = 168
+	global_manpower = 84
+}
+army_size_85 = {
+	land_forcelimit = 170
+	global_manpower = 85
+}
+army_size_86 = {
+	land_forcelimit = 172
+	global_manpower = 86
+}
+army_size_87 = {
+	land_forcelimit = 174
+	global_manpower = 87
+}
+army_size_88 = {
+	land_forcelimit = 176
+	global_manpower = 88
+}
+army_size_89 = {
+	land_forcelimit = 178
+	global_manpower = 89
+}
+army_size_90 = {
+	land_forcelimit = 180
+	global_manpower = 90
+}
+army_size_91 = {
+	land_forcelimit = 182
+	global_manpower = 91
+}
+army_size_92 = {
+	land_forcelimit = 184
+	global_manpower = 92
+}
+army_size_93 = {
+	land_forcelimit = 186
+	global_manpower = 93
+}
+army_size_94 = {
+	land_forcelimit = 188
+	global_manpower = 94
+}
+army_size_95 = {
+	land_forcelimit = 190
+	global_manpower = 95
+}
+army_size_96 = {
+	land_forcelimit = 192
+	global_manpower = 96
+}
+army_size_97 = {
+	land_forcelimit = 194
+	global_manpower = 97
+}
+army_size_98 = {
+	land_forcelimit = 196
+	global_manpower = 98
+}
+army_size_99 = {
+	land_forcelimit = 198
+	global_manpower = 99
+}
+army_size_100 = {
+	land_forcelimit = 200
+	global_manpower = 100
+}
+army_size_101 = {
+	land_forcelimit = 202
+	global_manpower = 101
+}
+army_size_102 = {
+	land_forcelimit = 204
+	global_manpower = 102
+}
+army_size_103 = {
+	land_forcelimit = 206
+	global_manpower = 103
+}
+army_size_104 = {
+	land_forcelimit = 208
+	global_manpower = 104
+}
+army_size_105 = {
+	land_forcelimit = 210
+	global_manpower = 105
+}
+army_size_106 = {
+	land_forcelimit = 212
+	global_manpower = 106
+}
+army_size_107 = {
+	land_forcelimit = 214
+	global_manpower = 107
+}
+army_size_108 = {
+	land_forcelimit = 216
+	global_manpower = 108
+}
+army_size_109 = {
+	land_forcelimit = 218
+	global_manpower = 109
+}
+army_size_110 = {
+	land_forcelimit = 220
+	global_manpower = 110
+}
+army_size_111 = {
+	land_forcelimit = 222
+	global_manpower = 111
+}
+army_size_112 = {
+	land_forcelimit = 224
+	global_manpower = 112
+}
+army_size_113 = {
+	land_forcelimit = 226
+	global_manpower = 113
+}
+army_size_114 = {
+	land_forcelimit = 228
+	global_manpower = 114
+}
+army_size_115 = {
+	land_forcelimit = 230
+	global_manpower = 115
+}
+army_size_116 = {
+	land_forcelimit = 232
+	global_manpower = 116
+}
+army_size_117 = {
+	land_forcelimit = 234
+	global_manpower = 117
+}
+army_size_118 = {
+	land_forcelimit = 236
+	global_manpower = 118
+}
+army_size_119 = {
+	land_forcelimit = 238
+	global_manpower = 119
+}
+army_size_120 = {
+	land_forcelimit = 240
+	global_manpower = 120
+}
+army_size_121 = {
+	land_forcelimit = 242
+	global_manpower = 121
+}
+army_size_122 = {
+	land_forcelimit = 244
+	global_manpower = 122
+}
+army_size_123 = {
+	land_forcelimit = 246
+	global_manpower = 123
+}
+army_size_124 = {
+	land_forcelimit = 248
+	global_manpower = 124
+}
+army_size_125 = {
+	land_forcelimit = 250
+	global_manpower = 125
+}
+army_size_126 = {
+	land_forcelimit = 252
+	global_manpower = 126
+}
+army_size_127 = {
+	land_forcelimit = 254
+	global_manpower = 127
+}
+army_size_128 = {
+	land_forcelimit = 256
+	global_manpower = 128
+}
 speed_1 = {
+	movement_speed = 0.01
+}
+speed_2 = {
+	movement_speed = 0.02
+}
+speed_3 = {
+	movement_speed = 0.03
+}
+speed_4 = {
+	movement_speed = 0.04
+}
+speed_5 = {
+	movement_speed = 0.05
+}
+speed_6 = {
+	movement_speed = 0.06
+}
+speed_7 = {
+	movement_speed = 0.07
+}
+speed_8 = {
+	movement_speed = 0.08
+}
+speed_9 = {
+	movement_speed = 0.09
+}
+speed_10 = {
+	movement_speed = 0.1
+}
+speed_11 = {
+	movement_speed = 0.11
+}
+speed_12 = {
+	movement_speed = 0.12
+}
+speed_13 = {
+	movement_speed = 0.13
+}
+speed_14 = {
+	movement_speed = 0.14
+}
+speed_15 = {
+	movement_speed = 0.15
+}
+speed_16 = {
+	movement_speed = 0.16
+}
+speed_17 = {
+	movement_speed = 0.17
+}
+speed_18 = {
+	movement_speed = 0.18
+}
+speed_19 = {
+	movement_speed = 0.19
+}
+speed_20 = {
+	movement_speed = 0.2
+}
+speed_21 = {
+	movement_speed = 0.21
+}
+speed_22 = {
+	movement_speed = 0.22
+}
+speed_23 = {
+	movement_speed = 0.23
+}
+speed_24 = {
+	movement_speed = 0.24
+}
+speed_25 = {
 	movement_speed = 0.25
 }
-
-speed_2 = {
+speed_26 = {
+	movement_speed = 0.26
+}
+speed_27 = {
+	movement_speed = 0.27
+}
+speed_28 = {
+	movement_speed = 0.28
+}
+speed_29 = {
+	movement_speed = 0.29
+}
+speed_30 = {
+	movement_speed = 0.3
+}
+speed_31 = {
+	movement_speed = 0.31
+}
+speed_32 = {
+	movement_speed = 0.32
+}
+speed_33 = {
+	movement_speed = 0.33
+}
+speed_34 = {
+	movement_speed = 0.34
+}
+speed_35 = {
+	movement_speed = 0.35
+}
+speed_36 = {
+	movement_speed = 0.36
+}
+speed_37 = {
+	movement_speed = 0.37
+}
+speed_38 = {
+	movement_speed = 0.38
+}
+speed_39 = {
+	movement_speed = 0.39
+}
+speed_40 = {
+	movement_speed = 0.4
+}
+speed_41 = {
+	movement_speed = 0.41
+}
+speed_42 = {
+	movement_speed = 0.42
+}
+speed_43 = {
+	movement_speed = 0.43
+}
+speed_44 = {
+	movement_speed = 0.44
+}
+speed_45 = {
+	movement_speed = 0.45
+}
+speed_46 = {
+	movement_speed = 0.46
+}
+speed_47 = {
+	movement_speed = 0.47
+}
+speed_48 = {
+	movement_speed = 0.48
+}
+speed_49 = {
+	movement_speed = 0.49
+}
+speed_50 = {
+	movement_speed = 0.5
+}
+speed_51 = {
+	movement_speed = 0.51
+}
+speed_52 = {
+	movement_speed = 0.52
+}
+speed_53 = {
+	movement_speed = 0.53
+}
+speed_54 = {
+	movement_speed = 0.54
+}
+speed_55 = {
+	movement_speed = 0.55
+}
+speed_56 = {
+	movement_speed = 0.56
+}
+speed_57 = {
+	movement_speed = 0.57
+}
+speed_58 = {
+	movement_speed = 0.58
+}
+speed_59 = {
+	movement_speed = 0.59
+}
+speed_60 = {
+	movement_speed = 0.6
+}
+speed_61 = {
+	movement_speed = 0.61
+}
+speed_62 = {
+	movement_speed = 0.62
+}
+speed_63 = {
+	movement_speed = 0.63
+}
+speed_64 = {
+	movement_speed = 0.64
+}
+speed_65 = {
+	movement_speed = 0.65
+}
+speed_66 = {
+	movement_speed = 0.66
+}
+speed_67 = {
+	movement_speed = 0.67
+}
+speed_68 = {
+	movement_speed = 0.68
+}
+speed_69 = {
+	movement_speed = 0.69
+}
+speed_70 = {
+	movement_speed = 0.7
+}
+speed_71 = {
+	movement_speed = 0.71
+}
+speed_72 = {
+	movement_speed = 0.72
+}
+speed_73 = {
+	movement_speed = 0.73
+}
+speed_74 = {
+	movement_speed = 0.74
+}
+speed_75 = {
 	movement_speed = 0.75
 }
-
-speed_3 = {
-	movement_speed = 1.5
+speed_76 = {
+	movement_speed = 0.76
 }
-
-siege_1 = {
-	siege_ability = 1
+speed_77 = {
+	movement_speed = 0.77
 }
-
-siege_2 = {
-	siege_ability = 5
+speed_78 = {
+	movement_speed = 0.78
 }
-
-siege_3 = {
-	siege_ability = 10
+speed_79 = {
+	movement_speed = 0.79
 }
-
-size_1 = {
-	land_forcelimit = 50
+speed_80 = {
+	movement_speed = 0.8
 }
-
-size_2 = {
-	land_forcelimit = 150
+speed_81 = {
+	movement_speed = 0.81
 }
-
-size_3 = {
-	land_forcelimit = 450
+speed_82 = {
+	movement_speed = 0.82
+}
+speed_83 = {
+	movement_speed = 0.83
+}
+speed_84 = {
+	movement_speed = 0.84
+}
+speed_85 = {
+	movement_speed = 0.85
+}
+speed_86 = {
+	movement_speed = 0.86
+}
+speed_87 = {
+	movement_speed = 0.87
+}
+speed_88 = {
+	movement_speed = 0.88
+}
+speed_89 = {
+	movement_speed = 0.89
+}
+speed_90 = {
+	movement_speed = 0.9
+}
+speed_91 = {
+	movement_speed = 0.91
+}
+speed_92 = {
+	movement_speed = 0.92
+}
+speed_93 = {
+	movement_speed = 0.93
+}
+speed_94 = {
+	movement_speed = 0.94
+}
+speed_95 = {
+	movement_speed = 0.95
+}
+speed_96 = {
+	movement_speed = 0.96
+}
+speed_97 = {
+	movement_speed = 0.97
+}
+speed_98 = {
+	movement_speed = 0.98
+}
+speed_99 = {
+	movement_speed = 0.99
+}
+speed_100 = {
+	movement_speed = 1.0
+}
+speed_101 = {
+	movement_speed = 1.01
+}
+speed_102 = {
+	movement_speed = 1.02
+}
+speed_103 = {
+	movement_speed = 1.03
+}
+speed_104 = {
+	movement_speed = 1.04
+}
+speed_105 = {
+	movement_speed = 1.05
+}
+speed_106 = {
+	movement_speed = 1.06
+}
+speed_107 = {
+	movement_speed = 1.07
+}
+speed_108 = {
+	movement_speed = 1.08
+}
+speed_109 = {
+	movement_speed = 1.09
+}
+speed_110 = {
+	movement_speed = 1.1
+}
+speed_111 = {
+	movement_speed = 1.11
+}
+speed_112 = {
+	movement_speed = 1.12
+}
+speed_113 = {
+	movement_speed = 1.13
+}
+speed_114 = {
+	movement_speed = 1.14
+}
+speed_115 = {
+	movement_speed = 1.15
+}
+speed_116 = {
+	movement_speed = 1.16
+}
+speed_117 = {
+	movement_speed = 1.17
+}
+speed_118 = {
+	movement_speed = 1.18
+}
+speed_119 = {
+	movement_speed = 1.19
+}
+speed_120 = {
+	movement_speed = 1.2
+}
+speed_121 = {
+	movement_speed = 1.21
+}
+speed_122 = {
+	movement_speed = 1.22
+}
+speed_123 = {
+	movement_speed = 1.23
+}
+speed_124 = {
+	movement_speed = 1.24
+}
+speed_125 = {
+	movement_speed = 1.25
+}
+speed_126 = {
+	movement_speed = 1.26
+}
+speed_127 = {
+	movement_speed = 1.27
+}
+speed_128 = {
+	movement_speed = 1.28
 }

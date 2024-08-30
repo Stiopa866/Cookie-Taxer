@@ -1,0 +1,2 @@
+﻿l_english:
+ army_size_cost_tt: "[army_size_cost_mantissa.GetValue] [Root.CLOC_ARMY_SIZE_COST_EXP]"
