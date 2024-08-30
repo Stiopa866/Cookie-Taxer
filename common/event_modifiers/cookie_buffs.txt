@@ -1,0 +1,77 @@
+expansion_1 = {
+	ae_impact = -0.25
+	administrative_efficiency = 0.25
+	core_creation = -0.25
+}
+
+expansion_2 = {
+	ae_impact = -0.5
+	administrative_efficiency = 0.5
+	core_creation = -0.5
+}
+
+expansion_3 = {
+	ae_impact = -0.75
+	administrative_efficiency = 0.75
+	core_creation = -0.75
+}
+
+morale_1 = {
+	land_morale = 1
+}
+
+morale_2 = {
+	land_morale = 3
+}
+
+morale_3 = {
+	land_morale = 9
+}
+
+income_1 = {
+	global_tax_income = 90
+}
+
+income_2 = {
+	global_tax_income = 270
+}
+
+income_3 = {
+	global_tax_income = 810
+}
+
+speed_1 = {
+	movement_speed = 0.25
+}
+
+speed_2 = {
+	movement_speed = 0.75
+}
+
+speed_3 = {
+	movement_speed = 1.5
+}
+
+siege_1 = {
+	siege_ability = 1
+}
+
+siege_2 = {
+	siege_ability = 5
+}
+
+siege_3 = {
+	siege_ability = 10
+}
+
+size_1 = {
+	land_forcelimit = 50
+}
+
+size_2 = {
+	land_forcelimit = 150
+}
+
+size_3 = {
+	land_forcelimit = 450
+}

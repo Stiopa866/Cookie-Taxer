@@ -1,0 +1,47 @@
+# purchase_upgrade = { type = x }
+
+purchase_upgrade = {
+	change_variable = {
+		which = num_of_$x$
+		value = 1
+	}
+
+	set_variable = {
+		which = num_of_$x$_2
+		which = num_of_$x$
+	}
+	
+	subtract_variable = {
+		which = num_of_$x$_2
+		value = 1
+	}
+	
+	based_on_var_fire = { var = num_of_$x$ functor = purchase_upgrade_cost }
+	based_on_var_and_plus_one_fire = { var = num_of_$x$ functor = change_upgrade arg_1 = $x$ arg_1_name = type }\\\\\\\\\\\\\\\\\\\
+}
+
+#change_upgrade = { current = int next = int+1 type = modifierprefix }
+
+change_upgrade = {
+	if = {
+		limit = {
+			has_country_modifier = $type$_$current$
+		}
+		remove_country_modifier = $type$_$current$
+	}
+	add_country_modifier = {
+		name = $type$_$next$
+		duration = -1
+	}
+}
+
+# purchase_building = { type = x }
+
+purchase_building = {
+	change_variable = {
+		which = num_of_$x$
+		value = 1
+	}
+	
+	based_on_var_fire = { var = num_of_$x$ functor = purchase_building_cost }
+}
