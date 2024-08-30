@@ -1,0 +1,2 @@
+﻿l_english:
+ expansion_cost_tt: "[expansion_cost_mantissa.GetValue] [Root.CLOC_EXPANSION_COST_EXP]"

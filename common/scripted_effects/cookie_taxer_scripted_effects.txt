@@ -1,23 +1,26 @@
 # purchase_upgrade = { type = x }
 
 purchase_upgrade = {
-	change_variable = {
-		which = num_of_$x$
-		value = 1
-	}
+	hidden_effect = {
+		change_variable = {
+			which = $type$_count
+			value = 1
+		}
 
-	set_variable = {
-		which = num_of_$x$_2
-		which = num_of_$x$
+		set_variable = {
+			which = $type$_count_2
+			which = $type$_count
+		}
+		
+		subtract_variable = {
+			which = $type$_count_2
+			value = 1
+		}
+		
+		subtract_longs = { ln1 = cookies ln2 = $type$ }
+		
+		based_on_var_and_plus_one_fire = { var = $type$_count functor = change_upgrade arg_1 = $type$ arg_1_name = type }
 	}
-	
-	subtract_variable = {
-		which = num_of_$x$_2
-		value = 1
-	}
-	
-	based_on_var_fire = { var = num_of_$x$ functor = purchase_upgrade_cost }
-	based_on_var_and_plus_one_fire = { var = num_of_$x$ functor = change_upgrade arg_1 = $x$ arg_1_name = type }
 }
 
 #change_upgrade = { current = int next = int+1 type = modifierprefix }

@@ -1,0 +1,771 @@
+get_morale_cost = {
+	if = {
+		limit = { check_variable = { which = siege_count value = 64 } }
+		if = {
+			limit = { check_variable = { which = siege_count value = 96 } }
+			if = {
+				limit = { check_variable = { which = siege_count value = 112 } }
+				if = {
+					limit = { check_variable = { which = siege_count value = 120 } }
+					if = {
+						limit = { check_variable = { which = siege_count value = 124 } }
+						if = {
+							limit = { check_variable = { which = siege_count value = 126 } }
+							if = {
+								limit = { check_variable = { which = siege_count value = 127 } }
+								if = {
+									limit = { check_variable = { which = siege_count value = 128 } }
+									set_variable = { which = morale_cost_4 value = 490335.000 }    set_variable = { which = morale_cost_3 value = 0.2 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+								}
+								else = {
+									set_variable = { which = morale_cost_4 value = 342742.000 }    set_variable = { which = morale_cost_3 value = 0.2 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 203897.000 }    set_variable = { which = morale_cost_3 value = 0.2 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = siege_count value = 125 } }
+								set_variable = { which = morale_cost_4 value = 73280.000 }    set_variable = { which = morale_cost_3 value = 0.2 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 950404.000 }    set_variable = { which = morale_cost_3 value = 0.1 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = siege_count value = 122 } }
+							if = {
+								limit = { check_variable = { which = siege_count value = 123 } }
+								set_variable = { which = morale_cost_4 value = 834811.000 }    set_variable = { which = morale_cost_3 value = 0.1 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 726069.000 }    set_variable = { which = morale_cost_3 value = 0.1 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = siege_count value = 121 } }
+								set_variable = { which = morale_cost_4 value = 623771.000 }    set_variable = { which = morale_cost_3 value = 0.1 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 527537.000 }    set_variable = { which = morale_cost_3 value = 0.1 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = siege_count value = 116 } }
+						if = {
+							limit = { check_variable = { which = siege_count value = 118 } }
+							if = {
+								limit = { check_variable = { which = siege_count value = 119 } }
+								set_variable = { which = morale_cost_4 value = 437005.000 }    set_variable = { which = morale_cost_3 value = 0.1 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 351839.000 }    set_variable = { which = morale_cost_3 value = 0.1 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = siege_count value = 117 } }
+								set_variable = { which = morale_cost_4 value = 271721.000 }    set_variable = { which = morale_cost_3 value = 0.1 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 196351.000 }    set_variable = { which = morale_cost_3 value = 0.1 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = siege_count value = 114 } }
+							if = {
+								limit = { check_variable = { which = siege_count value = 115 } }
+								set_variable = { which = morale_cost_4 value = 125447.000 }    set_variable = { which = morale_cost_3 value = 0.1 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 58746.000 }    set_variable = { which = morale_cost_3 value = 0.1 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = siege_count value = 113 } }
+								set_variable = { which = morale_cost_4 value = 995998.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 936969.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = siege_count value = 104 } }
+					if = {
+						limit = { check_variable = { which = siege_count value = 108 } }
+						if = {
+							limit = { check_variable = { which = siege_count value = 110 } }
+							if = {
+								limit = { check_variable = { which = siege_count value = 111 } }
+								set_variable = { which = morale_cost_4 value = 881439.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 829199.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = siege_count value = 109 } }
+								set_variable = { which = morale_cost_4 value = 780056.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 733825.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = siege_count value = 106 } }
+							if = {
+								limit = { check_variable = { which = siege_count value = 107 } }
+								set_variable = { which = morale_cost_4 value = 690334.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 649420.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = siege_count value = 105 } }
+								set_variable = { which = morale_cost_4 value = 610931.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 574724.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = siege_count value = 100 } }
+						if = {
+							limit = { check_variable = { which = siege_count value = 102 } }
+							if = {
+								limit = { check_variable = { which = siege_count value = 103 } }
+								set_variable = { which = morale_cost_4 value = 540662.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 508619.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = siege_count value = 101 } }
+								set_variable = { which = morale_cost_4 value = 478475.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 450118.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = siege_count value = 98 } }
+							if = {
+								limit = { check_variable = { which = siege_count value = 99 } }
+								set_variable = { which = morale_cost_4 value = 423441.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 398345.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = siege_count value = 97 } }
+								set_variable = { which = morale_cost_4 value = 374737.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 352527.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+					}
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = { check_variable = { which = siege_count value = 80 } }
+				if = {
+					limit = { check_variable = { which = siege_count value = 88 } }
+					if = {
+						limit = { check_variable = { which = siege_count value = 92 } }
+						if = {
+							limit = { check_variable = { which = siege_count value = 94 } }
+							if = {
+								limit = { check_variable = { which = siege_count value = 95 } }
+								set_variable = { which = morale_cost_4 value = 331634.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 311980.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = siege_count value = 93 } }
+								set_variable = { which = morale_cost_4 value = 293490.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 276096.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = siege_count value = 90 } }
+							if = {
+								limit = { check_variable = { which = siege_count value = 91 } }
+								set_variable = { which = morale_cost_4 value = 259732.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 244339.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = siege_count value = 89 } }
+								set_variable = { which = morale_cost_4 value = 229858.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 216235.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = siege_count value = 84 } }
+						if = {
+							limit = { check_variable = { which = siege_count value = 86 } }
+							if = {
+								limit = { check_variable = { which = siege_count value = 87 } }
+								set_variable = { which = morale_cost_4 value = 203420.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 191364.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = siege_count value = 85 } }
+								set_variable = { which = morale_cost_4 value = 180022.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 169353.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = siege_count value = 82 } }
+							if = {
+								limit = { check_variable = { which = siege_count value = 83 } }
+								set_variable = { which = morale_cost_4 value = 159316.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 149874.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = siege_count value = 81 } }
+								set_variable = { which = morale_cost_4 value = 140991.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 132635.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = siege_count value = 72 } }
+					if = {
+						limit = { check_variable = { which = siege_count value = 76 } }
+						if = {
+							limit = { check_variable = { which = siege_count value = 78 } }
+							if = {
+								limit = { check_variable = { which = siege_count value = 79 } }
+								set_variable = { which = morale_cost_4 value = 124775.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 117380.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = siege_count value = 77 } }
+								set_variable = { which = morale_cost_4 value = 110423.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 103879.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = siege_count value = 74 } }
+							if = {
+								limit = { check_variable = { which = siege_count value = 75 } }
+								set_variable = { which = morale_cost_4 value = 97722.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 91930.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = siege_count value = 73 } }
+								set_variable = { which = morale_cost_4 value = 86482.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 81357.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = siege_count value = 68 } }
+						if = {
+							limit = { check_variable = { which = siege_count value = 70 } }
+							if = {
+								limit = { check_variable = { which = siege_count value = 71 } }
+								set_variable = { which = morale_cost_4 value = 76535.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 71999.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = siege_count value = 69 } }
+								set_variable = { which = morale_cost_4 value = 67732.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 63717.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = siege_count value = 66 } }
+							if = {
+								limit = { check_variable = { which = siege_count value = 67 } }
+								set_variable = { which = morale_cost_4 value = 59941.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 56389.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = siege_count value = 65 } }
+								set_variable = { which = morale_cost_4 value = 53047.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 49903.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	else = {
+		if = {
+			limit = { check_variable = { which = siege_count value = 32 } }
+			if = {
+				limit = { check_variable = { which = siege_count value = 48 } }
+				if = {
+					limit = { check_variable = { which = siege_count value = 56 } }
+					if = {
+						limit = { check_variable = { which = siege_count value = 60 } }
+						if = {
+							limit = { check_variable = { which = siege_count value = 62 } }
+							if = {
+								limit = { check_variable = { which = siege_count value = 63 } }
+								set_variable = { which = morale_cost_4 value = 46945.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 44163.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = siege_count value = 61 } }
+								set_variable = { which = morale_cost_4 value = 41545.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 39083.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = siege_count value = 58 } }
+							if = {
+								limit = { check_variable = { which = siege_count value = 59 } }
+								set_variable = { which = morale_cost_4 value = 36767.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 34588.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = siege_count value = 57 } }
+								set_variable = { which = morale_cost_4 value = 32538.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 30609.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = siege_count value = 52 } }
+						if = {
+							limit = { check_variable = { which = siege_count value = 54 } }
+							if = {
+								limit = { check_variable = { which = siege_count value = 55 } }
+								set_variable = { which = morale_cost_4 value = 28795.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 27089.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = siege_count value = 53 } }
+								set_variable = { which = morale_cost_4 value = 25483.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 23973.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = siege_count value = 50 } }
+							if = {
+								limit = { check_variable = { which = siege_count value = 51 } }
+								set_variable = { which = morale_cost_4 value = 22552.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 21215.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = siege_count value = 49 } }
+								set_variable = { which = morale_cost_4 value = 19958.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 18775.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = siege_count value = 40 } }
+					if = {
+						limit = { check_variable = { which = siege_count value = 44 } }
+						if = {
+							limit = { check_variable = { which = siege_count value = 46 } }
+							if = {
+								limit = { check_variable = { which = siege_count value = 47 } }
+								set_variable = { which = morale_cost_4 value = 17662.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 16616.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = siege_count value = 45 } }
+								set_variable = { which = morale_cost_4 value = 15631.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 14704.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = siege_count value = 42 } }
+							if = {
+								limit = { check_variable = { which = siege_count value = 43 } }
+								set_variable = { which = morale_cost_4 value = 13833.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 13013.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = siege_count value = 41 } }
+								set_variable = { which = morale_cost_4 value = 12242.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 11516.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = siege_count value = 36 } }
+						if = {
+							limit = { check_variable = { which = siege_count value = 38 } }
+							if = {
+								limit = { check_variable = { which = siege_count value = 39 } }
+								set_variable = { which = morale_cost_4 value = 10834.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 10192.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = siege_count value = 37 } }
+								set_variable = { which = morale_cost_4 value = 9588.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 9019.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = siege_count value = 34 } }
+							if = {
+								limit = { check_variable = { which = siege_count value = 35 } }
+								set_variable = { which = morale_cost_4 value = 8485.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 7982.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = siege_count value = 33 } }
+								set_variable = { which = morale_cost_4 value = 7509.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 7064.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+					}
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = { check_variable = { which = siege_count value = 16 } }
+				if = {
+					limit = { check_variable = { which = siege_count value = 24 } }
+					if = {
+						limit = { check_variable = { which = siege_count value = 28 } }
+						if = {
+							limit = { check_variable = { which = siege_count value = 30 } }
+							if = {
+								limit = { check_variable = { which = siege_count value = 31 } }
+								set_variable = { which = morale_cost_4 value = 6645.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 6251.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = siege_count value = 29 } }
+								set_variable = { which = morale_cost_4 value = 5881.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 5532.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = siege_count value = 26 } }
+							if = {
+								limit = { check_variable = { which = siege_count value = 27 } }
+								set_variable = { which = morale_cost_4 value = 5204.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 4896.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = siege_count value = 25 } }
+								set_variable = { which = morale_cost_4 value = 4606.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 4333.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = siege_count value = 20 } }
+						if = {
+							limit = { check_variable = { which = siege_count value = 22 } }
+							if = {
+								limit = { check_variable = { which = siege_count value = 23 } }
+								set_variable = { which = morale_cost_4 value = 4076.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 3834.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = siege_count value = 21 } }
+								set_variable = { which = morale_cost_4 value = 3607.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 3393.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = siege_count value = 18 } }
+							if = {
+								limit = { check_variable = { which = siege_count value = 19 } }
+								set_variable = { which = morale_cost_4 value = 3192.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 3003.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = siege_count value = 17 } }
+								set_variable = { which = morale_cost_4 value = 2825.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 2657.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = siege_count value = 8 } }
+					if = {
+						limit = { check_variable = { which = siege_count value = 12 } }
+						if = {
+							limit = { check_variable = { which = siege_count value = 14 } }
+							if = {
+								limit = { check_variable = { which = siege_count value = 15 } }
+								set_variable = { which = morale_cost_4 value = 2500.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 2352.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = siege_count value = 13 } }
+								set_variable = { which = morale_cost_4 value = 2212.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 2081.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = siege_count value = 10 } }
+							if = {
+								limit = { check_variable = { which = siege_count value = 11 } }
+								set_variable = { which = morale_cost_4 value = 1958.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 1842.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = siege_count value = 9 } }
+								set_variable = { which = morale_cost_4 value = 1733.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 1630.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = siege_count value = 4 } }
+						if = {
+							limit = { check_variable = { which = siege_count value = 6 } }
+							if = {
+								limit = { check_variable = { which = siege_count value = 7 } }
+								set_variable = { which = morale_cost_4 value = 1533.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 1442.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = siege_count value = 5 } }
+								set_variable = { which = morale_cost_4 value = 1357.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 1276.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = siege_count value = 2 } }
+							if = {
+								limit = { check_variable = { which = siege_count value = 3 } }
+								set_variable = { which = morale_cost_4 value = 1201.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 1129.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = siege_count value = 1 } }
+								set_variable = { which = morale_cost_4 value = 1063.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+							else = {
+								set_variable = { which = morale_cost_4 value = 1000.000 }    set_variable = { which = morale_cost_3 value = 0.0 }    set_variable = { which = morale_cost_2 value = 0.0 }    set_variable = { which = morale_cost_1 value = 0.0 }    set_variable = { which = morale_cost_0 value = 0.0 }    
+							}
+						}
+					}
+				}
+			}
+		}
+	}get_msd = { ln = morale_cost mantissa = morale_cost_mantissa exponent = morale_cost_exp}
+}
