@@ -5,7 +5,7 @@
  cookies.1.b: "Let us blame [neighbor_country.GetName] for this."
  
  cookies.2.t: "The Cookie Hunter"
- cookies.2.d: "Rumors have emerged that in a forest near us lies a great hoard of cookies, guarded by a bunch of deers. [Heir.GetName] has offered up to go on an expedition to claim those cookies for [ROOT.GetName], knowing the risks of angering the deer gods."
+ cookies.2.d: "Rumors have emerged that in a forest near us lies a great hoard of cookies, guarded by a bunch of deers. [Root.Heir.GetName] has offered up to go on an expedition to claim those cookies for [ROOT.GetName], knowing the risks of angering the deer gods."
  cookies.2.a: "That's a lot of cookies we're talking about...."
  cookies.2.b: "Dear God, no."
  
@@ -18,3 +18,47 @@
  cookies.4.d: "One of the workers in the cookie factories has reported to you an issue. As he was sitting there, minding his own business, producing even more cookies, the strangest thing has happened. Instead of the delicious cookies, a bird, a piece of paper, and 2 crossed swords came out of the machine. He remarked it as 'queer' and decided to report this directly to you. What will you do about this issue?"
  cookies.4.a: "We only care about cookies."
  cookies.4.b: "Guess we're doing mana now."
+ 
+ cookies.5.t: "Illegal Cookie Trafficking"
+ cookies.5.d: "Reports have reached [Monarch.GetName] about some illegal cookie trafficking. Those illegals in [neighbor_province.GetName] from [neighbor_country.GetName] have been making profit from the local populace here, however we can try to seize their cookies."
+ cookies.5.a: "Their cookies belong to us!"
+ cookies.5.b: "Let them trade for long-term benefit."
+ 
+ cookies.6.t: "Seizing the Means of Cookies"
+ cookies.6.d: "The workers at the cookie industry have been in a strike for quite a while. Grandmas, laborers, and ancient wizards alike all rally up to demand for worker rights. How shall we deal with this needy mob?"
+ cookies.6.a: "Let us accept their demands."
+ cookies.6.b: "Back to the mines you go!"
+ 
+ cookies.7.t: "Cookies of Iron"
+ cookies.7.d: "My liege. Reports have reached you that some mages have been performing metal magic on some of your cookies, turning them into iron. The economy has not been the same since, as much of your cookie supplies are now gone. Quite.....paradoxical."
+ cookies.7.a: "This is a big paradox."
+ 
+ cookies.8.t: "Cookie Gambling"
+ cookies.8.d: "Gambling is not considered healthy in a lot of countries. However, [Root.Monarch.GetName] is not a healthy individual. He has decided to gamble away some of our cookies thinking that he will hit big in his next attempt."
+ cookies.8.a: "Does he not know that 90% of monarchs quit before they hit big?"
+ 
+ cookies.9.t: "Emperor Coo Ke the Wise"
+ cookies.9.d: "Did you ever hear the tragedy of Emperor Coo Ke the Wise? I thought not. It's not a story the Romans would tell you. It's a Gothic legend. Emperor Coo Ke was a Warlord of the Goths, so powerful and so wise he could use the labor to influence the factories to create cookies... He had such a knowledge of the sliders that he could even keep the people from hunting accidents. The sliders is a pathway to many abilities some consider to be unnatural. He became so powerful... the only thing he was afraid of was losing his power, which eventually, of course, he did. Unfortunately, he taught his heir everything he knew, then his heir sent him hunting. It's ironic he could save others from hunting accidents, but not himself."
+ cookies.9.a: "An intriguing tale..."
+ cookies.9.b: "Guards! Arrest this man!"
+ 
+ cookies.10.t: "Ryan Cookie"
+ cookies.10.d: "A man has arrived in our court. His name is Ryan Cookie, and everyone in [Root.GetName] says they're literally him. He has come to our court to be employed, at the price of a few cookies. We can afford that, right?"
+ cookies.10.a: "Anything for Ryan Cookie"
+ cookies.10.b: "That is too expensive."
+ 
+ cookies.11.t: "The Cookie Trade Must Flow!"
+ cookies.11.d: "With the demand of cookies increasing in our country, we must make sure that we secure every source of cookies. Let us set sail to the greatest cookie producer in the world, the Aztecs!"
+ cookies.11.a: "And we will claim we are their God, Cookiecoatl!"
+ cookies.11.b: "Perhaps violence is not the way."
+ 
+ cookies.12.t: "The Cookie Scbism"
+ cookies.12.d: "Although many think that we should be united in the cookie production, many debate as to how cookies should be made. Some argue that the orthodox ways of circular cookies is the best. Others argue a more.....square approach to them, whilst some even argue for triangle cookies. Whatever the case, we must put an end to the division between the cookie production."
+ cookies.12.a: "We only believe in circular cookies."
+ cookies.12.b: "Square cookies are the best."
+ cookies.12.c: "The triangle cookies are the most popular!"
+ 
+ cookies.13.t: "Let Him Cook"
+ cookies.13.d: "A great monk in our nation, called Gualterus Albus has been the source of many highly addictive cookies. Whilst some speculate he was blessed by God in his cookie-making ways, others speculate he's using addictive substances such as sugar. Whatever the case, he would make a fine addition to our court."
+ cookies.13.a: "Let us invite him."
+ cookies.13.b: "No"
