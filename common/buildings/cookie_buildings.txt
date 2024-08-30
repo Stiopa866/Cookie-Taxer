@@ -1,0 +1,395 @@
+ct_cursor = {
+	cost = 0
+	time = 1
+	indestructible = yes
+	onmap = no
+
+	potential = {
+		always = yes
+	}
+
+	build_trigger = {
+		custom_trigger_tooltip = {
+			tooltip = cursor_cost_tt
+			FROM = {
+				long_gte = { ln0 = cookies ln1 = cursor_cost }
+			}
+		}
+		
+	}
+
+	modifier = { }
+
+	on_built = { hidden_effect = {
+		ROOT = { set_province_flag = has_cursor }
+		FROM = { building_recount = yes }
+	}}
+
+	on_construction_started = { hidden_effect = {
+		FROM = { subtract_longs = { ln1 = cookies ln2 = cursor_cost } }
+		ROOT = { set_province_flag = has_cursor }
+		FROM = { building_recount = yes }
+	}}
+
+	on_construction_canceled = { hidden_effect = {
+		ROOT = { clr_province_flag = has_cursor }
+		FROM = { building_recount = yes }
+	}}
+
+	on_destroyed = { hidden_effect = {
+		ROOT = { clr_province_flag = has_cursor }
+		FROM = { building_recount = yes }
+	}}
+}
+
+ct_grandma = {
+	cost = 0
+	time = 1
+	indestructible = yes
+	onmap = no
+
+	potential = {
+		always = yes
+	}
+
+	build_trigger = {
+		custom_trigger_tooltip = {
+			tooltip = grandma_cost_tt
+			FROM = {
+				long_gte = { ln0 = cookies ln1 = grandma_cost }
+			}
+		}
+		
+	}
+
+	modifier = { }
+
+	on_built = { hidden_effect = {
+		ROOT = { set_province_flag = has_grandma }
+		FROM = { building_recount = yes }
+	}}
+
+	on_construction_started = { hidden_effect = {
+		FROM = { subtract_longs = { ln1 = cookies ln2 = grandma_cost } }
+		ROOT = { set_province_flag = has_grandma }
+		FROM = { building_recount = yes }
+	}}
+
+	on_construction_canceled = { hidden_effect = {
+		ROOT = { clr_province_flag = has_grandma }
+		FROM = { building_recount = yes }
+	}}
+
+	on_destroyed = { hidden_effect = {
+		ROOT = { clr_province_flag = has_grandma }
+		FROM = { building_recount = yes }
+	}}
+}
+
+ct_farm = {
+	cost = 0
+	time = 1
+	indestructible = yes
+	onmap = no
+
+	potential = {
+		always = yes
+	}
+
+	build_trigger = {
+		custom_trigger_tooltip = {
+			tooltip = farm_cost_tt
+			FROM = {
+				long_gte = { ln0 = cookies ln1 = farm_cost }
+			}
+		}
+		
+	}
+
+	modifier = { }
+
+	on_built = { hidden_effect = {
+		ROOT = { set_province_flag = has_farm }
+		FROM = { building_recount = yes }
+	}}
+
+	on_construction_started = { hidden_effect = {
+		FROM = { subtract_longs = { ln1 = cookies ln2 = farm_cost } }
+		ROOT = { set_province_flag = has_farm }
+		FROM = { building_recount = yes }
+	}}
+
+	on_construction_canceled = { hidden_effect = {
+		ROOT = { clr_province_flag = has_farm }
+		FROM = { building_recount = yes }
+	}}
+
+	on_destroyed = { hidden_effect = {
+		ROOT = { clr_province_flag = has_farm }
+		FROM = { building_recount = yes }
+	}}
+}
+
+ct_mine = {
+	cost = 0
+	time = 1
+	indestructible = yes
+	onmap = no
+
+	potential = {
+		always = yes
+	}
+
+	build_trigger = {
+		custom_trigger_tooltip = {
+			tooltip = mine_cost_tt
+			FROM = {
+				long_gte = { ln0 = cookies ln1 = mine_cost }
+			}
+		}
+		
+	}
+
+	modifier = { }
+
+	on_built = { hidden_effect = {
+		ROOT = { set_province_flag = has_mine }
+		FROM = { building_recount = yes }
+	}}
+
+	on_construction_started = { hidden_effect = {
+		FROM = { subtract_longs = { ln1 = cookies ln2 = mine_cost } }
+		ROOT = { set_province_flag = has_mine }
+		FROM = { building_recount = yes }
+	}}
+
+	on_construction_canceled = { hidden_effect = {
+		ROOT = { clr_province_flag = has_mine }
+		FROM = { building_recount = yes }
+	}}
+
+	on_destroyed = { hidden_effect = {
+		ROOT = { clr_province_flag = has_mine }
+		FROM = { building_recount = yes }
+	}}
+}
+
+ct_factory = {
+	cost = 0
+	time = 1
+	indestructible = yes
+	onmap = no
+
+	potential = {
+		always = yes
+	}
+
+	build_trigger = {
+		custom_trigger_tooltip = {
+			tooltip = factory_cost_tt
+			FROM = {
+				long_gte = { ln0 = cookies ln1 = factory_cost }
+			}
+		}
+		
+	}
+
+	modifier = { }
+
+	on_built = { hidden_effect = {
+		ROOT = { set_province_flag = has_factory }
+		FROM = { building_recount = yes }
+	}}
+
+	on_construction_started = { hidden_effect = {
+		FROM = { subtract_longs = { ln1 = cookies ln2 = factory_cost } }
+		ROOT = { set_province_flag = has_factory }
+		FROM = { building_recount = yes }
+	}}
+
+	on_construction_canceled = { hidden_effect = {
+		ROOT = { clr_province_flag = has_factory }
+		FROM = { building_recount = yes }
+	}}
+
+	on_destroyed = { hidden_effect = {
+		ROOT = { clr_province_flag = has_factory }
+		FROM = { building_recount = yes }
+	}}
+}
+
+ct_bank = {
+	cost = 0
+	time = 1
+	indestructible = yes
+	onmap = no
+
+	potential = {
+		always = yes
+	}
+
+	build_trigger = {
+		custom_trigger_tooltip = {
+			tooltip = bank_cost_tt
+			FROM = {
+				long_gte = { ln0 = cookies ln1 = bank_cost }
+			}
+		}
+		
+	}
+
+	modifier = { }
+
+	on_built = { hidden_effect = {
+		ROOT = { set_province_flag = has_bank }
+		FROM = { building_recount = yes }
+	}}
+
+	on_construction_started = { hidden_effect = {
+		FROM = { subtract_longs = { ln1 = cookies ln2 = bank_cost } }
+		ROOT = { set_province_flag = has_bank }
+		FROM = { building_recount = yes }
+	}}
+
+	on_construction_canceled = { hidden_effect = {
+		ROOT = { clr_province_flag = has_bank }
+		FROM = { building_recount = yes }
+	}}
+
+	on_destroyed = { hidden_effect = {
+		ROOT = { clr_province_flag = has_bank }
+		FROM = { building_recount = yes }
+	}}
+}
+
+ct_temple = {
+	cost = 0
+	time = 1
+	indestructible = yes
+	onmap = no
+
+	potential = {
+		always = yes
+	}
+
+	build_trigger = {
+		custom_trigger_tooltip = {
+			tooltip = temple_cost_tt
+			FROM = {
+				long_gte = { ln0 = cookies ln1 = temple_cost }
+			}
+		}
+		
+	}
+
+	modifier = { }
+
+	on_built = { hidden_effect = {
+		ROOT = { set_province_flag = has_temple }
+		FROM = { building_recount = yes }
+	}}
+
+	on_construction_started = { hidden_effect = {
+		FROM = { subtract_longs = { ln1 = cookies ln2 = temple_cost } }
+		ROOT = { set_province_flag = has_temple }
+		FROM = { building_recount = yes }
+	}}
+
+	on_construction_canceled = { hidden_effect = {
+		ROOT = { clr_province_flag = has_temple }
+		FROM = { building_recount = yes }
+	}}
+
+	on_destroyed = { hidden_effect = {
+		ROOT = { clr_province_flag = has_temple }
+		FROM = { building_recount = yes }
+	}}
+}
+
+ct_wizard = {
+	cost = 0
+	time = 1
+	indestructible = yes
+	onmap = no
+
+	potential = {
+		always = yes
+	}
+
+	build_trigger = {
+		custom_trigger_tooltip = {
+			tooltip = wizard_cost_tt
+			FROM = {
+				long_gte = { ln0 = cookies ln1 = wizard_cost }
+			}
+		}
+		
+	}
+
+	modifier = { }
+
+	on_built = { hidden_effect = {
+		ROOT = { set_province_flag = has_wizard }
+		FROM = { building_recount = yes }
+	}}
+
+	on_construction_started = { hidden_effect = {
+		FROM = { subtract_longs = { ln1 = cookies ln2 = wizard_cost } }
+		ROOT = { set_province_flag = has_wizard }
+		FROM = { building_recount = yes }
+	}}
+
+	on_construction_canceled = { hidden_effect = {
+		ROOT = { clr_province_flag = has_wizard }
+		FROM = { building_recount = yes }
+	}}
+
+	on_destroyed = { hidden_effect = {
+		ROOT = { clr_province_flag = has_wizard }
+		FROM = { building_recount = yes }
+	}}
+}
+
+ct_shipment = {
+	cost = 0
+	time = 1
+	indestructible = yes
+	onmap = no
+
+	potential = {
+		always = yes
+	}
+
+	build_trigger = {
+		custom_trigger_tooltip = {
+			tooltip = shipment_cost_tt
+			FROM = {
+				long_gte = { ln0 = cookies ln1 = shipment_cost }
+			}
+		}
+		
+	}
+
+	modifier = { }
+
+	on_built = { hidden_effect = {
+		ROOT = { set_province_flag = has_shipment }
+		FROM = { building_recount = yes }
+	}}
+
+	on_construction_started = { hidden_effect = {
+		FROM = { subtract_longs = { ln1 = cookies ln2 = shipment_cost } }
+		ROOT = { set_province_flag = has_shipment }
+		FROM = { building_recount = yes }
+	}}
+
+	on_construction_canceled = { hidden_effect = {
+		ROOT = { clr_province_flag = has_shipment }
+		FROM = { building_recount = yes }
+	}}
+
+	on_destroyed = { hidden_effect = {
+		ROOT = { clr_province_flag = has_shipment }
+		FROM = { building_recount = yes }
+	}}
+}

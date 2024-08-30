@@ -1,2 +1,2 @@
 ﻿l_english:
- farm_cost_tt: "[farm_cost_mantissa.GetValue] [Root.CLOC_FARM_COST_EXP]"
+ farm_cost_tt: "Have at least [farm_cost_mantissa.GetValue] [Root.CLOC_FARM_COST_EXP] £cookie£"

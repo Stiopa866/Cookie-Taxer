@@ -3,6 +3,53 @@ spriteTypes = {
 		name = "GFX_text_cookie"
 		texturefile = "gfx/interface/cookie_text.dds"
 	}
+
+	# Buildings
+	spriteType = {
+		name = "GFX_ct_cursor"
+		texturefile = "gfx//interface//buildings//cursor.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_ct_grandma"
+		texturefile = "gfx//interface//buildings//grandma.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_ct_farm"
+		texturefile = "gfx//interface//buildings//farm.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_ct_mine"
+		texturefile = "gfx//interface//buildings//mine.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_ct_factory"
+		texturefile = "gfx//interface//buildings//factory.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_ct_bank"
+		texturefile = "gfx//interface//buildings//bank.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_ct_wizard"
+		texturefile = "gfx//interface//buildings//wizard.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_ct_shipment"
+		texturefile = "gfx//interface//buildings//shipment.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_ct_temple"
+		texturefile = "gfx//interface//buildings//temple.dds"
+		loadType = "INGAME"
+  }
 	spriteType = {
 		name = "GFX_big_cookie"
 		texturefile = "gfx/interface/cookie_big.dds"

@@ -1,2 +1,2 @@
 ﻿l_english:
- grandma_cost_tt: "[grandma_cost_mantissa.GetValue] [Root.CLOC_GRANDMA_COST_EXP]"
+ grandma_cost_tt: "Have at least [grandma_cost_mantissa.GetValue] [Root.CLOC_GRANDMA_COST_EXP] £cookie£"

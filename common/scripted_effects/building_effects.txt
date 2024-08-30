@@ -1,0 +1,35 @@
+# must be run in country scope!!
+building_recount = {
+	building_counter = { bldg = cursor }
+	building_counter = { bldg = grandma }
+	building_counter = { bldg = farm }
+	building_counter = { bldg = mine }
+	building_counter = { bldg = factory }
+	building_counter = { bldg = bank }
+	building_counter = { bldg = temple }
+	building_counter = { bldg = wizard }
+	building_counter = { bldg = shipment }
+	
+	get_cursor_cost = yes
+	get_grandma_cost = yes
+	get_farm_cost = yes
+	get_mine_cost = yes
+	get_factory_cost = yes
+	get_bank_cost = yes
+	get_temple_cost = yes
+	get_wizard_cost = yes
+	get_shipment_cost = yes
+
+	get_msd = { ln = cookies mantissa = cookies_mantissa exponent = cookies_exp }
+}
+
+building_counter = { #bldg
+	set_variable = { which = bcounter value = 0 }
+	every_owned_province = {
+		limit = { has_province_flag = has_$bldg$ }
+		PREV = {
+			change_variable = { which = bcounter value = 1 }
+		}
+	}
+	set_variable = { which = $bldg$_count which = bcounter }
+}
