@@ -1,4 +1,0 @@
-add_core = N18
-owner = N18
-controller = N18
-is_city = no

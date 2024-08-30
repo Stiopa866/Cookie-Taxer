@@ -1,4 +1,0 @@
-add_core = N12
-owner = N12
-controller = N12
-is_city = no

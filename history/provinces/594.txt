@@ -1,4 +1,0 @@
-add_core = RUI
-owner = RUI
-controller = RUI
-is_city = no

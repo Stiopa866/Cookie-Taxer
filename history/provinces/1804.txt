@@ -1,4 +1,0 @@
-add_core = N45
-owner = N45
-controller = N45
-is_city = no

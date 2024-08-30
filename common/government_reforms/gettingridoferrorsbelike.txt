@@ -1,7 +1,0 @@
-pirate_republic_reform = { }
-
-peasants_republic = { }
-
-celestial_empire = { }
-
-steppe_horde = { }

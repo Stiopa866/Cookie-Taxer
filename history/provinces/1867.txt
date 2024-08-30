@@ -1,4 +1,0 @@
-add_core = SL9
-owner = SL9
-controller = SL9
-is_city = yes

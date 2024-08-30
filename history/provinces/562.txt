@@ -1,4 +1,0 @@
-add_core = BUS
-owner = BUS
-controller = BUS
-is_city = no

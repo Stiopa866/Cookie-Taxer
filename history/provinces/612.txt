@@ -1,4 +1,0 @@
-add_core = PLS
-owner = PLS
-controller = PLS
-is_city = no

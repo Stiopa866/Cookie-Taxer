@@ -1,2 +1,0 @@
-tribal_federation_mechanic = {
-}

@@ -1,4 +1,0 @@
-add_core = TO1
-owner = TO1
-controller = TO1
-is_city = no

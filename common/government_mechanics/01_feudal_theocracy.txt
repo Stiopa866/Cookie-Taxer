@@ -1,2 +1,0 @@
-feudal_theocracy_mechanic = {
-}

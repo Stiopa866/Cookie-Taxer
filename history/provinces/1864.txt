@@ -1,4 +1,0 @@
-add_core = SL6
-owner = SL6
-controller = SL6
-is_city = yes

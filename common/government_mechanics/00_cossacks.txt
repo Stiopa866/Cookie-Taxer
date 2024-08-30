@@ -1,2 +1,0 @@
-cossacks_mechanic = {
-}

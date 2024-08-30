@@ -1,2 +1,0 @@
-iqta_mechanic = {
-}

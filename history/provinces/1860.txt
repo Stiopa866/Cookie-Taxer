@@ -1,4 +1,0 @@
-add_core = SL2
-owner = SL2
-controller = SL2
-is_city = yes
