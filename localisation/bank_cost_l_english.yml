@@ -1,2 +1,2 @@
 ﻿l_english:
- bank_cost_tt: "[bank_cost_mantissa.GetValue] [Root.CLOC_BANK_COST_EXP]"
+ bank_cost_tt: "Have at least [bank_cost_mantissa.GetValue] [Root.CLOC_BANK_COST_EXP] £cookie£"

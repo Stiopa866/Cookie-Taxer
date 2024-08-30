@@ -25,10 +25,10 @@ on_startup = {
 		}
 		set_country_flag = player_init_flag
 		set_variable = { which = cookies_4 value = 0 }
-		set_variable = { which = cookies_4 value = 0 }
-		set_variable = { which = cookies_4 value = 0 }
-		set_variable = { which = cookies_4 value = 0 }
-		set_variable = { which = cookies_4 value = 0 }
+		set_variable = { which = cookies_3 value = 0 }
+		set_variable = { which = cookies_2 value = 0 }
+		set_variable = { which = cookies_1 value = 0 }
+		set_variable = { which = cookies_0 value = 0 }
 
 		set_variable = { which = cursor_count value = 0 }
 		set_variable = { which = grandma_count value = 0 }
@@ -40,14 +40,8 @@ on_startup = {
 		set_variable = { which = wizard_count value = 0 }
 		set_variable = { which = shipment_count value = 0 }
 
-		get_cursor_cost = yes
-		get_grandma_cost = yes
-		get_farm_cost = yes
-		get_mine_cost = yes
-		get_factory_cost = yes
-		get_bank_cost = yes
-		get_temple_cost = yes
-		get_wizard_cost = yes
-		get_shipment_cost = yes
+		get_msd = { ln = cookies mantissa = cookies_mantissa exponent = cookies_exp }
+
+		building_recount = yes
 	}
 }
