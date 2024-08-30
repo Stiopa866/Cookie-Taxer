@@ -1,0 +1,111 @@
+namespace = cookies
+
+#Cookie Factory Explodes
+country_event = {
+	id = cookies.1
+	title = cookies.1.t
+	desc = cookies.1.d
+	picture = EXPLORERS_eventPicture
+
+	is_triggered_only = yes
+	
+	immediate = {
+		random_neighbor_country = {
+			save_event_target_as = neighbor_country
+		}
+	}
+
+	option = {
+		name = cookies.1.a
+		
+	}
+	
+	option = {
+		name = cookies.1.b
+		
+	}
+}
+
+#Hunting Cookies
+country_event = {
+	id = cookies.2
+	title = cookies.2.t
+	desc = cookies.2.d
+	picture = EXPLORERS_eventPicture
+	
+	trigger = {
+		has_heir = yes
+	}
+
+	is_triggered_only = yes
+
+	option = {
+		name = cookies.2.a
+		
+	}
+	
+	option = {
+		name = cookies.2.b
+		
+	}
+}
+
+#Evil Dutch Merchant
+country_event = {
+	id = cookies.3
+	title = cookies.3.t
+	desc = cookies.3.d
+	picture = EXPLORERS_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = cookies.3.a
+		
+	}
+	
+	option = {
+		name = cookies.3.b
+		
+	}
+}
+
+#Mana? In my Cookie Factory?
+country_event = {
+	id = cookies.4
+	title = cookies.4.t
+	desc = cookies.4.d
+	picture = EXPLORERS_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = cookies.4.a
+		
+	}
+	
+	option = {
+		name = cookies.4.b
+		
+	}
+}
+
+#
+country_event = {
+	id = cookies.5
+	title = cookies.5.t
+	desc = cookies.5.d
+	picture = EXPLORERS_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = cookies.5.a
+		
+	}
+	
+	option = {
+		name = cookies.5.b
+		
+	}
+}
