@@ -4,3 +4,4 @@ tags={
 }
 name="Cookie Taxer"
 supported_version="v1.37.2.0"
+path="mod/Cookie-Taxer"

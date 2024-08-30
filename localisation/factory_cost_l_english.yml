@@ -1,0 +1,2 @@
+﻿l_english:
+ factory_cost_tt: "[factory_cost_mantissa.GetValue] [Root.CLOC_FACTORY_COST_EXP]"

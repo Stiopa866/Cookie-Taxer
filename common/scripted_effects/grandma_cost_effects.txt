@@ -1,0 +1,2403 @@
+get_grandma_cost = {
+	if = {
+		limit = { check_variable = { which = grandma_count value = 200 } }
+		if = {
+			limit = { check_variable = { which = grandma_count value = 300 } }
+			if = {
+				limit = { check_variable = { which = grandma_count value = 350 } }
+				if = {
+					limit = { check_variable = { which = grandma_count value = 375 } }
+					if = {
+						limit = { check_variable = { which = grandma_count value = 388 } }
+						if = {
+							limit = { check_variable = { which = grandma_count value = 394 } }
+							if = {
+								limit = { check_variable = { which = grandma_count value = 397 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 399 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 400 } }
+										set_variable = { which = grandma_cost_4 value = 507369.000 }    set_variable = { which = grandma_cost_3 value = 4104.930 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 761401.000 }    set_variable = { which = grandma_cost_3 value = 3861.646 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = grandma_count value = 398 } }
+										set_variable = { which = grandma_cost_4 value = 525306.000 }    set_variable = { which = grandma_cost_3 value = 3632.781 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 268397.000 }    set_variable = { which = grandma_cost_3 value = 3417.480 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 395 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 396 } }
+										set_variable = { which = grandma_cost_4 value = 104795.000 }    set_variable = { which = grandma_cost_3 value = 3214.939 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 791905.000 }    set_variable = { which = grandma_cost_3 value = 3024.401 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 906778.000 }    set_variable = { which = grandma_cost_3 value = 2845.156 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = grandma_count value = 391 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 392 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 393 } }
+										set_variable = { which = grandma_cost_4 value = 189819.000 }    set_variable = { which = grandma_cost_3 value = 2676.535 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 45926.000 }    set_variable = { which = grandma_cost_3 value = 2517.907 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 193722.000 }    set_variable = { which = grandma_cost_3 value = 2368.680 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 389 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 390 } }
+										set_variable = { which = grandma_cost_4 value = 454112.000 }    set_variable = { which = grandma_cost_3 value = 2228.297 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 669908.000 }    set_variable = { which = grandma_cost_3 value = 2096.234 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 748738.000 }    set_variable = { which = grandma_cost_3 value = 1971.998 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = grandma_count value = 381 } }
+							if = {
+								limit = { check_variable = { which = grandma_count value = 384 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 386 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 387 } }
+										set_variable = { which = grandma_cost_4 value = 821955.000 }    set_variable = { which = grandma_cost_3 value = 1855.125 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 512657.000 }    set_variable = { which = grandma_cost_3 value = 1745.179 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = grandma_count value = 385 } }
+										set_variable = { which = grandma_cost_4 value = 306357.000 }    set_variable = { which = grandma_cost_3 value = 1641.749 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 18209.000 }    set_variable = { which = grandma_cost_3 value = 1544.449 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 382 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 383 } }
+										set_variable = { which = grandma_cost_4 value = 351091.000 }    set_variable = { which = grandma_cost_3 value = 1452.915 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 539126.000 }    set_variable = { which = grandma_cost_3 value = 1366.806 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 71614.000 }    set_variable = { which = grandma_cost_3 value = 1285.801 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = grandma_count value = 378 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 379 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 380 } }
+										set_variable = { which = grandma_cost_4 value = 492581.000 }    set_variable = { which = grandma_cost_3 value = 1209.596 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 271478.000 }    set_variable = { which = grandma_cost_3 value = 1137.908 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 740807.000 }    set_variable = { which = grandma_cost_3 value = 1070.468 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 376 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 377 } }
+										set_variable = { which = grandma_cost_4 value = 96714.000 }    set_variable = { which = grandma_cost_3 value = 1007.26 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 458809.000 }    set_variable = { which = grandma_cost_3 value = 947.343 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 985710.000 }    set_variable = { which = grandma_cost_3 value = 891.197 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = grandma_count value = 362 } }
+						if = {
+							limit = { check_variable = { which = grandma_count value = 368 } }
+							if = {
+								limit = { check_variable = { which = grandma_count value = 371 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 373 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 374 } }
+										set_variable = { which = grandma_cost_4 value = 43000.000 }    set_variable = { which = grandma_cost_3 value = 838.380 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 420508.000 }    set_variable = { which = grandma_cost_3 value = 788.692 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = grandma_count value = 372 } }
+										set_variable = { which = grandma_cost_4 value = 595963.000 }    set_variable = { which = grandma_cost_3 value = 741.949 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 42298.000 }    set_variable = { which = grandma_cost_3 value = 697.977 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 369 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 370 } }
+										set_variable = { which = grandma_cost_4 value = 576009.000 }    set_variable = { which = grandma_cost_3 value = 656.610 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 744129.000 }    set_variable = { which = grandma_cost_3 value = 617.695 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 247534.000 }    set_variable = { which = grandma_cost_3 value = 581.87 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = grandma_count value = 365 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 366 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 367 } }
+										set_variable = { which = grandma_cost_4 value = 398433.000 }    set_variable = { which = grandma_cost_3 value = 546.648 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 610003.000 }    set_variable = { which = grandma_cost_3 value = 514.250 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 916277.000 }    set_variable = { which = grandma_cost_3 value = 483.772 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 363 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 364 } }
+										set_variable = { which = grandma_cost_4 value = 520487.000 }    set_variable = { which = grandma_cost_3 value = 455.101 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 370166.000 }    set_variable = { which = grandma_cost_3 value = 428.129 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 757447.000 }    set_variable = { which = grandma_cost_3 value = 402.755 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = grandma_count value = 356 } }
+							if = {
+								limit = { check_variable = { which = grandma_count value = 359 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 360 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 361 } }
+										set_variable = { which = grandma_cost_4 value = 943036.000 }    set_variable = { which = grandma_cost_3 value = 378.885 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 802479.000 }    set_variable = { which = grandma_cost_3 value = 356.430 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 493396.000 }    set_variable = { which = grandma_cost_3 value = 335.306 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 357 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 358 } }
+										set_variable = { which = grandma_cost_4 value = 142423.000 }    set_variable = { which = grandma_cost_3 value = 315.434 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 550727.000 }    set_variable = { which = grandma_cost_3 value = 296.739 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 916959.000 }    set_variable = { which = grandma_cost_3 value = 279.152 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = grandma_count value = 353 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 354 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 355 } }
+										set_variable = { which = grandma_cost_4 value = 576631.000 }    set_variable = { which = grandma_cost_3 value = 262.608 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 756943.000 }    set_variable = { which = grandma_cost_3 value = 247.44 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 346137.000 }    set_variable = { which = grandma_cost_3 value = 232.403 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 351 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 352 } }
+										set_variable = { which = grandma_cost_4 value = 676516.000 }    set_variable = { which = grandma_cost_3 value = 218.629 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 320335.000 }    set_variable = { which = grandma_cost_3 value = 205.672 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 897775.000 }    set_variable = { which = grandma_cost_3 value = 193.482 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = grandma_count value = 325 } }
+					if = {
+						limit = { check_variable = { which = grandma_count value = 337 } }
+						if = {
+							limit = { check_variable = { which = grandma_count value = 343 } }
+							if = {
+								limit = { check_variable = { which = grandma_count value = 346 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 348 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 349 } }
+										set_variable = { which = grandma_cost_4 value = 896308.000 }    set_variable = { which = grandma_cost_3 value = 182.15 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 500760.000 }    set_variable = { which = grandma_cost_3 value = 171.228 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = grandma_count value = 347 } }
+										set_variable = { which = grandma_cost_4 value = 433452.000 }    set_variable = { which = grandma_cost_3 value = 161.80 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 803812.000 }    set_variable = { which = grandma_cost_3 value = 151.533 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 344 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 345 } }
+										set_variable = { which = grandma_cost_4 value = 966898.000 }    set_variable = { which = grandma_cost_3 value = 142.552 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 390308.000 }    set_variable = { which = grandma_cost_3 value = 134.104 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 528982.000 }    set_variable = { which = grandma_cost_3 value = 126.156 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = grandma_count value = 340 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 341 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 342 } }
+										set_variable = { which = grandma_cost_4 value = 707415.000 }    set_variable = { which = grandma_cost_3 value = 118.679 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 8857.000 }    set_variable = { which = grandma_cost_3 value = 111.646 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 171079.000 }    set_variable = { which = grandma_cost_3 value = 105.29 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 338 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 339 } }
+										set_variable = { which = grandma_cost_4 value = 488315.000 }    set_variable = { which = grandma_cost_3 value = 98.804 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 719017.000 }    set_variable = { which = grandma_cost_3 value = 92.948 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 999075.000 }    set_variable = { which = grandma_cost_3 value = 87.439 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = grandma_count value = 331 } }
+							if = {
+								limit = { check_variable = { which = grandma_count value = 334 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 335 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 336 } }
+										set_variable = { which = grandma_cost_4 value = 760184.000 }    set_variable = { which = grandma_cost_3 value = 82.257 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 653042.000 }    set_variable = { which = grandma_cost_3 value = 77.382 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 475110.000 }    set_variable = { which = grandma_cost_3 value = 72.796 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 332 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 333 } }
+										set_variable = { which = grandma_cost_4 value = 102643.000 }    set_variable = { which = grandma_cost_3 value = 68.482 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 426758.000 }    set_variable = { which = grandma_cost_3 value = 64.423 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 293281.000 }    set_variable = { which = grandma_cost_3 value = 60.605 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = grandma_count value = 328 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 329 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 330 } }
+										set_variable = { which = grandma_cost_4 value = 446172.000 }    set_variable = { which = grandma_cost_3 value = 57.13 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 474292.000 }    set_variable = { which = grandma_cost_3 value = 53.634 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 761328.000 }    set_variable = { which = grandma_cost_3 value = 50.455 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 326 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 327 } }
+										set_variable = { which = grandma_cost_4 value = 438690.000 }    set_variable = { which = grandma_cost_3 value = 47.465 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 341195.000 }    set_variable = { which = grandma_cost_3 value = 44.652 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 965376.000 }    set_variable = { which = grandma_cost_3 value = 42.5 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = grandma_count value = 312 } }
+						if = {
+							limit = { check_variable = { which = grandma_count value = 318 } }
+							if = {
+								limit = { check_variable = { which = grandma_count value = 321 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 323 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 324 } }
+										set_variable = { which = grandma_cost_4 value = 430269.000 }    set_variable = { which = grandma_cost_3 value = 39.516 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 440517.000 }    set_variable = { which = grandma_cost_3 value = 37.174 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = grandma_count value = 322 } }
+										set_variable = { which = grandma_cost_4 value = 251662.000 }    set_variable = { which = grandma_cost_3 value = 34.971 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 637500.000 }    set_variable = { which = grandma_cost_3 value = 32.898 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 319 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 320 } }
+										set_variable = { which = grandma_cost_4 value = 859360.000 }    set_variable = { which = grandma_cost_3 value = 30.948 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 637215.000 }    set_variable = { which = grandma_cost_3 value = 29.114 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 122498.000 }    set_variable = { which = grandma_cost_3 value = 27.389 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = grandma_count value = 315 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 316 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 317 } }
+										set_variable = { which = grandma_cost_4 value = 872529.000 }    set_variable = { which = grandma_cost_3 value = 25.765 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 826461.000 }    set_variable = { which = grandma_cost_3 value = 24.238 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 282654.000 }    set_variable = { which = grandma_cost_3 value = 22.802 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 313 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 314 } }
+										set_variable = { which = grandma_cost_4 value = 877379.000 }    set_variable = { which = grandma_cost_3 value = 21.450 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 564797.000 }    set_variable = { which = grandma_cost_3 value = 20.179 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 598116.000 }    set_variable = { which = grandma_cost_3 value = 18.983 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = grandma_count value = 306 } }
+							if = {
+								limit = { check_variable = { which = grandma_count value = 309 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 310 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 311 } }
+										set_variable = { which = grandma_cost_4 value = 511868.000 }    set_variable = { which = grandma_cost_3 value = 17.858 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 105238.000 }    set_variable = { which = grandma_cost_3 value = 16.800 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 426376.000 }    set_variable = { which = grandma_cost_3 value = 15.804 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 307 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 308 } }
+										set_variable = { which = grandma_cost_4 value = 757645.000 }    set_variable = { which = grandma_cost_3 value = 14.867 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 601735.000 }    set_variable = { which = grandma_cost_3 value = 13.986 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 668613.000 }    set_variable = { which = grandma_cost_3 value = 13.157 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = grandma_count value = 303 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 304 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 305 } }
+										set_variable = { which = grandma_cost_4 value = 863229.000 }    set_variable = { which = grandma_cost_3 value = 12.377 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 273969.000 }    set_variable = { which = grandma_cost_3 value = 11.644 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 161777.000 }    set_variable = { which = grandma_cost_3 value = 10.954 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 301 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 302 } }
+										set_variable = { which = grandma_cost_4 value = 949931.000 }    set_variable = { which = grandma_cost_3 value = 10.304 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 214423.000 }    set_variable = { which = grandma_cost_3 value = 9.694 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 674904.000 }    set_variable = { which = grandma_cost_3 value = 9.119 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = { check_variable = { which = grandma_count value = 250 } }
+				if = {
+					limit = { check_variable = { which = grandma_count value = 275 } }
+					if = {
+						limit = { check_variable = { which = grandma_count value = 287 } }
+						if = {
+							limit = { check_variable = { which = grandma_count value = 293 } }
+							if = {
+								limit = { check_variable = { which = grandma_count value = 296 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 298 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 299 } }
+										set_variable = { which = grandma_cost_4 value = 186175.000 }    set_variable = { which = grandma_cost_3 value = 8.579 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 730174.000 }    set_variable = { which = grandma_cost_3 value = 8.70 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = grandma_count value = 297 } }
+										set_variable = { which = grandma_cost_4 value = 408442.000 }    set_variable = { which = grandma_cost_3 value = 7.592 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 435035.000 }    set_variable = { which = grandma_cost_3 value = 7.142 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 294 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 295 } }
+										set_variable = { which = grandma_cost_4 value = 129854.000 }    set_variable = { which = grandma_cost_3 value = 6.719 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 912374.000 }    set_variable = { which = grandma_cost_3 value = 6.320 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 295742.000 }    set_variable = { which = grandma_cost_3 value = 5.946 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = grandma_count value = 290 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 291 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 292 } }
+										set_variable = { which = grandma_cost_4 value = 881225.000 }    set_variable = { which = grandma_cost_3 value = 5.593 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 352987.000 }    set_variable = { which = grandma_cost_3 value = 5.262 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 473177.000 }    set_variable = { which = grandma_cost_3 value = 4.950 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 288 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 289 } }
+										set_variable = { which = grandma_cost_4 value = 77306.000 }    set_variable = { which = grandma_cost_3 value = 4.657 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 69903.000 }    set_variable = { which = grandma_cost_3 value = 4.381 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 420416.000 }    set_variable = { which = grandma_cost_3 value = 4.121 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = grandma_count value = 281 } }
+							if = {
+								limit = { check_variable = { which = grandma_count value = 284 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 285 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 286 } }
+										set_variable = { which = grandma_cost_4 value = 159376.000 }    set_variable = { which = grandma_cost_3 value = 3.877 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 374765.000 }    set_variable = { which = grandma_cost_3 value = 3.647 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 208622.000 }    set_variable = { which = grandma_cost_3 value = 3.431 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 282 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 283 } }
+										set_variable = { which = grandma_cost_4 value = 853831.000 }    set_variable = { which = grandma_cost_3 value = 3.227 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 551111.000 }    set_variable = { which = grandma_cost_3 value = 3.36 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 586181.000 }    set_variable = { which = grandma_cost_3 value = 2.856 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = grandma_count value = 278 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 279 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 280 } }
+										set_variable = { which = grandma_cost_4 value = 287094.000 }    set_variable = { which = grandma_cost_3 value = 2.687 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 21726.000 }    set_variable = { which = grandma_cost_3 value = 2.528 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 195414.000 }    set_variable = { which = grandma_cost_3 value = 2.378 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 276 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 277 } }
+										set_variable = { which = grandma_cost_4 value = 248744.000 }    set_variable = { which = grandma_cost_3 value = 2.237 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 655450.000 }    set_variable = { which = grandma_cost_3 value = 2.104 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 920461.000 }    set_variable = { which = grandma_cost_3 value = 1.979 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = grandma_count value = 262 } }
+						if = {
+							limit = { check_variable = { which = grandma_count value = 268 } }
+							if = {
+								limit = { check_variable = { which = grandma_count value = 271 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 273 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 274 } }
+										set_variable = { which = grandma_cost_4 value = 578044.000 }    set_variable = { which = grandma_cost_3 value = 1.862 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 190070.000 }    set_variable = { which = grandma_cost_3 value = 1.752 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = grandma_count value = 272 } }
+										set_variable = { which = grandma_cost_4 value = 344374.000 }    set_variable = { which = grandma_cost_3 value = 1.648 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 653221.000 }    set_variable = { which = grandma_cost_3 value = 1.550 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 269 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 270 } }
+										set_variable = { which = grandma_cost_4 value = 751854.000 }    set_variable = { which = grandma_cost_3 value = 1.458 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 297135.000 }    set_variable = { which = grandma_cost_3 value = 1.372 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 966260.000 }    set_variable = { which = grandma_cost_3 value = 1.290 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = grandma_count value = 265 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 266 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 267 } }
+										set_variable = { which = grandma_cost_4 value = 455560.000 }    set_variable = { which = grandma_cost_3 value = 1.214 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 479360.000 }    set_variable = { which = grandma_cost_3 value = 1.142 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 768918.000 }    set_variable = { which = grandma_cost_3 value = 1.74 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 263 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 264 } }
+										set_variable = { which = grandma_cost_4 value = 71419.000 }    set_variable = { which = grandma_cost_3 value = 1.11 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 149030.000 }    set_variable = { which = grandma_cost_3 value = 0.951 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 778015.000 }    set_variable = { which = grandma_cost_3 value = 0.894 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = grandma_count value = 256 } }
+							if = {
+								limit = { check_variable = { which = grandma_count value = 259 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 260 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 261 } }
+										set_variable = { which = grandma_cost_4 value = 747898.000 }    set_variable = { which = grandma_cost_3 value = 0.841 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 860675.000 }    set_variable = { which = grandma_cost_3 value = 0.791 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 930080.000 }    set_variable = { which = grandma_cost_3 value = 0.744 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 257 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 258 } }
+										set_variable = { which = grandma_cost_4 value = 780884.000 }    set_variable = { which = grandma_cost_3 value = 0.700 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 248245.000 }    set_variable = { which = grandma_cost_3 value = 0.659 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 177088.000 }    set_variable = { which = grandma_cost_3 value = 0.620 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = grandma_count value = 253 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 254 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 255 } }
+										set_variable = { which = grandma_cost_4 value = 421532.000 }    set_variable = { which = grandma_cost_3 value = 0.583 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 844338.000 }    set_variable = { which = grandma_cost_3 value = 0.548 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 316405.000 }    set_variable = { which = grandma_cost_3 value = 0.516 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 251 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 252 } }
+										set_variable = { which = grandma_cost_4 value = 716279.000 }    set_variable = { which = grandma_cost_3 value = 0.485 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 929708.000 }    set_variable = { which = grandma_cost_3 value = 0.456 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 849207.000 }    set_variable = { which = grandma_cost_3 value = 0.429 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = grandma_count value = 225 } }
+					if = {
+						limit = { check_variable = { which = grandma_count value = 237 } }
+						if = {
+							limit = { check_variable = { which = grandma_count value = 243 } }
+							if = {
+								limit = { check_variable = { which = grandma_count value = 246 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 248 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 249 } }
+										set_variable = { which = grandma_cost_4 value = 373666.000 }    set_variable = { which = grandma_cost_3 value = 0.404 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 407965.000 }    set_variable = { which = grandma_cost_3 value = 0.380 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = grandma_count value = 247 } }
+										set_variable = { which = grandma_cost_4 value = 862620.000 }    set_variable = { which = grandma_cost_3 value = 0.357 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 653452.000 }    set_variable = { which = grandma_cost_3 value = 0.336 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 244 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 245 } }
+										set_variable = { which = grandma_cost_4 value = 701272.000 }    set_variable = { which = grandma_cost_3 value = 0.316 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 931582.000 }    set_variable = { which = grandma_cost_3 value = 0.297 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 274301.000 }    set_variable = { which = grandma_cost_3 value = 0.280 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = grandma_count value = 240 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 241 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 242 } }
+										set_variable = { which = grandma_cost_4 value = 663501.000 }    set_variable = { which = grandma_cost_3 value = 0.263 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 37160.000 }    set_variable = { which = grandma_cost_3 value = 0.248 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 336933.000 }    set_variable = { which = grandma_cost_3 value = 0.233 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 238 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 239 } }
+										set_variable = { which = grandma_cost_4 value = 507933.000 }    set_variable = { which = grandma_cost_3 value = 0.219 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 498526.000 }    set_variable = { which = grandma_cost_3 value = 0.206 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 260137.000 }    set_variable = { which = grandma_cost_3 value = 0.194 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = grandma_count value = 231 } }
+							if = {
+								limit = { check_variable = { which = grandma_count value = 234 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 235 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 236 } }
+										set_variable = { which = grandma_cost_4 value = 747072.000 }    set_variable = { which = grandma_cost_3 value = 0.182 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 916342.000 }    set_variable = { which = grandma_cost_3 value = 0.171 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 727509.000 }    set_variable = { which = grandma_cost_3 value = 0.161 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 232 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 233 } }
+										set_variable = { which = grandma_cost_4 value = 142530.000 }    set_variable = { which = grandma_cost_3 value = 0.152 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 125616.000 }    set_variable = { which = grandma_cost_3 value = 0.143 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 643100.000 }    set_variable = { which = grandma_cost_3 value = 0.134 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = grandma_count value = 228 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 229 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 230 } }
+										set_variable = { which = grandma_cost_4 value = 663312.000 }    set_variable = { which = grandma_cost_3 value = 0.126 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 156455.000 }    set_variable = { which = grandma_cost_3 value = 0.119 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 94501.000 }    set_variable = { which = grandma_cost_3 value = 0.112 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 226 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 227 } }
+										set_variable = { which = grandma_cost_4 value = 451083.000 }    set_variable = { which = grandma_cost_3 value = 0.105 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 201395.000 }    set_variable = { which = grandma_cost_3 value = 0.99 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 322103.000 }    set_variable = { which = grandma_cost_3 value = 0.93 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = grandma_count value = 212 } }
+						if = {
+							limit = { check_variable = { which = grandma_count value = 218 } }
+							if = {
+								limit = { check_variable = { which = grandma_count value = 221 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 223 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 224 } }
+										set_variable = { which = grandma_cost_4 value = 791254.000 }    set_variable = { which = grandma_cost_3 value = 0.87 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 588197.000 }    set_variable = { which = grandma_cost_3 value = 0.82 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = grandma_count value = 222 } }
+										set_variable = { which = grandma_cost_4 value = 693506.000 }    set_variable = { which = grandma_cost_3 value = 0.77 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 88905.000 }    set_variable = { which = grandma_cost_3 value = 0.73 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 219 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 220 } }
+										set_variable = { which = grandma_cost_4 value = 757201.000 }    set_variable = { which = grandma_cost_3 value = 0.68 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 682221.000 }    set_variable = { which = grandma_cost_3 value = 0.64 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 848750.000 }    set_variable = { which = grandma_cost_3 value = 0.60 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = grandma_count value = 215 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 216 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 217 } }
+										set_variable = { which = grandma_cost_4 value = 242474.000 }    set_variable = { which = grandma_cost_3 value = 0.57 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 849929.000 }    set_variable = { which = grandma_cost_3 value = 0.53 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 658447.000 }    set_variable = { which = grandma_cost_3 value = 0.50 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 213 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 214 } }
+										set_variable = { which = grandma_cost_4 value = 656112.000 }    set_variable = { which = grandma_cost_3 value = 0.47 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 831714.000 }    set_variable = { which = grandma_cost_3 value = 0.44 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 174707.000 }    set_variable = { which = grandma_cost_3 value = 0.42 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = grandma_count value = 206 } }
+							if = {
+								limit = { check_variable = { which = grandma_count value = 209 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 210 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 211 } }
+										set_variable = { which = grandma_cost_4 value = 675171.000 }    set_variable = { which = grandma_cost_3 value = 0.39 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 323773.000 }    set_variable = { which = grandma_cost_3 value = 0.37 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 111734.000 }    set_variable = { which = grandma_cost_3 value = 0.35 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 207 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 208 } }
+										set_variable = { which = grandma_cost_4 value = 30794.000 }    set_variable = { which = grandma_cost_3 value = 0.33 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 73183.000 }    set_variable = { which = grandma_cost_3 value = 0.31 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 231593.000 }    set_variable = { which = grandma_cost_3 value = 0.29 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = grandma_count value = 203 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 204 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 205 } }
+										set_variable = { which = grandma_cost_4 value = 499147.000 }    set_variable = { which = grandma_cost_3 value = 0.27 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 869376.000 }    set_variable = { which = grandma_cost_3 value = 0.25 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 336196.000 }    set_variable = { which = grandma_cost_3 value = 0.24 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 201 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 202 } }
+										set_variable = { which = grandma_cost_4 value = 893881.000 }    set_variable = { which = grandma_cost_3 value = 0.22 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 537047.000 }    set_variable = { which = grandma_cost_3 value = 0.21 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 260628.000 }    set_variable = { which = grandma_cost_3 value = 0.20 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	else = {
+		if = {
+			limit = { check_variable = { which = grandma_count value = 100 } }
+			if = {
+				limit = { check_variable = { which = grandma_count value = 150 } }
+				if = {
+					limit = { check_variable = { which = grandma_count value = 175 } }
+					if = {
+						limit = { check_variable = { which = grandma_count value = 187 } }
+						if = {
+							limit = { check_variable = { which = grandma_count value = 193 } }
+							if = {
+								limit = { check_variable = { which = grandma_count value = 196 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 198 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 199 } }
+										set_variable = { which = grandma_cost_4 value = 59857.000 }    set_variable = { which = grandma_cost_3 value = 0.19 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 930251.000 }    set_variable = { which = grandma_cost_3 value = 0.17 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = grandma_count value = 197 } }
+										set_variable = { which = grandma_cost_4 value = 867592.000 }    set_variable = { which = grandma_cost_3 value = 0.16 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 867914.000 }    set_variable = { which = grandma_cost_3 value = 0.15 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 194 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 195 } }
+										set_variable = { which = grandma_cost_4 value = 927482.000 }    set_variable = { which = grandma_cost_3 value = 0.14 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 42787.000 }    set_variable = { which = grandma_cost_3 value = 0.14 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 210524.000 }    set_variable = { which = grandma_cost_3 value = 0.13 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = grandma_count value = 190 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 191 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 192 } }
+										set_variable = { which = grandma_cost_4 value = 427586.000 }    set_variable = { which = grandma_cost_3 value = 0.12 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 691050.000 }    set_variable = { which = grandma_cost_3 value = 0.11 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 998165.000 }    set_variable = { which = grandma_cost_3 value = 0.10 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 188 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 189 } }
+										set_variable = { which = grandma_cost_4 value = 346345.000 }    set_variable = { which = grandma_cost_3 value = 0.10 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 733157.000 }    set_variable = { which = grandma_cost_3 value = 0.9 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 156309.000 }    set_variable = { which = grandma_cost_3 value = 0.9 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = grandma_count value = 181 } }
+							if = {
+								limit = { check_variable = { which = grandma_count value = 184 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 185 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 186 } }
+										set_variable = { which = grandma_cost_4 value = 613649.000 }    set_variable = { which = grandma_cost_3 value = 0.8 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 103151.000 }    set_variable = { which = grandma_cost_3 value = 0.8 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 622907.000 }    set_variable = { which = grandma_cost_3 value = 0.7 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 182 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 183 } }
+										set_variable = { which = grandma_cost_4 value = 171126.000 }    set_variable = { which = grandma_cost_3 value = 0.7 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 746121.000 }    set_variable = { which = grandma_cost_3 value = 0.6 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 346304.000 }    set_variable = { which = grandma_cost_3 value = 0.6 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = grandma_count value = 178 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 179 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 180 } }
+										set_variable = { which = grandma_cost_4 value = 970182.000 }    set_variable = { which = grandma_cost_3 value = 0.5 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 616352.000 }    set_variable = { which = grandma_cost_3 value = 0.5 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 283492.000 }    set_variable = { which = grandma_cost_3 value = 0.5 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 176 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 177 } }
+										set_variable = { which = grandma_cost_4 value = 970359.000 }    set_variable = { which = grandma_cost_3 value = 0.4 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 675785.000 }    set_variable = { which = grandma_cost_3 value = 0.4 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 398669.000 }    set_variable = { which = grandma_cost_3 value = 0.4 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = grandma_count value = 162 } }
+						if = {
+							limit = { check_variable = { which = grandma_count value = 168 } }
+							if = {
+								limit = { check_variable = { which = grandma_count value = 171 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 173 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 174 } }
+										set_variable = { which = grandma_cost_4 value = 137976.000 }    set_variable = { which = grandma_cost_3 value = 0.4 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 892734.000 }    set_variable = { which = grandma_cost_3 value = 0.3 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = grandma_count value = 172 } }
+										set_variable = { which = grandma_cost_4 value = 662026.000 }    set_variable = { which = grandma_cost_3 value = 0.3 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 444992.000 }    set_variable = { which = grandma_cost_3 value = 0.3 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 169 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 170 } }
+										set_variable = { which = grandma_cost_4 value = 240820.000 }    set_variable = { which = grandma_cost_3 value = 0.3 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 48749.000 }    set_variable = { which = grandma_cost_3 value = 0.3 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 868061.000 }    set_variable = { which = grandma_cost_3 value = 0.2 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = grandma_count value = 165 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 166 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 167 } }
+										set_variable = { which = grandma_cost_4 value = 698082.000 }    set_variable = { which = grandma_cost_3 value = 0.2 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 538177.000 }    set_variable = { which = grandma_cost_3 value = 0.2 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 387748.000 }    set_variable = { which = grandma_cost_3 value = 0.2 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 163 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 164 } }
+										set_variable = { which = grandma_cost_4 value = 246235.000 }    set_variable = { which = grandma_cost_3 value = 0.2 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 113110.000 }    set_variable = { which = grandma_cost_3 value = 0.2 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 987873.000 }    set_variable = { which = grandma_cost_3 value = 0.1 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = grandma_count value = 156 } }
+							if = {
+								limit = { check_variable = { which = grandma_count value = 159 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 160 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 161 } }
+										set_variable = { which = grandma_cost_4 value = 870060.000 }    set_variable = { which = grandma_cost_3 value = 0.1 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 759228.000 }    set_variable = { which = grandma_cost_3 value = 0.1 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 654965.000 }    set_variable = { which = grandma_cost_3 value = 0.1 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 157 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 158 } }
+										set_variable = { which = grandma_cost_4 value = 556882.000 }    set_variable = { which = grandma_cost_3 value = 0.1 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 464611.000 }    set_variable = { which = grandma_cost_3 value = 0.1 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 377809.000 }    set_variable = { which = grandma_cost_3 value = 0.1 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = grandma_count value = 153 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 154 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 155 } }
+										set_variable = { which = grandma_cost_4 value = 296152.000 }    set_variable = { which = grandma_cost_3 value = 0.1 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 219334.000 }    set_variable = { which = grandma_cost_3 value = 0.1 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 147068.000 }    set_variable = { which = grandma_cost_3 value = 0.1 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 151 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 152 } }
+										set_variable = { which = grandma_cost_4 value = 79086.000 }    set_variable = { which = grandma_cost_3 value = 0.1 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 15132.000 }    set_variable = { which = grandma_cost_3 value = 0.1 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 954969.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = grandma_count value = 125 } }
+					if = {
+						limit = { check_variable = { which = grandma_count value = 137 } }
+						if = {
+							limit = { check_variable = { which = grandma_count value = 143 } }
+							if = {
+								limit = { check_variable = { which = grandma_count value = 146 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 148 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 149 } }
+										set_variable = { which = grandma_cost_4 value = 898372.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 845129.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = grandma_count value = 147 } }
+										set_variable = { which = grandma_cost_4 value = 795041.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 747922.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 144 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 145 } }
+										set_variable = { which = grandma_cost_4 value = 703595.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 661896.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 622668.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = grandma_count value = 140 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 141 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 142 } }
+										set_variable = { which = grandma_cost_4 value = 585765.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 551049.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 518390.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 138 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 139 } }
+										set_variable = { which = grandma_cost_4 value = 487667.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 458765.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 431575.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = grandma_count value = 131 } }
+							if = {
+								limit = { check_variable = { which = grandma_count value = 134 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 135 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 136 } }
+										set_variable = { which = grandma_cost_4 value = 405998.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 381936.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 359300.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 132 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 133 } }
+										set_variable = { which = grandma_cost_4 value = 338005.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 317973.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 299128.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = grandma_count value = 128 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 129 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 130 } }
+										set_variable = { which = grandma_cost_4 value = 281400.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 264722.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 249033.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 126 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 127 } }
+										set_variable = { which = grandma_cost_4 value = 234274.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 220389.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 207328.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = grandma_count value = 112 } }
+						if = {
+							limit = { check_variable = { which = grandma_count value = 118 } }
+							if = {
+								limit = { check_variable = { which = grandma_count value = 121 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 123 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 124 } }
+										set_variable = { which = grandma_cost_4 value = 195040.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 183481.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = grandma_count value = 122 } }
+										set_variable = { which = grandma_cost_4 value = 172606.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 162377.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 119 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 120 } }
+										set_variable = { which = grandma_cost_4 value = 152753.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 143700.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 135183.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = grandma_count value = 115 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 116 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 117 } }
+										set_variable = { which = grandma_cost_4 value = 127172.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 119635.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 112544.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 113 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 114 } }
+										set_variable = { which = grandma_cost_4 value = 105874.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 99599.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 93696.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = grandma_count value = 106 } }
+							if = {
+								limit = { check_variable = { which = grandma_count value = 109 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 110 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 111 } }
+										set_variable = { which = grandma_cost_4 value = 88143.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 82919.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 78005.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 107 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 108 } }
+										set_variable = { which = grandma_cost_4 value = 73382.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 69033.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 64942.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = grandma_count value = 103 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 104 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 105 } }
+										set_variable = { which = grandma_cost_4 value = 61093.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 57472.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 54066.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 101 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 102 } }
+										set_variable = { which = grandma_cost_4 value = 50861.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 47847.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 45011.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = { check_variable = { which = grandma_count value = 50 } }
+				if = {
+					limit = { check_variable = { which = grandma_count value = 75 } }
+					if = {
+						limit = { check_variable = { which = grandma_count value = 87 } }
+						if = {
+							limit = { check_variable = { which = grandma_count value = 93 } }
+							if = {
+								limit = { check_variable = { which = grandma_count value = 96 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 98 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 99 } }
+										set_variable = { which = grandma_cost_4 value = 42344.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 39834.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = grandma_count value = 97 } }
+										set_variable = { which = grandma_cost_4 value = 37473.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 35252.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 94 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 95 } }
+										set_variable = { which = grandma_cost_4 value = 33163.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 31198.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 29349.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = grandma_count value = 90 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 91 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 92 } }
+										set_variable = { which = grandma_cost_4 value = 27609.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 25973.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 24433.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 88 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 89 } }
+										set_variable = { which = grandma_cost_4 value = 22985.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 21623.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 20342.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = grandma_count value = 81 } }
+							if = {
+								limit = { check_variable = { which = grandma_count value = 84 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 85 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 86 } }
+										set_variable = { which = grandma_cost_4 value = 19136.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 18002.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 16935.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 82 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 83 } }
+										set_variable = { which = grandma_cost_4 value = 15931.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 14987.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 14099.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = grandma_count value = 78 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 79 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 80 } }
+										set_variable = { which = grandma_cost_4 value = 13263.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 12477.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 11738.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 76 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 77 } }
+										set_variable = { which = grandma_cost_4 value = 11042.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 10387.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 9772.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = grandma_count value = 62 } }
+						if = {
+							limit = { check_variable = { which = grandma_count value = 68 } }
+							if = {
+								limit = { check_variable = { which = grandma_count value = 71 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 73 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 74 } }
+										set_variable = { which = grandma_cost_4 value = 9193.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 8648.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = grandma_count value = 72 } }
+										set_variable = { which = grandma_cost_4 value = 8135.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 7653.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 69 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 70 } }
+										set_variable = { which = grandma_cost_4 value = 7199.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 6773.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 6371.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = grandma_count value = 65 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 66 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 67 } }
+										set_variable = { which = grandma_cost_4 value = 5994.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 5638.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 5304.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 63 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 64 } }
+										set_variable = { which = grandma_cost_4 value = 4990.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 4694.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 4416.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = grandma_count value = 56 } }
+							if = {
+								limit = { check_variable = { which = grandma_count value = 59 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 60 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 61 } }
+										set_variable = { which = grandma_cost_4 value = 4154.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 3908.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 3676.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 57 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 58 } }
+										set_variable = { which = grandma_cost_4 value = 3458.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 3253.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 3060.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = grandma_count value = 53 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 54 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 55 } }
+										set_variable = { which = grandma_cost_4 value = 2879.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 2708.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 2548.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 51 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 52 } }
+										set_variable = { which = grandma_cost_4 value = 2397.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 2255.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 2121.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = grandma_count value = 25 } }
+					if = {
+						limit = { check_variable = { which = grandma_count value = 37 } }
+						if = {
+							limit = { check_variable = { which = grandma_count value = 43 } }
+							if = {
+								limit = { check_variable = { which = grandma_count value = 46 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 48 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 49 } }
+										set_variable = { which = grandma_cost_4 value = 1995.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 1877.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = grandma_count value = 47 } }
+										set_variable = { which = grandma_cost_4 value = 1766.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 1661.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 44 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 45 } }
+										set_variable = { which = grandma_cost_4 value = 1563.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 1470.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 1383.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = grandma_count value = 40 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 41 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 42 } }
+										set_variable = { which = grandma_cost_4 value = 1301.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 1224.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 1151.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 38 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 39 } }
+										set_variable = { which = grandma_cost_4 value = 1083.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 1019.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 958.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = grandma_count value = 31 } }
+							if = {
+								limit = { check_variable = { which = grandma_count value = 34 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 35 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 36 } }
+										set_variable = { which = grandma_cost_4 value = 901.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 848.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 798.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 32 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 33 } }
+										set_variable = { which = grandma_cost_4 value = 750.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 706.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 664.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = grandma_count value = 28 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 29 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 30 } }
+										set_variable = { which = grandma_cost_4 value = 625.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 588.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 553.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 26 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 27 } }
+										set_variable = { which = grandma_cost_4 value = 520.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 489.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 460.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = grandma_count value = 12 } }
+						if = {
+							limit = { check_variable = { which = grandma_count value = 18 } }
+							if = {
+								limit = { check_variable = { which = grandma_count value = 21 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 23 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 24 } }
+										set_variable = { which = grandma_cost_4 value = 433.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 407.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = grandma_count value = 22 } }
+										set_variable = { which = grandma_cost_4 value = 383.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 360.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 19 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 20 } }
+										set_variable = { which = grandma_cost_4 value = 339.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 319.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 300.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = grandma_count value = 15 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 16 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 17 } }
+										set_variable = { which = grandma_cost_4 value = 282.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 265.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 250.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 13 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 14 } }
+										set_variable = { which = grandma_cost_4 value = 235.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 221.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 208.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = grandma_count value = 6 } }
+							if = {
+								limit = { check_variable = { which = grandma_count value = 9 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 10 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 11 } }
+										set_variable = { which = grandma_cost_4 value = 195.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 184.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 173.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 7 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 8 } }
+										set_variable = { which = grandma_cost_4 value = 163.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 153.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 144.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = grandma_count value = 3 } }
+								if = {
+									limit = { check_variable = { which = grandma_count value = 4 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 5 } }
+										set_variable = { which = grandma_cost_4 value = 135.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 127.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 120.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = grandma_count value = 1 } }
+									if = {
+										limit = { check_variable = { which = grandma_count value = 2 } }
+										set_variable = { which = grandma_cost_4 value = 112.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = grandma_cost_4 value = 106.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = grandma_cost_4 value = 100.000 }    set_variable = { which = grandma_cost_3 value = 0.0 }    set_variable = { which = grandma_cost_2 value = 0.0 }    set_variable = { which = grandma_cost_1 value = 0.0 }    set_variable = { which = grandma_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}get_msd = { ln = grandma_cost mantissa = grandma_cost_mantissa exponent = grandma_cost_exp}
+}

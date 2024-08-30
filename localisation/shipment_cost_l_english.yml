@@ -1,0 +1,2 @@
+﻿l_english:
+ shipment_cost_tt: "[shipment_cost_mantissa.GetValue] [Root.CLOC_SHIPMENT_COST_EXP]"

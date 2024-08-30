@@ -1,0 +1,2403 @@
+get_cursor_cost = {
+	if = {
+		limit = { check_variable = { which = cursor_count value = 200 } }
+		if = {
+			limit = { check_variable = { which = cursor_count value = 300 } }
+			if = {
+				limit = { check_variable = { which = cursor_count value = 350 } }
+				if = {
+					limit = { check_variable = { which = cursor_count value = 375 } }
+					if = {
+						limit = { check_variable = { which = cursor_count value = 388 } }
+						if = {
+							limit = { check_variable = { which = cursor_count value = 394 } }
+							if = {
+								limit = { check_variable = { which = cursor_count value = 397 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 399 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 400 } }
+										set_variable = { which = cursor_cost_4 value = 260864.000 }    set_variable = { which = cursor_cost_3 value = 771730.548 }    set_variable = { which = cursor_cost_2 value = 357.118 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 647424.000 }    set_variable = { which = cursor_cost_3 value = 450563.996 }    set_variable = { which = cursor_cost_2 value = 319.426 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = cursor_count value = 398 } }
+										set_variable = { which = cursor_cost_4 value = 401472.000 }    set_variable = { which = cursor_cost_3 value = 388697.671 }    set_variable = { which = cursor_cost_2 value = 285.712 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 819392.000 }    set_variable = { which = cursor_cost_3 value = 698298.453 }    set_variable = { which = cursor_cost_2 value = 255.556 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 395 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 396 } }
+										set_variable = { which = cursor_cost_4 value = 386368.000 }    set_variable = { which = cursor_cost_3 value = 808853.715 }    set_variable = { which = cursor_cost_2 value = 228.583 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 123968.000 }    set_variable = { which = cursor_cost_3 value = 789672.375 }    set_variable = { which = cursor_cost_2 value = 204.457 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 660160.000 }    set_variable = { which = cursor_cost_3 value = 166075.469 }    set_variable = { which = cursor_cost_2 value = 182.878 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = cursor_count value = 391 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 392 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 393 } }
+										set_variable = { which = cursor_cost_4 value = 930368.000 }    set_variable = { which = cursor_cost_3 value = 177169.471 }    set_variable = { which = cursor_cost_2 value = 163.576 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 275328.000 }    set_variable = { which = cursor_cost_3 value = 428595.234 }    set_variable = { which = cursor_cost_2 value = 146.311 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 260992.000 }    set_variable = { which = cursor_cost_3 value = 898564.610 }    set_variable = { which = cursor_cost_2 value = 130.868 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 389 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 390 } }
+										set_variable = { which = cursor_cost_4 value = 123072.000 }    set_variable = { which = cursor_cost_3 value = 259896.789 }    set_variable = { which = cursor_cost_2 value = 117.56 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 78464.000 }    set_variable = { which = cursor_cost_3 value = 484701.958 }    set_variable = { which = cursor_cost_2 value = 104.701 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 598976.000 }    set_variable = { which = cursor_cost_3 value = 701880.105 }    set_variable = { which = cursor_cost_2 value = 93.650 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = cursor_count value = 381 } }
+							if = {
+								limit = { check_variable = { which = cursor_count value = 384 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 386 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 387 } }
+										set_variable = { which = cursor_cost_4 value = 136448.000 }    set_variable = { which = cursor_cost_3 value = 280751.436 }    set_variable = { which = cursor_cost_2 value = 83.766 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 107328.000 }    set_variable = { which = cursor_cost_3 value = 116951.195 }    set_variable = { which = cursor_cost_2 value = 74.925 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = cursor_count value = 385 } }
+										set_variable = { which = cursor_cost_4 value = 733312.000 }    set_variable = { which = cursor_cost_3 value = 99240.782 }    set_variable = { which = cursor_cost_2 value = 67.17 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 997760.000 }    set_variable = { which = cursor_cost_3 value = 738140.235 }    set_variable = { which = cursor_cost_2 value = 59.943 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 382 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 383 } }
+										set_variable = { which = cursor_cost_4 value = 766016.000 }    set_variable = { which = cursor_cost_3 value = 939302.535 }    set_variable = { which = cursor_cost_2 value = 53.616 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 246912.000 }    set_variable = { which = cursor_cost_3 value = 906352.894 }    set_variable = { which = cursor_cost_2 value = 47.957 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 937536.000 }    set_variable = { which = cursor_cost_3 value = 159528.527 }    set_variable = { which = cursor_cost_2 value = 42.896 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = cursor_count value = 378 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 379 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 380 } }
+										set_variable = { which = cursor_cost_4 value = 509760.000 }    set_variable = { which = cursor_cost_3 value = 657896.715 }    set_variable = { which = cursor_cost_2 value = 38.368 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 856704.000 }    set_variable = { which = cursor_cost_3 value = 14218.886 }    set_variable = { which = cursor_cost_2 value = 34.319 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 488000.000 }    set_variable = { which = cursor_cost_3 value = 792682.367 }    set_variable = { which = cursor_cost_2 value = 30.696 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 376 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 377 } }
+										set_variable = { which = cursor_cost_4 value = 290112.000 }    set_variable = { which = cursor_cost_3 value = 880753.459 }    set_variable = { which = cursor_cost_2 value = 27.456 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 569664.000 }    set_variable = { which = cursor_cost_3 value = 927328.675 }    set_variable = { which = cursor_cost_2 value = 24.558 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 775552.000 }    set_variable = { which = cursor_cost_3 value = 840186.650 }    set_variable = { which = cursor_cost_2 value = 21.966 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = cursor_count value = 362 } }
+						if = {
+							limit = { check_variable = { which = cursor_count value = 368 } }
+							if = {
+								limit = { check_variable = { which = cursor_count value = 371 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 373 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 374 } }
+										set_variable = { which = cursor_cost_4 value = 545408.000 }    set_variable = { which = cursor_cost_3 value = 336481.798 }    set_variable = { which = cursor_cost_2 value = 19.648 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 44928.000 }    set_variable = { which = cursor_cost_3 value = 540681.394 }    set_variable = { which = cursor_cost_2 value = 17.574 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = cursor_count value = 372 } }
+										set_variable = { which = cursor_cost_4 value = 102208.000 }    set_variable = { which = cursor_cost_3 value = 624938.635 }    set_variable = { which = cursor_cost_2 value = 15.719 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 535680.000 }    set_variable = { which = cursor_cost_3 value = 487422.750 }    set_variable = { which = cursor_cost_2 value = 14.60 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 369 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 370 } }
+										set_variable = { which = cursor_cost_4 value = 757056.000 }    set_variable = { which = cursor_cost_3 value = 464599.955 }    set_variable = { which = cursor_cost_2 value = 12.576 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 448256.000 }    set_variable = { which = cursor_cost_3 value = 73881.892 }    set_variable = { which = cursor_cost_2 value = 11.249 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 535232.000 }    set_variable = { which = cursor_cost_3 value = 783436.397 }    set_variable = { which = cursor_cost_2 value = 10.61 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = cursor_count value = 365 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 366 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 367 } }
+										set_variable = { which = cursor_cost_4 value = 615936.000 }    set_variable = { which = cursor_cost_3 value = 806293.736 }    set_variable = { which = cursor_cost_2 value = 8.999 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 16000.000 }    set_variable = { which = cursor_cost_3 value = 916184.22 }    set_variable = { which = cursor_cost_2 value = 8.49 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 271872.000 }    set_variable = { which = cursor_cost_3 value = 282812.184 }    set_variable = { which = cursor_cost_2 value = 7.200 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 363 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 364 } }
+										set_variable = { which = cursor_cost_4 value = 364288.000 }    set_variable = { which = cursor_cost_3 value = 324518.948 }    set_variable = { which = cursor_cost_2 value = 6.440 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 178304.000 }    set_variable = { which = cursor_cost_3 value = 576492.798 }    set_variable = { which = cursor_cost_2 value = 5.760 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 499328.000 }    set_variable = { which = cursor_cost_3 value = 572891.590 }    set_variable = { which = cursor_cost_2 value = 5.152 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = cursor_count value = 356 } }
+							if = {
+								limit = { check_variable = { which = cursor_count value = 359 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 360 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 361 } }
+										set_variable = { which = cursor_cost_4 value = 9472.000 }    set_variable = { which = cursor_cost_3 value = 741405.716 }    set_variable = { which = cursor_cost_2 value = 4.608 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 537088.000 }    set_variable = { which = cursor_cost_3 value = 308949.656 }    set_variable = { which = cursor_cost_2 value = 4.122 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 95680.000 }    set_variable = { which = cursor_cost_3 value = 217307.385 }    set_variable = { which = cursor_cost_2 value = 3.687 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 357 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 358 } }
+										set_variable = { which = cursor_cost_4 value = 235520.000 }    set_variable = { which = cursor_cost_3 value = 47681.24 }    set_variable = { which = cursor_cost_2 value = 3.298 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 822400.000 }    set_variable = { which = cursor_cost_3 value = 953203.62 }    set_variable = { which = cursor_cost_2 value = 2.949 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 541952.000 }    set_variable = { which = cursor_cost_3 value = 598571.612 }    set_variable = { which = cursor_cost_2 value = 2.638 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = cursor_count value = 353 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 354 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 355 } }
+										set_variable = { which = cursor_cost_4 value = 516992.000 }    set_variable = { which = cursor_cost_3 value = 106056.898 }    set_variable = { which = cursor_cost_2 value = 2.360 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 189952.000 }    set_variable = { which = cursor_cost_3 value = 7206.528 }    set_variable = { which = cursor_cost_2 value = 2.111 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 414912.000 }    set_variable = { which = cursor_cost_3 value = 199648.57 }    set_variable = { which = cursor_cost_2 value = 1.888 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 351 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 352 } }
+										set_variable = { which = cursor_cost_4 value = 363776.000 }    set_variable = { which = cursor_cost_3 value = 908450.856 }    set_variable = { which = cursor_cost_2 value = 1.688 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 148160.000 }    set_variable = { which = cursor_cost_3 value = 651566.61 }    set_variable = { which = cursor_cost_2 value = 1.510 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 73280.000 }    set_variable = { which = cursor_cost_3 value = 208914.187 }    set_variable = { which = cursor_cost_2 value = 1.351 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = cursor_count value = 325 } }
+					if = {
+						limit = { check_variable = { which = cursor_count value = 337 } }
+						if = {
+							limit = { check_variable = { which = cursor_count value = 343 } }
+							if = {
+								limit = { check_variable = { which = cursor_count value = 346 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 348 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 349 } }
+										set_variable = { which = cursor_cost_4 value = 831232.000 }    set_variable = { which = cursor_cost_3 value = 594735.408 }    set_variable = { which = cursor_cost_2 value = 1.208 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 433984.000 }    set_variable = { which = cursor_cost_3 value = 32858.147 }    set_variable = { which = cursor_cost_2 value = 1.81 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = cursor_count value = 347 } }
+										set_variable = { which = cursor_cost_4 value = 404032.000 }    set_variable = { which = cursor_cost_3 value = 934577.949 }    set_variable = { which = cursor_cost_2 value = 0.966 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 313024.000 }    set_variable = { which = cursor_cost_3 value = 878871.153 }    set_variable = { which = cursor_cost_2 value = 0.864 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 344 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 345 } }
+										set_variable = { which = cursor_cost_4 value = 95680.000 }    set_variable = { which = cursor_cost_3 value = 594696.917 }    set_variable = { which = cursor_cost_2 value = 0.773 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 815488.000 }    set_variable = { which = cursor_cost_3 value = 945167.188 }    set_variable = { which = cursor_cost_2 value = 0.691 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 634432.000 }    set_variable = { which = cursor_cost_3 value = 913387.467 }    set_variable = { which = cursor_cost_2 value = 0.618 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = cursor_count value = 340 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 341 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 342 } }
+										set_variable = { which = cursor_cost_4 value = 406464.000 }    set_variable = { which = cursor_cost_3 value = 589792.10 }    set_variable = { which = cursor_cost_2 value = 0.553 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 705216.000 }    set_variable = { which = cursor_cost_3 value = 160815.751 }    set_variable = { which = cursor_cost_2 value = 0.495 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 45760.000 }    set_variable = { which = cursor_cost_3 value = 898761.853 }    set_variable = { which = cursor_cost_2 value = 0.442 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 338 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 339 } }
+										set_variable = { which = cursor_cost_4 value = 876288.000 }    set_variable = { which = cursor_cost_3 value = 152738.687 }    set_variable = { which = cursor_cost_2 value = 0.396 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 82496.000 }    set_variable = { which = cursor_cost_3 value = 340553.388 }    set_variable = { which = cursor_cost_2 value = 0.354 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 129216.000 }    set_variable = { which = cursor_cost_3 value = 941460.991 }    set_variable = { which = cursor_cost_2 value = 0.316 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = cursor_count value = 331 } }
+							if = {
+								limit = { check_variable = { which = cursor_count value = 334 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 335 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 336 } }
+										set_variable = { which = cursor_cost_4 value = 942016.000 }    set_variable = { which = cursor_cost_3 value = 489678.882 }    set_variable = { which = cursor_cost_2 value = 0.283 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 917728.000 }    set_variable = { which = cursor_cost_3 value = 568585.762 }    set_variable = { which = cursor_cost_2 value = 0.253 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 752864.000 }    set_variable = { which = cursor_cost_3 value = 805532.882 }    set_variable = { which = cursor_cost_2 value = 0.226 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 332 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 333 } }
+										set_variable = { which = cursor_cost_4 value = 272672.000 }    set_variable = { which = cursor_cost_3 value = 867202.936 }    set_variable = { which = cursor_cost_2 value = 0.202 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 97184.000 }    set_variable = { which = cursor_cost_3 value = 455458.798 }    set_variable = { which = cursor_cost_2 value = 0.181 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 747008.000 }    set_variable = { which = cursor_cost_3 value = 303630.409 }    set_variable = { which = cursor_cost_2 value = 0.162 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = cursor_count value = 328 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 329 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 330 } }
+										set_variable = { which = cursor_cost_4 value = 646688.000 }    set_variable = { which = cursor_cost_3 value = 173193.568 }    set_variable = { which = cursor_cost_2 value = 0.145 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 392384.000 }    set_variable = { which = cursor_cost_3 value = 850799.256 }    set_variable = { which = cursor_cost_2 value = 0.129 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 401056.000 }    set_variable = { which = cursor_cost_3 value = 145616.508 }    set_variable = { which = cursor_cost_2 value = 0.116 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 326 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 327 } }
+										set_variable = { which = cursor_cost_4 value = 22400.000 }    set_variable = { which = cursor_cost_3 value = 886955.732 }    set_variable = { which = cursor_cost_2 value = 0.103 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 7488.000 }    set_variable = { which = cursor_cost_3 value = 922142.873 }    set_variable = { which = cursor_cost_2 value = 0.92 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 389520.000 }    set_variable = { which = cursor_cost_3 value = 114617.954 }    set_variable = { which = cursor_cost_2 value = 0.83 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = cursor_count value = 312 } }
+						if = {
+							limit = { check_variable = { which = cursor_count value = 318 } }
+							if = {
+								limit = { check_variable = { which = cursor_count value = 321 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 323 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 324 } }
+										set_variable = { which = cursor_cost_4 value = 251808.000 }    set_variable = { which = cursor_cost_3 value = 342234.306 }    set_variable = { which = cursor_cost_2 value = 0.74 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 339712.000 }    set_variable = { which = cursor_cost_3 value = 495737.304 }    set_variable = { which = cursor_cost_2 value = 0.66 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = cursor_count value = 322 } }
+										set_variable = { which = cursor_cost_4 value = 144640.000 }    set_variable = { which = cursor_cost_3 value = 477403.671 }    set_variable = { which = cursor_cost_2 value = 0.59 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 794840.000 }    set_variable = { which = cursor_cost_3 value = 199824.392 }    set_variable = { which = cursor_cost_2 value = 0.53 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 319 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 320 } }
+										set_variable = { which = cursor_cost_4 value = 734200.000 }    set_variable = { which = cursor_cost_3 value = 584816.93 }    set_variable = { which = cursor_cost_2 value = 0.47 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 32376.000 }    set_variable = { which = cursor_cost_3 value = 562447.311 }    set_variable = { which = cursor_cost_2 value = 0.42 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 173856.000 }    set_variable = { which = cursor_cost_3 value = 70167.541 }    set_variable = { which = cursor_cost_2 value = 0.38 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = cursor_count value = 315 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 316 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 317 } }
+										set_variable = { which = cursor_cost_4 value = 141192.000 }    set_variable = { which = cursor_cost_3 value = 52028.212 }    set_variable = { which = cursor_cost_2 value = 0.34 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 480488.000 }    set_variable = { which = cursor_cost_3 value = 457985.878 }    set_variable = { which = cursor_cost_2 value = 0.30 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 73780.000 }    set_variable = { which = cursor_cost_3 value = 243278.961 }    set_variable = { which = cursor_cost_2 value = 0.27 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 313 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 314 } }
+										set_variable = { which = cursor_cost_4 value = 296760.000 }    set_variable = { which = cursor_cost_3 value = 367870.269 }    set_variable = { which = cursor_cost_2 value = 0.24 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 519464.000 }    set_variable = { which = cursor_cost_3 value = 795948.362 }    set_variable = { which = cursor_cost_2 value = 0.21 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 715084.000 }    set_variable = { which = cursor_cost_3 value = 495481.540 }    set_variable = { which = cursor_cost_2 value = 0.19 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = cursor_count value = 306 } }
+							if = {
+								limit = { check_variable = { which = cursor_count value = 309 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 310 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 311 } }
+										set_variable = { which = cursor_cost_4 value = 405258.000 }    set_variable = { which = cursor_cost_3 value = 437818.909 }    set_variable = { which = cursor_cost_2 value = 0.17 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 451928.000 }    set_variable = { which = cursor_cost_3 value = 597333.550 }    set_variable = { which = cursor_cost_2 value = 0.15 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 608164.000 }    set_variable = { which = cursor_cost_3 value = 951103.354 }    set_variable = { which = cursor_cost_2 value = 0.13 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 307 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 308 } }
+										set_variable = { which = cursor_cost_4 value = 794422.000 }    set_variable = { which = cursor_cost_3 value = 478625.540 }    set_variable = { which = cursor_cost_2 value = 0.12 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 613972.000 }    set_variable = { which = cursor_cost_3 value = 161561.306 }    set_variable = { which = cursor_cost_2 value = 0.11 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 887274.000 }    set_variable = { which = cursor_cost_3 value = 983507.429 }    set_variable = { which = cursor_cost_2 value = 0.9 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = cursor_count value = 303 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 304 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 305 } }
+										set_variable = { which = cursor_cost_4 value = 643355.000 }    set_variable = { which = cursor_cost_3 value = 929791.976 }    set_variable = { which = cursor_cost_2 value = 0.8 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 237348.000 }    set_variable = { which = cursor_cost_3 value = 987291.571 }    set_variable = { which = cursor_cost_2 value = 0.7 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 806213.000 }    set_variable = { which = cursor_cost_3 value = 144267.952 }    set_variable = { which = cursor_cost_2 value = 0.7 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 301 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 302 } }
+										set_variable = { which = cursor_cost_4 value = 474252.000 }    set_variable = { which = cursor_cost_3 value = 390221.782 }    set_variable = { which = cursor_cost_2 value = 0.6 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 567308.000 }    set_variable = { which = cursor_cost_3 value = 715761.880 }    set_variable = { which = cursor_cost_2 value = 0.5 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 265928.000 }    set_variable = { which = cursor_cost_3 value = 112488.265 }    set_variable = { which = cursor_cost_2 value = 0.5 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = { check_variable = { which = cursor_count value = 250 } }
+				if = {
+					limit = { check_variable = { which = cursor_count value = 275 } }
+					if = {
+						limit = { check_variable = { which = cursor_count value = 287 } }
+						if = {
+							limit = { check_variable = { which = cursor_count value = 293 } }
+							if = {
+								limit = { check_variable = { which = cursor_count value = 296 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 298 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 299 } }
+										set_variable = { which = cursor_cost_4 value = 16035.000 }    set_variable = { which = cursor_cost_3 value = 572887.536 }    set_variable = { which = cursor_cost_2 value = 0.4 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 762106.000 }    set_variable = { which = cursor_cost_3 value = 90239.298 }    set_variable = { which = cursor_cost_2 value = 0.4 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = cursor_count value = 297 } }
+										set_variable = { which = cursor_cost_4 value = 586857.000 }    set_variable = { which = cursor_cost_3 value = 658532.467 }    set_variable = { which = cursor_cost_2 value = 0.3 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 346025.000 }    set_variable = { which = cursor_cost_3 value = 272390.400 }    set_variable = { which = cursor_cost_2 value = 0.3 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 294 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 295 } }
+										set_variable = { which = cursor_cost_4 value = 908788.000 }    set_variable = { which = cursor_cost_3 value = 927003.935 }    set_variable = { which = cursor_cost_2 value = 0.2 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 23961.000 }    set_variable = { which = cursor_cost_3 value = 618071.499 }    set_variable = { which = cursor_cost_2 value = 0.2 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 855063.000 }    set_variable = { which = cursor_cost_3 value = 341745.526 }    set_variable = { which = cursor_cost_2 value = 0.2 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = cursor_count value = 290 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 291 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 292 } }
+										set_variable = { which = cursor_cost_4 value = 959805.000 }    set_variable = { which = cursor_cost_3 value = 94584.549 }    set_variable = { which = cursor_cost_2 value = 0.2 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 912169.000 }    set_variable = { which = cursor_cost_3 value = 873510.330 }    set_variable = { which = cursor_cost_2 value = 0.1 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 755071.000 }    set_variable = { which = cursor_cost_3 value = 675769.526 }    set_variable = { which = cursor_cost_2 value = 0.1 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 288 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 289 } }
+										set_variable = { which = cursor_cost_4 value = 813122.000 }    set_variable = { which = cursor_cost_3 value = 498899.397 }    set_variable = { which = cursor_cost_2 value = 0.1 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 789912.000 }    set_variable = { which = cursor_cost_3 value = 340697.135 }    set_variable = { which = cursor_cost_2 value = 0.1 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 150190.000 }    set_variable = { which = cursor_cost_3 value = 199192.429 }    set_variable = { which = cursor_cost_2 value = 0.1 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = cursor_count value = 281 } }
+							if = {
+								limit = { check_variable = { which = cursor_count value = 284 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 285 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 286 } }
+										set_variable = { which = cursor_cost_4 value = 105715.000 }    set_variable = { which = cursor_cost_3 value = 72622.924 }    set_variable = { which = cursor_cost_2 value = 0.1 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 586507.000 }    set_variable = { which = cursor_cost_3 value = 959412.275 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 835874.000 }    set_variable = { which = cursor_cost_3 value = 858150.514 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 282 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 283 } }
+										set_variable = { which = cursor_cost_4 value = 119744.000 }    set_variable = { which = cursor_cost_3 value = 767576.489 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 847714.000 }    set_variable = { which = cursor_cost_3 value = 686562.154 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 486327.000 }    set_variable = { which = cursor_cost_3 value = 614098.528 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = cursor_count value = 278 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 279 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 280 } }
+										set_variable = { which = cursor_cost_4 value = 291884.000 }    set_variable = { which = cursor_cost_3 value = 549283.120 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 357678.000 }    set_variable = { which = cursor_cost_3 value = 491308.694 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 988979.000 }    set_variable = { which = cursor_cost_3 value = 439453.214 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 276 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 277 } }
+										set_variable = { which = cursor_cost_4 value = 194077.000 }    set_variable = { which = cursor_cost_3 value = 393070.854 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 295239.000 }    set_variable = { which = cursor_cost_3 value = 351583.948 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 484114.000 }    set_variable = { which = cursor_cost_3 value = 314475.803 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = cursor_count value = 262 } }
+						if = {
+							limit = { check_variable = { which = cursor_count value = 268 } }
+							if = {
+								limit = { check_variable = { which = cursor_count value = 271 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 273 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 274 } }
+										set_variable = { which = cursor_cost_4 value = 719243.000 }    set_variable = { which = cursor_cost_3 value = 281284.260 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 820432.000 }    set_variable = { which = cursor_cost_3 value = 251595.939 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = cursor_count value = 272 } }
+										set_variable = { which = cursor_cost_4 value = 73731.000 }    set_variable = { which = cursor_cost_3 value = 225041.91 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 226951.000 }    set_variable = { which = cursor_cost_3 value = 201288.990 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 269 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 270 } }
+										set_variable = { which = cursor_cost_4 value = 523212.000 }    set_variable = { which = cursor_cost_3 value = 180043.819 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 473356.000 }    set_variable = { which = cursor_cost_3 value = 161040.983 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 482429.000 }    set_variable = { which = cursor_cost_3 value = 144043.813 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = cursor_count value = 265 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 266 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 267 } }
+										set_variable = { which = cursor_cost_4 value = 288398.000 }    set_variable = { which = cursor_cost_3 value = 128840.620 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 503039.000 }    set_variable = { which = cursor_cost_3 value = 115242.57 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 419534.000 }    set_variable = { which = cursor_cost_3 value = 103078.763 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 263 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 264 } }
+										set_variable = { which = cursor_cost_4 value = 716936.000 }    set_variable = { which = cursor_cost_3 value = 92199.251 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 791535.000 }    set_variable = { which = cursor_cost_3 value = 82468.24 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 217831.000 }    set_variable = { which = cursor_cost_3 value = 73763.886 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = cursor_count value = 256 } }
+							if = {
+								limit = { check_variable = { which = cursor_count value = 259 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 260 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 261 } }
+										set_variable = { which = cursor_cost_4 value = 321852.000 }    set_variable = { which = cursor_cost_3 value = 65978.431 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 67846.000 }    set_variable = { which = cursor_cost_3 value = 59014.697 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 443512.000 }    set_variable = { which = cursor_cost_3 value = 52785.954 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 257 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 258 } }
+										set_variable = { which = cursor_cost_4 value = 303678.000 }    set_variable = { which = cursor_cost_3 value = 47214.628 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 219747.000 }    set_variable = { which = cursor_cost_3 value = 42231.331 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 302100.000 }    set_variable = { which = cursor_cost_3 value = 37773.999 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = cursor_count value = 253 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 254 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 255 } }
+										set_variable = { which = cursor_cost_4 value = 232647.000 }    set_variable = { which = cursor_cost_3 value = 33787.119 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 880722.000 }    set_variable = { which = cursor_cost_3 value = 30221.36 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 891522.000 }    set_variable = { which = cursor_cost_3 value = 27031.338 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 251 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 252 } }
+										set_variable = { which = cursor_cost_4 value = 545190.000 }    set_variable = { which = cursor_cost_3 value = 24178.299 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 997486.000 }    set_variable = { which = cursor_cost_3 value = 21626.385 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 740149.000 }    set_variable = { which = cursor_cost_3 value = 19343.815 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = cursor_count value = 225 } }
+					if = {
+						limit = { check_variable = { which = cursor_count value = 237 } }
+						if = {
+							limit = { check_variable = { which = cursor_count value = 243 } }
+							if = {
+								limit = { check_variable = { which = cursor_count value = 246 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 248 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 249 } }
+										set_variable = { which = cursor_cost_4 value = 769364.000 }    set_variable = { which = cursor_cost_3 value = 17302.160 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 532526.000 }    set_variable = { which = cursor_cost_3 value = 15475.993 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = cursor_count value = 247 } }
+										set_variable = { which = cursor_cost_4 value = 243762.000 }    set_variable = { which = cursor_cost_3 value = 13842.570 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 624116.000 }    set_variable = { which = cursor_cost_3 value = 12381.547 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 244 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 245 } }
+										set_variable = { which = cursor_cost_4 value = 538565.000 }    set_variable = { which = cursor_cost_3 value = 11074.729 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 374387.000 }    set_variable = { which = cursor_cost_3 value = 9905.840 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 338450.000 }    set_variable = { which = cursor_cost_3 value = 8860.322 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = cursor_count value = 240 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 241 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 242 } }
+										set_variable = { which = cursor_cost_4 value = 148882.000 }    set_variable = { which = cursor_cost_3 value = 7925.154 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 863043.000 }    set_variable = { which = cursor_cost_3 value = 7088.688 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 822042.000 }    set_variable = { which = cursor_cost_3 value = 6340.508 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 238 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 239 } }
+										set_variable = { which = cursor_cost_4 value = 905225.000 }    set_variable = { which = cursor_cost_3 value = 5671.295 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 478735.000 }    set_variable = { which = cursor_cost_3 value = 5072.715 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 592786.000 }    set_variable = { which = cursor_cost_3 value = 4537.312 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = cursor_count value = 231 } }
+							if = {
+								limit = { check_variable = { which = cursor_count value = 234 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 235 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 236 } }
+										set_variable = { which = cursor_cost_4 value = 134871.000 }    set_variable = { which = cursor_cost_3 value = 4058.419 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 782532.000 }    set_variable = { which = cursor_cost_3 value = 3630.70 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 721406.000 }    set_variable = { which = cursor_cost_3 value = 3246.932 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 232 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 233 } }
+										set_variable = { which = cursor_cost_4 value = 203404.000 }    set_variable = { which = cursor_cost_3 value = 2904.233 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 117535.000 }    set_variable = { which = cursor_cost_3 value = 2597.704 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 833216.000 }    set_variable = { which = cursor_cost_3 value = 2323.527 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = cursor_count value = 228 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 229 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 230 } }
+										set_variable = { which = cursor_cost_4 value = 654039.000 }    set_variable = { which = cursor_cost_3 value = 2078.289 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 289838.000 }    set_variable = { which = cursor_cost_3 value = 1858.935 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 817386.000 }    set_variable = { which = cursor_cost_3 value = 1662.732 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 226 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 227 } }
+										set_variable = { which = cursor_cost_4 value = 655981.000 }    set_variable = { which = cursor_cost_3 value = 1487.238 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 134151.000 }    set_variable = { which = cursor_cost_3 value = 1330.267 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 268471.000 }    set_variable = { which = cursor_cost_3 value = 1189.863 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = cursor_count value = 212 } }
+						if = {
+							limit = { check_variable = { which = cursor_count value = 218 } }
+							if = {
+								limit = { check_variable = { which = cursor_count value = 221 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 223 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 224 } }
+										set_variable = { which = cursor_cost_4 value = 415448.000 }    set_variable = { which = cursor_cost_3 value = 1064.278 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 493245.000 }    set_variable = { which = cursor_cost_3 value = 951.948 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = cursor_count value = 222 } }
+										set_variable = { which = cursor_cost_4 value = 502008.000 }    set_variable = { which = cursor_cost_3 value = 851.474 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 100186.000 }    set_variable = { which = cursor_cost_3 value = 761.605 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 219 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 220 } }
+										set_variable = { which = cursor_cost_4 value = 19844.000 }    set_variable = { which = cursor_cost_3 value = 681.221 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 126873.000 }    set_variable = { which = cursor_cost_3 value = 609.321 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 952481.000 }    set_variable = { which = cursor_cost_3 value = 545.9 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = cursor_count value = 215 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 216 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 217 } }
+										set_variable = { which = cursor_cost_4 value = 540680.000 }    set_variable = { which = cursor_cost_3 value = 487.486 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 472880.000 }    set_variable = { which = cursor_cost_3 value = 436.34 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 945331.000 }    set_variable = { which = cursor_cost_3 value = 390.12 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 213 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 214 } }
+										set_variable = { which = cursor_cost_4 value = 788310.000 }    set_variable = { which = cursor_cost_3 value = 348.848 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 327648.000 }    set_variable = { which = cursor_cost_3 value = 312.29 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 999685.000 }    set_variable = { which = cursor_cost_3 value = 279.95 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = cursor_count value = 206 } }
+							if = {
+								limit = { check_variable = { which = cursor_count value = 209 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 210 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 211 } }
+										set_variable = { which = cursor_cost_4 value = 640148.000 }    set_variable = { which = cursor_cost_3 value = 249.638 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 375803.000 }    set_variable = { which = cursor_cost_3 value = 223.290 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 55280.000 }    set_variable = { which = cursor_cost_3 value = 199.723 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 207 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 208 } }
+										set_variable = { which = cursor_cost_4 value = 162146.000 }    set_variable = { which = cursor_cost_3 value = 178.643 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 159344.000 }    set_variable = { which = cursor_cost_3 value = 159.788 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 219449.000 }    set_variable = { which = cursor_cost_3 value = 142.923 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = cursor_count value = 203 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 204 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 205 } }
+										set_variable = { which = cursor_cost_4 value = 300044.000 }    set_variable = { which = cursor_cost_3 value = 127.838 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 527767.000 }    set_variable = { which = cursor_cost_3 value = 114.345 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 858468.000 }    set_variable = { which = cursor_cost_3 value = 102.276 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 201 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 202 } }
+										set_variable = { which = cursor_cost_4 value = 984318.000 }    set_variable = { which = cursor_cost_3 value = 91.481 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 461823.000 }    set_variable = { which = cursor_cost_3 value = 81.826 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 37409.000 }    set_variable = { which = cursor_cost_3 value = 73.190 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	else = {
+		if = {
+			limit = { check_variable = { which = cursor_count value = 100 } }
+			if = {
+				limit = { check_variable = { which = cursor_count value = 150 } }
+				if = {
+					limit = { check_variable = { which = cursor_count value = 175 } }
+					if = {
+						limit = { check_variable = { which = cursor_count value = 187 } }
+						if = {
+							limit = { check_variable = { which = cursor_count value = 193 } }
+							if = {
+								limit = { check_variable = { which = cursor_count value = 196 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 198 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 199 } }
+										set_variable = { which = cursor_cost_4 value = 149739.000 }    set_variable = { which = cursor_cost_3 value = 65.465 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 590107.000 }    set_variable = { which = cursor_cost_3 value = 58.555 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = cursor_count value = 197 } }
+										set_variable = { which = cursor_cost_4 value = 304210.000 }    set_variable = { which = cursor_cost_3 value = 52.375 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 320402.000 }    set_variable = { which = cursor_cost_3 value = 46.847 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 194 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 195 } }
+										set_variable = { which = cursor_cost_4 value = 791058.000 }    set_variable = { which = cursor_cost_3 value = 41.902 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 135114.000 }    set_variable = { which = cursor_cost_3 value = 37.480 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 271122.000 }    set_variable = { which = cursor_cost_3 value = 33.524 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = cursor_count value = 190 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 191 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 192 } }
+										set_variable = { which = cursor_cost_4 value = 931236.000 }    set_variable = { which = cursor_cost_3 value = 29.985 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 47617.000 }    set_variable = { which = cursor_cost_3 value = 26.821 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 203593.000 }    set_variable = { which = cursor_cost_3 value = 23.990 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 188 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 189 } }
+										set_variable = { which = cursor_cost_4 value = 142748.000 }    set_variable = { which = cursor_cost_3 value = 21.458 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 329829.000 }    set_variable = { which = cursor_cost_3 value = 19.193 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 557986.000 }    set_variable = { which = cursor_cost_3 value = 17.167 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = cursor_count value = 181 } }
+							if = {
+								limit = { check_variable = { which = cursor_count value = 184 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 185 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 186 } }
+										set_variable = { which = cursor_cost_4 value = 597483.000 }    set_variable = { which = cursor_cost_3 value = 15.355 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 881470.000 }    set_variable = { which = cursor_cost_3 value = 13.734 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 224928.000 }    set_variable = { which = cursor_cost_3 value = 12.285 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 182 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 183 } }
+										set_variable = { which = cursor_cost_4 value = 573281.000 }    set_variable = { which = cursor_cost_3 value = 10.988 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 777532.000 }    set_variable = { which = cursor_cost_3 value = 9.828 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 393141.000 }    set_variable = { which = cursor_cost_3 value = 8.791 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = cursor_count value = 178 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 179 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 180 } }
+										set_variable = { which = cursor_cost_4 value = 500126.000 }    set_variable = { which = cursor_cost_3 value = 7.863 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 542152.000 }    set_variable = { which = cursor_cost_3 value = 7.33 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 182605.000 }    set_variable = { which = cursor_cost_3 value = 6.291 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 176 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 177 } }
+										set_variable = { which = cursor_cost_4 value = 175854.000 }    set_variable = { which = cursor_cost_3 value = 5.627 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 252106.000 }    set_variable = { which = cursor_cost_3 value = 5.33 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 14406.000 }    set_variable = { which = cursor_cost_3 value = 4.502 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = cursor_count value = 162 } }
+						if = {
+							limit = { check_variable = { which = cursor_count value = 168 } }
+							if = {
+								limit = { check_variable = { which = cursor_count value = 171 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 173 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 174 } }
+										set_variable = { which = cursor_cost_4 value = 846517.000 }    set_variable = { which = cursor_cost_3 value = 4.26 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 830516.000 }    set_variable = { which = cursor_cost_3 value = 3.601 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = cursor_count value = 172 } }
+										set_variable = { which = cursor_cost_4 value = 673091.000 }    set_variable = { which = cursor_cost_3 value = 3.221 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 639616.000 }    set_variable = { which = cursor_cost_3 value = 2.881 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 169 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 170 } }
+										set_variable = { which = cursor_cost_4 value = 495184.000 }    set_variable = { which = cursor_cost_3 value = 2.577 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 451864.000 }    set_variable = { which = cursor_cost_3 value = 2.305 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 121524.000 }    set_variable = { which = cursor_cost_3 value = 2.62 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = cursor_count value = 165 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 166 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 167 } }
+										set_variable = { which = cursor_cost_4 value = 473635.000 }    set_variable = { which = cursor_cost_3 value = 1.844 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 797527.000 }    set_variable = { which = cursor_cost_3 value = 1.649 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 668629.000 }    set_variable = { which = cursor_cost_3 value = 1.475 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 163 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 164 } }
+										set_variable = { which = cursor_cost_4 value = 918273.000 }    set_variable = { which = cursor_cost_3 value = 1.319 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 606684.000 }    set_variable = { which = cursor_cost_3 value = 1.180 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 998823.000 }    set_variable = { which = cursor_cost_3 value = 1.55 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = cursor_count value = 156 } }
+							if = {
+								limit = { check_variable = { which = cursor_count value = 159 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 160 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 161 } }
+										set_variable = { which = cursor_cost_4 value = 542775.000 }    set_variable = { which = cursor_cost_3 value = 0.944 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 850425.000 }    set_variable = { which = cursor_cost_3 value = 0.844 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 680165.000 }    set_variable = { which = cursor_cost_3 value = 0.755 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 157 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 158 } }
+										set_variable = { which = cursor_cost_4 value = 921436.000 }    set_variable = { which = cursor_cost_3 value = 0.675 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 580891.000 }    set_variable = { which = cursor_cost_3 value = 0.604 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 770027.000 }    set_variable = { which = cursor_cost_3 value = 0.540 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = cursor_count value = 153 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 154 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 155 } }
+										set_variable = { which = cursor_cost_4 value = 694121.000 }    set_variable = { which = cursor_cost_3 value = 0.483 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 642326.000 }    set_variable = { which = cursor_cost_3 value = 0.432 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 978825.000 }    set_variable = { which = cursor_cost_3 value = 0.386 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 151 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 152 } }
+										set_variable = { which = cursor_cost_4 value = 134906.000 }    set_variable = { which = cursor_cost_3 value = 0.346 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 601884.000 }    set_variable = { which = cursor_cost_3 value = 0.309 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 924762.000 }    set_variable = { which = cursor_cost_3 value = 0.276 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = cursor_count value = 125 } }
+					if = {
+						limit = { check_variable = { which = cursor_count value = 137 } }
+						if = {
+							limit = { check_variable = { which = cursor_count value = 143 } }
+							if = {
+								limit = { check_variable = { which = cursor_count value = 146 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 148 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 149 } }
+										set_variable = { which = cursor_cost_4 value = 696567.000 }    set_variable = { which = cursor_cost_3 value = 0.247 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 553280.000 }    set_variable = { which = cursor_cost_3 value = 0.221 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = cursor_count value = 147 } }
+										set_variable = { which = cursor_cost_4 value = 169302.000 }    set_variable = { which = cursor_cost_3 value = 0.198 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 253401.000 }    set_variable = { which = cursor_cost_3 value = 0.177 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 144 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 145 } }
+										set_variable = { which = cursor_cost_4 value = 545081.000 }    set_variable = { which = cursor_cost_3 value = 0.158 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 811343.000 }    set_variable = { which = cursor_cost_3 value = 0.141 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 843777.000 }    set_variable = { which = cursor_cost_3 value = 0.126 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = cursor_count value = 140 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 141 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 142 } }
+										set_variable = { which = cursor_cost_4 value = 455972.000 }    set_variable = { which = cursor_cost_3 value = 0.113 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 481191.000 }    set_variable = { which = cursor_cost_3 value = 0.101 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 770296.000 }    set_variable = { which = cursor_cost_3 value = 0.90 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 138 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 139 } }
+										set_variable = { which = cursor_cost_4 value = 189889.000 }    set_variable = { which = cursor_cost_3 value = 0.81 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 620652.000 }    set_variable = { which = cursor_cost_3 value = 0.72 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 955861.000 }    set_variable = { which = cursor_cost_3 value = 0.64 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = cursor_count value = 131 } }
+							if = {
+								limit = { check_variable = { which = cursor_count value = 134 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 135 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 136 } }
+										set_variable = { which = cursor_cost_4 value = 100054.000 }    set_variable = { which = cursor_cost_3 value = 0.58 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 967848.000 }    set_variable = { which = cursor_cost_3 value = 0.51 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 482869.000 }    set_variable = { which = cursor_cost_3 value = 0.46 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 132 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 133 } }
+										set_variable = { which = cursor_cost_4 value = 576806.000 }    set_variable = { which = cursor_cost_3 value = 0.41 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 188557.000 }    set_variable = { which = cursor_cost_3 value = 0.37 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 263467.000 }    set_variable = { which = cursor_cost_3 value = 0.33 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = cursor_count value = 128 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 129 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 130 } }
+										set_variable = { which = cursor_cost_4 value = 752654.000 }    set_variable = { which = cursor_cost_3 value = 0.29 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 612392.000 }    set_variable = { which = cursor_cost_3 value = 0.26 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 803570.000 }    set_variable = { which = cursor_cost_3 value = 0.23 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 126 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 127 } }
+										set_variable = { which = cursor_cost_4 value = 291208.000 }    set_variable = { which = cursor_cost_3 value = 0.21 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 44014.000 }    set_variable = { which = cursor_cost_3 value = 0.19 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 34002.000 }    set_variable = { which = cursor_cost_3 value = 0.17 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = cursor_count value = 112 } }
+						if = {
+							limit = { check_variable = { which = cursor_count value = 118 } }
+							if = {
+								limit = { check_variable = { which = cursor_count value = 121 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 123 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 124 } }
+										set_variable = { which = cursor_cost_4 value = 236138.000 }    set_variable = { which = cursor_cost_3 value = 0.15 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 628030.000 }    set_variable = { which = cursor_cost_3 value = 0.13 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = cursor_count value = 122 } }
+										set_variable = { which = cursor_cost_4 value = 189651.000 }    set_variable = { which = cursor_cost_3 value = 0.12 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 903087.000 }    set_variable = { which = cursor_cost_3 value = 0.10 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 119 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 120 } }
+										set_variable = { which = cursor_cost_4 value = 752314.000 }    set_variable = { which = cursor_cost_3 value = 0.9 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 723000.000 }    set_variable = { which = cursor_cost_3 value = 0.8 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 802325.000 }    set_variable = { which = cursor_cost_3 value = 0.7 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = cursor_count value = 115 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 116 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 117 } }
+										set_variable = { which = cursor_cost_4 value = 978824.000 }    set_variable = { which = cursor_cost_3 value = 0.6 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 242240.000 }    set_variable = { which = cursor_cost_3 value = 0.6 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 583399.000 }    set_variable = { which = cursor_cost_3 value = 0.5 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 113 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 114 } }
+										set_variable = { which = cursor_cost_4 value = 994095.000 }    set_variable = { which = cursor_cost_3 value = 0.4 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 466990.000 }    set_variable = { which = cursor_cost_3 value = 0.4 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 995519.000 }    set_variable = { which = cursor_cost_3 value = 0.3 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = cursor_count value = 106 } }
+							if = {
+								limit = { check_variable = { which = cursor_count value = 109 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 110 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 111 } }
+										set_variable = { which = cursor_cost_4 value = 573809.000 }    set_variable = { which = cursor_cost_3 value = 0.3 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 196609.000 }    set_variable = { which = cursor_cost_3 value = 0.3 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 859221.000 }    set_variable = { which = cursor_cost_3 value = 0.2 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 107 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 108 } }
+										set_variable = { which = cursor_cost_4 value = 557443.000 }    set_variable = { which = cursor_cost_3 value = 0.2 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 287516.000 }    set_variable = { which = cursor_cost_3 value = 0.2 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 46079.000 }    set_variable = { which = cursor_cost_3 value = 0.2 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = cursor_count value = 103 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 104 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 105 } }
+										set_variable = { which = cursor_cost_4 value = 830124.000 }    set_variable = { which = cursor_cost_3 value = 0.1 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 636962.000 }    set_variable = { which = cursor_cost_3 value = 0.1 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 464188.000 }    set_variable = { which = cursor_cost_3 value = 0.1 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 101 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 102 } }
+										set_variable = { which = cursor_cost_4 value = 309649.000 }    set_variable = { which = cursor_cost_3 value = 0.1 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 171422.000 }    set_variable = { which = cursor_cost_3 value = 0.1 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 47783.000 }    set_variable = { which = cursor_cost_3 value = 0.1 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = { check_variable = { which = cursor_count value = 50 } }
+				if = {
+					limit = { check_variable = { which = cursor_count value = 75 } }
+					if = {
+						limit = { check_variable = { which = cursor_count value = 87 } }
+						if = {
+							limit = { check_variable = { which = cursor_count value = 93 } }
+							if = {
+								limit = { check_variable = { which = cursor_count value = 96 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 98 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 99 } }
+										set_variable = { which = cursor_cost_4 value = 937194.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 838277.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = cursor_count value = 97 } }
+										set_variable = { which = cursor_cost_4 value = 749801.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 670663.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 94 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 95 } }
+										set_variable = { which = cursor_cost_4 value = 599877.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 536563.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 479931.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = cursor_count value = 90 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 91 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 92 } }
+										set_variable = { which = cursor_cost_4 value = 429276.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 383968.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 343442.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 88 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 89 } }
+										set_variable = { which = cursor_cost_4 value = 307193.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 274770.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 245769.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = cursor_count value = 81 } }
+							if = {
+								limit = { check_variable = { which = cursor_count value = 84 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 85 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 86 } }
+										set_variable = { which = cursor_cost_4 value = 219829.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 196627.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 175874.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 82 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 83 } }
+										set_variable = { which = cursor_cost_4 value = 157311.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 140708.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 125856.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = cursor_count value = 78 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 79 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 80 } }
+										set_variable = { which = cursor_cost_4 value = 112573.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 100691.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 90064.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 76 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 77 } }
+										set_variable = { which = cursor_cost_4 value = 80558.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 72055.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 64450.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = cursor_count value = 62 } }
+						if = {
+							limit = { check_variable = { which = cursor_count value = 68 } }
+							if = {
+								limit = { check_variable = { which = cursor_count value = 71 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 73 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 74 } }
+										set_variable = { which = cursor_cost_4 value = 57648.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 51563.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = cursor_count value = 72 } }
+										set_variable = { which = cursor_cost_4 value = 46121.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 41253.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 69 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 70 } }
+										set_variable = { which = cursor_cost_4 value = 36899.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 33004.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 29521.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = cursor_count value = 65 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 66 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 67 } }
+										set_variable = { which = cursor_cost_4 value = 26405.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 23618.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 21125.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 63 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 64 } }
+										set_variable = { which = cursor_cost_4 value = 18895.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 16901.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 15117.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = cursor_count value = 56 } }
+							if = {
+								limit = { check_variable = { which = cursor_count value = 59 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 60 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 61 } }
+										set_variable = { which = cursor_cost_4 value = 13522.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 12094.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 10818.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 57 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 58 } }
+										set_variable = { which = cursor_cost_4 value = 9676.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 8655.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 7741.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = cursor_count value = 53 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 54 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 55 } }
+										set_variable = { which = cursor_cost_4 value = 6924.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 6193.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 5539.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 51 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 52 } }
+										set_variable = { which = cursor_cost_4 value = 4955.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 4432.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 3964.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = cursor_count value = 25 } }
+					if = {
+						limit = { check_variable = { which = cursor_count value = 37 } }
+						if = {
+							limit = { check_variable = { which = cursor_count value = 43 } }
+							if = {
+								limit = { check_variable = { which = cursor_count value = 46 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 48 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 49 } }
+										set_variable = { which = cursor_cost_4 value = 3546.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 3171.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = cursor_count value = 47 } }
+										set_variable = { which = cursor_cost_4 value = 2836.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 2537.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 44 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 45 } }
+										set_variable = { which = cursor_cost_4 value = 2269.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 2030.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 1815.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = cursor_count value = 40 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 41 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 42 } }
+										set_variable = { which = cursor_cost_4 value = 1624.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 1452.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 1299.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 38 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 39 } }
+										set_variable = { which = cursor_cost_4 value = 1162.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 1039.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 929.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = cursor_count value = 31 } }
+							if = {
+								limit = { check_variable = { which = cursor_count value = 34 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 35 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 36 } }
+										set_variable = { which = cursor_cost_4 value = 831.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 743.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 665.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 32 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 33 } }
+										set_variable = { which = cursor_cost_4 value = 595.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 532.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 476.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = cursor_count value = 28 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 29 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 30 } }
+										set_variable = { which = cursor_cost_4 value = 425.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 380.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 340.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 26 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 27 } }
+										set_variable = { which = cursor_cost_4 value = 304.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 272.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 243.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = cursor_count value = 12 } }
+						if = {
+							limit = { check_variable = { which = cursor_count value = 18 } }
+							if = {
+								limit = { check_variable = { which = cursor_count value = 21 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 23 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 24 } }
+										set_variable = { which = cursor_cost_4 value = 218.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 195.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = cursor_count value = 22 } }
+										set_variable = { which = cursor_cost_4 value = 174.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 156.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 19 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 20 } }
+										set_variable = { which = cursor_cost_4 value = 139.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 124.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 111.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = cursor_count value = 15 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 16 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 17 } }
+										set_variable = { which = cursor_cost_4 value = 99.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 89.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 79.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 13 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 14 } }
+										set_variable = { which = cursor_cost_4 value = 71.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 63.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 57.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = cursor_count value = 6 } }
+							if = {
+								limit = { check_variable = { which = cursor_count value = 9 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 10 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 11 } }
+										set_variable = { which = cursor_cost_4 value = 51.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 45.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 40.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 7 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 8 } }
+										set_variable = { which = cursor_cost_4 value = 36.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 32.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 29.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = cursor_count value = 3 } }
+								if = {
+									limit = { check_variable = { which = cursor_count value = 4 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 5 } }
+										set_variable = { which = cursor_cost_4 value = 26.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 23.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 20.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = cursor_count value = 1 } }
+									if = {
+										limit = { check_variable = { which = cursor_count value = 2 } }
+										set_variable = { which = cursor_cost_4 value = 18.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = cursor_cost_4 value = 16.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = cursor_cost_4 value = 15.000 }    set_variable = { which = cursor_cost_3 value = 0.0 }    set_variable = { which = cursor_cost_2 value = 0.0 }    set_variable = { which = cursor_cost_1 value = 0.0 }    set_variable = { which = cursor_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}get_msd = { ln = cursor_cost mantissa = cursor_cost_mantissa exponent = cursor_cost_exp}
+}

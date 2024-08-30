@@ -1,0 +1,2403 @@
+get_factory_cost = {
+	if = {
+		limit = { check_variable = { which = factory_count value = 200 } }
+		if = {
+			limit = { check_variable = { which = factory_count value = 300 } }
+			if = {
+				limit = { check_variable = { which = factory_count value = 350 } }
+				if = {
+					limit = { check_variable = { which = factory_count value = 375 } }
+					if = {
+						limit = { check_variable = { which = factory_count value = 388 } }
+						if = {
+							limit = { check_variable = { which = factory_count value = 394 } }
+							if = {
+								limit = { check_variable = { which = factory_count value = 397 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 399 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 400 } }
+										set_variable = { which = factory_cost_4 value = 580338.000 }    set_variable = { which = factory_cost_3 value = 336409.659 }    set_variable = { which = factory_cost_2 value = 0.5 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 821579.000 }    set_variable = { which = factory_cost_3 value = 20140.789 }    set_variable = { which = factory_cost_2 value = 0.5 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = factory_count value = 398 } }
+										set_variable = { which = factory_cost_4 value = 898945.000 }    set_variable = { which = factory_cost_3 value = 722615.982 }    set_variable = { which = factory_cost_2 value = 0.4 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 917164.000 }    set_variable = { which = factory_cost_3 value = 442724.348 }    set_variable = { which = factory_cost_2 value = 0.4 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 395 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 396 } }
+										set_variable = { which = factory_cost_4 value = 234397.000 }    set_variable = { which = factory_cost_3 value = 179420.836 }    set_variable = { which = factory_cost_2 value = 0.4 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 477326.000 }    set_variable = { which = factory_cost_3 value = 931722.329 }    set_variable = { which = factory_cost_2 value = 0.3 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 812160.000 }    set_variable = { which = factory_cost_3 value = 698703.978 }    set_variable = { which = factory_cost_2 value = 0.3 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = factory_count value = 391 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 392 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 393 } }
+										set_variable = { which = factory_cost_4 value = 765908.000 }    set_variable = { which = factory_cost_3 value = 479495.746 }    set_variable = { which = factory_cost_2 value = 0.3 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 704523.000 }    set_variable = { which = factory_cost_3 value = 273279.159 }    set_variable = { which = factory_cost_2 value = 0.3 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 838686.000 }    set_variable = { which = factory_cost_3 value = 79284.251 }    set_variable = { which = factory_cost_2 value = 0.3 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 389 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 390 } }
+										set_variable = { which = factory_cost_4 value = 346835.000 }    set_variable = { which = factory_cost_3 value = 896786.690 }    set_variable = { which = factory_cost_2 value = 0.2 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 881313.000 }    set_variable = { which = factory_cost_3 value = 725105.70 }    set_variable = { which = factory_cost_2 value = 0.2 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 359655.000 }    set_variable = { which = factory_cost_3 value = 563598.373 }    set_variable = { which = factory_cost_2 value = 0.2 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = factory_count value = 381 } }
+							if = {
+								limit = { check_variable = { which = factory_count value = 384 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 386 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 387 } }
+										set_variable = { which = factory_cost_4 value = 541538.000 }    set_variable = { which = factory_cost_3 value = 411663.568 }    set_variable = { which = factory_cost_2 value = 0.2 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 454881.000 }    set_variable = { which = factory_cost_3 value = 268733.366 }    set_variable = { which = factory_cost_2 value = 0.2 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = factory_count value = 385 } }
+										set_variable = { which = factory_cost_4 value = 264234.000 }    set_variable = { which = factory_cost_3 value = 134274.98 }    set_variable = { which = factory_cost_2 value = 0.2 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 672845.000 }    set_variable = { which = factory_cost_3 value = 7783.723 }    set_variable = { which = factory_cost_2 value = 0.2 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 382 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 383 } }
+										set_variable = { which = factory_cost_4 value = 418481.000 }    set_variable = { which = factory_cost_3 value = 888789.956 }    set_variable = { which = factory_cost_2 value = 0.1 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 864046.000 }    set_variable = { which = factory_cost_3 value = 776848.500 }    set_variable = { which = factory_cost_2 value = 0.1 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 98820.000 }    set_variable = { which = factory_cost_3 value = 671541.393 }    set_variable = { which = factory_cost_2 value = 0.1 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = factory_count value = 378 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 379 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 380 } }
+										set_variable = { which = factory_cost_4 value = 356369.000 }    set_variable = { which = factory_cost_3 value = 572475.440 }    set_variable = { which = factory_cost_2 value = 0.1 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 922266.000 }    set_variable = { which = factory_cost_3 value = 479280.752 }    set_variable = { which = factory_cost_2 value = 0.1 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 50110.000 }    set_variable = { which = factory_cost_3 value = 391609.363 }    set_variable = { which = factory_cost_2 value = 0.1 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 376 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 377 } }
+										set_variable = { which = factory_cost_4 value = 729172.000 }    set_variable = { which = factory_cost_3 value = 309133.925 }    set_variable = { which = factory_cost_2 value = 0.1 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 452655.000 }    set_variable = { which = factory_cost_3 value = 231546.496 }    set_variable = { which = factory_cost_2 value = 0.1 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 423005.000 }    set_variable = { which = factory_cost_3 value = 158557.381 }    set_variable = { which = factory_cost_2 value = 0.1 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = factory_count value = 362 } }
+						if = {
+							limit = { check_variable = { which = factory_count value = 368 } }
+							if = {
+								limit = { check_variable = { which = factory_count value = 371 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 373 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 374 } }
+										set_variable = { which = factory_cost_4 value = 901228.000 }    set_variable = { which = factory_cost_3 value = 89894.55 }    set_variable = { which = factory_cost_2 value = 0.1 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 661550.000 }    set_variable = { which = factory_cost_3 value = 25300.146 }    set_variable = { which = factory_cost_2 value = 0.1 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = factory_count value = 372 } }
+										set_variable = { which = factory_cost_4 value = 752164.000 }    set_variable = { which = factory_cost_3 value = 964534.474 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 987925.000 }    set_variable = { which = factory_cost_3 value = 907370.154 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 369 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 370 } }
+										set_variable = { which = factory_cost_4 value = 812723.000 }    set_variable = { which = factory_cost_3 value = 853593.748 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 368507.000 }    set_variable = { which = factory_cost_3 value = 803004.467 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 795397.000 }    set_variable = { which = factory_cost_3 value = 755413.421 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = factory_count value = 365 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 366 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 367 } }
+										set_variable = { which = factory_cost_4 value = 963685.000 }    set_variable = { which = factory_cost_3 value = 710642.917 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 4407.000 }    set_variable = { which = factory_cost_3 value = 668525.793 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 161249.000 }    set_variable = { which = factory_cost_3 value = 628904.791 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 363 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 364 } }
+										set_variable = { which = factory_cost_4 value = 633348.000 }    set_variable = { which = factory_cost_3 value = 591631.976 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 216696.000 }    set_variable = { which = factory_cost_3 value = 556568.181 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 681746.000 }    set_variable = { which = factory_cost_3 value = 523582.484 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = factory_count value = 356 } }
+							if = {
+								limit = { check_variable = { which = factory_count value = 359 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 360 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 361 } }
+										set_variable = { which = factory_cost_4 value = 947080.000 }    set_variable = { which = factory_cost_3 value = 492551.725 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 223970.000 }    set_variable = { which = factory_cost_3 value = 463360.43 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 414835.000 }    set_variable = { which = factory_cost_3 value = 435898.441 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 357 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 358 } }
+										set_variable = { which = factory_cost_4 value = 150362.000 }    set_variable = { which = factory_cost_3 value = 410064.385 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 945778.000 }    set_variable = { which = factory_cost_3 value = 385761.415 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 46828.000 }    set_variable = { which = factory_cost_3 value = 362898.792 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = factory_count value = 353 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 354 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 355 } }
+										set_variable = { which = factory_cost_4 value = 620723.000 }    set_variable = { which = factory_cost_3 value = 341391.149 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 27020.000 }    set_variable = { which = factory_cost_3 value = 321158.184 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 978382.000 }    set_variable = { which = factory_cost_3 value = 302124.349 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 351 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 352 } }
+										set_variable = { which = factory_cost_4 value = 471667.000 }    set_variable = { which = factory_cost_3 value = 284218.579 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 436187.000 }    set_variable = { which = factory_cost_3 value = 267374.16 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 108361.000 }    set_variable = { which = factory_cost_3 value = 251527.767 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = factory_count value = 325 } }
+					if = {
+						limit = { check_variable = { which = factory_count value = 337 } }
+						if = {
+							limit = { check_variable = { which = factory_count value = 343 } }
+							if = {
+								limit = { check_variable = { which = factory_count value = 346 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 348 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 349 } }
+										set_variable = { which = factory_cost_4 value = 200715.000 }    set_variable = { which = factory_cost_3 value = 236620.665 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 988444.000 }    set_variable = { which = factory_cost_3 value = 222597.50 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = factory_count value = 347 } }
+										set_variable = { which = factory_cost_4 value = 488658.000 }    set_variable = { which = factory_cost_3 value = 209404.563 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 956405.000 }    set_variable = { which = factory_cost_3 value = 196993.944 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 344 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 345 } }
+										set_variable = { which = factory_cost_4 value = 967455.000 }    set_variable = { which = factory_cost_3 value = 185318.856 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 401180.000 }    set_variable = { which = factory_cost_3 value = 174335.707 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 677498.000 }    set_variable = { which = factory_cost_3 value = 164003.487 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = factory_count value = 340 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 341 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 342 } }
+										set_variable = { which = factory_cost_4 value = 640168.000 }    set_variable = { which = factory_cost_3 value = 154283.619 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 514739.000 }    set_variable = { which = factory_cost_3 value = 145139.811 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 403329.000 }    set_variable = { which = factory_cost_3 value = 136537.922 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 338 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 339 } }
+										set_variable = { which = factory_cost_4 value = 810281.000 }    set_variable = { which = factory_cost_3 value = 128445.834 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 722748.000 }    set_variable = { which = factory_cost_3 value = 120833.334 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 798446.000 }    set_variable = { which = factory_cost_3 value = 113671.998 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = factory_count value = 331 } }
+							if = {
+								limit = { check_variable = { which = factory_count value = 334 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 335 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 336 } }
+										set_variable = { which = factory_cost_4 value = 239366.000 }    set_variable = { which = factory_cost_3 value = 106935.88 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 955189.000 }    set_variable = { which = factory_cost_3 value = 100597.448 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 643640.000 }    set_variable = { which = factory_cost_3 value = 94635.417 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 332 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 333 } }
+										set_variable = { which = factory_cost_4 value = 437102.000 }    set_variable = { which = factory_cost_3 value = 89026.733 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 785609.000 }    set_variable = { which = factory_cost_3 value = 83750.454 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 265860.000 }    set_variable = { which = factory_cost_3 value = 78786.881 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = factory_count value = 328 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 329 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 330 } }
+										set_variable = { which = factory_cost_4 value = 24327.000 }    set_variable = { which = factory_cost_3 value = 74117.480 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 579800.000 }    set_variable = { which = factory_cost_3 value = 69724.816 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 726999.000 }    set_variable = { which = factory_cost_3 value = 65592.489 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 326 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 327 } }
+										set_variable = { which = factory_cost_4 value = 298211.000 }    set_variable = { which = factory_cost_3 value = 61705.70 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 554291.000 }    set_variable = { which = factory_cost_3 value = 58048.43 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 989926.000 }    set_variable = { which = factory_cost_3 value = 54607.754 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = factory_count value = 312 } }
+						if = {
+							limit = { check_variable = { which = factory_count value = 318 } }
+							if = {
+								limit = { check_variable = { which = factory_count value = 321 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 323 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 324 } }
+										set_variable = { which = factory_cost_4 value = 350824.000 }    set_variable = { which = factory_cost_3 value = 51371.359 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 672459.000 }    set_variable = { which = factory_cost_3 value = 48326.772 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = factory_count value = 322 } }
+										set_variable = { which = factory_cost_4 value = 161297.000 }    set_variable = { which = factory_cost_3 value = 45462.627 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 750044.000 }    set_variable = { which = factory_cost_3 value = 42768.228 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 319 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 320 } }
+										set_variable = { which = factory_cost_4 value = 168433.000 }    set_variable = { which = factory_cost_3 value = 40233.517 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 380464.000 }    set_variable = { which = factory_cost_3 value = 37849.28 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 247849.000 }    set_variable = { which = factory_cost_3 value = 35605.859 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = factory_count value = 315 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 316 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 317 } }
+										set_variable = { which = factory_cost_4 value = 287723.000 }    set_variable = { which = factory_cost_3 value = 33495.634 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 400492.000 }    set_variable = { which = factory_cost_3 value = 31510.474 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 451074.000 }    set_variable = { which = factory_cost_3 value = 29642.967 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 313 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 314 } }
+										set_variable = { which = factory_cost_4 value = 593673.000 }    set_variable = { which = factory_cost_3 value = 27886.140 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 236757.000 }    set_variable = { which = factory_cost_3 value = 26233.434 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 551041.000 }    set_variable = { which = factory_cost_3 value = 24678.677 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = factory_count value = 306 } }
+							if = {
+								limit = { check_variable = { which = factory_count value = 309 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 310 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 311 } }
+										set_variable = { which = factory_cost_4 value = 429013.000 }    set_variable = { which = factory_cost_3 value = 23216.65 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 809984.000 }    set_variable = { which = factory_cost_3 value = 21840.136 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 289731.000 }    set_variable = { which = factory_cost_3 value = 20545.754 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 307 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 308 } }
+										set_variable = { which = factory_cost_4 value = 938599.000 }    set_variable = { which = factory_cost_3 value = 19328.84 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 256443.000 }    set_variable = { which = factory_cost_3 value = 18182.582 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 197030.000 }    set_variable = { which = factory_cost_3 value = 17104.969 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = factory_count value = 303 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 304 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 305 } }
+										set_variable = { which = factory_cost_4 value = 198523.000 }    set_variable = { which = factory_cost_3 value = 16091.222 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 160417.000 }    set_variable = { which = factory_cost_3 value = 15137.556 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 310835.000 }    set_variable = { which = factory_cost_3 value = 14240.410 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 301 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 302 } }
+										set_variable = { which = factory_cost_4 value = 911415.000 }    set_variable = { which = factory_cost_3 value = 13396.434 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 750156.000 }    set_variable = { which = factory_cost_3 value = 12602.478 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 375499.000 }    set_variable = { which = factory_cost_3 value = 11855.577 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = { check_variable = { which = factory_count value = 250 } }
+				if = {
+					limit = { check_variable = { which = factory_count value = 275 } }
+					if = {
+						limit = { check_variable = { which = factory_count value = 287 } }
+						if = {
+							limit = { check_variable = { which = factory_count value = 293 } }
+							if = {
+								limit = { check_variable = { which = factory_count value = 296 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 298 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 299 } }
+										set_variable = { which = factory_cost_4 value = 27751.000 }    set_variable = { which = factory_cost_3 value = 11152.942 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 226482.000 }    set_variable = { which = factory_cost_3 value = 10491.949 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = factory_count value = 297 } }
+										set_variable = { which = factory_cost_4 value = 975054.000 }    set_variable = { which = factory_cost_3 value = 9870.130 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 545676.000 }    set_variable = { which = factory_cost_3 value = 9285.165 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 294 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 295 } }
+										set_variable = { which = factory_cost_4 value = 810608.000 }    set_variable = { which = factory_cost_3 value = 8734.868 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 87119.000 }    set_variable = { which = factory_cost_3 value = 8217.186 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 465775.000 }    set_variable = { which = factory_cost_3 value = 7730.184 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = factory_count value = 290 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 291 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 292 } }
+										set_variable = { which = factory_cost_4 value = 593392.000 }    set_variable = { which = factory_cost_3 value = 7272.45 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 883718.000 }    set_variable = { which = factory_cost_3 value = 6841.58 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 130496.000 }    set_variable = { which = factory_cost_3 value = 6435.615 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 288 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 289 } }
+										set_variable = { which = factory_cost_4 value = 499056.000 }    set_variable = { which = factory_cost_3 value = 6054.200 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 873994.000 }    set_variable = { which = factory_cost_3 value = 5695.390 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 541857.000 }    set_variable = { which = factory_cost_3 value = 5357.846 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = factory_count value = 281 } }
+							if = {
+								limit = { check_variable = { which = factory_count value = 284 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 285 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 286 } }
+										set_variable = { which = factory_cost_4 value = 188953.000 }    set_variable = { which = factory_cost_3 value = 5040.307 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 195628.000 }    set_variable = { which = factory_cost_3 value = 4741.587 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 209434.000 }    set_variable = { which = factory_cost_3 value = 4460.571 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 282 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 283 } }
+										set_variable = { which = factory_cost_4 value = 980653.000 }    set_variable = { which = factory_cost_3 value = 4196.209 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 444640.000 }    set_variable = { which = factory_cost_3 value = 3947.516 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 36350.000 }    set_variable = { which = factory_cost_3 value = 3713.562 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = factory_count value = 278 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 279 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 280 } }
+										set_variable = { which = factory_cost_4 value = 223283.000 }    set_variable = { which = factory_cost_3 value = 3493.473 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 243917.000 }    set_variable = { which = factory_cost_3 value = 3286.428 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 39432.000 }    set_variable = { which = factory_cost_3 value = 3091.654 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 276 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 277 } }
+										set_variable = { which = factory_cost_4 value = 367293.000 }    set_variable = { which = factory_cost_3 value = 2908.423 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 85882.000 }    set_variable = { which = factory_cost_3 value = 2736.52 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 600077.000 }    set_variable = { which = factory_cost_3 value = 2573.896 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = factory_count value = 262 } }
+						if = {
+							limit = { check_variable = { which = factory_count value = 268 } }
+							if = {
+								limit = { check_variable = { which = factory_count value = 271 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 273 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 274 } }
+										set_variable = { which = factory_cost_4 value = 458210.000 }    set_variable = { which = factory_cost_3 value = 2421.351 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 91449.000 }    set_variable = { which = factory_cost_3 value = 2277.847 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = factory_count value = 272 } }
+										set_variable = { which = factory_cost_4 value = 687158.000 }    set_variable = { which = factory_cost_3 value = 2142.847 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 188295.000 }    set_variable = { which = factory_cost_3 value = 2015.849 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 269 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 270 } }
+										set_variable = { which = factory_cost_4 value = 411378.000 }    set_variable = { which = factory_cost_3 value = 1896.377 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 275991.000 }    set_variable = { which = factory_cost_3 value = 1783.986 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 139220.000 }    set_variable = { which = factory_cost_3 value = 1678.256 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = factory_count value = 265 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 266 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 267 } }
+										set_variable = { which = factory_cost_4 value = 228805.000 }    set_variable = { which = factory_cost_3 value = 1578.792 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 169149.000 }    set_variable = { which = factory_cost_3 value = 1485.223 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 594684.000 }    set_variable = { which = factory_cost_3 value = 1397.199 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 263 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 264 } }
+										set_variable = { which = factory_cost_4 value = 845422.000 }    set_variable = { which = factory_cost_3 value = 1314.392 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 739814.000 }    set_variable = { which = factory_cost_3 value = 1236.493 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 420333.000 }    set_variable = { which = factory_cost_3 value = 1163.211 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = factory_count value = 256 } }
+							if = {
+								limit = { check_variable = { which = factory_count value = 259 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 260 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 261 } }
+										set_variable = { which = factory_cost_4 value = 267481.000 }    set_variable = { which = factory_cost_3 value = 1094.272 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 878157.000 }    set_variable = { which = factory_cost_3 value = 1029.418 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 104570.000 }    set_variable = { which = factory_cost_3 value = 968.409 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 257 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 258 } }
+										set_variable = { which = factory_cost_4 value = 150112.000 }    set_variable = { which = factory_cost_3 value = 911.15 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 718826.000 }    set_variable = { which = factory_cost_3 value = 857.22 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 215265.000 }    set_variable = { which = factory_cost_3 value = 806.230 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = factory_count value = 253 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 254 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 255 } }
+										set_variable = { which = factory_cost_4 value = 991782.000 }    set_variable = { which = factory_cost_3 value = 758.447 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 640435.000 }    set_variable = { which = factory_cost_3 value = 713.497 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 326844.000 }    set_variable = { which = factory_cost_3 value = 671.211 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 251 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 252 } }
+										set_variable = { which = factory_cost_4 value = 163541.000 }    set_variable = { which = factory_cost_3 value = 631.431 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 620452.000 }    set_variable = { which = factory_cost_3 value = 594.8 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 970322.000 }    set_variable = { which = factory_cost_3 value = 558.803 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = factory_count value = 225 } }
+					if = {
+						limit = { check_variable = { which = factory_count value = 237 } }
+						if = {
+							limit = { check_variable = { which = factory_count value = 243 } }
+							if = {
+								limit = { check_variable = { which = factory_count value = 246 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 248 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 249 } }
+										set_variable = { which = factory_cost_4 value = 767001.000 }    set_variable = { which = factory_cost_3 value = 525.685 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 354657.000 }    set_variable = { which = factory_cost_3 value = 494.530 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = factory_count value = 247 } }
+										set_variable = { which = factory_cost_4 value = 406075.000 }    set_variable = { which = factory_cost_3 value = 465.221 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 488311.000 }    set_variable = { which = factory_cost_3 value = 437.649 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 244 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 245 } }
+										set_variable = { which = factory_cost_4 value = 654102.000 }    set_variable = { which = factory_cost_3 value = 411.711 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 57481.000 }    set_variable = { which = factory_cost_3 value = 387.311 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 592174.000 }    set_variable = { which = factory_cost_3 value = 364.356 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = factory_count value = 240 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 241 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 242 } }
+										set_variable = { which = factory_cost_4 value = 551434.000 }    set_variable = { which = factory_cost_3 value = 342.762 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 308028.000 }    set_variable = { which = factory_cost_3 value = 322.448 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 13197.000 }    set_variable = { which = factory_cost_3 value = 303.338 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 238 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 239 } }
+										set_variable = { which = factory_cost_4 value = 313449.000 }    set_variable = { which = factory_cost_3 value = 285.360 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 84148.000 }    set_variable = { which = factory_cost_3 value = 268.448 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 178878.000 }    set_variable = { which = factory_cost_3 value = 252.538 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = factory_count value = 231 } }
+							if = {
+								limit = { check_variable = { which = factory_count value = 234 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 235 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 236 } }
+										set_variable = { which = factory_cost_4 value = 193677.000 }    set_variable = { which = factory_cost_3 value = 237.571 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 245227.000 }    set_variable = { which = factory_cost_3 value = 223.491 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 762208.000 }    set_variable = { which = factory_cost_3 value = 210.245 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 232 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 233 } }
+										set_variable = { which = factory_cost_4 value = 289001.000 }    set_variable = { which = factory_cost_3 value = 197.785 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 301036.000 }    set_variable = { which = factory_cost_3 value = 186.63 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 31078.000 }    set_variable = { which = factory_cost_3 value = 175.36 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = factory_count value = 228 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 229 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 230 } }
+										set_variable = { which = factory_cost_4 value = 305812.000 }    set_variable = { which = factory_cost_3 value = 164.662 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 392109.000 }    set_variable = { which = factory_cost_3 value = 154.903 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 852407.000 }    set_variable = { which = factory_cost_3 value = 145.722 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 226 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 227 } }
+										set_variable = { which = factory_cost_4 value = 408662.000 }    set_variable = { which = factory_cost_3 value = 137.86 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 814357.000 }    set_variable = { which = factory_cost_3 value = 128.961 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 734108.000 }    set_variable = { which = factory_cost_3 value = 121.318 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = factory_count value = 212 } }
+						if = {
+							limit = { check_variable = { which = factory_count value = 218 } }
+							if = {
+								limit = { check_variable = { which = factory_count value = 221 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 223 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 224 } }
+										set_variable = { which = factory_cost_4 value = 630393.000 }    set_variable = { which = factory_cost_3 value = 114.128 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 657002.000 }    set_variable = { which = factory_cost_3 value = 107.364 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = factory_count value = 222 } }
+										set_variable = { which = factory_cost_4 value = 558798.000 }    set_variable = { which = factory_cost_3 value = 101.1 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 577420.000 }    set_variable = { which = factory_cost_3 value = 95.15 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 219 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 220 } }
+										set_variable = { which = factory_cost_4 value = 362578.000 }    set_variable = { which = factory_cost_3 value = 89.384 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 888596.000 }    set_variable = { which = factory_cost_3 value = 84.86 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 375914.000 }    set_variable = { which = factory_cost_3 value = 79.103 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = factory_count value = 215 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 216 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 217 } }
+										set_variable = { which = factory_cost_4 value = 217228.000 }    set_variable = { which = factory_cost_3 value = 74.415 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 908023.000 }    set_variable = { which = factory_cost_3 value = 70.4 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 981207.000 }    set_variable = { which = factory_cost_3 value = 65.855 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 213 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 214 } }
+										set_variable = { which = factory_cost_4 value = 945632.000 }    set_variable = { which = factory_cost_3 value = 61.952 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 228252.000 }    set_variable = { which = factory_cost_3 value = 58.281 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 119710.000 }    set_variable = { which = factory_cost_3 value = 54.827 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = factory_count value = 206 } }
+							if = {
+								limit = { check_variable = { which = factory_count value = 209 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 210 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 211 } }
+										set_variable = { which = factory_cost_4 value = 723152.000 }    set_variable = { which = factory_cost_3 value = 51.577 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 906069.000 }    set_variable = { which = factory_cost_3 value = 48.520 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 255004.000 }    set_variable = { which = factory_cost_3 value = 45.645 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 207 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 208 } }
+										set_variable = { which = factory_cost_4 value = 32929.000 }    set_variable = { which = factory_cost_3 value = 42.940 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 139162.000 }    set_variable = { which = factory_cost_3 value = 40.395 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 71648.000 }    set_variable = { which = factory_cost_3 value = 38.1 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = factory_count value = 203 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 204 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 205 } }
+										set_variable = { which = factory_cost_4 value = 891485.000 }    set_variable = { which = factory_cost_3 value = 35.748 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 189543.000 }    set_variable = { which = factory_cost_3 value = 33.630 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 55074.000 }    set_variable = { which = factory_cost_3 value = 31.637 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 201 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 202 } }
+										set_variable = { which = factory_cost_4 value = 46165.000 }    set_variable = { which = factory_cost_3 value = 29.762 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 161962.000 }    set_variable = { which = factory_cost_3 value = 27.998 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 816521.000 }    set_variable = { which = factory_cost_3 value = 26.338 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	else = {
+		if = {
+			limit = { check_variable = { which = factory_count value = 100 } }
+			if = {
+				limit = { check_variable = { which = factory_count value = 150 } }
+				if = {
+					limit = { check_variable = { which = factory_count value = 175 } }
+					if = {
+						limit = { check_variable = { which = factory_count value = 187 } }
+						if = {
+							limit = { check_variable = { which = factory_count value = 193 } }
+							if = {
+								limit = { check_variable = { which = factory_count value = 196 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 198 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 199 } }
+										set_variable = { which = factory_cost_4 value = 814225.000 }    set_variable = { which = factory_cost_3 value = 24.777 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 326646.000 }    set_variable = { which = factory_cost_3 value = 23.309 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = factory_count value = 197 } }
+										set_variable = { which = factory_cost_4 value = 870786.000 }    set_variable = { which = factory_cost_3 value = 21.927 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 288604.000 }    set_variable = { which = factory_cost_3 value = 20.628 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 194 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 195 } }
+										set_variable = { which = factory_cost_4 value = 727756.000 }    set_variable = { which = factory_cost_3 value = 19.405 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 623477.000 }    set_variable = { which = factory_cost_3 value = 18.255 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 681540.000 }    set_variable = { which = factory_cost_3 value = 17.173 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = factory_count value = 190 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 191 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 192 } }
+										set_variable = { which = factory_cost_4 value = 862220.000 }    set_variable = { which = factory_cost_3 value = 16.155 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 365211.000 }    set_variable = { which = factory_cost_3 value = 15.198 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 615439.000 }    set_variable = { which = factory_cost_3 value = 14.297 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 188 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 189 } }
+										set_variable = { which = factory_cost_4 value = 249707.000 }    set_variable = { which = factory_cost_3 value = 13.450 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 104146.000 }    set_variable = { which = factory_cost_3 value = 12.653 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 202395.000 }    set_variable = { which = factory_cost_3 value = 11.903 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = factory_count value = 181 } }
+							if = {
+								limit = { check_variable = { which = factory_count value = 184 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 185 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 186 } }
+										set_variable = { which = factory_cost_4 value = 744492.000 }    set_variable = { which = factory_cost_3 value = 11.197 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 96418.000 }    set_variable = { which = factory_cost_3 value = 10.534 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 780261.000 }    set_variable = { which = factory_cost_3 value = 9.909 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 182 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 183 } }
+										set_variable = { which = factory_cost_4 value = 464968.000 }    set_variable = { which = factory_cost_3 value = 9.322 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 957637.000 }    set_variable = { which = factory_cost_3 value = 8.769 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 195331.000 }    set_variable = { which = factory_cost_3 value = 8.250 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = factory_count value = 178 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 179 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 180 } }
+										set_variable = { which = factory_cost_4 value = 237376.000 }    set_variable = { which = factory_cost_3 value = 7.761 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 258115.000 }    set_variable = { which = factory_cost_3 value = 7.301 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 540089.000 }    set_variable = { which = factory_cost_3 value = 6.868 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 176 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 177 } }
+										set_variable = { which = factory_cost_4 value = 467629.000 }    set_variable = { which = factory_cost_3 value = 6.461 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 520817.000 }    set_variable = { which = factory_cost_3 value = 6.78 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 269819.000 }    set_variable = { which = factory_cost_3 value = 5.718 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = factory_count value = 162 } }
+						if = {
+							limit = { check_variable = { which = factory_count value = 168 } }
+							if = {
+								limit = { check_variable = { which = factory_count value = 171 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 173 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 174 } }
+										set_variable = { which = factory_cost_4 value = 369538.000 }    set_variable = { which = factory_cost_3 value = 5.379 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 554598.000 }    set_variable = { which = factory_cost_3 value = 5.60 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = factory_count value = 172 } }
+										set_variable = { which = factory_cost_4 value = 634617.000 }    set_variable = { which = factory_cost_3 value = 4.760 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 489762.000 }    set_variable = { which = factory_cost_3 value = 4.478 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 169 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 170 } }
+										set_variable = { which = factory_cost_4 value = 66568.000 }    set_variable = { which = factory_cost_3 value = 4.213 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 374006.000 }    set_variable = { which = factory_cost_3 value = 3.963 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 479780.000 }    set_variable = { which = factory_cost_3 value = 3.728 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = factory_count value = 165 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 166 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 167 } }
+										set_variable = { which = factory_cost_4 value = 506848.000 }    set_variable = { which = factory_cost_3 value = 3.507 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 630149.000 }    set_variable = { which = factory_cost_3 value = 3.299 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 73517.000 }    set_variable = { which = factory_cost_3 value = 3.104 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 163 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 164 } }
+										set_variable = { which = factory_cost_4 value = 106789.000 }    set_variable = { which = factory_cost_3 value = 2.920 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 43076.000 }    set_variable = { which = factory_cost_3 value = 2.747 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 236195.000 }    set_variable = { which = factory_cost_3 value = 2.584 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = factory_count value = 156 } }
+							if = {
+								limit = { check_variable = { which = factory_count value = 159 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 160 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 161 } }
+										set_variable = { which = factory_cost_4 value = 78265.000 }    set_variable = { which = factory_cost_3 value = 2.431 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 997427.000 }    set_variable = { which = factory_cost_3 value = 2.286 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 455717.000 }    set_variable = { which = factory_cost_3 value = 2.151 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 157 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 158 } }
+										set_variable = { which = factory_cost_4 value = 947052.000 }    set_variable = { which = factory_cost_3 value = 2.23 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 995345.000 }    set_variable = { which = factory_cost_3 value = 1.903 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 152724.000 }    set_variable = { which = factory_cost_3 value = 1.791 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = factory_count value = 153 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 154 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 155 } }
+										set_variable = { which = factory_cost_4 value = 997859.000 }    set_variable = { which = factory_cost_3 value = 1.684 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 134392.000 }    set_variable = { which = factory_cost_3 value = 1.585 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 189456.000 }    set_variable = { which = factory_cost_3 value = 1.491 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 151 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 152 } }
+										set_variable = { which = factory_cost_4 value = 812282.000 }    set_variable = { which = factory_cost_3 value = 1.402 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 672890.000 }    set_variable = { which = factory_cost_3 value = 1.319 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 460856.000 }    set_variable = { which = factory_cost_3 value = 1.241 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = factory_count value = 125 } }
+					if = {
+						limit = { check_variable = { which = factory_count value = 137 } }
+						if = {
+							limit = { check_variable = { which = factory_count value = 143 } }
+							if = {
+								limit = { check_variable = { which = factory_count value = 146 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 148 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 149 } }
+										set_variable = { which = factory_cost_4 value = 884154.000 }    set_variable = { which = factory_cost_3 value = 1.167 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 668066.000 }    set_variable = { which = factory_cost_3 value = 1.98 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = factory_count value = 147 } }
+										set_variable = { which = factory_cost_4 value = 554155.000 }    set_variable = { which = factory_cost_3 value = 1.33 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 299299.000 }    set_variable = { which = factory_cost_3 value = 0.972 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 144 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 145 } }
+										set_variable = { which = factory_cost_4 value = 674787.000 }    set_variable = { which = factory_cost_3 value = 0.914 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 465463.000 }    set_variable = { which = factory_cost_3 value = 0.860 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 468921.000 }    set_variable = { which = factory_cost_3 value = 0.809 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = factory_count value = 140 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 141 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 142 } }
+										set_variable = { which = factory_cost_4 value = 494751.000 }    set_variable = { which = factory_cost_3 value = 0.761 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 363830.000 }    set_variable = { which = factory_cost_3 value = 0.716 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 907648.000 }    set_variable = { which = factory_cost_3 value = 0.673 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 138 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 139 } }
+										set_variable = { which = factory_cost_4 value = 967684.000 }    set_variable = { which = factory_cost_3 value = 0.633 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 394811.000 }    set_variable = { which = factory_cost_3 value = 0.596 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 48740.000 }    set_variable = { which = factory_cost_3 value = 0.561 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = factory_count value = 131 } }
+							if = {
+								limit = { check_variable = { which = factory_count value = 134 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 135 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 136 } }
+										set_variable = { which = factory_cost_4 value = 797498.000 }    set_variable = { which = factory_cost_3 value = 0.527 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 516931.000 }    set_variable = { which = factory_cost_3 value = 0.496 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 90246.000 }    set_variable = { which = factory_cost_3 value = 0.467 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 132 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 133 } }
+										set_variable = { which = factory_cost_4 value = 407569.000 }    set_variable = { which = factory_cost_3 value = 0.439 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 365540.000 }    set_variable = { which = factory_cost_3 value = 0.413 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 866924.000 }    set_variable = { which = factory_cost_3 value = 0.388 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = factory_count value = 128 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 129 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 130 } }
+										set_variable = { which = factory_cost_4 value = 820248.000 }    set_variable = { which = factory_cost_3 value = 0.365 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 139462.000 }    set_variable = { which = factory_cost_3 value = 0.344 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 743614.000 }    set_variable = { which = factory_cost_3 value = 0.323 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 126 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 127 } }
+										set_variable = { which = factory_cost_4 value = 556551.000 }    set_variable = { which = factory_cost_3 value = 0.304 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 506633.000 }    set_variable = { which = factory_cost_3 value = 0.286 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 526466.000 }    set_variable = { which = factory_cost_3 value = 0.269 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = factory_count value = 112 } }
+						if = {
+							limit = { check_variable = { which = factory_count value = 118 } }
+							if = {
+								limit = { check_variable = { which = factory_count value = 121 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 123 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 124 } }
+										set_variable = { which = factory_cost_4 value = 552649.000 }    set_variable = { which = factory_cost_3 value = 0.253 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 525540.000 }    set_variable = { which = factory_cost_3 value = 0.238 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = factory_count value = 122 } }
+										set_variable = { which = factory_cost_4 value = 389031.000 }    set_variable = { which = factory_cost_3 value = 0.224 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 90340.000 }    set_variable = { which = factory_cost_3 value = 0.211 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 119 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 120 } }
+										set_variable = { which = factory_cost_4 value = 579811.000 }    set_variable = { which = factory_cost_3 value = 0.198 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 810735.000 }    set_variable = { which = factory_cost_3 value = 0.186 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 739168.000 }    set_variable = { which = factory_cost_3 value = 0.175 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = factory_count value = 115 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 116 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 117 } }
+										set_variable = { which = factory_cost_4 value = 323770.000 }    set_variable = { which = factory_cost_3 value = 0.165 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 525654.000 }    set_variable = { which = factory_cost_3 value = 0.155 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 308235.000 }    set_variable = { which = factory_cost_3 value = 0.146 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 113 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 114 } }
+										set_variable = { which = factory_cost_4 value = 637098.000 }    set_variable = { which = factory_cost_3 value = 0.137 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 479866.000 }    set_variable = { which = factory_cost_3 value = 0.129 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 806083.000 }    set_variable = { which = factory_cost_3 value = 0.121 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = factory_count value = 106 } }
+							if = {
+								limit = { check_variable = { which = factory_count value = 109 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 110 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 111 } }
+										set_variable = { which = factory_cost_4 value = 587096.000 }    set_variable = { which = factory_cost_3 value = 0.114 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 795951.000 }    set_variable = { which = factory_cost_3 value = 0.107 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 407291.000 }    set_variable = { which = factory_cost_3 value = 0.101 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 107 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 108 } }
+										set_variable = { which = factory_cost_4 value = 397264.000 }    set_variable = { which = factory_cost_3 value = 0.95 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 743428.000 }    set_variable = { which = factory_cost_3 value = 0.89 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 424673.000 }    set_variable = { which = factory_cost_3 value = 0.84 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = factory_count value = 103 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 104 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 105 } }
+										set_variable = { which = factory_cost_4 value = 421141.000 }    set_variable = { which = factory_cost_3 value = 0.79 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 714150.000 }    set_variable = { which = factory_cost_3 value = 0.74 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 286124.000 }    set_variable = { which = factory_cost_3 value = 0.70 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 101 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 102 } }
+										set_variable = { which = factory_cost_4 value = 120531.000 }    set_variable = { which = factory_cost_3 value = 0.66 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 201816.000 }    set_variable = { which = factory_cost_3 value = 0.62 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 515349.000 }    set_variable = { which = factory_cost_3 value = 0.58 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = { check_variable = { which = factory_count value = 50 } }
+				if = {
+					limit = { check_variable = { which = factory_count value = 75 } }
+					if = {
+						limit = { check_variable = { which = factory_count value = 87 } }
+						if = {
+							limit = { check_variable = { which = factory_count value = 93 } }
+							if = {
+								limit = { check_variable = { which = factory_count value = 96 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 98 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 99 } }
+										set_variable = { which = factory_cost_4 value = 47365.000 }    set_variable = { which = factory_cost_3 value = 0.55 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 784915.000 }    set_variable = { which = factory_cost_3 value = 0.51 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = factory_count value = 97 } }
+										set_variable = { which = factory_cost_4 value = 715819.000 }    set_variable = { which = factory_cost_3 value = 0.48 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 828616.000 }    set_variable = { which = factory_cost_3 value = 0.45 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 94 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 95 } }
+										set_variable = { which = factory_cost_4 value = 112527.000 }    set_variable = { which = factory_cost_3 value = 0.43 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 557410.000 }    set_variable = { which = factory_cost_3 value = 0.40 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 153725.000 }    set_variable = { which = factory_cost_3 value = 0.38 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = factory_count value = 90 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 91 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 92 } }
+										set_variable = { which = factory_cost_4 value = 892498.000 }    set_variable = { which = factory_cost_3 value = 0.35 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 765285.000 }    set_variable = { which = factory_cost_3 value = 0.33 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 764144.000 }    set_variable = { which = factory_cost_3 value = 0.31 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 88 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 89 } }
+										set_variable = { which = factory_cost_4 value = 881603.000 }    set_variable = { which = factory_cost_3 value = 0.29 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 110633.000 }    set_variable = { which = factory_cost_3 value = 0.28 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 444622.000 }    set_variable = { which = factory_cost_3 value = 0.26 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = factory_count value = 81 } }
+							if = {
+								limit = { check_variable = { which = factory_count value = 84 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 85 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 86 } }
+										set_variable = { which = factory_cost_4 value = 877349.000 }    set_variable = { which = factory_cost_3 value = 0.24 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 402962.000 }    set_variable = { which = factory_cost_3 value = 0.23 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 15957.000 }    set_variable = { which = factory_cost_3 value = 0.22 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 82 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 83 } }
+										set_variable = { which = factory_cost_4 value = 711154.000 }    set_variable = { which = factory_cost_3 value = 0.20 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 483682.000 }    set_variable = { which = factory_cost_3 value = 0.19 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 328958.000 }    set_variable = { which = factory_cost_3 value = 0.18 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = factory_count value = 78 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 79 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 80 } }
+										set_variable = { which = factory_cost_4 value = 242669.000 }    set_variable = { which = factory_cost_3 value = 0.17 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 220761.000 }    set_variable = { which = factory_cost_3 value = 0.16 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 259418.000 }    set_variable = { which = factory_cost_3 value = 0.15 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 76 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 77 } }
+										set_variable = { which = factory_cost_4 value = 355050.000 }    set_variable = { which = factory_cost_3 value = 0.14 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 504280.000 }    set_variable = { which = factory_cost_3 value = 0.13 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 703932.000 }    set_variable = { which = factory_cost_3 value = 0.12 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = factory_count value = 62 } }
+						if = {
+							limit = { check_variable = { which = factory_count value = 68 } }
+							if = {
+								limit = { check_variable = { which = factory_count value = 71 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 73 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 74 } }
+										set_variable = { which = factory_cost_4 value = 951018.000 }    set_variable = { which = factory_cost_3 value = 0.11 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 242726.000 }    set_variable = { which = factory_cost_3 value = 0.11 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = factory_count value = 72 } }
+										set_variable = { which = factory_cost_4 value = 576412.000 }    set_variable = { which = factory_cost_3 value = 0.10 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 949588.000 }    set_variable = { which = factory_cost_3 value = 0.9 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 69 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 70 } }
+										set_variable = { which = factory_cost_4 value = 359914.000 }    set_variable = { which = factory_cost_3 value = 0.9 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 805187.000 }    set_variable = { which = factory_cost_3 value = 0.8 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 283337.000 }    set_variable = { which = factory_cost_3 value = 0.8 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = factory_count value = 65 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 66 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 67 } }
+										set_variable = { which = factory_cost_4 value = 792415.000 }    set_variable = { which = factory_cost_3 value = 0.7 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 330587.000 }    set_variable = { which = factory_cost_3 value = 0.7 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 896131.000 }    set_variable = { which = factory_cost_3 value = 0.6 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 63 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 64 } }
+										set_variable = { which = factory_cost_4 value = 487423.000 }    set_variable = { which = factory_cost_3 value = 0.6 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 102938.000 }    set_variable = { which = factory_cost_3 value = 0.6 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 741240.000 }    set_variable = { which = factory_cost_3 value = 0.5 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = factory_count value = 56 } }
+							if = {
+								limit = { check_variable = { which = factory_count value = 59 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 60 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 61 } }
+										set_variable = { which = factory_cost_4 value = 400978.000 }    set_variable = { which = factory_cost_3 value = 0.5 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 80883.000 }    set_variable = { which = factory_cost_3 value = 0.5 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 779758.000 }    set_variable = { which = factory_cost_3 value = 0.4 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 57 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 58 } }
+										set_variable = { which = factory_cost_4 value = 496480.000 }    set_variable = { which = factory_cost_3 value = 0.4 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 229990.000 }    set_variable = { which = factory_cost_3 value = 0.4 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 979295.000 }    set_variable = { which = factory_cost_3 value = 0.3 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = factory_count value = 53 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 54 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 55 } }
+										set_variable = { which = factory_cost_4 value = 743457.000 }    set_variable = { which = factory_cost_3 value = 0.3 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 521596.000 }    set_variable = { which = factory_cost_3 value = 0.3 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 312885.000 }    set_variable = { which = factory_cost_3 value = 0.3 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 51 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 52 } }
+										set_variable = { which = factory_cost_4 value = 116542.000 }    set_variable = { which = factory_cost_3 value = 0.3 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 931837.000 }    set_variable = { which = factory_cost_3 value = 0.2 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 758078.000 }    set_variable = { which = factory_cost_3 value = 0.2 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = factory_count value = 25 } }
+					if = {
+						limit = { check_variable = { which = factory_count value = 37 } }
+						if = {
+							limit = { check_variable = { which = factory_count value = 43 } }
+							if = {
+								limit = { check_variable = { which = factory_count value = 46 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 48 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 49 } }
+										set_variable = { which = factory_cost_4 value = 594617.000 }    set_variable = { which = factory_cost_3 value = 0.2 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 440844.000 }    set_variable = { which = factory_cost_3 value = 0.2 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = factory_count value = 47 } }
+										set_variable = { which = factory_cost_4 value = 296184.000 }    set_variable = { which = factory_cost_3 value = 0.2 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 160098.000 }    set_variable = { which = factory_cost_3 value = 0.2 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 44 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 45 } }
+										set_variable = { which = factory_cost_4 value = 32077.000 }    set_variable = { which = factory_cost_3 value = 0.2 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 911643.000 }    set_variable = { which = factory_cost_3 value = 0.1 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 798347.000 }    set_variable = { which = factory_cost_3 value = 0.1 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = factory_count value = 40 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 41 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 42 } }
+										set_variable = { which = factory_cost_4 value = 691766.000 }    set_variable = { which = factory_cost_3 value = 0.1 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 591502.000 }    set_variable = { which = factory_cost_3 value = 0.1 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 497179.000 }    set_variable = { which = factory_cost_3 value = 0.1 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 38 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 39 } }
+										set_variable = { which = factory_cost_4 value = 408447.000 }    set_variable = { which = factory_cost_3 value = 0.1 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 324974.000 }    set_variable = { which = factory_cost_3 value = 0.1 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 246447.000 }    set_variable = { which = factory_cost_3 value = 0.1 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = factory_count value = 31 } }
+							if = {
+								limit = { check_variable = { which = factory_count value = 34 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 35 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 36 } }
+										set_variable = { which = factory_cost_4 value = 172575.000 }    set_variable = { which = factory_cost_3 value = 0.1 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 103081.000 }    set_variable = { which = factory_cost_3 value = 0.1 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 37706.000 }    set_variable = { which = factory_cost_3 value = 0.1 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 32 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 33 } }
+										set_variable = { which = factory_cost_4 value = 976205.000 }    set_variable = { which = factory_cost_3 value = 0.0 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 918349.000 }    set_variable = { which = factory_cost_3 value = 0.0 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 863922.000 }    set_variable = { which = factory_cost_3 value = 0.0 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = factory_count value = 28 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 29 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 30 } }
+										set_variable = { which = factory_cost_4 value = 812720.000 }    set_variable = { which = factory_cost_3 value = 0.0 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 764553.000 }    set_variable = { which = factory_cost_3 value = 0.0 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 719241.000 }    set_variable = { which = factory_cost_3 value = 0.0 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 26 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 27 } }
+										set_variable = { which = factory_cost_4 value = 676614.000 }    set_variable = { which = factory_cost_3 value = 0.0 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 636514.000 }    set_variable = { which = factory_cost_3 value = 0.0 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 598790.000 }    set_variable = { which = factory_cost_3 value = 0.0 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = factory_count value = 12 } }
+						if = {
+							limit = { check_variable = { which = factory_count value = 18 } }
+							if = {
+								limit = { check_variable = { which = factory_count value = 21 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 23 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 24 } }
+										set_variable = { which = factory_cost_4 value = 563302.000 }    set_variable = { which = factory_cost_3 value = 0.0 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 529917.000 }    set_variable = { which = factory_cost_3 value = 0.0 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = factory_count value = 22 } }
+										set_variable = { which = factory_cost_4 value = 498511.000 }    set_variable = { which = factory_cost_3 value = 0.0 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 468966.000 }    set_variable = { which = factory_cost_3 value = 0.0 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 19 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 20 } }
+										set_variable = { which = factory_cost_4 value = 441172.000 }    set_variable = { which = factory_cost_3 value = 0.0 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 415026.000 }    set_variable = { which = factory_cost_3 value = 0.0 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 390429.000 }    set_variable = { which = factory_cost_3 value = 0.0 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = factory_count value = 15 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 16 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 17 } }
+										set_variable = { which = factory_cost_4 value = 367289.000 }    set_variable = { which = factory_cost_3 value = 0.0 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 345521.000 }    set_variable = { which = factory_cost_3 value = 0.0 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 325044.000 }    set_variable = { which = factory_cost_3 value = 0.0 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 13 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 14 } }
+										set_variable = { which = factory_cost_4 value = 305779.000 }    set_variable = { which = factory_cost_3 value = 0.0 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 287657.000 }    set_variable = { which = factory_cost_3 value = 0.0 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 270609.000 }    set_variable = { which = factory_cost_3 value = 0.0 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = factory_count value = 6 } }
+							if = {
+								limit = { check_variable = { which = factory_count value = 9 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 10 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 11 } }
+										set_variable = { which = factory_cost_4 value = 254571.000 }    set_variable = { which = factory_cost_3 value = 0.0 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 239483.000 }    set_variable = { which = factory_cost_3 value = 0.0 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 225290.000 }    set_variable = { which = factory_cost_3 value = 0.0 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 7 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 8 } }
+										set_variable = { which = factory_cost_4 value = 211938.000 }    set_variable = { which = factory_cost_3 value = 0.0 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 199377.000 }    set_variable = { which = factory_cost_3 value = 0.0 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 187561.000 }    set_variable = { which = factory_cost_3 value = 0.0 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = factory_count value = 3 } }
+								if = {
+									limit = { check_variable = { which = factory_count value = 4 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 5 } }
+										set_variable = { which = factory_cost_4 value = 176445.000 }    set_variable = { which = factory_cost_3 value = 0.0 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 165987.000 }    set_variable = { which = factory_cost_3 value = 0.0 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 156150.000 }    set_variable = { which = factory_cost_3 value = 0.0 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = factory_count value = 1 } }
+									if = {
+										limit = { check_variable = { which = factory_count value = 2 } }
+										set_variable = { which = factory_cost_4 value = 146895.000 }    set_variable = { which = factory_cost_3 value = 0.0 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = factory_cost_4 value = 138190.000 }    set_variable = { which = factory_cost_3 value = 0.0 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = factory_cost_4 value = 130000.000 }    set_variable = { which = factory_cost_3 value = 0.0 }    set_variable = { which = factory_cost_2 value = 0.0 }    set_variable = { which = factory_cost_1 value = 0.0 }    set_variable = { which = factory_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}get_msd = { ln = factory_cost mantissa = factory_cost_mantissa exponent = factory_cost_exp}
+}

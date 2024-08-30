@@ -1,0 +1,2403 @@
+get_shipment_cost = {
+	if = {
+		limit = { check_variable = { which = shipment_count value = 200 } }
+		if = {
+			limit = { check_variable = { which = shipment_count value = 300 } }
+			if = {
+				limit = { check_variable = { which = shipment_count value = 350 } }
+				if = {
+					limit = { check_variable = { which = shipment_count value = 375 } }
+					if = {
+						limit = { check_variable = { which = shipment_count value = 388 } }
+						if = {
+							limit = { check_variable = { which = shipment_count value = 394 } }
+							if = {
+								limit = { check_variable = { which = shipment_count value = 397 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 399 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 400 } }
+										set_variable = { which = shipment_cost_4 value = 46848.000 }    set_variable = { which = shipment_cost_3 value = 455875.844 }    set_variable = { which = shipment_cost_2 value = 209.351 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 949440.000 }    set_variable = { which = shipment_cost_3 value = 984831.461 }    set_variable = { which = shipment_cost_2 value = 196.943 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = shipment_count value = 398 } }
+										set_variable = { which = shipment_cost_4 value = 941440.000 }    set_variable = { which = shipment_cost_3 value = 857790.650 }    set_variable = { which = shipment_cost_2 value = 185.271 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 772096.000 }    set_variable = { which = shipment_cost_3 value = 493688.288 }    set_variable = { which = shipment_cost_2 value = 174.291 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 395 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 396 } }
+										set_variable = { which = shipment_cost_4 value = 202496.000 }    set_variable = { which = shipment_cost_3 value = 894344.580 }    set_variable = { which = shipment_cost_2 value = 163.961 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 396608.000 }    set_variable = { which = shipment_cost_3 value = 491387.187 }    set_variable = { which = shipment_cost_2 value = 154.244 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 825152.000 }    set_variable = { which = shipment_cost_3 value = 2245.707 }    set_variable = { which = shipment_cost_2 value = 145.103 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = shipment_count value = 391 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 392 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 393 } }
+										set_variable = { which = shipment_cost_4 value = 402432.000 }    set_variable = { which = shipment_cost_3 value = 294680.816 }    set_variable = { which = shipment_cost_2 value = 136.503 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 374912.000 }    set_variable = { which = shipment_cost_3 value = 259342.254 }    set_variable = { which = shipment_cost_2 value = 128.413 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 383424.000 }    set_variable = { which = shipment_cost_3 value = 689879.825 }    set_variable = { which = shipment_cost_2 value = 120.802 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 389 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 390 } }
+										set_variable = { which = shipment_cost_4 value = 474112.000 }    set_variable = { which = shipment_cost_3 value = 170159.760 }    set_variable = { which = shipment_cost_2 value = 113.643 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 821824.000 }    set_variable = { which = shipment_cost_3 value = 968165.343 }    set_variable = { which = shipment_cost_2 value = 106.907 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 5120.000 }    set_variable = { which = shipment_cost_3 value = 936185.648 }    set_variable = { which = shipment_cost_2 value = 100.571 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = shipment_count value = 381 } }
+							if = {
+								limit = { check_variable = { which = shipment_count value = 384 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 386 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 387 } }
+										set_variable = { which = shipment_cost_4 value = 501120.000 }    set_variable = { which = shipment_cost_3 value = 416919.706 }    set_variable = { which = shipment_cost_2 value = 94.611 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 634304.000 }    set_variable = { which = shipment_cost_3 value = 155145.537 }    set_variable = { which = shipment_cost_2 value = 89.4 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = shipment_count value = 385 } }
+										set_variable = { which = shipment_cost_4 value = 271104.000 }    set_variable = { which = shipment_cost_3 value = 214624.212 }    set_variable = { which = shipment_cost_2 value = 83.729 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 926272.000 }    set_variable = { which = shipment_cost_3 value = 899928.703 }    set_variable = { which = shipment_cost_2 value = 78.766 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 382 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 383 } }
+										set_variable = { which = shipment_cost_4 value = 103424.000 }    set_variable = { which = shipment_cost_3 value = 682905.648 }    set_variable = { which = shipment_cost_2 value = 74.98 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 657216.000 }    set_variable = { which = shipment_cost_3 value = 133495.435 }    set_variable = { which = shipment_cost_2 value = 69.707 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 348032.000 }    set_variable = { which = shipment_cost_3 value = 854652.338 }    set_variable = { which = shipment_cost_2 value = 65.575 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = shipment_count value = 378 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 379 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 380 } }
+										set_variable = { which = shipment_cost_4 value = 953856.000 }    set_variable = { which = shipment_cost_3 value = 421121.672 }    set_variable = { which = shipment_cost_2 value = 61.689 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 3840.000 }    set_variable = { which = shipment_cost_3 value = 321845.412 }    set_variable = { which = shipment_cost_2 value = 58.33 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 619776.000 }    set_variable = { which = shipment_cost_3 value = 905781.196 }    set_variable = { which = shipment_cost_2 value = 54.593 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 376 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 377 } }
+										set_variable = { which = shipment_cost_4 value = 139008.000 }    set_variable = { which = shipment_cost_3 value = 330932.452 }    set_variable = { which = shipment_cost_2 value = 51.358 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 462848.000 }    set_variable = { which = shipment_cost_3 value = 516399.296 }    set_variable = { which = shipment_cost_2 value = 48.314 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 213376.000 }    set_variable = { which = shipment_cost_3 value = 97271.210 }    set_variable = { which = shipment_cost_2 value = 45.451 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = shipment_count value = 362 } }
+						if = {
+							limit = { check_variable = { which = shipment_count value = 368 } }
+							if = {
+								limit = { check_variable = { which = shipment_count value = 371 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 373 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 374 } }
+										set_variable = { which = shipment_cost_4 value = 182784.000 }    set_variable = { which = shipment_cost_3 value = 382193.48 }    set_variable = { which = shipment_cost_2 value = 42.757 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 142784.000 }    set_variable = { which = shipment_cost_3 value = 313445.953 }    set_variable = { which = shipment_cost_2 value = 40.223 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = shipment_count value = 372 } }
+										set_variable = { which = shipment_cost_4 value = 366400.000 }    set_variable = { which = shipment_cost_3 value = 429394.123 }    set_variable = { which = shipment_cost_2 value = 37.839 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 598912.000 }    set_variable = { which = shipment_cost_3 value = 829157.218 }    set_variable = { which = shipment_cost_2 value = 35.596 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 369 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 370 } }
+										set_variable = { which = shipment_cost_4 value = 154944.000 }    set_variable = { which = shipment_cost_3 value = 139376.499 }    set_variable = { which = shipment_cost_2 value = 33.487 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 681856.000 }    set_variable = { which = shipment_cost_3 value = 482950.610 }    set_variable = { which = shipment_cost_2 value = 31.502 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 985600.000 }    set_variable = { which = shipment_cost_3 value = 449624.280 }    set_variable = { which = shipment_cost_2 value = 29.635 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = shipment_count value = 365 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 366 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 367 } }
+										set_variable = { which = shipment_cost_4 value = 815552.000 }    set_variable = { which = shipment_cost_3 value = 68320.113 }    set_variable = { which = shipment_cost_2 value = 27.879 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 921856.000 }    set_variable = { which = shipment_cost_3 value = 781110.172 }    set_variable = { which = shipment_cost_2 value = 26.226 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 80128.000 }    set_variable = { which = shipment_cost_3 value = 418730.172 }    set_variable = { which = shipment_cost_2 value = 24.672 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 363 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 364 } }
+										set_variable = { which = shipment_cost_4 value = 737408.000 }    set_variable = { which = shipment_cost_3 value = 177544.846 }    set_variable = { which = shipment_cost_2 value = 23.210 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 167104.000 }    set_variable = { which = shipment_cost_3 value = 597878.501 }    set_variable = { which = shipment_cost_2 value = 21.834 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 357504.000 }    set_variable = { which = shipment_cost_3 value = 543629.822 }    set_variable = { which = shipment_cost_2 value = 20.540 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = shipment_count value = 356 } }
+							if = {
+								limit = { check_variable = { which = shipment_count value = 359 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 360 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 361 } }
+										set_variable = { which = shipment_cost_4 value = 576.000 }    set_variable = { which = shipment_cost_3 value = 183094.847 }    set_variable = { which = shipment_cost_2 value = 19.323 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 833664.000 }    set_variable = { which = shipment_cost_3 value = 970926.478 }    set_variable = { which = shipment_cost_2 value = 18.177 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 399040.000 }    set_variable = { which = shipment_cost_3 value = 631163.197 }    set_variable = { which = shipment_cost_2 value = 17.100 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 357 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 358 } }
+										set_variable = { which = shipment_cost_4 value = 155712.000 }    set_variable = { which = shipment_cost_3 value = 141263.591 }    set_variable = { which = shipment_cost_2 value = 16.87 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 629312.000 }    set_variable = { which = shipment_cost_3 value = 717087.103 }    set_variable = { which = shipment_cost_2 value = 15.133 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 44928.000 }    set_variable = { which = shipment_cost_3 value = 798764.914 }    set_variable = { which = shipment_cost_2 value = 14.236 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = shipment_count value = 353 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 354 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 355 } }
+										set_variable = { which = shipment_cost_4 value = 597184.000 }    set_variable = { which = shipment_cost_3 value = 37408.197 }    set_variable = { which = shipment_cost_2 value = 13.393 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 968192.000 }    set_variable = { which = shipment_cost_3 value = 282604.136 }    set_variable = { which = shipment_cost_2 value = 12.599 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 88704.000 }    set_variable = { which = shipment_cost_3 value = 570652.998 }    set_variable = { which = shipment_cost_2 value = 11.852 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 351 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 352 } }
+										set_variable = { which = shipment_cost_4 value = 39040.000 }    set_variable = { which = shipment_cost_3 value = 113502.350 }    set_variable = { which = shipment_cost_2 value = 11.150 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 984128.000 }    set_variable = { which = shipment_cost_3 value = 288337.111 }    set_variable = { which = shipment_cost_2 value = 10.489 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 781440.000 }    set_variable = { which = shipment_cost_3 value = 627786.558 }    set_variable = { which = shipment_cost_2 value = 9.867 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = shipment_count value = 325 } }
+					if = {
+						limit = { check_variable = { which = shipment_count value = 337 } }
+						if = {
+							limit = { check_variable = { which = shipment_count value = 343 } }
+							if = {
+								limit = { check_variable = { which = shipment_count value = 346 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 348 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 349 } }
+										set_variable = { which = shipment_cost_4 value = 396800.000 }    set_variable = { which = shipment_cost_3 value = 810711.720 }    set_variable = { which = shipment_cost_2 value = 9.282 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 418752.000 }    set_variable = { which = shipment_cost_3 value = 653538.777 }    set_variable = { which = shipment_cost_2 value = 8.732 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = shipment_count value = 347 } }
+										set_variable = { which = shipment_cost_4 value = 528064.000 }    set_variable = { which = shipment_cost_3 value = 102106.93 }    set_variable = { which = shipment_cost_2 value = 8.215 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 582464.000 }    set_variable = { which = shipment_cost_3 value = 223994.443 }    set_variable = { which = shipment_cost_2 value = 7.728 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 344 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 345 } }
+										set_variable = { which = shipment_cost_4 value = 171520.000 }    set_variable = { which = shipment_cost_3 value = 201311.800 }    set_variable = { which = shipment_cost_2 value = 7.270 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 637312.000 }    set_variable = { which = shipment_cost_3 value = 323905.738 }    set_variable = { which = shipment_cost_2 value = 6.839 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 252096.000 }    set_variable = { which = shipment_cost_3 value = 982978.117 }    set_variable = { which = shipment_cost_2 value = 6.433 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = shipment_count value = 340 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 341 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 342 } }
+										set_variable = { which = shipment_cost_4 value = 206400.000 }    set_variable = { which = shipment_cost_3 value = 665078.191 }    set_variable = { which = shipment_cost_2 value = 6.52 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 84736.000 }    set_variable = { which = shipment_cost_3 value = 946451.732 }    set_variable = { which = shipment_cost_2 value = 5.693 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 702144.000 }    set_variable = { which = shipment_cost_3 value = 487725.53 }    set_variable = { which = shipment_cost_2 value = 5.356 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 338 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 339 } }
+										set_variable = { which = shipment_cost_4 value = 674368.000 }    set_variable = { which = shipment_cost_3 value = 28904.95 }    set_variable = { which = shipment_cost_2 value = 5.39 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 450304.000 }    set_variable = { which = shipment_cost_3 value = 384669.892 }    set_variable = { which = shipment_cost_2 value = 4.740 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 136320.000 }    set_variable = { which = shipment_cost_3 value = 439952.862 }    set_variable = { which = shipment_cost_2 value = 4.459 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = shipment_count value = 331 } }
+							if = {
+								limit = { check_variable = { which = shipment_count value = 334 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 335 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 336 } }
+										set_variable = { which = shipment_cost_4 value = 532608.000 }    set_variable = { which = shipment_cost_3 value = 145769.390 }    set_variable = { which = shipment_cost_2 value = 4.195 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 129728.000 }    set_variable = { which = shipment_cost_3 value = 515305.165 }    set_variable = { which = shipment_cost_2 value = 3.946 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 117568.000 }    set_variable = { which = shipment_cost_3 value = 620230.635 }    set_variable = { which = shipment_cost_2 value = 3.712 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 332 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 333 } }
+										set_variable = { which = shipment_cost_4 value = 185856.000 }    set_variable = { which = shipment_cost_3 value = 587234.840 }    set_variable = { which = shipment_cost_2 value = 3.492 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 214912.000 }    set_variable = { which = shipment_cost_3 value = 594764.666 }    set_variable = { which = shipment_cost_2 value = 3.285 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 976896.000 }    set_variable = { which = shipment_cost_3 value = 869957.352 }    set_variable = { which = shipment_cost_2 value = 3.90 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = shipment_count value = 328 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 329 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 330 } }
+										set_variable = { which = shipment_cost_4 value = 543744.000 }    set_variable = { which = shipment_cost_3 value = 685754.800 }    set_variable = { which = shipment_cost_2 value = 2.907 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 852800.000 }    set_variable = { which = shipment_cost_3 value = 358188.899 }    set_variable = { which = shipment_cost_2 value = 2.735 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 507968.000 }    set_variable = { which = shipment_cost_3 value = 243827.751 }    set_variable = { which = shipment_cost_2 value = 2.573 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 326 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 327 } }
+										set_variable = { which = shipment_cost_4 value = 542912.000 }    set_variable = { which = shipment_cost_3 value = 737373.237 }    set_variable = { which = shipment_cost_2 value = 2.420 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 51456.000 }    set_variable = { which = shipment_cost_3 value = 269400.976 }    set_variable = { which = shipment_cost_2 value = 2.277 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 180224.000 }    set_variable = { which = shipment_cost_3 value = 304234.220 }    set_variable = { which = shipment_cost_2 value = 2.142 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = shipment_count value = 312 } }
+						if = {
+							limit = { check_variable = { which = shipment_count value = 318 } }
+							if = {
+								limit = { check_variable = { which = shipment_count value = 321 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 323 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 324 } }
+										set_variable = { which = shipment_cost_4 value = 105024.000 }    set_variable = { which = shipment_cost_3 value = 337943.763 }    set_variable = { which = shipment_cost_2 value = 2.15 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 96192.000 }    set_variable = { which = shipment_cost_3 value = 896466.381 }    set_variable = { which = shipment_cost_2 value = 1.895 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = shipment_count value = 322 } }
+										set_variable = { which = shipment_cost_4 value = 366272.000 }    set_variable = { which = shipment_cost_3 value = 533834.789 }    set_variable = { which = shipment_cost_2 value = 1.783 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 755392.000 }    set_variable = { which = shipment_cost_3 value = 830512.501 }    set_variable = { which = shipment_cost_2 value = 1.677 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 319 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 320 } }
+										set_variable = { which = shipment_cost_4 value = 4288.000 }    set_variable = { which = shipment_cost_3 value = 391827.377 }    set_variable = { which = shipment_cost_2 value = 1.578 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 826496.000 }    set_variable = { which = shipment_cost_3 value = 846498.2 }    set_variable = { which = shipment_cost_2 value = 1.484 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 641088.000 }    set_variable = { which = shipment_cost_3 value = 845247.415 }    set_variable = { which = shipment_cost_2 value = 1.396 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = shipment_count value = 315 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 316 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 317 } }
+										set_variable = { which = shipment_cost_4 value = 907072.000 }    set_variable = { which = shipment_cost_3 value = 59498.979 }    set_variable = { which = shipment_cost_2 value = 1.314 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 767680.000 }    set_variable = { which = shipment_cost_3 value = 180149.557 }    set_variable = { which = shipment_cost_2 value = 1.236 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 304640.000 }    set_variable = { which = shipment_cost_3 value = 916415.388 }    set_variable = { which = shipment_cost_2 value = 1.162 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 313 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 314 } }
+										set_variable = { which = shipment_cost_4 value = 172736.000 }    set_variable = { which = shipment_cost_3 value = 994746.367 }    set_variable = { which = shipment_cost_2 value = 1.93 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 787200.000 }    set_variable = { which = shipment_cost_3 value = 157804.672 }    set_variable = { which = shipment_cost_2 value = 1.29 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 481856.000 }    set_variable = { which = shipment_cost_3 value = 163503.925 }    set_variable = { which = shipment_cost_2 value = 0.968 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = shipment_count value = 306 } }
+							if = {
+								limit = { check_variable = { which = shipment_count value = 309 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 310 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 311 } }
+										set_variable = { which = shipment_cost_4 value = 80896.000 }    set_variable = { which = shipment_cost_3 value = 784105.292 }    set_variable = { which = shipment_cost_2 value = 0.910 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 941568.000 }    set_variable = { which = shipment_cost_3 value = 805367.160 }    set_variable = { which = shipment_cost_2 value = 0.856 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 550912.000 }    set_variable = { which = shipment_cost_3 value = 25745.212 }    set_variable = { which = shipment_cost_2 value = 0.806 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 307 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 308 } }
+										set_variable = { which = shipment_cost_4 value = 919040.000 }    set_variable = { which = shipment_cost_3 value = 255639.898 }    set_variable = { which = shipment_cost_2 value = 0.758 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 31104.000 }    set_variable = { which = shipment_cost_3 value = 316688.522 }    set_variable = { which = shipment_cost_2 value = 0.713 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 138496.000 }    set_variable = { which = shipment_cost_3 value = 41099.268 }    set_variable = { which = shipment_cost_2 value = 0.671 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = shipment_count value = 303 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 304 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 305 } }
+										set_variable = { which = shipment_cost_4 value = 325056.000 }    set_variable = { which = shipment_cost_3 value = 271024.711 }    set_variable = { which = shipment_cost_2 value = 0.631 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 154304.000 }    set_variable = { which = shipment_cost_3 value = 857972.447 }    set_variable = { which = shipment_cost_2 value = 0.593 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 836608.000 }    set_variable = { which = shipment_cost_3 value = 662250.655 }    set_variable = { which = shipment_cost_2 value = 0.558 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 301 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 302 } }
+										set_variable = { which = shipment_cost_4 value = 775808.000 }    set_variable = { which = shipment_cost_3 value = 552446.524 }    set_variable = { which = shipment_cost_2 value = 0.525 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 44032.000 }    set_variable = { which = shipment_cost_3 value = 404935.583 }    set_variable = { which = shipment_cost_2 value = 0.494 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 751744.000 }    set_variable = { which = shipment_cost_3 value = 103420.115 }    set_variable = { which = shipment_cost_2 value = 0.465 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = { check_variable = { which = shipment_count value = 250 } }
+				if = {
+					limit = { check_variable = { which = shipment_count value = 275 } }
+					if = {
+						limit = { check_variable = { which = shipment_count value = 287 } }
+						if = {
+							limit = { check_variable = { which = shipment_count value = 293 } }
+							if = {
+								limit = { check_variable = { which = shipment_count value = 296 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 298 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 299 } }
+										set_variable = { which = shipment_cost_4 value = 855808.000 }    set_variable = { which = shipment_cost_3 value = 538494.934 }    set_variable = { which = shipment_cost_2 value = 0.437 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 94848.000 }    set_variable = { which = shipment_cost_3 value = 607238.885 }    set_variable = { which = shipment_cost_2 value = 0.411 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = shipment_count value = 297 } }
+										set_variable = { which = shipment_cost_4 value = 825856.000 }    set_variable = { which = shipment_cost_3 value = 212830.559 }    set_variable = { which = shipment_cost_2 value = 0.387 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 934080.000 }    set_variable = { which = shipment_cost_3 value = 264186.791 }    set_variable = { which = shipment_cost_2 value = 0.364 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 294 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 295 } }
+										set_variable = { which = shipment_cost_4 value = 22656.000 }    set_variable = { which = shipment_cost_3 value = 675622.570 }    set_variable = { which = shipment_cost_2 value = 0.342 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 87168.000 }    set_variable = { which = shipment_cost_3 value = 366531.110 }    set_variable = { which = shipment_cost_2 value = 0.322 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 134720.000 }    set_variable = { which = shipment_cost_3 value = 261082.888 }    set_variable = { which = shipment_cost_2 value = 0.303 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = shipment_count value = 290 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 291 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 292 } }
+										set_variable = { which = shipment_cost_4 value = 4448.000 }    set_variable = { which = shipment_cost_3 value = 287942.510 }    set_variable = { which = shipment_cost_2 value = 0.285 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 245952.000 }    set_variable = { which = shipment_cost_3 value = 380002.361 }    set_variable = { which = shipment_cost_2 value = 0.268 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 564384.000 }    set_variable = { which = shipment_cost_3 value = 474132.42 }    set_variable = { which = shipment_cost_2 value = 0.252 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 288 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 289 } }
+										set_variable = { which = shipment_cost_4 value = 281664.000 }    set_variable = { which = shipment_cost_3 value = 510942.655 }    set_variable = { which = shipment_cost_2 value = 0.237 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 709024.000 }    set_variable = { which = shipment_cost_3 value = 434565.56 }    set_variable = { which = shipment_cost_2 value = 0.223 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 487328.000 }    set_variable = { which = shipment_cost_3 value = 192441.257 }    set_variable = { which = shipment_cost_2 value = 0.210 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = shipment_count value = 281 } }
+							if = {
+								limit = { check_variable = { which = shipment_count value = 284 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 285 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 286 } }
+										set_variable = { which = shipment_cost_4 value = 20096.000 }    set_variable = { which = shipment_cost_3 value = 735128.182 }    set_variable = { which = shipment_cost_2 value = 0.197 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 285120.000 }    set_variable = { which = shipment_cost_3 value = 16113.59 }    set_variable = { which = shipment_cost_2 value = 0.186 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 736704.000 }    set_variable = { which = shipment_cost_3 value = 991639.754 }    set_variable = { which = shipment_cost_2 value = 0.174 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 282 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 283 } }
+										set_variable = { which = shipment_cost_4 value = 860512.000 }    set_variable = { which = shipment_cost_3 value = 620545.394 }    set_variable = { which = shipment_cost_2 value = 0.164 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 374912.000 }    set_variable = { which = shipment_cost_3 value = 864106.674 }    set_variable = { which = shipment_cost_2 value = 0.154 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 224768.000 }    set_variable = { which = shipment_cost_3 value = 685895.272 }    set_variable = { which = shipment_cost_2 value = 0.145 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = shipment_count value = 278 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 279 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 280 } }
+										set_variable = { which = shipment_cost_4 value = 523776.000 }    set_variable = { which = shipment_cost_3 value = 51641.836 }    set_variable = { which = shipment_cost_2 value = 0.137 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 596208.000 }    set_variable = { which = shipment_cost_3 value = 929108.30 }    set_variable = { which = shipment_cost_2 value = 0.128 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 367088.000 }    set_variable = { which = shipment_cost_3 value = 287966.162 }    set_variable = { which = shipment_cost_2 value = 0.121 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 276 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 277 } }
+										set_variable = { which = shipment_cost_4 value = 664240.000 }    set_variable = { which = shipment_cost_3 value = 99685.947 }    set_variable = { which = shipment_cost_2 value = 0.114 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 632400.000 }    set_variable = { which = shipment_cost_3 value = 337427.984 }    set_variable = { which = shipment_cost_2 value = 0.107 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 516864.000 }    set_variable = { which = shipment_cost_3 value = 975943.541 }    set_variable = { which = shipment_cost_2 value = 0.100 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = shipment_count value = 262 } }
+						if = {
+							limit = { check_variable = { which = shipment_count value = 268 } }
+							if = {
+								limit = { check_variable = { which = shipment_count value = 271 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 273 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 274 } }
+										set_variable = { which = shipment_cost_4 value = 647104.000 }    set_variable = { which = shipment_cost_3 value = 991480.283 }    set_variable = { which = shipment_cost_2 value = 0.94 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 626624.000 }    set_variable = { which = shipment_cost_3 value = 361693.587 }    set_variable = { which = shipment_cost_2 value = 0.89 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = shipment_count value = 272 } }
+										set_variable = { which = shipment_cost_4 value = 596080.000 }    set_variable = { which = shipment_cost_3 value = 65563.111 }    set_variable = { which = shipment_cost_2 value = 0.84 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 62160.000 }    set_variable = { which = shipment_cost_3 value = 83314.310 }    set_variable = { which = shipment_cost_2 value = 0.79 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 269 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 270 } }
+										set_variable = { which = shipment_cost_4 value = 246624.000 }    set_variable = { which = shipment_cost_3 value = 396344.600 }    set_variable = { which = shipment_cost_2 value = 0.74 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 277168.000 }    set_variable = { which = shipment_cost_3 value = 987153.904 }    set_variable = { which = shipment_cost_2 value = 0.69 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 880688.000 }    set_variable = { which = shipment_cost_3 value = 839279.307 }    set_variable = { which = shipment_cost_2 value = 0.65 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = shipment_count value = 265 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 266 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 267 } }
+										set_variable = { which = shipment_cost_4 value = 609304.000 }    set_variable = { which = shipment_cost_3 value = 937233.591 }    set_variable = { which = shipment_cost_2 value = 0.61 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 88720.000 }    set_variable = { which = shipment_cost_3 value = 266447.405 }    set_variable = { which = shipment_cost_2 value = 0.58 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 380736.000 }    set_variable = { which = shipment_cost_3 value = 813214.868 }    set_variable = { which = shipment_cost_2 value = 0.54 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 263 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 264 } }
+										set_variable = { which = shipment_cost_4 value = 347824.000 }    set_variable = { which = shipment_cost_3 value = 564642.397 }    set_variable = { which = shipment_cost_2 value = 0.51 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 945280.000 }    set_variable = { which = shipment_cost_3 value = 508600.561 }    set_variable = { which = shipment_cost_2 value = 0.48 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 690760.000 }    set_variable = { which = shipment_cost_3 value = 633678.797 }    set_variable = { which = shipment_cost_2 value = 0.45 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = shipment_count value = 256 } }
+							if = {
+								limit = { check_variable = { which = shipment_count value = 259 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 260 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 261 } }
+										set_variable = { which = shipment_cost_4 value = 214272.000 }    set_variable = { which = shipment_cost_3 value = 929142.801 }    set_variable = { which = shipment_cost_2 value = 0.42 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 813048.000 }    set_variable = { which = shipment_cost_3 value = 384894.450 }    set_variable = { which = shipment_cost_2 value = 0.40 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 364104.000 }    set_variable = { which = shipment_cost_3 value = 991434.102 }    set_variable = { which = shipment_cost_2 value = 0.37 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 257 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 258 } }
+										set_variable = { which = shipment_cost_4 value = 815724.000 }    set_variable = { which = shipment_cost_3 value = 739825.119 }    set_variable = { which = shipment_cost_2 value = 0.35 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 822884.000 }    set_variable = { which = shipment_cost_3 value = 621660.507 }    set_variable = { which = shipment_cost_2 value = 0.33 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 940624.000 }    set_variable = { which = shipment_cost_3 value = 629031.521 }    set_variable = { which = shipment_cost_2 value = 0.31 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = shipment_count value = 253 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 254 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 255 } }
+										set_variable = { which = shipment_cost_4 value = 172744.000 }    set_variable = { which = shipment_cost_3 value = 754498.139 }    set_variable = { which = shipment_cost_2 value = 0.29 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 619700.000 }    set_variable = { which = shipment_cost_3 value = 991061.278 }    set_variable = { which = shipment_cost_2 value = 0.27 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 503956.000 }    set_variable = { which = shipment_cost_3 value = 332136.668 }    set_variable = { which = shipment_cost_2 value = 0.26 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 251 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 252 } }
+										set_variable = { which = shipment_cost_4 value = 998076.000 }    set_variable = { which = shipment_cost_3 value = 771530.261 }    set_variable = { which = shipment_cost_2 value = 0.24 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 64044.000 }    set_variable = { which = shipment_cost_3 value = 303415.110 }    set_variable = { which = shipment_cost_2 value = 0.23 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 952064.000 }    set_variable = { which = shipment_cost_3 value = 922309.604 }    set_variable = { which = shipment_cost_2 value = 0.21 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = shipment_count value = 225 } }
+					if = {
+						limit = { check_variable = { which = shipment_count value = 237 } }
+						if = {
+							limit = { check_variable = { which = shipment_count value = 243 } }
+							if = {
+								limit = { check_variable = { which = shipment_count value = 246 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 248 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 249 } }
+										set_variable = { which = shipment_cost_4 value = 125180.000 }    set_variable = { which = shipment_cost_3 value = 623057.13 }    set_variable = { which = shipment_cost_2 value = 0.20 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 190196.000 }    set_variable = { which = shipment_cost_3 value = 400806.221 }    set_variable = { which = shipment_cost_2 value = 0.19 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = shipment_count value = 247 } }
+										set_variable = { which = shipment_cost_4 value = 944684.000 }    set_variable = { which = shipment_cost_3 value = 250993.622 }    set_variable = { which = shipment_cost_2 value = 0.18 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 910334.000 }    set_variable = { which = shipment_cost_3 value = 169326.79 }    set_variable = { which = shipment_cost_2 value = 0.17 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 244 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 245 } }
+										set_variable = { which = shipment_cost_4 value = 731266.000 }    set_variable = { which = shipment_cost_3 value = 151764.891 }    set_variable = { which = shipment_cost_2 value = 0.16 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 586328.000 }    set_variable = { which = shipment_cost_3 value = 194510.716 }    set_variable = { which = shipment_cost_2 value = 0.15 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 311692.000 }    set_variable = { which = shipment_cost_3 value = 293989.385 }    set_variable = { which = shipment_cost_2 value = 0.14 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = shipment_count value = 240 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 241 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 242 } }
+										set_variable = { which = shipment_cost_4 value = 266880.000 }    set_variable = { which = shipment_cost_3 value = 446838.556 }    set_variable = { which = shipment_cost_2 value = 0.13 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 116538.000 }    set_variable = { which = shipment_cost_3 value = 649895.161 }    set_variable = { which = shipment_cost_2 value = 0.12 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 653376.000 }    set_variable = { which = shipment_cost_3 value = 900183.594 }    set_variable = { which = shipment_cost_2 value = 0.11 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 238 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 239 } }
+										set_variable = { which = shipment_cost_4 value = 565736.000 }    set_variable = { which = shipment_cost_3 value = 194904.604 }    set_variable = { which = shipment_cost_2 value = 0.11 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 666732.000 }    set_variable = { which = shipment_cost_3 value = 531424.839 }    set_variable = { which = shipment_cost_2 value = 0.10 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 560426.000 }    set_variable = { which = shipment_cost_3 value = 907267.17 }    set_variable = { which = shipment_cost_2 value = 0.9 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = shipment_count value = 231 } }
+							if = {
+								limit = { check_variable = { which = shipment_count value = 234 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 235 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 236 } }
+										set_variable = { which = shipment_cost_4 value = 33326.000 }    set_variable = { which = shipment_cost_3 value = 320100.675 }    set_variable = { which = shipment_cost_2 value = 0.9 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 635303.000 }    set_variable = { which = shipment_cost_3 value = 767733.466 }    set_variable = { which = shipment_cost_2 value = 0.8 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 960775.000 }    set_variable = { which = shipment_cost_3 value = 248102.978 }    set_variable = { which = shipment_cost_2 value = 0.8 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 232 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 233 } }
+										set_variable = { which = shipment_cost_4 value = 66580.000 }    set_variable = { which = shipment_cost_3 value = 759269.30 }    set_variable = { which = shipment_cost_2 value = 0.7 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 274300.000 }    set_variable = { which = shipment_cost_3 value = 299406.425 }    set_variable = { which = shipment_cost_2 value = 0.7 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 308843.000 }    set_variable = { which = shipment_cost_3 value = 866798.142 }    set_variable = { which = shipment_cost_2 value = 0.6 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = shipment_count value = 228 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 229 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 230 } }
+										set_variable = { which = shipment_cost_4 value = 328169.000 }    set_variable = { which = shipment_cost_3 value = 459828.920 }    set_variable = { which = shipment_cost_2 value = 0.6 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 907027.000 }    set_variable = { which = shipment_cost_3 value = 76979.228 }    set_variable = { which = shipment_cost_2 value = 0.6 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 456282.000 }    set_variable = { which = shipment_cost_3 value = 716819.594 }    set_variable = { which = shipment_cost_2 value = 0.5 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 226 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 227 } }
+										set_variable = { which = shipment_cost_4 value = 893962.000 }    set_variable = { which = shipment_cost_3 value = 378005.262 }    set_variable = { which = shipment_cost_2 value = 0.5 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 639664.000 }    set_variable = { which = shipment_cost_3 value = 59271.178 }    set_variable = { which = shipment_cost_2 value = 0.5 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 185008.000 }    set_variable = { which = shipment_cost_3 value = 759427.261 }    set_variable = { which = shipment_cost_2 value = 0.4 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = shipment_count value = 212 } }
+						if = {
+							limit = { check_variable = { which = shipment_count value = 218 } }
+							if = {
+								limit = { check_variable = { which = shipment_count value = 221 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 223 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 224 } }
+										set_variable = { which = shipment_cost_4 value = 603958.000 }    set_variable = { which = shipment_cost_3 value = 477353.961 }    set_variable = { which = shipment_cost_2 value = 0.4 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 412003.000 }    set_variable = { which = shipment_cost_3 value = 211998.82 }    set_variable = { which = shipment_cost_2 value = 0.4 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = shipment_count value = 222 } }
+										set_variable = { which = shipment_cost_4 value = 166512.000 }    set_variable = { which = shipment_cost_3 value = 962368.845 }    set_variable = { which = shipment_cost_2 value = 0.3 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 125600.000 }    set_variable = { which = shipment_cost_3 value = 727534.191 }    set_variable = { which = shipment_cost_2 value = 0.3 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 219 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 220 } }
+										set_variable = { which = shipment_cost_4 value = 152964.000 }    set_variable = { which = shipment_cost_3 value = 506617.301 }    set_variable = { which = shipment_cost_2 value = 0.3 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 874848.000 }    set_variable = { which = shipment_cost_3 value = 298793.321 }    set_variable = { which = shipment_cost_2 value = 0.3 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 865332.000 }    set_variable = { which = shipment_cost_3 value = 103286.285 }    set_variable = { which = shipment_cost_2 value = 0.3 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = shipment_count value = 215 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 216 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 217 } }
+										set_variable = { which = shipment_cost_4 value = 360614.000 }    set_variable = { which = shipment_cost_3 value = 919366.214 }    set_variable = { which = shipment_cost_2 value = 0.2 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 684491.000 }    set_variable = { which = shipment_cost_3 value = 746346.391 }    set_variable = { which = shipment_cost_2 value = 0.2 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 208364.000 }    set_variable = { which = shipment_cost_3 value = 583580.801 }    set_variable = { which = shipment_cost_2 value = 0.2 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 213 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 214 } }
+										set_variable = { which = shipment_cost_4 value = 272215.000 }    set_variable = { which = shipment_cost_3 value = 430461.713 }    set_variable = { which = shipment_cost_2 value = 0.2 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 60409.000 }    set_variable = { which = shipment_cost_3 value = 286417.416 }    set_variable = { which = shipment_cost_2 value = 0.2 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 959933.000 }    set_variable = { which = shipment_cost_3 value = 150910.80 }    set_variable = { which = shipment_cost_2 value = 0.2 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = shipment_count value = 206 } }
+							if = {
+								limit = { check_variable = { which = shipment_count value = 209 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 210 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 211 } }
+										set_variable = { which = shipment_cost_4 value = 430793.000 }    set_variable = { which = shipment_cost_3 value = 23433.754 }    set_variable = { which = shipment_cost_2 value = 0.2 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 890681.000 }    set_variable = { which = shipment_cost_3 value = 903512.468 }    set_variable = { which = shipment_cost_2 value = 0.1 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 560377.000 }    set_variable = { which = shipment_cost_3 value = 790698.465 }    set_variable = { which = shipment_cost_2 value = 0.1 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 207 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 208 } }
+										set_variable = { which = shipment_cost_4 value = 634409.000 }    set_variable = { which = shipment_cost_3 value = 684570.522 }    set_variable = { which = shipment_cost_2 value = 0.1 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 534722.000 }    set_variable = { which = shipment_cost_3 value = 584732.382 }    set_variable = { which = shipment_cost_2 value = 0.1 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 375091.000 }    set_variable = { which = shipment_cost_3 value = 490811.272 }    set_variable = { which = shipment_cost_2 value = 0.1 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = shipment_count value = 203 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 204 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 205 } }
+										set_variable = { which = shipment_cost_4 value = 112033.000 }    set_variable = { which = shipment_cost_3 value = 402456.512 }    set_variable = { which = shipment_cost_2 value = 0.1 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 185356.000 }    set_variable = { which = shipment_cost_3 value = 319338.205 }    set_variable = { which = shipment_cost_2 value = 0.1 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 759507.000 }    set_variable = { which = shipment_cost_3 value = 241146.6 }    set_variable = { which = shipment_cost_2 value = 0.1 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 201 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 202 } }
+										set_variable = { which = shipment_cost_4 value = 966610.000 }    set_variable = { which = shipment_cost_3 value = 167587.964 }    set_variable = { which = shipment_cost_2 value = 0.1 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 824657.000 }    set_variable = { which = shipment_cost_3 value = 98389.430 }    set_variable = { which = shipment_cost_2 value = 0.1 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 760731.000 }    set_variable = { which = shipment_cost_3 value = 33292.32 }    set_variable = { which = shipment_cost_2 value = 0.1 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	else = {
+		if = {
+			limit = { check_variable = { which = shipment_count value = 100 } }
+			if = {
+				limit = { check_variable = { which = shipment_count value = 150 } }
+				if = {
+					limit = { check_variable = { which = shipment_count value = 175 } }
+					if = {
+						limit = { check_variable = { which = shipment_count value = 187 } }
+						if = {
+							limit = { check_variable = { which = shipment_count value = 193 } }
+							if = {
+								limit = { check_variable = { which = shipment_count value = 196 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 198 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 199 } }
+										set_variable = { which = shipment_cost_4 value = 910377.000 }    set_variable = { which = shipment_cost_3 value = 972052.711 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 591136.000 }    set_variable = { which = shipment_cost_3 value = 914442.814 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = shipment_count value = 197 } }
+										set_variable = { which = shipment_cost_4 value = 561746.000 }    set_variable = { which = shipment_cost_3 value = 860247.238 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 879347.000 }    set_variable = { which = shipment_cost_3 value = 809263.629 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 194 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 195 } }
+										set_variable = { which = shipment_cost_4 value = 355924.000 }    set_variable = { which = shipment_cost_3 value = 761301.627 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 792967.000 }    set_variable = { which = shipment_cost_3 value = 716182.151 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 340514.000 }    set_variable = { which = shipment_cost_3 value = 673736.737 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = shipment_count value = 190 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 191 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 192 } }
+										set_variable = { which = shipment_cost_4 value = 484021.000 }    set_variable = { which = shipment_cost_3 value = 633806.902 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 310462.000 }    set_variable = { which = shipment_cost_3 value = 596243.558 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 844273.000 }    set_variable = { which = shipment_cost_3 value = 560906.451 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 188 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 189 } }
+										set_variable = { which = shipment_cost_4 value = 374669.000 }    set_variable = { which = shipment_cost_3 value = 527663.642 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 819067.000 }    set_variable = { which = shipment_cost_3 value = 496391.8 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 283224.000 }    set_variable = { which = shipment_cost_3 value = 466971.786 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = shipment_count value = 181 } }
+							if = {
+								limit = { check_variable = { which = shipment_count value = 184 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 185 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 186 } }
+										set_variable = { which = shipment_cost_4 value = 87699.000 }    set_variable = { which = shipment_cost_3 value = 439296.130 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 632831.000 }    set_variable = { which = shipment_cost_3 value = 413260.705 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 570866.000 }    set_variable = { which = shipment_cost_3 value = 388768.302 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 182 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 183 } }
+										set_variable = { which = shipment_cost_4 value = 844653.000 }    set_variable = { which = shipment_cost_3 value = 365727.471 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 237679.000 }    set_variable = { which = shipment_cost_3 value = 344052.184 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 160564.000 }    set_variable = { which = shipment_cost_3 value = 323661.509 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = shipment_count value = 178 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 179 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 180 } }
+										set_variable = { which = shipment_cost_4 value = 474660.000 }    set_variable = { which = shipment_cost_3 value = 304479.312 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 224516.000 }    set_variable = { which = shipment_cost_3 value = 286433.972 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 217795.000 }    set_variable = { which = shipment_cost_3 value = 269458.111 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 176 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 177 } }
+										set_variable = { which = shipment_cost_4 value = 454181.000 }    set_variable = { which = shipment_cost_3 value = 253488.345 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 463952.000 }    set_variable = { which = shipment_cost_3 value = 238465.47 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 672580.000 }    set_variable = { which = shipment_cost_3 value = 224332.123 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = shipment_count value = 162 } }
+						if = {
+							limit = { check_variable = { which = shipment_count value = 168 } }
+							if = {
+								limit = { check_variable = { which = shipment_count value = 171 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 173 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 174 } }
+										set_variable = { which = shipment_cost_4 value = 960094.000 }    set_variable = { which = shipment_cost_3 value = 211036.804 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 633202.000 }    set_variable = { which = shipment_cost_3 value = 198529.449 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = shipment_count value = 172 } }
+										set_variable = { which = shipment_cost_4 value = 74508.000 }    set_variable = { which = shipment_cost_3 value = 186763.358 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 376771.000 }    set_variable = { which = shipment_cost_3 value = 175694.598 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 169 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 170 } }
+										set_variable = { which = shipment_cost_4 value = 311168.000 }    set_variable = { which = shipment_cost_3 value = 165281.842 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 17091.000 }    set_variable = { which = shipment_cost_3 value = 155486.211 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 837339.000 }    set_variable = { which = shipment_cost_3 value = 146271.129 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = shipment_count value = 165 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 166 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 167 } }
+										set_variable = { which = shipment_cost_4 value = 756668.000 }    set_variable = { which = shipment_cost_3 value = 137602.191 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 933837.000 }    set_variable = { which = shipment_cost_3 value = 129447.28 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 847448.000 }    set_variable = { which = shipment_cost_3 value = 121775.191 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 163 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 164 } }
+										set_variable = { which = shipment_cost_4 value = 604372.000 }    set_variable = { which = shipment_cost_3 value = 114558.35 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 986239.000 }    set_variable = { which = shipment_cost_3 value = 107768.612 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 834656.000 }    set_variable = { which = shipment_cost_3 value = 101381.573 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = shipment_count value = 156 } }
+							if = {
+								limit = { check_variable = { which = shipment_count value = 159 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 160 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 161 } }
+										set_variable = { which = shipment_cost_4 value = 399488.000 }    set_variable = { which = shipment_cost_3 value = 95373.70 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 296790.000 }    set_variable = { which = shipment_cost_3 value = 89720.668 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 743923.000 }    set_variable = { which = shipment_cost_3 value = 84403.262 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 157 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 158 } }
+										set_variable = { which = shipment_cost_4 value = 759100.000 }    set_variable = { which = shipment_cost_3 value = 79400.999 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 31138.000 }    set_variable = { which = shipment_cost_3 value = 74695.202 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 182632.000 }    set_variable = { which = shipment_cost_3 value = 70268.299 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = shipment_count value = 153 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 154 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 155 } }
+										set_variable = { which = shipment_cost_4 value = 166164.000 }    set_variable = { which = shipment_cost_3 value = 66103.762 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 548602.000 }    set_variable = { which = shipment_cost_3 value = 62186.41 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 453059.000 }    set_variable = { which = shipment_cost_3 value = 58500.509 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 151 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 152 } }
+										set_variable = { which = shipment_cost_4 value = 941730.000 }    set_variable = { which = shipment_cost_3 value = 55033.404 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 635682.000 }    set_variable = { which = shipment_cost_3 value = 51771.782 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 379757.000 }    set_variable = { which = shipment_cost_3 value = 48703.464 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = shipment_count value = 125 } }
+					if = {
+						limit = { check_variable = { which = shipment_count value = 137 } }
+						if = {
+							limit = { check_variable = { which = shipment_count value = 143 } }
+							if = {
+								limit = { check_variable = { which = shipment_count value = 146 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 148 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 149 } }
+										set_variable = { which = shipment_cost_4 value = 772114.000 }    set_variable = { which = shipment_cost_3 value = 45816.993 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 388630.000 }    set_variable = { which = shipment_cost_3 value = 43101.593 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = shipment_count value = 147 } }
+										set_variable = { which = shipment_cost_4 value = 542456.000 }    set_variable = { which = shipment_cost_3 value = 40547.124 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 428462.000 }    set_variable = { which = shipment_cost_3 value = 38144.49 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 144 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 145 } }
+										set_variable = { which = shipment_cost_4 value = 511253.000 }    set_variable = { which = shipment_cost_3 value = 35883.395 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 23757.000 }    set_variable = { which = shipment_cost_3 value = 33756.722 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 451323.000 }    set_variable = { which = shipment_cost_3 value = 31756.88 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = shipment_count value = 140 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 141 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 142 } }
+										set_variable = { which = shipment_cost_4 value = 883653.000 }    set_variable = { which = shipment_cost_3 value = 29874.24 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 123851.000 }    set_variable = { which = shipment_cost_3 value = 28103.504 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 450471.000 }    set_variable = { which = shipment_cost_3 value = 26437.915 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 138 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 139 } }
+										set_variable = { which = shipment_cost_4 value = 934592.000 }    set_variable = { which = shipment_cost_3 value = 24871.39 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 219747.000 }    set_variable = { which = shipment_cost_3 value = 23397.27 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 678031.000 }    set_variable = { which = shipment_cost_3 value = 22010.373 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = shipment_count value = 131 } }
+							if = {
+								limit = { check_variable = { which = shipment_count value = 134 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 135 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 136 } }
+										set_variable = { which = shipment_cost_4 value = 860801.000 }    set_variable = { which = shipment_cost_3 value = 20705.901 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 167263.000 }    set_variable = { which = shipment_cost_3 value = 19478.741 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 658761.000 }    set_variable = { which = shipment_cost_3 value = 18324.309 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 132 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 133 } }
+										set_variable = { which = shipment_cost_4 value = 950857.000 }    set_variable = { which = shipment_cost_3 value = 17238.296 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 119339.000 }    set_variable = { which = shipment_cost_3 value = 16216.648 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 560055.000 }    set_variable = { which = shipment_cost_3 value = 15255.548 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = shipment_count value = 128 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 129 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 130 } }
+										set_variable = { which = shipment_cost_4 value = 746054.000 }    set_variable = { which = shipment_cost_3 value = 14351.409 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 828837.000 }    set_variable = { which = shipment_cost_3 value = 13500.855 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 33713.000 }    set_variable = { which = shipment_cost_3 value = 12700.711 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 126 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 127 } }
+										set_variable = { which = shipment_cost_4 value = 802176.000 }    set_variable = { which = shipment_cost_3 value = 11947.987 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 637042.000 }    set_variable = { which = shipment_cost_3 value = 11239.875 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 608695.000 }    set_variable = { which = shipment_cost_3 value = 10573.730 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = shipment_count value = 112 } }
+						if = {
+							limit = { check_variable = { which = shipment_count value = 118 } }
+							if = {
+								limit = { check_variable = { which = shipment_count value = 121 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 123 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 124 } }
+										set_variable = { which = shipment_cost_4 value = 483250.000 }    set_variable = { which = shipment_cost_3 value = 9947.65 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 435795.000 }    set_variable = { which = shipment_cost_3 value = 9357.540 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = shipment_count value = 122 } }
+										set_variable = { which = shipment_cost_4 value = 314012.000 }    set_variable = { which = shipment_cost_3 value = 8802.954 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 419578.000 }    set_variable = { which = shipment_cost_3 value = 8281.236 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 119 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 120 } }
+										set_variable = { which = shipment_cost_4 value = 776650.000 }    set_variable = { which = shipment_cost_3 value = 7790.438 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 858560.000 }    set_variable = { which = shipment_cost_3 value = 7328.728 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 745588.000 }    set_variable = { which = shipment_cost_3 value = 6894.382 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = shipment_count value = 115 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 116 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 117 } }
+										set_variable = { which = shipment_cost_4 value = 688230.000 }    set_variable = { which = shipment_cost_3 value = 6485.778 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 51956.000 }    set_variable = { which = shipment_cost_3 value = 6101.391 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 620843.000 }    set_variable = { which = shipment_cost_3 value = 5739.784 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 113 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 114 } }
+										set_variable = { which = shipment_cost_4 value = 238799.000 }    set_variable = { which = shipment_cost_3 value = 5399.609 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 768390.000 }    set_variable = { which = shipment_cost_3 value = 5079.594 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 348439.000 }    set_variable = { which = shipment_cost_3 value = 4778.546 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = shipment_count value = 106 } }
+							if = {
+								limit = { check_variable = { which = shipment_count value = 109 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 110 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 111 } }
+										set_variable = { which = shipment_cost_4 value = 932680.000 }    set_variable = { which = shipment_cost_3 value = 4495.339 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 92831.000 }    set_variable = { which = shipment_cost_3 value = 4228.918 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 70396.000 }    set_variable = { which = shipment_cost_3 value = 3978.286 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 107 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 108 } }
+										set_variable = { which = shipment_cost_4 value = 62461.000 }    set_variable = { which = shipment_cost_3 value = 3742.508 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 727621.000 }    set_variable = { which = shipment_cost_3 value = 3520.703 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 898985.000 }    set_variable = { which = shipment_cost_3 value = 3312.44 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = shipment_count value = 103 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 104 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 105 } }
+										set_variable = { which = shipment_cost_4 value = 491990.000 }    set_variable = { which = shipment_cost_3 value = 3115.752 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 595475.000 }    set_variable = { which = shipment_cost_3 value = 2931.93 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 735160.000 }    set_variable = { which = shipment_cost_3 value = 2757.378 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 101 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 102 } }
+										set_variable = { which = shipment_cost_4 value = 299303.000 }    set_variable = { which = shipment_cost_3 value = 2593.959 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 116936.000 }    set_variable = { which = shipment_cost_3 value = 2440.225 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 179620.000 }    set_variable = { which = shipment_cost_3 value = 2295.602 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = { check_variable = { which = shipment_count value = 50 } }
+				if = {
+					limit = { check_variable = { which = shipment_count value = 75 } }
+					if = {
+						limit = { check_variable = { which = shipment_count value = 87 } }
+						if = {
+							limit = { check_variable = { which = shipment_count value = 93 } }
+							if = {
+								limit = { check_variable = { which = shipment_count value = 96 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 98 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 99 } }
+										set_variable = { which = shipment_cost_4 value = 498232.000 }    set_variable = { which = shipment_cost_3 value = 2159.550 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 86765.000 }    set_variable = { which = shipment_cost_3 value = 2031.562 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = shipment_count value = 97 } }
+										set_variable = { which = shipment_cost_4 value = 65631.000 }    set_variable = { which = shipment_cost_3 value = 1911.159 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 877357.000 }    set_variable = { which = shipment_cost_3 value = 1797.891 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 94 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 95 } }
+										set_variable = { which = shipment_cost_4 value = 608050.000 }    set_variable = { which = shipment_cost_3 value = 1691.337 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 408325.000 }    set_variable = { which = shipment_cost_3 value = 1591.98 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 7832.000 }    set_variable = { which = shipment_cost_3 value = 1496.800 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = shipment_count value = 90 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 91 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 92 } }
+										set_variable = { which = shipment_cost_4 value = 317810.000 }    set_variable = { which = shipment_cost_3 value = 1408.90 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 116472.000 }    set_variable = { which = shipment_cost_3 value = 1324.638 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 812297.000 }    set_variable = { which = shipment_cost_3 value = 1246.131 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 88 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 89 } }
+										set_variable = { which = shipment_cost_4 value = 280618.000 }    set_variable = { which = shipment_cost_3 value = 1172.278 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 769161.000 }    set_variable = { which = shipment_cost_3 value = 1102.801 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 868449.000 }    set_variable = { which = shipment_cost_3 value = 1037.442 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = shipment_count value = 81 } }
+							if = {
+								limit = { check_variable = { which = shipment_count value = 84 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 85 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 86 } }
+										set_variable = { which = shipment_cost_4 value = 543226.000 }    set_variable = { which = shipment_cost_3 value = 975.957 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 221285.000 }    set_variable = { which = shipment_cost_3 value = 918.116 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 936298.000 }    set_variable = { which = shipment_cost_3 value = 863.702 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 82 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 83 } }
+										set_variable = { which = shipment_cost_4 value = 521447.000 }    set_variable = { which = shipment_cost_3 value = 812.514 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 850844.000 }    set_variable = { which = shipment_cost_3 value = 764.359 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 125911.000 }    set_variable = { which = shipment_cost_3 value = 719.59 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = shipment_count value = 78 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 79 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 80 } }
+										set_variable = { which = shipment_cost_4 value = 204056.000 }    set_variable = { which = shipment_cost_3 value = 676.443 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 967127.000 }    set_variable = { which = shipment_cost_3 value = 636.352 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 727306.000 }    set_variable = { which = shipment_cost_3 value = 598.638 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 76 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 77 } }
+										set_variable = { which = shipment_cost_4 value = 668209.000 }    set_variable = { which = shipment_cost_3 value = 563.159 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 319105.000 }    set_variable = { which = shipment_cost_3 value = 529.783 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 60306.000 }    set_variable = { which = shipment_cost_3 value = 498.385 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = shipment_count value = 62 } }
+						if = {
+							limit = { check_variable = { which = shipment_count value = 68 } }
+							if = {
+								limit = { check_variable = { which = shipment_count value = 71 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 73 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 74 } }
+										set_variable = { which = shipment_cost_4 value = 657861.000 }    set_variable = { which = shipment_cost_3 value = 468.847 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 825833.000 }    set_variable = { which = shipment_cost_3 value = 441.60 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = shipment_count value = 72 } }
+										set_variable = { which = shipment_cost_4 value = 814519.000 }    set_variable = { which = shipment_cost_3 value = 414.920 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 23065.000 }    set_variable = { which = shipment_cost_3 value = 390.330 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 69 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 70 } }
+										set_variable = { which = shipment_cost_4 value = 635057.000 }    set_variable = { which = shipment_cost_3 value = 367.196 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 275688.000 }    set_variable = { which = shipment_cost_3 value = 345.434 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 689265.000 }    set_variable = { which = shipment_cost_3 value = 324.961 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = shipment_count value = 65 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 66 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 67 } }
+										set_variable = { which = shipment_cost_4 value = 435809.000 }    set_variable = { which = shipment_cost_3 value = 305.702 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 605653.000 }    set_variable = { which = shipment_cost_3 value = 287.584 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 550943.000 }    set_variable = { which = shipment_cost_3 value = 270.540 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 63 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 64 } }
+										set_variable = { which = shipment_cost_4 value = 633060.000 }    set_variable = { which = shipment_cost_3 value = 254.506 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 985005.000 }    set_variable = { which = shipment_cost_3 value = 239.422 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 287869.000 }    set_variable = { which = shipment_cost_3 value = 225.233 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = shipment_count value = 56 } }
+							if = {
+								limit = { check_variable = { which = shipment_count value = 59 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 60 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 61 } }
+										set_variable = { which = shipment_cost_4 value = 560554.000 }    set_variable = { which = shipment_cost_3 value = 211.884 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 961951.000 }    set_variable = { which = shipment_cost_3 value = 199.326 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 604846.000 }    set_variable = { which = shipment_cost_3 value = 187.513 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 57 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 58 } }
+										set_variable = { which = shipment_cost_4 value = 380852.000 }    set_variable = { which = shipment_cost_3 value = 176.400 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 795722.000 }    set_variable = { which = shipment_cost_3 value = 165.945 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 814414.000 }    set_variable = { which = shipment_cost_3 value = 156.110 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = shipment_count value = 53 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 54 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 55 } }
+										set_variable = { which = shipment_cost_4 value = 715347.000 }    set_variable = { which = shipment_cost_3 value = 146.858 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 953289.000 }    set_variable = { which = shipment_cost_3 value = 138.154 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 30376.000 }    set_variable = { which = shipment_cost_3 value = 129.967 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 51 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 52 } }
+										set_variable = { which = shipment_cost_4 value = 374766.000 }    set_variable = { which = shipment_cost_3 value = 122.264 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 226496.000 }    set_variable = { which = shipment_cost_3 value = 115.18 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 530100.000 }    set_variable = { which = shipment_cost_3 value = 108.201 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+			else = {
+				if = {
+					limit = { check_variable = { which = shipment_count value = 25 } }
+					if = {
+						limit = { check_variable = { which = shipment_count value = 37 } }
+						if = {
+							limit = { check_variable = { which = shipment_count value = 43 } }
+							if = {
+								limit = { check_variable = { which = shipment_count value = 46 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 48 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 49 } }
+										set_variable = { which = shipment_cost_4 value = 833584.000 }    set_variable = { which = shipment_cost_3 value = 101.788 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 193400.000 }    set_variable = { which = shipment_cost_3 value = 95.756 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = shipment_count value = 47 } }
+										set_variable = { which = shipment_cost_4 value = 85042.000 }    set_variable = { which = shipment_cost_3 value = 90.81 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 318948.000 }    set_variable = { which = shipment_cost_3 value = 84.742 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 44 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 45 } }
+										set_variable = { which = shipment_cost_4 value = 961381.000 }    set_variable = { which = shipment_cost_3 value = 79.719 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 260001.000 }    set_variable = { which = shipment_cost_3 value = 74.995 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 573849.000 }    set_variable = { which = shipment_cost_3 value = 70.550 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = shipment_count value = 40 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 41 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 42 } }
+										set_variable = { which = shipment_cost_4 value = 307478.000 }    set_variable = { which = shipment_cost_3 value = 66.369 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 848991.000 }    set_variable = { which = shipment_cost_3 value = 62.435 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 511751.000 }    set_variable = { which = shipment_cost_3 value = 58.735 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 38 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 39 } }
+										set_variable = { which = shipment_cost_4 value = 479540.000 }    set_variable = { which = shipment_cost_3 value = 55.254 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 754976.000 }    set_variable = { which = shipment_cost_3 value = 51.979 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 110984.000 }    set_variable = { which = shipment_cost_3 value = 48.899 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = shipment_count value = 31 } }
+							if = {
+								limit = { check_variable = { which = shipment_count value = 34 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 35 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 36 } }
+										set_variable = { which = shipment_cost_4 value = 45140.000 }    set_variable = { which = shipment_cost_3 value = 46.1 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 736727.000 }    set_variable = { which = shipment_cost_3 value = 43.274 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 6328.000 }    set_variable = { which = shipment_cost_3 value = 40.710 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 32 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 33 } }
+										set_variable = { which = shipment_cost_4 value = 277825.000 }    set_variable = { which = shipment_cost_3 value = 38.297 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 542639.000 }    set_variable = { which = shipment_cost_3 value = 36.27 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 326095.000 }    set_variable = { which = shipment_cost_3 value = 33.892 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = shipment_count value = 28 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 29 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 30 } }
+										set_variable = { which = shipment_cost_4 value = 655780.000 }    set_variable = { which = shipment_cost_3 value = 31.883 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 31778.000 }    set_variable = { which = shipment_cost_3 value = 29.994 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 398663.000 }    set_variable = { which = shipment_cost_3 value = 28.216 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 26 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 27 } }
+										set_variable = { which = shipment_cost_4 value = 119156.000 }    set_variable = { which = shipment_cost_3 value = 26.544 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 949347.000 }    set_variable = { which = shipment_cost_3 value = 24.970 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 15378.000 }    set_variable = { which = shipment_cost_3 value = 23.491 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+				else = {
+					if = {
+						limit = { check_variable = { which = shipment_count value = 12 } }
+						if = {
+							limit = { check_variable = { which = shipment_count value = 18 } }
+							if = {
+								limit = { check_variable = { which = shipment_count value = 21 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 23 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 24 } }
+										set_variable = { which = shipment_cost_4 value = 791513.000 }    set_variable = { which = shipment_cost_3 value = 22.98 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 79504.000 }    set_variable = { which = shipment_cost_3 value = 20.789 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									if = {
+										limit = { check_variable = { which = shipment_count value = 22 } }
+										set_variable = { which = shipment_cost_4 value = 989185.000 }    set_variable = { which = shipment_cost_3 value = 19.556 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 920212.000 }    set_variable = { which = shipment_cost_3 value = 18.397 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 19 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 20 } }
+										set_variable = { which = shipment_cost_4 value = 544884.000 }    set_variable = { which = shipment_cost_3 value = 17.307 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 791989.000 }    set_variable = { which = shipment_cost_3 value = 16.281 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 831598.000 }    set_variable = { which = shipment_cost_3 value = 15.316 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = shipment_count value = 15 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 16 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 17 } }
+										set_variable = { which = shipment_cost_4 value = 60770.000 }    set_variable = { which = shipment_cost_3 value = 14.409 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 90094.000 }    set_variable = { which = shipment_cost_3 value = 13.555 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 731038.000 }    set_variable = { which = shipment_cost_3 value = 12.751 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 13 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 14 } }
+										set_variable = { which = shipment_cost_4 value = 984043.000 }    set_variable = { which = shipment_cost_3 value = 11.995 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 27322.000 }    set_variable = { which = shipment_cost_3 value = 11.285 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 206324.000 }    set_variable = { which = shipment_cost_3 value = 10.616 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+					else = {
+						if = {
+							limit = { check_variable = { which = shipment_count value = 6 } }
+							if = {
+								limit = { check_variable = { which = shipment_count value = 9 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 10 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 11 } }
+										set_variable = { which = shipment_cost_4 value = 23823.000 }    set_variable = { which = shipment_cost_3 value = 9.987 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 130595.000 }    set_variable = { which = shipment_cost_3 value = 9.395 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 316646.000 }    set_variable = { which = shipment_cost_3 value = 8.838 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 7 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 8 } }
+										set_variable = { which = shipment_cost_4 value = 502960.000 }    set_variable = { which = shipment_cost_3 value = 8.314 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 733735.000 }    set_variable = { which = shipment_cost_3 value = 7.821 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 169082.000 }    set_variable = { which = shipment_cost_3 value = 7.358 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { check_variable = { which = shipment_count value = 3 } }
+								if = {
+									limit = { check_variable = { which = shipment_count value = 4 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 5 } }
+										set_variable = { which = shipment_cost_4 value = 78158.000 }    set_variable = { which = shipment_cost_3 value = 6.922 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 832698.000 }    set_variable = { which = shipment_cost_3 value = 6.511 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 900939.000 }    set_variable = { which = shipment_cost_3 value = 6.125 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+							else = {
+								if = {
+									limit = { check_variable = { which = shipment_count value = 1 } }
+									if = {
+										limit = { check_variable = { which = shipment_count value = 2 } }
+										set_variable = { which = shipment_cost_4 value = 841899.000 }    set_variable = { which = shipment_cost_3 value = 5.762 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+									else = {
+										set_variable = { which = shipment_cost_4 value = 300000.000 }    set_variable = { which = shipment_cost_3 value = 5.421 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+									}
+								}
+								else = {
+									set_variable = { which = shipment_cost_4 value = 0.000 }    set_variable = { which = shipment_cost_3 value = 5.100 }    set_variable = { which = shipment_cost_2 value = 0.0 }    set_variable = { which = shipment_cost_1 value = 0.0 }    set_variable = { which = shipment_cost_0 value = 0.0 }    
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}get_msd = { ln = shipment_cost mantissa = shipment_cost_mantissa exponent = shipment_cost_exp}
+}

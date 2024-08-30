@@ -1,0 +1,2 @@
+﻿l_english:
+ bank_cost_tt: "[bank_cost_mantissa.GetValue] [Root.CLOC_BANK_COST_EXP]"

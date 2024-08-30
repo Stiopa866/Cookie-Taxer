@@ -1,0 +1,2 @@
+﻿l_english:
+ cursor_cost_tt: "[cursor_cost_mantissa.GetValue] [Root.CLOC_CURSOR_COST_EXP]"
