@@ -1,2 +1,2 @@
 ﻿l_english:
- text_COOKIE: "[cookies.GetValue]"
+ text_COOKIE: "[cookies_mantissa.GetValue] [Root.CLOC_COOKIE_EXP] £cookie£"

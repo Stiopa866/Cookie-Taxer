@@ -1,0 +1,94 @@
+set_cookies = {
+    [[value]
+        set_variable = {
+            which = temp1
+            value = $value$
+        }
+        var_to_long = {
+            DEC_VAR = temp1
+            nameset = cookies
+        }
+    ]
+    [[variable]
+        var_to_long = {
+            DEC_VAR = $variable$
+            nameset = cookies
+        }
+    ]
+
+    get_msd = { ln = cookies mantissa = cookies_mantissa exponent = cookies_exp }
+}
+
+set_cookies_no_update = {
+    [[value]
+        set_variable = {
+            which = temp1
+            value = $value$
+        }
+        var_to_long = {
+            DEC_VAR = temp1
+            nameset = cookies
+        }
+    ]
+    [[variable]
+        var_to_long = {
+            DEC_VAR = $variable$
+            nameset = cookies
+        }
+    ]
+}
+
+add_cookies = {
+
+    [[value]
+        set_variable = {
+            which = temp1
+            value = $value$
+        }
+
+        var_to_long = {
+            DEC_VAR = temp1
+            nameset = templ
+        }
+    ]
+
+    [[variable]
+        var_to_long = {
+            DEC_VAR = $variable$
+            nameset = templ
+        }
+    ]
+
+    add_longs = {
+        ln1 = cookies
+        ln2 = templ
+    }
+
+    get_msd = { ln = cookies mantissa = cookies_mantissa exponent = cookies_exp }
+}
+
+add_cookies_no_update = {
+    [[value]
+        set_variable = {
+            which = temp1
+            value = $value$
+        }
+
+        var_to_long = {
+            DEC_VAR = temp1
+            nameset = templ
+        }
+    ]
+
+    [[variable]
+        var_to_long = {
+            DEC_VAR = $variable$
+            nameset = templ
+        }
+    ]
+
+    add_longs = {
+        ln1 = cookies
+        ln2 = templ
+    }
+}

@@ -670,20 +670,13 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "text_COOKIE"
-			position = { x = 459 y = 52 }
+			position = { x = 450 y = 52 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
-			maxWidth = 36
+			maxWidth = 100
 			maxHeight = 32
 			format = left
-			scripted = yes
-		}
-		guiButtonType = {
-			name = "icon_COOKIE"
-			spriteType ="GFX_icon_powers_military"
-			position = { x= 436 y = 49 }
-			Orientation = "UPPER_LEFT"
 			scripted = yes
 		}
 

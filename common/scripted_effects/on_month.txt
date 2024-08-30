@@ -1,0 +1,10 @@
+cookie_taxer_on_month = {
+    every_country = {
+        limit = {
+            ai = no
+        }
+
+       add_cookies = { value = 1 }
+        add_treasury = 1000
+    }
+}

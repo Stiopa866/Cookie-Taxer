@@ -1,0 +1,46 @@
+# Checks if the long in nameset ln0 is greater than or equal to long in nameset ln1
+long_gte = { # ln0 # ln1
+	OR = {
+		# either the first sequence of ln0 is strictly greater than ln1
+		AND = {
+			check_variable = { which = $ln0$_0 which = $ln1$_0 }
+			NOT = { check_variable = { which = $ln1$_0 which = $ln0$_0 } }
+		}
+		# or the 2 sequences are equal and go down 1 depth
+		AND = {
+			check_variable = { which = $ln0$_0 which = $ln1$_0 }
+			check_variable = { which = $ln1$_0 which = $ln0$_0 }
+			OR = {
+				AND = {
+					check_variable = { which = $ln0$_1 which = $ln1$_1 }
+					NOT = { check_variable = { which = $ln1$_1 which = $ln0$_1 } }
+				}
+				AND = {
+					check_variable = { which = $ln0$_1 which = $ln1$_1 }
+					check_variable = { which = $ln1$_1 which = $ln0$_1 }
+					OR = {
+						AND = {
+							check_variable = { which = $ln0$_2 which = $ln1$_2 }
+							NOT = { check_variable = { which = $ln1$_2 which = $ln0$_2 } }
+						}
+						AND = {
+							check_variable = { which = $ln0$_2 which = $ln1$_2 }
+							check_variable = { which = $ln1$_2 which = $ln0$_2 }
+							OR = {
+								AND = {
+									check_variable = { which = $ln0$_3 which = $ln1$_3 }
+									NOT = { check_variable = { which = $ln1$_3 which = $ln0$_3 } }
+								}
+								AND = {
+									check_variable = { which = $ln0$_3 which = $ln1$_3 }
+									check_variable = { which = $ln1$_3 which = $ln0$_3 }
+									check_variable = { which = $ln0$_4 which = $ln1$_4 }
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

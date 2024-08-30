@@ -1,0 +1,22 @@
+country_decisions = {
+    register_test_decision = {
+        potential = { always = yes }
+        allow = { NOT = { always = } }
+        effect = {
+            hidden_effect = {
+                set_variable = { which = cookies_0 value = 0 }
+                set_variable = { which = cookies_1 value = 0 }
+                set_variable = { which = cookies_2 value = 0 }
+                set_variable = { which = cookies_3 value = 123456.789 }
+                set_variable = { which = cookies_4 value = 123456.789 }
+
+                get_msd = { ln = cookies mantissa = cookies_mantissa exponent = cookies_exp }
+
+            }
+            custom_tooltip = cookies_tt
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+}

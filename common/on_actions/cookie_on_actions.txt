@@ -1,6 +1,29 @@
 on_startup = {
-	set_variable = {
-		which = cookies
-		value = 50
+	REB = {
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = startup_set
+				}
+			}
+			1 = {
+				add_province_triggered_modifier = cookie_taxer_monthly
+				set_province_flag = first_game_month_flag
+			}
+		}
+		set_country_flag = startup_set
 	}
+
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = startup_country_set
+			}
+		}
+		set_cookies = { value = 5}
+
+		set_country_flag = startup_country_set
+	}
+			
+
 }

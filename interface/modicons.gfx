@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_text_cookie"
+		texturefile = "gfx/interface/cookie_text.dds"
+	}
+}
