@@ -1,0 +1,2 @@
+﻿l_english:
+ speed_cost_tt: "[speed_cost_mantissa.GetValue] [Root.CLOC_SPEED_COST_EXP]"

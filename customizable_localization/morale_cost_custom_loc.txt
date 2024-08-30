@@ -1,0 +1,82 @@
+defined_text = {
+    name = CLOC_MORALE_COST_EXP
+    random = no
+    text = {
+        localisation_key = loc_duodecillion
+        trigger = {
+            check_variable = { which = morale_cost_exp value = 39 }
+        }
+    }
+    text = {
+        localisation_key = loc_undecillion
+        trigger = {
+            check_variable = { which = morale_cost_exp value = 36 }
+        }
+    }
+    text = {
+        localisation_key = loc_decillion
+        trigger = {
+            check_variable = { which = morale_cost_exp value = 33 }
+        }
+    }
+    text = {
+        localisation_key = loc_nonillion
+        trigger = {
+            check_variable = { which = morale_cost_exp value = 30 }
+        }
+    }
+    text = {
+        localisation_key = loc_octillion
+        trigger = {
+            check_variable = { which = morale_cost_exp value = 27 }
+        }
+    }
+    text = {
+        localisation_key = loc_septillion
+        trigger = {
+            check_variable = { which = morale_cost_exp value = 24 }
+        }
+    }
+    text = {
+        localisation_key = loc_sextillion
+        trigger = {
+            check_variable = { which = morale_cost_exp value = 21 }
+        }
+    }
+    text = {
+        localisation_key = loc_quintillion
+        trigger = {
+            check_variable = { which = morale_cost_exp value = 18 }
+        }
+    }
+    text = {
+        localisation_key = loc_quadrillion
+        trigger = {
+            check_variable = { which = morale_cost_exp value = 15 }
+        }
+    }
+    text = {
+        localisation_key = loc_trillion
+        trigger = {
+            check_variable = { which = morale_cost_exp value = 12 }
+        }
+    }
+    text = {
+        localisation_key = loc_billion
+        trigger = {
+            check_variable = { which = morale_cost_exp value = 9 }
+        }
+    }
+    text = {
+        localisation_key = loc_million
+        trigger = {
+            check_variable = { which = morale_cost_exp value = 6 }
+        }
+    }
+    text = {
+        localisation_key = loc_thousand
+        trigger = {
+            check_variable = { which = morale_cost_exp value = 3 }
+        }
+    }
+}

@@ -1,0 +1,2 @@
+﻿l_english:
+ siege_cost_tt: "[siege_cost_mantissa.GetValue] [Root.CLOC_SIEGE_COST_EXP]"
