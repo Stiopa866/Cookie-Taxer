@@ -1,2 +1,2 @@
 ﻿l_english:
- siege_cost_tt: "[siege_cost_mantissa.GetValue] [Root.CLOC_SIEGE_COST_EXP]"
+ siege_cost_tt: "In order to unlock this §YUpgrade§!, you need §Y[siege_cost_mantissa.GetValue]§! [Root.CLOC_SIEGE_COST_EXP] £cookie£"

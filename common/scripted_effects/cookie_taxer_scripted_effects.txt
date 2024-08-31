@@ -1,6 +1,7 @@
 # purchase_upgrade = { type = x }
 
 purchase_upgrade = {
+	#custom_tooltip = $type$_upgrade_tt
 	hidden_effect = {
 		change_variable = {
 			which = $type$_count
@@ -20,6 +21,8 @@ purchase_upgrade = {
 		subtract_longs = { ln1 = cookies ln2 = $type$ }
 		
 		based_on_var_and_plus_one_fire = { var = $type$_count functor = change_upgrade arg_1 = $type$ arg_1_name = type }
+		
+		get_$type$_cost = yes
 	}
 }
 

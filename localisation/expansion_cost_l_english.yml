@@ -1,2 +1,2 @@
 ﻿l_english:
- expansion_cost_tt: "[expansion_cost_mantissa.GetValue] [Root.CLOC_EXPANSION_COST_EXP]"
+ expansion_cost_tt: "In order to unlock this §YUpgrade§!, you need [expansion_cost_mantissa.GetValue] [Root.CLOC_EXPANSION_COST_EXP] £cookie£"

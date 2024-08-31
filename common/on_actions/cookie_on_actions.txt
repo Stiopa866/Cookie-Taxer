@@ -100,6 +100,7 @@ on_startup = {
 		set_variable = { which = speed_count value = 0 }
 		set_variable = { which = expansion_count value = 0 }
 		set_variable = { which = income_count value = 0 }
+		set_variable = { which = morale_count value = 0 }
 
 		# Convert cookies to scientific notation
 		get_msd = { ln = cookies mantissa = cookies_mantissa exponent = cookies_exp }
@@ -122,7 +123,7 @@ on_startup = {
 		get_expansion_cost = yes
 		get_speed_cost = yes
 		get_army_size_cost = yes
-
+    get_morale_cost = yes
 		# Initialize base values for each building. these are constants.
 		flush_nameset = { ln = cursor_base_income }
 		flush_nameset = { ln = grandma_base_income }

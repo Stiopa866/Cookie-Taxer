@@ -1,2 +1,2 @@
 ﻿l_english:
- speed_cost_tt: "[speed_cost_mantissa.GetValue] [Root.CLOC_SPEED_COST_EXP]"
+ speed_cost_tt: "In order to unlock this §YUpgrade§!, you need [speed_cost_mantissa.GetValue] [Root.CLOC_SPEED_COST_EXP] £cookie£"
