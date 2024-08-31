@@ -62,4 +62,24 @@ spriteTypes = {
 		name = "GFX_cookie_upgrade_click"
 		texturefile = "gfx/interface/cookie_upgrade_click.dds"
 	}
+	spriteType = {
+		name = "GFX_cookie_upgrade_click1"
+		texturefile = "gfx/interface/cursor_02.dds"
+	}
+	spriteType = {
+		name = "GFX_cookie_upgrade_click2"
+		texturefile = "gfx/interface/cursor_03.dds"
+	}
+	spriteType = {
+		name = "GFX_cookie_upgrade_click3"
+		texturefile = "gfx/interface/cursor_04.dds"
+	}
+	spriteType = {
+		name = "GFX_cookie_upgrade_click4"
+		texturefile = "gfx/interface/cursor_05.dds"
+	}
+	spriteType = {
+		name = "GFX_cookie_upgrade_click5"
+		texturefile = "gfx/interface/cursor_06.dds"
+	}
 }

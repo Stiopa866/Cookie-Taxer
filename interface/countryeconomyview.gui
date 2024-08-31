@@ -98,7 +98,7 @@ guiTypes = {
 
 					guiButtonType = {
 						name = "cookie_upgrade_click_siege"			
-						quadTextureSprite ="GFX_cookie_upgrade_click"
+						quadTextureSprite ="GFX_cookie_upgrade_click1"
 						Orientation = "UPPER_LEFT"
 						clicksound = close_window
 						scripted = yes
@@ -120,7 +120,7 @@ guiTypes = {
 
 					guiButtonType = {
 						name = "cookie_upgrade_click_morale"			
-						quadTextureSprite ="GFX_cookie_upgrade_click"
+						quadTextureSprite ="GFX_cookie_upgrade_click2"
 						Orientation = "UPPER_LEFT"
 						clicksound = close_window
 						scripted = yes
@@ -142,7 +142,7 @@ guiTypes = {
 
 					guiButtonType = {
 						name = "cookie_upgrade_click_income"			
-						quadTextureSprite ="GFX_cookie_upgrade_click"
+						quadTextureSprite ="GFX_cookie_upgrade_click3"
 						Orientation = "UPPER_LEFT"
 						clicksound = close_window
 						scripted = yes
@@ -164,7 +164,7 @@ guiTypes = {
 
 					guiButtonType = {
 						name = "cookie_upgrade_click_army_size"			
-						quadTextureSprite ="GFX_cookie_upgrade_click"
+						quadTextureSprite ="GFX_cookie_upgrade_click4"
 						Orientation = "UPPER_LEFT"
 						clicksound = close_window
 						scripted = yes
@@ -186,7 +186,7 @@ guiTypes = {
 
 					guiButtonType = {
 						name = "cookie_upgrade_click_expansion"			
-						quadTextureSprite ="GFX_cookie_upgrade_click"
+						quadTextureSprite ="GFX_cookie_upgrade_click5"
 						Orientation = "UPPER_LEFT"
 						clicksound = close_window
 						scripted = yes
