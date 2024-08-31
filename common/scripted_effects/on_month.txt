@@ -1,10 +1,250 @@
 cookie_taxer_on_month = {
-    every_country = {
+    if = {
         limit = {
             ai = no
         }
 
-       add_cookies = { value = 1 }
-        add_treasury = 1000
+        # Count number of modifiers
+        cookie_modifier_counter = yes
+
+        # set incomes to 0
+        flush_nameset = { ln = cursor_income }
+        flush_nameset = { ln = grandma_income }
+        flush_nameset = { ln = farm_income }
+        flush_nameset = { ln = mine_income }
+        flush_nameset = { ln = factory_income }
+        flush_nameset = { ln = bank_income }
+        flush_nameset = { ln = temple_income }
+        flush_nameset = { ln = wizard_income }
+        flush_nameset = { ln = shipment_income }
+        flush_nameset = { ln = thousand_fingers_income }
+
+        # Get base income for each building and thousand fingers
+        # - cursor - production of 1 so we dont need to multiply
+        var_to_long = { DEC_VAR = cursor_count nameset = cursor_count_l }
+        add_longs = { ln1 = cursor_income ln2 = cursor_count_l }
+
+        # - grandma
+		add_longs = { ln1 = grandma_income ln2 = grandma_base_income }
+		var_to_long = { DEC_VAR = grandma_count nameset = grandma_count_l }
+		mult_longs = { ln1 = grandma_income ln2 = grandma_count_l }
+
+
+		# - farm
+		add_longs = { ln1 = farm_income ln2 = farm_base_income }
+		var_to_long = { DEC_VAR = farm_count nameset = farm_count_l }
+		mult_longs = { ln1 = farm_income ln2 = farm_count_l }
+
+
+		# - mine
+		add_longs = { ln1 = mine_income ln2 = mine_base_income }
+		var_to_long = { DEC_VAR = mine_count nameset = mine_count_l }
+		mult_longs = { ln1 = mine_income ln2 = mine_count_l }
+
+
+		# - factory
+		add_longs = { ln1 = factory_income ln2 = factory_base_income }
+		var_to_long = { DEC_VAR = factory_count nameset = factory_count_l }
+		mult_longs = { ln1 = factory_income ln2 = factory_count_l }
+
+
+		# - bank
+		add_longs = { ln1 = bank_income ln2 = bank_base_income }
+		var_to_long = { DEC_VAR = bank_count nameset = bank_count_l }
+		mult_longs = { ln1 = bank_income ln2 = bank_count_l }
+
+
+		# - temple
+		add_longs = { ln1 = temple_income ln2 = temple_base_income }
+		var_to_long = { DEC_VAR = temple_count nameset = temple_count_l }
+		mult_longs = { ln1 = temple_income ln2 = temple_count_l }
+
+
+		# - wizard
+		add_longs = { ln1 = wizard_income ln2 = wizard_base_income }
+		var_to_long = { DEC_VAR = wizard_count nameset = wizard_count_l }
+		mult_longs = { ln1 = wizard_income ln2 = wizard_count_l }
+
+
+		# - shipment
+		add_longs = { ln1 = shipment_income ln2 = shipment_base_income }
+		var_to_long = { DEC_VAR = shipment_count nameset = shipment_count_l }
+		mult_longs = { ln1 = shipment_income ln2 = shipment_count_l }
+
+        # - thousand fingers
+        if = {
+            limit = { has_thousand_fingers = yes }
+
+            set_variable = { which = total_bldg_count which = cursor_count }
+            change_variable = { which = total_bldg_count which = grandma_count }
+            change_variable = { which = total_bldg_count which = farm_count }
+            change_variable = { which = total_bldg_count which = mine_count }
+            change_variable = { which = total_bldg_count which = factory_count }
+            change_variable = { which = total_bldg_count which = bank_count }
+            change_variable = { which = total_bldg_count which = temple_count }
+            change_variable = { which = total_bldg_count which = wizard_count }
+            change_variable = { which = total_bldg_count which = shipment_count }
+
+            var_to_long = { DEC_VAR = total_bldg_count nameset = total_bldg_count_l }
+            add_longs = { ln1 = thousand_fingers_income ln2 = total_bldg_count_l }
+        }
+
+        # Apply x2 upgrades 
+        # TODO
+
+        # Apply Grandma Upgrades
+
+        # Apply Thousand Fingers upgrades
+        # TODO
+
+        # Apply % cps upgrades
+        # TODO
+
+        # Apply Milk Upgrades
+        # TODO
+
+        # Compute total income
+        flush_nameset = { ln = cookie_income }
+        add_longs = { ln1 = cookie_income ln2 = cursor_income }
+        add_longs = { ln1 = cookie_income ln2 = grandma_income }
+        add_longs = { ln1 = cookie_income ln2 = farm_income }
+        add_longs = { ln1 = cookie_income ln2 = mine_income }
+        add_longs = { ln1 = cookie_income ln2 = factory_income }
+        add_longs = { ln1 = cookie_income ln2 = bank_income }
+        add_longs = { ln1 = cookie_income ln2 = temple_income }
+        add_longs = { ln1 = cookie_income ln2 = wizard_income }
+        add_longs = { ln1 = cookie_income ln2 = shipment_income }
+
+        # Apply income
+        add_longs = { ln1 = cookies ln2 = cookie_income }
+        get_msd = { ln = cookies mantissa = cookies_mantissa exponent = cookies_exp }
+
+        # Income vars in scientific notation
+        get_msd = { ln = cookie_income mantissa = cookie_income_mantissa exponent = cookie_income_exp }
+		get_msd = { ln = cursor_income mantissa = cursor_income_mantissa exponent = cursor_income_exp }
+		get_msd = { ln = grandma_income mantissa = grandma_income_mantissa exponent = grandma_income_exp }
+		get_msd = { ln = farm_income mantissa = farm_income_mantissa exponent = farm_income_exp }
+		get_msd = { ln = mine_income mantissa = mine_income_mantissa exponent = mine_income_exp }
+		get_msd = { ln = factory_income mantissa = factory_income_mantissa exponent = factory_income_exp }
+		get_msd = { ln = bank_income mantissa = bank_income_mantissa exponent = bank_income_exp }
+		get_msd = { ln = temple_income mantissa = temple_income_mantissa exponent = temple_income_exp }
+		get_msd = { ln = wizard_income mantissa = wizard_income_mantissa exponent = wizard_income_exp }
+		get_msd = { ln = shipment_income mantissa = shipment_income_mantissa exponent = shipment_income_exp }
+    }
+}
+
+cookie_modifier_counter = {
+    set_variable = { which = cursorx2 value = 0 }
+    set_variable = { which = grandmax2 value = 0 }
+    set_variable = { which = farmx2 value = 0 }
+    set_variable = { which = minex2 value = 0 }
+    set_variable = { which = factoryx2 value = 0 }
+    set_variable = { which = bankx2 value = 0 }
+    set_variable = { which = templex2 value = 0 }
+    set_variable = { which = wizardx2 value = 0 }
+    set_variable = { which = shipmentx2 value = 0 }
+    set_variable = { which = thousandfingersup value = 0 }
+    set_variable = { which = cmpup1 value = 0 }
+    set_variable = { which = cmpup2 value = 0 }
+    set_variable = { which = cmpup4 value = 0 }
+    set_variable = { which = cmpup5 value = 0 }
+    set_variable = { which = cmpup10 value = 0 }
+    set_variable = { which = milkup value = 0 }
+
+    every_owned_province = {
+        if = {
+			limit = { has_cursorx2 = yes }
+			PREV = { change_variable = { which = cursorx2 value = 1 } }
+		}
+
+
+		if = {
+			limit = { has_grandmax2 = yes }
+			PREV = { change_variable = { which = grandmax2 value = 1 } }
+		}
+
+
+		if = {
+			limit = { has_farmx2 = yes }
+			PREV = { change_variable = { which = farmx2 value = 1 } }
+		}
+
+
+		if = {
+			limit = { has_minex2 = yes }
+			PREV = { change_variable = { which = minex2 value = 1 } }
+		}
+
+
+		if = {
+			limit = { has_factoryx2 = yes }
+			PREV = { change_variable = { which = factoryx2 value = 1 } }
+		}
+
+
+		if = {
+			limit = { has_bankx2 = yes }
+			PREV = { change_variable = { which = bankx2 value = 1 } }
+		}
+
+
+		if = {
+			limit = { has_templex2 = yes }
+			PREV = { change_variable = { which = templex2 value = 1 } }
+		}
+
+
+		if = {
+			limit = { has_wizardx2 = yes }
+			PREV = { change_variable = { which = wizardx2 value = 1 } }
+		}
+
+
+		if = {
+			limit = { has_shipmentx2 = yes }
+			PREV = { change_variable = { which = shipmentx2 value = 1 } }
+		}
+
+
+		if = {
+			limit = { has_thousandfingersup = yes }
+			PREV = { change_variable = { which = thousandfingersup value = 1 } }
+		}
+
+
+		if = {
+			limit = { has_cmpup1 = yes }
+			PREV = { change_variable = { which = cmpup1 value = 1 } }
+		}
+
+
+		if = {
+			limit = { has_cmpup2 = yes }
+			PREV = { change_variable = { which = cmpup2 value = 1 } }
+		}
+
+
+		if = {
+			limit = { has_cmpup4 = yes }
+			PREV = { change_variable = { which = cmpup4 value = 1 } }
+		}
+
+
+		if = {
+			limit = { has_cmpup5 = yes }
+			PREV = { change_variable = { which = cmpup5 value = 1 } }
+		}
+
+
+		if = {
+			limit = { has_cmpup10 = yes }
+			PREV = { change_variable = { which = cmpup10 value = 1 } }
+		}
+
+
+		if = {
+			limit = { has_milkup = yes }
+			PREV = { change_variable = { which = milkup value = 1 } }
+		}
     }
 }
