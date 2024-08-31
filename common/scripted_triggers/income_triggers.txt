@@ -1,0 +1,71 @@
+# all in province scope except where otherwise noted
+has_cursorx2 = {
+    always = no
+}
+
+has_grandmax2 = {
+    always = no
+}
+
+has_farmx2 = {
+    always = no
+}
+
+has_minex2 = {
+    always = no
+}
+
+has_factoryx2 = {
+    always = no
+}
+
+has_bankx2 = {
+    always = no
+}
+
+has_templex2 = {
+    always = no
+}
+
+has_wizardx2 = {
+    always = no
+}
+
+has_shipmentx2 = {
+    always = no
+}
+
+has_thousandfingersup = {
+    always = no
+}
+
+has_cmpup1 = {
+    always = no
+}
+
+has_cmpup2 = {
+    always = no
+}
+
+has_cmpup4 = {
+    always = no
+}
+
+has_cmpup5 = {
+    always = no
+}
+
+has_cmpup10 = {
+    always = no
+}
+
+has_milkup = {
+    always = no
+}
+
+# This one's in a country scope
+has_thousand_fingers = {
+    any_owned_province = {
+        always = no
+    }
+}

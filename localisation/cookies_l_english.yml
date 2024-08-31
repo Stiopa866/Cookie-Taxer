@@ -1,2 +1,12 @@
 ﻿l_english:
  text_COOKIE: "[cookies_mantissa.GetValue] [Root.CLOC_COOKIE_EXP] £cookie£"
+ cookies_income_tt: "You produce §G[cookie_income_mantissa.GetValue]§! [Root.CLOC_COOKIE_INCOME_EXP] £cookie£ per month"
+ cursor_income_tt: "Your cursor assistants click in §G[cursor_income_mantissa.GetValue]§! [Root.CLOC_CURSOR_INCOME_EXP] £cookie£ each month"
+ grandma_income_tt: "Grandmas bake §G[grandma_income_mantissa.GetValue]§! [Root.CLOC_GRANDMA_INCOME_EXP] £cookie£ each month"
+ farm_income_tt: "Your farms grow §G[farm_income_mantissa.GetValue]§! [Root.CLOC_FARM_INCOME_EXP] £cookie£ each month"
+ mine_income_tt: "Miners dig up §G[mine_income_mantissa.GetValue]§! [Root.CLOC_MINE_INCOME_EXP] £cookie£ each month"
+ factory_income_tt: "Factories manufacture §G[factory_income_mantissa.GetValue]§! [Root.CLOC_FACTORY_INCOME_EXP] £cookie£ each month"
+ bank_income_tt: "Banks mints §G[bank_income_mantissa.GetValue]§! [Root.CLOC_BANK_INCOME_EXP] £cookie£ each month"
+ temple_income_tt: "Temples pray up §G[temple_income_mantissa.GetValue]§! [Root.CLOC_TEMPLE_INCOME_EXP] £cookie£ each month"
+ wizard_income_tt: "Wizards create §G[wizard_income_mantissa.GetValue]§! [Root.CLOC_WIZARD_INCOME_EXP] £cookie£ each month"
+ shipment_income_tt: "Shipments deliver §G[shipment_income_mantissa.GetValue]§! [Root.CLOC_SHIPMENT_INCOME_EXP] £cookie£ each month"

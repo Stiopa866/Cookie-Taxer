@@ -47,6 +47,17 @@ country_decisions = {
             custom_tooltip = wizard_cost_tt
             custom_tooltip = shipment_cost_tt
             custom_tooltip = text_COOKIE
+            custom_tooltip = cookies_income_tt
+            custom_tooltip = cursor_income_tt
+            custom_tooltip = grandma_income_tt
+            custom_tooltip = farm_income_tt
+            custom_tooltip = mine_income_tt
+            custom_tooltip = factory_income_tt
+            custom_tooltip = bank_income_tt
+            custom_tooltip = temple_income_tt
+            custom_tooltip = wizard_income_tt
+            custom_tooltip = shipment_income_tt
+
         }
         ai_will_do = {
             factor = 0

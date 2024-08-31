@@ -23,13 +23,69 @@ on_startup = {
 				NOT = { has_country_flag = player_init_flag }
 			}
 		}
+		# Initialization complete flag
 		set_country_flag = player_init_flag
+
+		# Start cookies at 0
 		set_variable = { which = cookies_4 value = 0 }
 		set_variable = { which = cookies_3 value = 0 }
 		set_variable = { which = cookies_2 value = 0 }
 		set_variable = { which = cookies_1 value = 0 }
 		set_variable = { which = cookies_0 value = 0 }
 
+		# Set all incomes to 0
+		set_variable = { which = cookie_income_4 value = 0 }
+		set_variable = { which = cookie_income_3 value = 0 }
+		set_variable = { which = cookie_income_2 value = 0 }
+		set_variable = { which = cookie_income_1 value = 0 }
+		set_variable = { which = cookie_income_0 value = 0 }
+		set_variable = { which = cursor_income_4 value = 0 }
+		set_variable = { which = cursor_income_3 value = 0 }
+		set_variable = { which = cursor_income_2 value = 0 }
+		set_variable = { which = cursor_income_1 value = 0 }
+		set_variable = { which = cursor_income_0 value = 0 }
+		set_variable = { which = grandma_income_4 value = 0 }
+		set_variable = { which = grandma_income_3 value = 0 }
+		set_variable = { which = grandma_income_2 value = 0 }
+		set_variable = { which = grandma_income_1 value = 0 }
+		set_variable = { which = grandma_income_0 value = 0 }
+		set_variable = { which = farm_income_4 value = 0 }
+		set_variable = { which = farm_income_3 value = 0 }
+		set_variable = { which = farm_income_2 value = 0 }
+		set_variable = { which = farm_income_1 value = 0 }
+		set_variable = { which = farm_income_0 value = 0 }
+		set_variable = { which = mine_income_4 value = 0 }
+		set_variable = { which = mine_income_3 value = 0 }
+		set_variable = { which = mine_income_2 value = 0 }
+		set_variable = { which = mine_income_1 value = 0 }
+		set_variable = { which = mine_income_0 value = 0 }
+		set_variable = { which = factory_income_4 value = 0 }
+		set_variable = { which = factory_income_3 value = 0 }
+		set_variable = { which = factory_income_2 value = 0 }
+		set_variable = { which = factory_income_1 value = 0 }
+		set_variable = { which = factory_income_0 value = 0 }
+		set_variable = { which = bank_income_4 value = 0 }
+		set_variable = { which = bank_income_3 value = 0 }
+		set_variable = { which = bank_income_2 value = 0 }
+		set_variable = { which = bank_income_1 value = 0 }
+		set_variable = { which = bank_income_0 value = 0 }
+		set_variable = { which = temple_income_4 value = 0 }
+		set_variable = { which = temple_income_3 value = 0 }
+		set_variable = { which = temple_income_2 value = 0 }
+		set_variable = { which = temple_income_1 value = 0 }
+		set_variable = { which = temple_income_0 value = 0 }
+		set_variable = { which = wizard_income_4 value = 0 }
+		set_variable = { which = wizard_income_3 value = 0 }
+		set_variable = { which = wizard_income_2 value = 0 }
+		set_variable = { which = wizard_income_1 value = 0 }
+		set_variable = { which = wizard_income_0 value = 0 }
+		set_variable = { which = shipment_income_4 value = 0 }
+		set_variable = { which = shipment_income_3 value = 0 }
+		set_variable = { which = shipment_income_2 value = 0 }
+		set_variable = { which = shipment_income_1 value = 0 }
+		set_variable = { which = shipment_income_0 value = 0 }
+
+		# Initialize all upgrade variables
 		set_variable = { which = cursor_count value = 0 }
 		set_variable = { which = grandma_count value = 0 }
 		set_variable = { which = farm_count value = 0 }
@@ -45,14 +101,51 @@ on_startup = {
 		set_variable = { which = expansion_count value = 0 }
 		set_variable = { which = income_count value = 0 }
 
+		# Convert cookies to scientific notation
 		get_msd = { ln = cookies mantissa = cookies_mantissa exponent = cookies_exp }
-
+		get_msd = { ln = cookie_income mantissa = cookie_income_mantissa exponent = cookie_income_exp }
+		get_msd = { ln = cursor_income mantissa = cursor_income_mantissa exponent = cursor_income_exp }
+		get_msd = { ln = grandma_income mantissa = grandma_income_mantissa exponent = grandma_income_exp }
+		get_msd = { ln = farm_income mantissa = farm_income_mantissa exponent = farm_income_exp }
+		get_msd = { ln = mine_income mantissa = mine_income_mantissa exponent = mine_income_exp }
+		get_msd = { ln = factory_income mantissa = factory_income_mantissa exponent = factory_income_exp }
+		get_msd = { ln = bank_income mantissa = bank_income_mantissa exponent = bank_income_exp }
+		get_msd = { ln = temple_income mantissa = temple_income_mantissa exponent = temple_income_exp }
+		get_msd = { ln = wizard_income mantissa = wizard_income_mantissa exponent = wizard_income_exp }
+		get_msd = { ln = shipment_income mantissa = shipment_income_mantissa exponent = shipment_income_exp }
+		# Count buildings
 		building_recount = yes
     
+		# Count country upgrades
 		get_siege_cost = yes
 		get_income_cost = yes
 		get_expansion_cost = yes
 		get_speed_cost = yes
 		get_army_size_cost = yes
+
+		# Initialize base values for each building. these are constants.
+		flush_nameset = { ln = cursor_base_income }
+		flush_nameset = { ln = grandma_base_income }
+		flush_nameset = { ln = farm_base_income }
+		flush_nameset = { ln = mine_base_income }
+		flush_nameset = { ln = factory_base_income }
+		flush_nameset = { ln = bank_base_income }
+		flush_nameset = { ln = temple_base_income }
+		flush_nameset = { ln = wizard_base_income }
+		flush_nameset = { ln = shipment_base_income }
+		set_variable = { which = cursor_base_income_4 value = 1 }
+		set_variable = { which = grandma_base_income_4 value = 10 }
+		set_variable = { which = farm_base_income_4 value = 80 }
+		set_variable = { which = mine_base_income_4 value = 470 }
+		set_variable = { which = factory_base_income_4 value = 2600 }
+		set_variable = { which = bank_base_income_4 value = 14000 }
+		set_variable = { which = temple_base_income_4 value = 78000 }
+		set_variable = { which = wizard_base_income_4 value = 440000 }
+		set_variable = { which = shipment_base_income_4 value = 600000 }
+		set_variable = { which = shipment_base_income_3 value = 0.002 }
 	}
+}
+
+on_monthly_pulse = {
+	cookie_taxer_on_month = yes
 }
