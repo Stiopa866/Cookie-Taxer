@@ -13,6 +13,47 @@ on_startup = {
 		}
 		set_country_flag = startup_set
 	}
+
+	# Distribute upgrades randomly across europe
+	if = {
+		limit = {
+			NOT = { has_global_flag = mod_init }
+		}
+		set_global_flag = mod_init
+
+		assign_mod_to_random_province = { count = 3 mod = cursor_x2_upgrade }
+		assign_mod_to_random_province = { count = 15 mod = grandma_x2_upgrade }
+		assign_mod_to_random_province = { count = 15 mod = farm_x2_upgrade }
+		assign_mod_to_random_province = { count = 15 mod = mine_x2_upgrade }
+		assign_mod_to_random_province = { count = 15 mod = factory_x2_upgrade }
+		assign_mod_to_random_province = { count = 15 mod = bank_x2_upgrade }
+		assign_mod_to_random_province = { count = 15 mod = wizard_x2_upgrade }
+		assign_mod_to_random_province = { count = 15 mod = shipment_x2_upgrade }
+		assign_mod_to_random_province = { count = 15 mod = temple_x2_upgrade }
+		
+		assign_mod_to_random_province = { count = 1 mod = grandma_upgrade_cursor }
+		assign_mod_to_random_province = { count = 1 mod = grandma_upgrade_farm }
+		assign_mod_to_random_province = { count = 1 mod = grandma_upgrade_mine }
+		assign_mod_to_random_province = { count = 1 mod = grandma_upgrade_factory }
+		assign_mod_to_random_province = { count = 1 mod = grandma_upgrade_bank }
+		assign_mod_to_random_province = { count = 1 mod = grandma_upgrade_temple }
+		assign_mod_to_random_province = { count = 1 mod = grandma_upgrade_wizard }
+		assign_mod_to_random_province = { count = 1 mod = grandma_upgrade_shipment }
+
+		assign_mod_to_random_province = { count = 11 mod = thousand_fingers }
+
+		assign_mod_to_random_province = { count = 9 mod = cpm_1_upgrade }
+		assign_mod_to_random_province = { count = 9 mod = cpm_2_upgrade }
+		assign_mod_to_random_province = { count = 9 mod = cpm_4_upgrade }
+		assign_mod_to_random_province = { count = 9 mod = cpm_5_upgrade }
+		assign_mod_to_random_province = { count = 9 mod = cpm_10_upgrade }
+
+		assign_mod_to_random_province = { count = 3 mod = cookie_diplomats_upgrade }
+		assign_mod_to_random_province = { count = 2 mod = cookie_colonists_upgrade }
+		assign_mod_to_random_province = { count = 2 mod = cookie_missionaries_upgrade }
+		assign_mod_to_random_province = { count = 3 mod = cookie_advsiors_upgrade }
+		assign_mod_to_random_province = { count = 3 mod = cookie_merchants_upgrade }
+	}
 			
 	# initialize cookie value and building costs for every player
 	# if a player joins a country this will affect them too
@@ -145,8 +186,4 @@ on_startup = {
 		set_variable = { which = shipment_base_income_4 value = 600000 }
 		set_variable = { which = shipment_base_income_3 value = 0.002 }
 	}
-}
-
-on_monthly_pulse = {
-	cookie_taxer_on_month = yes
 }

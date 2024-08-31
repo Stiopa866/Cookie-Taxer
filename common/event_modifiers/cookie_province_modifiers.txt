@@ -1,404 +1,139 @@
-times_2_upgrade_1 = {
+cursor_x2_upgrade = {
 	trade_goods_size_modifier = 0.01
 	picture = "GFX_ct_cursor"
 }
 
-times_2_upgrade_2 = {
+grandma_x2_upgrade = {
+	trade_goods_size_modifier = 0.01
+	picture = "GFX_ct_grandma"
+}
+
+farm_x2_upgrade = {
+	trade_goods_size_modifier = 0.01
+	picture = "GFX_ct_farm"
+}
+
+mine_x2_upgrade = {
+	trade_goods_size_modifier = 0.01
+	picture = "GFX_ct_mine"
+}
+
+factory_x2_upgrade = {
+	trade_goods_size_modifier = 0.01
+	picture = "GFX_ct_factory"
+}
+
+bank_x2_upgrade = {
+	trade_goods_size_modifier = 0.01
+	picture = "GFX_ct_bank"
+}
+
+wizard_x2_upgrade = {
+	trade_goods_size_modifier = 0.01
+	picture = "GFX_ct_wizard"
+}
+
+shipment_x2_upgrade = {
+	trade_goods_size_modifier = 0.01
+	picture = "GFX_ct_shipment"
+}
+
+temple_x2_upgrade = {
+	trade_goods_size_modifier = 0.01
+	picture = "GFX_ct_temple"
+}
+
+grandma_upgrade_cursor = {
+	trade_goods_size_modifier = 0.01
+	picture = "GFX_ct_grandma"
+}
+
+grandma_upgrade_farm = {
+	trade_goods_size_modifier = 0.01
+	picture = "GFX_ct_grandma"
+}
+
+grandma_upgrade_mine = {
+	trade_goods_size_modifier = 0.01
+	picture = "GFX_ct_grandma"
+}
+
+grandma_upgrade_factory = {
+	trade_goods_size_modifier = 0.01
+	picture = "GFX_ct_grandma"
+}
+
+grandma_upgrade_bank = {
+	trade_goods_size_modifier = 0.01
+	picture = "GFX_ct_grandma"
+}
+
+grandma_upgrade_temple = {
+	trade_goods_size_modifier = 0.01
+	picture = "GFX_ct_grandma"
+}
+
+grandma_upgrade_wizard = {
+	trade_goods_size_modifier = 0.01
+	picture = "GFX_ct_grandma"
+}
+
+grandma_upgrade_shipment = {
+	trade_goods_size_modifier = 0.01
+	picture = "GFX_ct_grandma"
+}
+
+thousand_fingers = {
 	trade_goods_size_modifier = 0.01
 	picture = "GFX_ct_cursor"
 }
 
-times_2_upgrade_3 = {
+cpm_1_upgrade = {
 	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_cursor"
+	picture = "GFX_text_cookie"
 }
 
-times_2_upgrade_4 = {
+cpm_2_upgrade = {
 	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_cursor"
+	picture = "GFX_text_cookie"
 }
 
-times_2_upgrade_5 = {
+cpm_4_upgrade = {
 	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_cursor"
+	picture = "GFX_text_cookie"
 }
 
-times_2_upgrade_6 = {
+cpm_5_upgrade = {
 	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_cursor"
+	picture = "GFX_text_cookie"
 }
 
-times_2_upgrade_7 = {
+cpm_10_upgrade = {
 	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_cursor"
+	picture = "GFX_text_cookie"
 }
 
-times_2_upgrade_8 = {
+cookie_diplomats_upgrade = {
 	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_cursor"
+	picture = "GFX_text_cookie"
 }
 
-times_2_upgrade_9 = {
+cookie_colonists_upgrade = {
 	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_cursor"
+	picture = "GFX_text_cookie"
 }
 
-grandma_upgrade_1 = {
+cookie_missionaries_upgrade = {
 	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_grandma"
+	picture = "GFX_text_cookie"
 }
 
-grandma_upgrade_2 = {
+cookie_advsiors_upgrade = {
 	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_grandma"
+	picture = "GFX_text_cookie"
 }
 
-grandma_upgrade_3 = {
+cookie_merchants_upgrade = {
 	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_grandma"
-}
-
-grandma_upgrade_4 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_grandma"
-}
-
-grandma_upgrade_5 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_grandma"
-}
-
-grandma_upgrade_6 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_grandma"
-}
-
-grandma_upgrade_7 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_grandma"
-}
-
-grandma_upgrade_8 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_grandma"
-}
-
-grandma_upgrade_9 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_grandma"
-}
-
-farm_upgrade_1 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_farm"
-}
-
-farm_upgrade_2 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_farm"
-}
-
-farm_upgrade_3 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_farm"
-}
-
-farm_upgrade_4 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_farm"
-}
-
-farm_upgrade_5 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_farm"
-}
-
-farm_upgrade_6 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_farm"
-}
-
-farm_upgrade_7 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_farm"
-}
-
-farm_upgrade_8 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_farm"
-}
-
-farm_upgrade_9 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_farm"
-}
-
-mine_upgrade_1 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_mine"
-}
-
-mine_upgrade_2 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_mine"
-}
-
-mine_upgrade_3 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_mine"
-}
-
-mine_upgrade_4 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_mine"
-}
-
-mine_upgrade_5 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_mine"
-}
-
-mine_upgrade_6 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_mine"
-}
-
-mine_upgrade_7 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_mine"
-}
-
-mine_upgrade_8 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_mine"
-}
-
-mine_upgrade_9 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_mine"
-}
-
-factory_upgrade_1 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_factory"
-}
-
-factory_upgrade_2 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_factory"
-}
-
-factory_upgrade_3 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_factory"
-}
-
-factory_upgrade_4 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_factory"
-}
-
-factory_upgrade_5 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_factory"
-}
-
-factory_upgrade_6 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_factory"
-}
-
-factory_upgrade_7 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_factory"
-}
-
-factory_upgrade_8 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_factory"
-}
-
-factory_upgrade_9 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_factory"
-}
-
-bank_upgrade_1 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_bank"
-}
-
-bank_upgrade_2 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_bank"
-}
-
-bank_upgrade_3 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_bank"
-}
-
-bank_upgrade_4 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_bank"
-}
-
-bank_upgrade_5 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_bank"
-}
-
-bank_upgrade_6 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_bank"
-}
-
-bank_upgrade_7 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_bank"
-}
-
-bank_upgrade_8 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_bank"
-}
-
-bank_upgrade_9 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_bank"
-}
-
-wizard_upgrade_1 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_wizard"
-}
-
-wizard_upgrade_2 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_wizard"
-}
-
-wizard_upgrade_3 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_wizard"
-}
-
-wizard_upgrade_4 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_wizard"
-}
-
-wizard_upgrade_5 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_wizard"
-}
-
-wizard_upgrade_6 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_wizard"
-}
-
-wizard_upgrade_7 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_wizard"
-}
-
-wizard_upgrade_8 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_wizard"
-}
-
-wizard_upgrade_9 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_wizard"
-}
-
-shipment_upgrade_1 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_shipment"
-}
-
-shipment_upgrade_2 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_shipment"
-}
-
-shipment_upgrade_3 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_shipment"
-}
-
-shipment_upgrade_4 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_shipment"
-}
-
-shipment_upgrade_5 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_shipment"
-}
-
-shipment_upgrade_6 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_shipment"
-}
-
-shipment_upgrade_7 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_shipment"
-}
-
-shipment_upgrade_8 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_shipment"
-}
-
-shipment_upgrade_9 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_shipment"
-}
-
-temple_upgrade_1 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_temple"
-}
-
-temple_upgrade_2 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_temple"
-}
-
-temple_upgrade_3 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_temple"
-}
-
-temple_upgrade_4 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_temple"
-}
-
-temple_upgrade_5 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_temple"
-}
-
-temple_upgrade_6 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_temple"
-}
-
-temple_upgrade_7 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_temple"
-}
-
-temple_upgrade_8 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_temple"
-}
-
-temple_upgrade_9 = {
-	trade_goods_size_modifier = 0.01
-	picture = "GFX_ct_temple"
+	picture = "GFX_text_cookie"
 }

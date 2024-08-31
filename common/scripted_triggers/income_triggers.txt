@@ -1,71 +1,66 @@
 # all in province scope except where otherwise noted
 has_cursorx2 = {
-    always = no
+    has_province_modifier = cursor_x2_upgrade
 }
 
 has_grandmax2 = {
-    always = no
+    has_province_modifier = grandma_x2_upgrade
 }
 
 has_farmx2 = {
-    always = no
+    has_province_modifier = farm_x2_upgrade
 }
 
 has_minex2 = {
-    always = no
-}
-
-has_factoryx2 = {
-    always = no
+    has_province_modifier = mine_x2_upgrade
 }
 
 has_bankx2 = {
-    always = no
+    has_province_modifier = bank_x2_upgrade
 }
 
 has_templex2 = {
-    always = no
+    has_province_modifier = temple_x2_upgrade
 }
 
 has_wizardx2 = {
-    always = no
+    has_province_modifier = wizard_x2_upgrade
 }
 
 has_shipmentx2 = {
-    always = no
+    has_province_modifier = shipment_x2_upgrade
 }
 
-has_thousandfingersup = {
-    always = no
+has_thousand_fingers = {
+    has_province_modifier = thousand_fingers
 }
 
 has_cmpup1 = {
-    always = no
+    has_province_modifier = cpm_1_upgrade
 }
 
 has_cmpup2 = {
-    always = no
+    has_province_modifier = cpm_2_upgrade
 }
 
 has_cmpup4 = {
-    always = no
+    has_province_modifier = cpm_4_upgrade
 }
 
 has_cmpup5 = {
-    always = no
+    has_province_modifier = cpm_5_upgrade
 }
 
 has_cmpup10 = {
-    always = no
+    has_province_modifier = cpm_10_upgrade
 }
 
 has_milkup = {
-    always = no
-}
-
-# This one's in a country scope
-has_thousand_fingers = {
-    any_owned_province = {
-        always = no
+    OR = {
+        has_province_modifier = cookie_colonists_upgrade
+        has_province_modifier = cookie_diplomats_upgrade
+        has_province_modifier = cookie_advsiors_upgrade
+        has_province_modifier = cookie_missionaries_upgrade
+        has_province_modifier = cookie_merchants_upgrade
     }
 }

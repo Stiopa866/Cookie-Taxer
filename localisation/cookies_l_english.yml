@@ -1,7 +1,6 @@
-l_english:
+﻿l_english:
  # Total Cookies
- text_COOKIE: "[cookies_mantissa.GetValue] [Root.CLOC_COOKIE_EXP] £cookie£"
- 
+ text_COOKIE: "[cookies_mantissa.GetValue] [Root.CLOC_COOKIE_EXP] £cookie£ [TESTTTEST.GetValue]"
  # Cookies per month
  cookies_income_tt: "You produce §G[cookie_income_mantissa.GetValue]§! [Root.CLOC_COOKIE_INCOME_EXP] £cookie£ per month"
  cursor_income_tt: "Your cursor assistants click in §G[cursor_income_mantissa.GetValue]§! [Root.CLOC_CURSOR_INCOME_EXP] £cookie£ each month"
@@ -13,7 +12,6 @@ l_english:
  temple_income_tt: "Temples pray up §G[temple_income_mantissa.GetValue]§! [Root.CLOC_TEMPLE_INCOME_EXP] £cookie£ each month"
  wizard_income_tt: "Wizards create §G[wizard_income_mantissa.GetValue]§! [Root.CLOC_WIZARD_INCOME_EXP] £cookie£ each month"
  shipment_income_tt: "Shipments deliver §G[shipment_income_mantissa.GetValue]§! [Root.CLOC_SHIPMENT_INCOME_EXP] £cookie£ each month"
- 
  # Upgrades
  cookie_upgrade_click_siege_tt: "§YCookie Trebuchet§!\n\nClick to unlock the §YCookie Trebuchet§! Upgrade, giving you additional §G+2.0%§! Siege Ability per §YLevel§!.\n\nCurrently §Y[Root.siege_count.GetValue]/128§!."
  cookie_upgrade_click_income_tt: "§YSteadfast Tax Regime§!\n\nClick to unlock the §YSteadfast Tax Regime§! Upgrade, giving you additional §G+1.00¤§! Tax Income per §YLevel§!.\n\nCurrently §Y[Root.income_count.GetValue]/128§!."

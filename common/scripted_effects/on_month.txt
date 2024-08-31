@@ -1,5 +1,5 @@
 cookie_taxer_on_month = {
-    if = {
+    every_country = {
         limit = {
             ai = no
         }
@@ -73,7 +73,7 @@ cookie_taxer_on_month = {
 
         # - thousand fingers
         if = {
-            limit = { has_thousand_fingers = yes }
+            limit = { check_variable = { which = thousandfingersup value = 1 } }
 
             set_variable = { which = total_bldg_count which = cursor_count }
             change_variable = { which = total_bldg_count which = grandma_count }
@@ -89,19 +89,354 @@ cookie_taxer_on_month = {
             add_longs = { ln1 = thousand_fingers_income ln2 = total_bldg_count_l }
         }
 
-        # Apply x2 upgrades 
-        # TODO
+        # Apply x2 upgrades
+		flush_nameset = { ln = x2long }
+		set_variable = { which = x2long_4 value = 2 }
+
+        while = {
+			limit = {
+				check_variable = { which = cursorx2 value = 1 }
+			}
+			subtract_variable = { which = cursorx2 value = 1 }
+			mult_longs = { ln1 = cursor_income ln2 = x2long }
+		}
+		while = {
+			limit = {
+				check_variable = { which = grandmax2 value = 1 }
+			}
+			subtract_variable = { which = grandmax2 value = 1 }
+			mult_longs = { ln1 = grandma_income ln2 = x2long }
+		}
+		while = {
+			limit = {
+				check_variable = { which = farmx2 value = 1 }
+			}
+			subtract_variable = { which = farmx2 value = 1 }
+			mult_longs = { ln1 = farm_income ln2 = x2long }
+		}
+		while = {
+			limit = {
+				check_variable = { which = minex2 value = 1 }
+			}
+			subtract_variable = { which = minex2 value = 1 }
+			mult_longs = { ln1 = mine_income ln2 = x2long }
+		}
+		while = {
+			limit = {
+				check_variable = { which = factoryx2 value = 1 }
+			}
+			subtract_variable = { which = factoryx2 value = 1 }
+			mult_longs = { ln1 = factory_income ln2 = x2long }
+		}
+		while = {
+			limit = {
+				check_variable = { which = bankx2 value = 1 }
+			}
+			subtract_variable = { which = bankx2 value = 1 }
+			mult_longs = { ln1 = bank_income ln2 = x2long }
+		}
+		while = {
+			limit = {
+				check_variable = { which = templex2 value = 1 }
+			}
+			subtract_variable = { which = templex2 value = 1 }
+			mult_longs = { ln1 = temple_income ln2 = x2long }
+		}
+		while = {
+			limit = {
+				check_variable = { which = wizardx2 value = 1 }
+			}
+			subtract_variable = { which = wizardx2 value = 1 }
+			mult_longs = { ln1 = wizard_income ln2 = x2long }
+		}
+		while = {
+			limit = {
+				check_variable = { which = shipmentx2 value = 1 }
+			}
+			subtract_variable = { which = shipmentx2 value = 1 }
+			mult_longs = { ln1 = shipment_income ln2 = x2long }
+		}
 
         # Apply Grandma Upgrades
+		set_variable = {
+			which = grandma_count_factor
+			which = grandma_count
+		}
+		change_variable = {
+			which = grandma_count_factor
+			value = 100
+		}
+		divide_variable = {
+			which = grandma_count_factor
+			value = 100
+		}
+		var_to_long = { DEC_VAR = grandma_count_factor nameset = grandma_count_factor_l }
+		if = {
+			limit = {
+				any_owned_province = {
+					has_province_modifier = grandma_upgrade_cursor
+				}
+			}
+			mult_longs = { ln1 = grandma_income ln2 = x2long }
+			mult_longs = { ln1 = cursor_income ln2 = grandma_count_factor_l }
+		}
+		if = {
+			limit = {
+				any_owned_province = {
+					has_province_modifier = grandma_upgrade_farm
+				}
+			}
+			mult_longs = { ln1 = grandma_income ln2 = x2long }
+			mult_longs = { ln1 = farm_income ln2 = grandma_count_factor_l }
+		}
+		if = {
+			limit = {
+				any_owned_province = {
+					has_province_modifier = grandma_upgrade_mine
+				}
+			}
+			mult_longs = { ln1 = grandma_income ln2 = x2long }
+			mult_longs = { ln1 = mine_income ln2 = grandma_count_factor_l }
+		}
+		if = {
+			limit = {
+				any_owned_province = {
+					has_province_modifier = grandma_upgrade_factory
+				}
+			}
+			mult_longs = { ln1 = grandma_income ln2 = x2long }
+			mult_longs = { ln1 = factory_income ln2 = grandma_count_factor_l }
+		}
+		if = {
+			limit = {
+				any_owned_province = {
+					has_province_modifier = grandma_upgrade_bank
+				}
+			}
+			mult_longs = { ln1 = grandma_income ln2 = x2long }
+			mult_longs = { ln1 = bank_income ln2 = grandma_count_factor_l }
+		}
+		if = {
+			limit = {
+				any_owned_province = {
+					has_province_modifier = grandma_upgrade_temple
+				}
+			}
+			mult_longs = { ln1 = grandma_income ln2 = x2long }
+			mult_longs = { ln1 = temple_income ln2 = grandma_count_factor_l }
+		}
+		if = {
+			limit = {
+				any_owned_province = {
+					has_province_modifier = grandma_upgrade_wizard
+				}
+			}
+			mult_longs = { ln1 = grandma_income ln2 = x2long }
+			mult_longs = { ln1 = wizard_income ln2 = grandma_count_factor_l }
+		}
+		if = {
+			limit = {
+				any_owned_province = {
+					has_province_modifier = grandma_upgrade_shipment
+				}
+			}
+			mult_longs = { ln1 = grandma_income ln2 = x2long }
+			mult_longs = { ln1 = shipment_income ln2 = grandma_count_factor_l }
+		}
 
         # Apply Thousand Fingers upgrades
-        # TODO
+        if = {
+			limit = {
+				check_variable = {
+					which = thousandfingersup
+					value = 1
+				}
+			}
+			subtract_variable = {
+				which = thousandfingersup
+				value = 1
+			}
+		}
+		flush_nameset = { ln = x20long }
+		set_variable = { which = x20long_4 value = 20.000 }
+		while = {
+			limit = {
+				check_variable = {
+					which = thousandfingersup
+					value = 1
+				}
+			}
+			subtract_variable = {
+				which = thousandfingersup
+				value = 1
+			}
+			mult_longs = { ln1 = thousand_fingers_income ln2 = x20long }
+		}
+		add_longs = { ln1 = cursor_income ln2 = thousand_fingers_income }
 
         # Apply % cps upgrades
-        # TODO
+		set_variable = {
+			which = cps_total
+			value = 100
+		}
+        while = {
+			limit = {
+				check_variable = {
+					which = cmpup1
+					value = 1
+				}
+			}
+			subtract_variable = {
+				which = cmpup1
+				value = 1
+			}
+			change_variable = {
+				which = cps_total
+				value = 1
+			}
+		}
+		while = {
+			limit = {
+				check_variable = {
+					which = cmpup2
+					value = 1
+				}
+			}
+			subtract_variable = {
+				which = cmpup2
+				value = 1
+			}
+			change_variable = {
+				which = cps_total
+				value = 2
+			}
+		}
+		while = {
+			limit = {
+				check_variable = {
+					which = cmpup4
+					value = 1
+				}
+			}
+			subtract_variable = {
+				which = cmpup4
+				value = 1
+			}
+			change_variable = {
+				which = cps_total
+				value = 4
+			}
+		}
+		while = {
+			limit = {
+				check_variable = {
+					which = cmpup5
+					value = 1
+				}
+			}
+			subtract_variable = {
+				which = cmpup5
+				value = 1
+			}
+			change_variable = {
+				which = cps_total
+				value = 5
+			}
+		}
+		while = {
+			limit = {
+				check_variable = {
+					which = cmpup10
+					value = 1
+				}
+			}
+			subtract_variable = {
+				which = cmpup10
+				value = 1
+			}
+			change_variable = {
+				which = cps_total
+				value = 10
+			}
+		}
+
+		divide_variable = {
+			which = cps_total
+			value = 100
+		}
+
+		var_to_long = { DEC_VAR = cps_total nameset = cps_total_l }
+
+		mult_longs = { ln1 = cursor_income ln2 = cps_total_l }
+		mult_longs = { ln1 = grandma_income ln2 = cps_total_l }
+		mult_longs = { ln1 = farm_income ln2 = cps_total_l }
+		mult_longs = { ln1 = mine_income ln2 = cps_total_l }
+		mult_longs = { ln1 = factory_income ln2 = cps_total_l }
+		mult_longs = { ln1 = bank_income ln2 = cps_total_l }
+		mult_longs = { ln1 = temple_income ln2 = cps_total_l }
+		mult_longs = { ln1 = wizard_income ln2 = cps_total_l }
+		mult_longs = { ln1 = shipment_income ln2 = cps_total_l }
 
         # Apply Milk Upgrades
-        # TODO
+		if = {
+			limit = {
+				check_variable = { which = milkup value = 1 }
+			}
+			set_variable = {
+				which = milk_factor
+				value = 0
+			}
+			every_owned_province = {
+				change_variable = {
+					which = milk_factor
+					value = 1
+				}
+			}
+			multiply_variable = {
+				which = milk_factor
+				value = 4
+			}
+			divide_variable = {
+				which = milk_factor
+				value = 1000
+			}
+			change_variable = {
+				which = milk_factor
+				value = 1
+			}
+			set_variable = {
+				which = milk_mod
+				which = milk_factor
+			}
+			while = {
+				limit = {
+					check_variable = {
+						which = milkup
+						value = 1
+					}
+				}
+				subtract_variable = {
+					which = milkup
+					value = 1
+				}
+				multiply_variable = {
+					which = milk_factor
+					which = milk_mod
+				}
+			}
+
+			var_to_long = { DEC_VAR = milk_factor nameset = milk_l }
+
+			mult_longs = { ln1 = cursor_income ln2 = milk_l }
+			mult_longs = { ln1 = grandma_income ln2 = milk_l }
+			mult_longs = { ln1 = farm_income ln2 = milk_l }
+			mult_longs = { ln1 = mine_income ln2 = milk_l }
+			mult_longs = { ln1 = factory_income ln2 = milk_l }
+			mult_longs = { ln1 = bank_income ln2 = milk_l }
+			mult_longs = { ln1 = temple_income ln2 = milk_l }
+			mult_longs = { ln1 = wizard_income ln2 = milk_l }
+			mult_longs = { ln1 = shipment_income ln2 = milk_l }
+		}
 
         # Compute total income
         flush_nameset = { ln = cookie_income }
@@ -177,8 +512,13 @@ cookie_modifier_counter = {
 
 
 		if = {
-			limit = { has_factoryx2 = yes }
+			limit = { has_province_modifier = factory_x2_upgrade }
 			PREV = { change_variable = { which = factoryx2 value = 1 } }
+			log = "hasfactoryx2"
+			set_variable = {
+				which = TESTTTEST
+				value = 1
+			}
 		}
 
 
@@ -207,7 +547,7 @@ cookie_modifier_counter = {
 
 
 		if = {
-			limit = { has_thousandfingersup = yes }
+			limit = { has_thousand_fingers = yes }
 			PREV = { change_variable = { which = thousandfingersup value = 1 } }
 		}
 
