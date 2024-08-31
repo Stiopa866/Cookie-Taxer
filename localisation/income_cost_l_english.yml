@@ -1,2 +1,10 @@
 ﻿l_english:
  income_cost_tt: "In order to unlock this §YUpgrade§!, you need [income_cost_mantissa.GetValue] [Root.CLOC_INCOME_COST_EXP] £cookie£"
+ text_cookies_per_month: "§G[cookie_income_mantissa.GetValue]§! [Root.CLOC_COOKIE_INCOME_EXP] £cookie£ per month"
+ siege_upgrade_text: "§G+2.0%§! Siege Ability"
+ expansion_upgrade_text: "§G-0.5%§! Aggressive Expansion Impact\n§G-0.5%§! Core Creation Cost\n§G+0.5%§! Administrative Efficiency"
+ army_size_upgrade_text: "§G+1000%§! Global Manpower\n§G+2.00§! Land Forcelimit"
+ income_upgrade_text: "§G+1.00¤§! Tax Income"
+ morale_upgrade_text: "§G+1.0%§! Morale of Armies"
+ cookies_per_click_stat: ""
+ #"

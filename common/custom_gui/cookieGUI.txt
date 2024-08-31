@@ -24,6 +24,14 @@ custom_text_box = {
 	tooltip = ""
 }
 
+custom_text_box = {
+	name = text_cookies_per_month
+	potential = {
+		always = yes
+	}
+	tooltip = "text_cookies_per_month_tt"
+}
+
 custom_window = {
 	name = cookie_window
 	potential = {
@@ -83,4 +91,30 @@ custom_button = {
 		purchase_upgrade = { type = morale }
 	}
 	tooltip = "cookie_upgrade_click_morale_tt"
+}
+
+custom_button = {
+	name = cookie_upgrade_click_army_size
+	potential = {
+	}
+	trigger = {
+		upgrade_cost = { type = army_size }
+	}
+	effect = {
+		purchase_upgrade = { type = army_size }
+	}
+	tooltip = "cookie_upgrade_click_army_size_tt"
+}
+
+custom_button = {
+	name = cookie_upgrade_click_expansion
+	potential = {
+	}
+	trigger = {
+		upgrade_cost = { type = expansion }
+	}
+	effect = {
+		purchase_upgrade = { type = expansion }
+	}
+	tooltip = "cookie_upgrade_click_expansion_tt"
 }
