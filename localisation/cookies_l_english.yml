@@ -1,2 +1,9 @@
 ﻿l_english:
  text_COOKIE: "[cookies_mantissa.GetValue] [Root.CLOC_COOKIE_EXP] £cookie£"
+ 
+ cookie_upgrade_click_siege_tt: "§YCookie Trebuchet§!\n\nClick to unlock the §YCookie Trebuchet§! Upgrade, giving you additional §G+2.0%§! Siege Ability per §YLevel§!.\n\nCurrently §Y[Root.siege_count.GetValue]/128§!."
+ cookie_upgrade_click_income_tt: "§YSteadfast Tax Regime§!\n\nClick to unlock the §YSteadfast Tax Regime§! Upgrade, giving you additional §G+1.00¤§! Tax Income per §YLevel§!.\n\nCurrently §Y[Root.income_count.GetValue]/128§!."
+ cookie_upgrade_click_army_size_tt: "§YPromote Sweet Immigration§!\n\nClick to unlock the §YPromote Sweet Immigration§! Upgrade, giving you additional §G+1000%§! Global Manpower and §G+2.00§! Land Forcelimit per §YLevel§!.\n\nCurrently §Y[Root.army_size_count.GetValue]/128§!."
+ cookie_upgrade_click_expansion_tt: "§YHegemony of the Grandmatriarchs§!\n\nClick to unlock the §YHegemony of the Grandmatriarchs§! Upgrade, giving you additional §G-0.5%§! Aggressive Expansion Impact, §G-0.5%§! Core Creation Cost and §G+0.5%§! Administrative Efficiency per §YLevel§!.\n\nCurrently §Y[Root.expansion_count.GetValue]/128§!."
+ cookie_upgrade_click_speed_tt: "§YSugarsaturation§!\n\nClick to unlock the §YSugarsaturation§! Upgrade, giving you additional §G+1.0%§! Movement Speed per §YLevel§!.\n\nCurrently §Y[Root.speed_count.GetValue]/128§!."
+ cookie_upgrade_click_morale_tt: "§YCookie Rations§!\n\nClick to unlock the §YCookie Rations§! Upgrade, giving you additional §G+1.0%§! Morale of Armies per §YLevel§!.\n\nCurrently §Y[Root.morale_count.GetValue]/128§!."

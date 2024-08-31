@@ -47,13 +47,40 @@ custom_button = {
 }
 
 custom_button = {
-	name = cookie_upgrade_click
+	name = cookie_upgrade_click_siege
 	potential = {
 	}
 	trigger = {
-		#upgrade trigger here
+		upgrade_cost = { type = siege }
 	}
 	effect = {
-		#upgrade effect here
+		purchase_upgrade = { type = siege }
 	}
+	tooltip = "cookie_upgrade_click_siege_tt"
+}
+
+custom_button = {
+	name = cookie_upgrade_click_income
+	potential = {
+	}
+	trigger = {
+		upgrade_cost = { type = income }
+	}
+	effect = {
+		purchase_upgrade = { type = income }
+	}
+	tooltip = "cookie_upgrade_click_income_tt"
+}
+
+custom_button = {
+	name = cookie_upgrade_click_morale
+	potential = {
+	}
+	trigger = {
+		upgrade_cost = { type = morale }
+	}
+	effect = {
+		purchase_upgrade = { type = morale }
+	}
+	tooltip = "cookie_upgrade_click_morale_tt"
 }

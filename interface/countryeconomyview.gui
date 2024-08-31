@@ -90,7 +90,7 @@ guiTypes = {
 					position = { x = 40 y = 60 }
 
 					guiButtonType = {
-						name = "cookie_upgrade_click"			
+						name = "cookie_upgrade_click_siege"			
 						quadTextureSprite ="GFX_cookie_upgrade_click"
 						Orientation = "UPPER_LEFT"
 						clicksound = close_window
@@ -100,7 +100,7 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "cookie_upgrade_click_text"
 						position = { x = 70 y = 12 }
-						text = "+X Cookies per Click"	
+						text = "§G+1.0%§! Siege Ability"	
 						format = centre
 						
 						font = "vic_29s"
@@ -112,7 +112,7 @@ guiTypes = {
 					position = { x = 40 y = 140 }
 
 					guiButtonType = {
-						name = "cookie_upgrade_click"			
+						name = "cookie_upgrade_click_morale"			
 						quadTextureSprite ="GFX_cookie_upgrade_click"
 						Orientation = "UPPER_LEFT"
 						clicksound = close_window
@@ -122,7 +122,7 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "cookie_upgrade_click_text"
 						position = { x = 70 y = 12 }
-						text = "+X Cookies per Click"	
+						text = "§G+1.0%§! Morale of Armies"	
 						format = centre
 						
 						font = "vic_29s"
@@ -134,7 +134,7 @@ guiTypes = {
 					position = { x = 40 y = 220 }
 
 					guiButtonType = {
-						name = "cookie_upgrade_click"			
+						name = "cookie_upgrade_click_income"			
 						quadTextureSprite ="GFX_cookie_upgrade_click"
 						Orientation = "UPPER_LEFT"
 						clicksound = close_window
@@ -144,7 +144,7 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "cookie_upgrade_click_text"
 						position = { x = 70 y = 12 }
-						text = "+X Cookies per Click"	
+						text = "§G+1.00¤§! Tax Income"	
 						format = centre
 						
 						font = "vic_29s"

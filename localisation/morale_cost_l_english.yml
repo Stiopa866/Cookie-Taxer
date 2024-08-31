@@ -1,2 +1,2 @@
 ﻿l_english:
- morale_cost_tt: "[morale_cost_mantissa.GetValue] [Root.CLOC_MORALE_COST_EXP]"
+ morale_cost_tt: "In order to unlock this §YUpgrade§!, you need [morale_cost_mantissa.GetValue] [Root.CLOC_MORALE_COST_EXP] £cookie£"
