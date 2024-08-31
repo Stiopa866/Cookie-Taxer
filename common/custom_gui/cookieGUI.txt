@@ -21,7 +21,7 @@ custom_text_box = {
 	potential = {
 		always = yes
 	}
-	tooltip = "EMPTY"
+	tooltip = ""
 }
 
 custom_window = {
