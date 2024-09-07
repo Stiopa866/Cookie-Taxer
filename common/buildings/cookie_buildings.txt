@@ -1,6 +1,6 @@
 ct_cursor = {
 	cost = 0
-	time = 1
+	time = 2
 	indestructible = yes
 	onmap = no
 
@@ -44,7 +44,7 @@ ct_cursor = {
 
 ct_grandma = {
 	cost = 0
-	time = 1
+	time = 2
 	indestructible = yes
 	onmap = no
 
@@ -88,7 +88,7 @@ ct_grandma = {
 
 ct_farm = {
 	cost = 0
-	time = 1
+	time = 3
 	indestructible = yes
 	onmap = no
 
@@ -132,7 +132,7 @@ ct_farm = {
 
 ct_mine = {
 	cost = 0
-	time = 1
+	time = 3
 	indestructible = yes
 	onmap = no
 
@@ -176,7 +176,7 @@ ct_mine = {
 
 ct_factory = {
 	cost = 0
-	time = 1
+	time = 4
 	indestructible = yes
 	onmap = no
 
@@ -220,7 +220,7 @@ ct_factory = {
 
 ct_bank = {
 	cost = 0
-	time = 1
+	time = 4
 	indestructible = yes
 	onmap = no
 
@@ -264,7 +264,7 @@ ct_bank = {
 
 ct_temple = {
 	cost = 0
-	time = 1
+	time = 5
 	indestructible = yes
 	onmap = no
 
@@ -308,7 +308,7 @@ ct_temple = {
 
 ct_wizard = {
 	cost = 0
-	time = 1
+	time = 5
 	indestructible = yes
 	onmap = no
 
@@ -352,7 +352,7 @@ ct_wizard = {
 
 ct_shipment = {
 	cost = 0
-	time = 1
+	time = 6
 	indestructible = yes
 	onmap = no
 
