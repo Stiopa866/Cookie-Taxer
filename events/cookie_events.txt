@@ -295,3 +295,15 @@ country_event = {
 		name = cookies.14.a
 	}
 }
+
+country_event = {
+	id = cookies.15
+	title = cookies.15.t
+	desc = cookies.15.d
+	picture = FEAST_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = cookies.15.a
+	}
+}

@@ -3,26 +3,31 @@
 purchase_upgrade = {
 	#custom_tooltip = $type$_upgrade_tt
 	hidden_effect = {
-		change_variable = {
-			which = $type$_count
-			value = 1
-		}
+		ROOT = {
+			# Subtract cost
+			subtract_longs = { ln1 = cookies ln2 = $type$_cost }
+			
+			# Update modifier
+			based_on_var_and_plus_one_fire = { var = $type$_count functor = change_upgrade arg_1 = $type$ arg_1_name = type }
 
-		set_variable = {
-			which = $type$_count_2
-			which = $type$_count
+			# Change count
+			change_variable = { which = $type$_count value = 1 }
+
+			# What the fuck does this do
+			set_variable = { which = $type$_count_2 which = $type$_count }
+			subtract_variable = { which = $type$_count_2 value = 1 }
+			
+			# Update cost
+			get_income_cost = yes
+			get_morale_cost = yes
+			get_siege_cost = yes
+			get_speed_cost = yes
+			get_army_size_cost = yes
+			get_expansion_cost = yes
+
+			# Update cookies loc
+			get_msd = { ln = cookies mantissa = cookies_mantissa exponent = cookies_exp }
 		}
-		
-		subtract_variable = {
-			which = $type$_count_2
-			value = 1
-		}
-		
-		subtract_longs = { ln1 = cookies ln2 = $type$ }
-		
-		based_on_var_and_plus_one_fire = { var = $type$_count functor = change_upgrade arg_1 = $type$ arg_1_name = type }
-		
-		get_$type$_cost = yes
 	}
 }
 

@@ -164,7 +164,7 @@ on_startup = {
 		get_expansion_cost = yes
 		get_speed_cost = yes
 		get_army_size_cost = yes
-    get_morale_cost = yes
+    	get_morale_cost = yes
 		# Initialize base values for each building. these are constants.
 		flush_nameset = { ln = cursor_base_income }
 		flush_nameset = { ln = grandma_base_income }
@@ -185,5 +185,7 @@ on_startup = {
 		set_variable = { which = wizard_base_income_4 value = 440000 }
 		set_variable = { which = shipment_base_income_4 value = 600000 }
 		set_variable = { which = shipment_base_income_3 value = 0.002 }
+
+		country_event = { id = cookies.15 }
 	}
 }

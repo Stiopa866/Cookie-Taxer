@@ -1,139 +1,139 @@
 cursor_x2_upgrade = {
-	trade_goods_size_modifier = 0.01
-	picture = "ct_cursor"
+	trade_goods_size = 0.01
+	picture = "cursor_red"
 }
 
 grandma_x2_upgrade = {
-	trade_goods_size_modifier = 0.01
+	trade_goods_size = 0.01
 	picture = "ct_grandma"
 }
 
 farm_x2_upgrade = {
-	trade_goods_size_modifier = 0.01
+	trade_goods_size = 0.01
 	picture = "ct_farm"
 }
 
 mine_x2_upgrade = {
-	trade_goods_size_modifier = 0.01
+	trade_goods_size = 0.01
 	picture = "ct_mine"
 }
 
 factory_x2_upgrade = {
-	trade_goods_size_modifier = 0.01
+	trade_goods_size = 0.01
 	picture = "ct_factory"
 }
 
 bank_x2_upgrade = {
-	trade_goods_size_modifier = 0.01
+	trade_goods_size = 0.01
 	picture = "ct_bank"
 }
 
 wizard_x2_upgrade = {
-	trade_goods_size_modifier = 0.01
+	trade_goods_size = 0.01
 	picture = "ct_wizard"
 }
 
 shipment_x2_upgrade = {
-	trade_goods_size_modifier = 0.01
+	trade_goods_size = 0.01
 	picture = "ct_shipment"
 }
 
 temple_x2_upgrade = {
-	trade_goods_size_modifier = 0.01
+	trade_goods_size = 0.01
 	picture = "ct_temple"
 }
 
 grandma_upgrade_cursor = {
-	trade_goods_size_modifier = 0.01
+	trade_goods_size = 0.01
 	picture = "ct_grandma"
 }
 
 grandma_upgrade_farm = {
-	trade_goods_size_modifier = 0.01
+	trade_goods_size = 0.01
 	picture = "ct_grandma"
 }
 
 grandma_upgrade_mine = {
-	trade_goods_size_modifier = 0.01
+	trade_goods_size = 0.01
 	picture = "ct_grandma"
 }
 
 grandma_upgrade_factory = {
-	trade_goods_size_modifier = 0.01
+	trade_goods_size = 0.01
 	picture = "ct_grandma"
 }
 
 grandma_upgrade_bank = {
-	trade_goods_size_modifier = 0.01
+	trade_goods_size = 0.01
 	picture = "ct_grandma"
 }
 
 grandma_upgrade_temple = {
-	trade_goods_size_modifier = 0.01
+	trade_goods_size = 0.01
 	picture = "ct_grandma"
 }
 
 grandma_upgrade_wizard = {
-	trade_goods_size_modifier = 0.01
+	trade_goods_size = 0.01
 	picture = "ct_grandma"
 }
 
 grandma_upgrade_shipment = {
-	trade_goods_size_modifier = 0.01
+	trade_goods_size = 0.01
 	picture = "ct_grandma"
 }
 
 thousand_fingers = {
-	trade_goods_size_modifier = 0.01
-	picture = "ct_cursor"
+	trade_goods_size = 0.01
+	picture = "cursor_purple"
 }
 
 cpm_1_upgrade = {
-	trade_goods_size_modifier = 0.01
-	picture = "text_cookie"
+	trade_goods_size = 0.01
+	picture = "cookie_provincemod"
 }
 
 cpm_2_upgrade = {
-	trade_goods_size_modifier = 0.01
-	picture = "text_cookie"
+	trade_goods_size = 0.01
+	picture = "cookie_provincemod"
 }
 
 cpm_4_upgrade = {
-	trade_goods_size_modifier = 0.01
-	picture = "text_cookie"
+	trade_goods_size = 0.01
+	picture = "cookie_provincemod"
 }
 
 cpm_5_upgrade = {
-	trade_goods_size_modifier = 0.01
-	picture = "text_cookie"
+	trade_goods_size = 0.01
+	picture = "cookie_provincemod"
 }
 
 cpm_10_upgrade = {
-	trade_goods_size_modifier = 0.01
-	picture = "text_cookie"
+	trade_goods_size = 0.01
+	picture = "cookie_provincemod"
 }
 
 cookie_diplomats_upgrade = {
-	trade_goods_size_modifier = 0.01
-	picture = "text_cookie"
+	trade_goods_size = 0.01
+	picture = "diplomats"
 }
 
 cookie_colonists_upgrade = {
-	trade_goods_size_modifier = 0.01
-	picture = "text_cookie"
+	trade_goods_size = 0.01
+	picture = "colonists"
 }
 
 cookie_missionaries_upgrade = {
-	trade_goods_size_modifier = 0.01
-	picture = "text_cookie"
+	trade_goods_size = 0.01
+	picture = "missionaries"
 }
 
 cookie_advsiors_upgrade = {
-	trade_goods_size_modifier = 0.01
-	picture = "text_cookie"
+	trade_goods_size = 0.01
+	picture = "advisor_pool"
 }
 
 cookie_merchants_upgrade = {
-	trade_goods_size_modifier = 0.01
-	picture = "text_cookie"
+	trade_goods_size = 0.01
+	picture = "merchants"
 }

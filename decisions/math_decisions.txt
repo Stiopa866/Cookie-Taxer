@@ -1,66 +1,66 @@
-#country_decisions = {
-#    register_test_decision = {
-#        potential = { always = yes }
-#        allow = { NOT = { always = } }
-#        effect = {
-#            hidden_effect = {
-                # set_variable = { which = cursor_count value = 400 }
-                # set_variable = { which = grandma_count value = 400 }
-                # set_variable = { which = farm_count value = 400 }
-                # set_variable = { which = mine_count value = 400 }
-                # set_variable = { which = factory_count value = 400 }
-                # set_variable = { which = bank_count value = 400 }
-                # set_variable = { which = temple_count value = 400 }
-                # set_variable = { which = wizard_count value = 400 }
-                # set_variable = { which = shipment_count value = 400 }
+country_decisions = {
+   register_test_decision = {
+       potential = { always = yes }
+       allow = { always = yes }
+       effect = {
+           hidden_effect = {
+                set_variable = { which = cursor_count value = 400 }
+                set_variable = { which = grandma_count value = 400 }
+                set_variable = { which = farm_count value = 400 }
+                set_variable = { which = mine_count value = 400 }
+                set_variable = { which = factory_count value = 400 }
+                set_variable = { which = bank_count value = 400 }
+                set_variable = { which = temple_count value = 400 }
+                set_variable = { which = wizard_count value = 400 }
+                set_variable = { which = shipment_count value = 400 }
                 
-                # get_cursor_cost = yes
-                # get_grandma_cost = yes
-                # get_farm_cost = yes
-                # get_mine_cost = yes
-                # get_factory_cost = yes
-                # get_bank_cost = yes
-                # get_temple_cost = yes
-                # get_wizard_cost = yes
-                # get_shipment_cost = yes
+                get_cursor_cost = yes
+                get_grandma_cost = yes
+                get_farm_cost = yes
+                get_mine_cost = yes
+                get_factory_cost = yes
+                get_bank_cost = yes
+                get_temple_cost = yes
+                get_wizard_cost = yes
+                get_shipment_cost = yes
 
-#                set_variable = { which = cookies_4 value = 999999.999 }
+               set_variable = { which = cookies_4 value = 999999.999 }
 
-#                get_msd = { ln = cookies mantissa = cookies_mantissa exponent = cookies_exp }
+               get_msd = { ln = cookies mantissa = cookies_mantissa exponent = cookies_exp }
 
-#                set_variable = { which = out_4 value = 1 }
- #               set_variable = { which = out_3 value = 0 }
-  #              set_variable = { which = out_2 value = 0 }
-   #             set_variable = { which = out_1 value = 0 }
-    #            set_variable = { which = out_0 value = 0 }
-     #           subtract_longs = { ln1 = cookies ln2 = out }
+               set_variable = { which = out_4 value = 1 }
+               set_variable = { which = out_3 value = 0 }
+               set_variable = { which = out_2 value = 0 }
+               set_variable = { which = out_1 value = 0 }
+               set_variable = { which = out_0 value = 0 }
+               subtract_longs = { ln1 = cookies ln2 = out }
 
-#                get_msd = { ln = cookies mantissa = cookies_mantissa exponent = cookies_exp }
- #           }
-  #          custom_tooltip = cursor_cost_tt
-            #custom_tooltip = grandma_cost_tt
-            #custom_tooltip = farm_cost_tt
-            #custom_tooltip = mine_cost_tt
-            #custom_tooltip = factory_cost_tt
-            #custom_tooltip = bank_cost_tt
-            #custom_tooltip = temple_cost_tt
-            #custom_tooltip = wizard_cost_tt
-            #custom_tooltip = shipment_cost_tt
-            #custom_tooltip = text_COOKIE
-            #custom_tooltip = cookies_income_tt
-            #custom_tooltip = cursor_income_tt
-            #custom_tooltip = grandma_income_tt
-            #custom_tooltip = farm_income_tt
-            #custom_tooltip = mine_income_tt
-            #custom_tooltip = factory_income_tt
-            #custom_tooltip = bank_income_tt
-            #custom_tooltip = temple_income_tt
-            #custom_tooltip = wizard_income_tt
-            #custom_tooltip = shipment_income_tt
+               get_msd = { ln = cookies mantissa = cookies_mantissa exponent = cookies_exp }
+            }
+            custom_tooltip = cursor_cost_tt
+            custom_tooltip = grandma_cost_tt
+            custom_tooltip = farm_cost_tt
+            custom_tooltip = mine_cost_tt
+            custom_tooltip = factory_cost_tt
+            custom_tooltip = bank_cost_tt
+            custom_tooltip = temple_cost_tt
+            custom_tooltip = wizard_cost_tt
+            custom_tooltip = shipment_cost_tt
+            custom_tooltip = text_COOKIE
+            custom_tooltip = cookies_income_tt
+            custom_tooltip = cursor_income_tt
+            custom_tooltip = grandma_income_tt
+            custom_tooltip = farm_income_tt
+            custom_tooltip = mine_income_tt
+            custom_tooltip = factory_income_tt
+            custom_tooltip = bank_income_tt
+            custom_tooltip = temple_income_tt
+            custom_tooltip = wizard_income_tt
+            custom_tooltip = shipment_income_tt
 
-        #}
-        #ai_will_do = {
-        #    factor = 0
-        #}
-    #}
-#}
+        }
+        ai_will_do = {
+           factor = 0
+        }
+    }
+}

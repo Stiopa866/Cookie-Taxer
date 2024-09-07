@@ -384,643 +384,643 @@ siege_128 = {
 }
 expansion_1 = {
 	administrative_efficiency = 0.005
-	ae_impact = 0.005
-	core_creation = 0.005
+	ae_impact = -0.005
+	core_creation = -0.005
 }
 expansion_2 = {
 	administrative_efficiency = 0.01
-	ae_impact = 0.01
-	core_creation = 0.01
+	ae_impact = -0.01
+	core_creation = -0.01
 }
 expansion_3 = {
 	administrative_efficiency = 0.015
-	ae_impact = 0.015
-	core_creation = 0.015
+	ae_impact = -0.015
+	core_creation = -0.015
 }
 expansion_4 = {
 	administrative_efficiency = 0.02
-	ae_impact = 0.02
-	core_creation = 0.02
+	ae_impact = -0.02
+	core_creation = -0.02
 }
 expansion_5 = {
 	administrative_efficiency = 0.025
-	ae_impact = 0.025
-	core_creation = 0.025
+	ae_impact = -0.025
+	core_creation = -0.025
 }
 expansion_6 = {
 	administrative_efficiency = 0.03
-	ae_impact = 0.03
-	core_creation = 0.03
+	ae_impact = -0.03
+	core_creation = -0.03
 }
 expansion_7 = {
 	administrative_efficiency = 0.035
-	ae_impact = 0.035
-	core_creation = 0.035
+	ae_impact = -0.035
+	core_creation = -0.035
 }
 expansion_8 = {
 	administrative_efficiency = 0.04
-	ae_impact = 0.04
-	core_creation = 0.04
+	ae_impact = -0.04
+	core_creation = -0.04
 }
 expansion_9 = {
 	administrative_efficiency = 0.045
-	ae_impact = 0.045
-	core_creation = 0.045
+	ae_impact = -0.045
+	core_creation = -0.045
 }
 expansion_10 = {
 	administrative_efficiency = 0.05
-	ae_impact = 0.05
-	core_creation = 0.05
+	ae_impact = -0.05
+	core_creation = -0.05
 }
 expansion_11 = {
 	administrative_efficiency = 0.055
-	ae_impact = 0.055
-	core_creation = 0.055
+	ae_impact = -0.055
+	core_creation = -0.055
 }
 expansion_12 = {
 	administrative_efficiency = 0.06
-	ae_impact = 0.06
-	core_creation = 0.06
+	ae_impact = -0.06
+	core_creation = -0.06
 }
 expansion_13 = {
 	administrative_efficiency = 0.065
-	ae_impact = 0.065
-	core_creation = 0.065
+	ae_impact = -0.065
+	core_creation = -0.065
 }
 expansion_14 = {
 	administrative_efficiency = 0.07
-	ae_impact = 0.07
-	core_creation = 0.07
+	ae_impact = -0.07
+	core_creation = -0.07
 }
 expansion_15 = {
 	administrative_efficiency = 0.075
-	ae_impact = 0.075
-	core_creation = 0.075
+	ae_impact = -0.075
+	core_creation = -0.075
 }
 expansion_16 = {
 	administrative_efficiency = 0.08
-	ae_impact = 0.08
-	core_creation = 0.08
+	ae_impact = -0.08
+	core_creation = -0.08
 }
 expansion_17 = {
 	administrative_efficiency = 0.085
-	ae_impact = 0.085
-	core_creation = 0.085
+	ae_impact = -0.085
+	core_creation = -0.085
 }
 expansion_18 = {
 	administrative_efficiency = 0.09
-	ae_impact = 0.09
-	core_creation = 0.09
+	ae_impact = -0.09
+	core_creation = -0.09
 }
 expansion_19 = {
 	administrative_efficiency = 0.095
-	ae_impact = 0.095
-	core_creation = 0.095
+	ae_impact = -0.095
+	core_creation = -0.095
 }
 expansion_20 = {
 	administrative_efficiency = 0.1
-	ae_impact = 0.1
-	core_creation = 0.1
+	ae_impact = -0.1
+	core_creation = -0.1
 }
 expansion_21 = {
 	administrative_efficiency = 0.105
-	ae_impact = 0.105
-	core_creation = 0.105
+	ae_impact = -0.105
+	core_creation = -0.105
 }
 expansion_22 = {
 	administrative_efficiency = 0.11
-	ae_impact = 0.11
-	core_creation = 0.11
+	ae_impact = -0.11
+	core_creation = -0.11
 }
 expansion_23 = {
 	administrative_efficiency = 0.115
-	ae_impact = 0.115
-	core_creation = 0.115
+	ae_impact = -0.115
+	core_creation = -0.115
 }
 expansion_24 = {
 	administrative_efficiency = 0.12
-	ae_impact = 0.12
-	core_creation = 0.12
+	ae_impact = -0.12
+	core_creation = -0.12
 }
 expansion_25 = {
 	administrative_efficiency = 0.125
-	ae_impact = 0.125
-	core_creation = 0.125
+	ae_impact = -0.125
+	core_creation = -0.125
 }
 expansion_26 = {
 	administrative_efficiency = 0.13
-	ae_impact = 0.13
-	core_creation = 0.13
+	ae_impact = -0.13
+	core_creation = -0.13
 }
 expansion_27 = {
 	administrative_efficiency = 0.135
-	ae_impact = 0.135
-	core_creation = 0.135
+	ae_impact = -0.135
+	core_creation = -0.135
 }
 expansion_28 = {
 	administrative_efficiency = 0.14
-	ae_impact = 0.14
-	core_creation = 0.14
+	ae_impact = -0.14
+	core_creation = -0.14
 }
 expansion_29 = {
 	administrative_efficiency = 0.145
-	ae_impact = 0.145
-	core_creation = 0.145
+	ae_impact = -0.145
+	core_creation = -0.145
 }
 expansion_30 = {
 	administrative_efficiency = 0.15
-	ae_impact = 0.15
-	core_creation = 0.15
+	ae_impact = -0.15
+	core_creation = -0.15
 }
 expansion_31 = {
 	administrative_efficiency = 0.155
-	ae_impact = 0.155
-	core_creation = 0.155
+	ae_impact = -0.155
+	core_creation = -0.155
 }
 expansion_32 = {
 	administrative_efficiency = 0.16
-	ae_impact = 0.16
-	core_creation = 0.16
+	ae_impact = -0.16
+	core_creation = -0.16
 }
 expansion_33 = {
 	administrative_efficiency = 0.165
-	ae_impact = 0.165
-	core_creation = 0.165
+	ae_impact = -0.165
+	core_creation = -0.165
 }
 expansion_34 = {
 	administrative_efficiency = 0.17
-	ae_impact = 0.17
-	core_creation = 0.17
+	ae_impact = -0.17
+	core_creation = -0.17
 }
 expansion_35 = {
 	administrative_efficiency = 0.175
-	ae_impact = 0.175
-	core_creation = 0.175
+	ae_impact = -0.175
+	core_creation = -0.175
 }
 expansion_36 = {
 	administrative_efficiency = 0.18
-	ae_impact = 0.18
-	core_creation = 0.18
+	ae_impact = -0.18
+	core_creation = -0.18
 }
 expansion_37 = {
 	administrative_efficiency = 0.185
-	ae_impact = 0.185
-	core_creation = 0.185
+	ae_impact = -0.185
+	core_creation = -0.185
 }
 expansion_38 = {
 	administrative_efficiency = 0.19
-	ae_impact = 0.19
-	core_creation = 0.19
+	ae_impact = -0.19
+	core_creation = -0.19
 }
 expansion_39 = {
 	administrative_efficiency = 0.195
-	ae_impact = 0.195
-	core_creation = 0.195
+	ae_impact = -0.195
+	core_creation = -0.195
 }
 expansion_40 = {
 	administrative_efficiency = 0.2
-	ae_impact = 0.2
-	core_creation = 0.2
+	ae_impact = -0.2
+	core_creation = -0.2
 }
 expansion_41 = {
 	administrative_efficiency = 0.205
-	ae_impact = 0.205
-	core_creation = 0.205
+	ae_impact = -0.205
+	core_creation = -0.205
 }
 expansion_42 = {
 	administrative_efficiency = 0.21
-	ae_impact = 0.21
-	core_creation = 0.21
+	ae_impact = -0.21
+	core_creation = -0.21
 }
 expansion_43 = {
 	administrative_efficiency = 0.215
-	ae_impact = 0.215
-	core_creation = 0.215
+	ae_impact = -0.215
+	core_creation = -0.215
 }
 expansion_44 = {
 	administrative_efficiency = 0.22
-	ae_impact = 0.22
-	core_creation = 0.22
+	ae_impact = -0.22
+	core_creation = -0.22
 }
 expansion_45 = {
 	administrative_efficiency = 0.225
-	ae_impact = 0.225
-	core_creation = 0.225
+	ae_impact = -0.225
+	core_creation = -0.225
 }
 expansion_46 = {
 	administrative_efficiency = 0.23
-	ae_impact = 0.23
-	core_creation = 0.23
+	ae_impact = -0.23
+	core_creation = -0.23
 }
 expansion_47 = {
 	administrative_efficiency = 0.235
-	ae_impact = 0.235
-	core_creation = 0.235
+	ae_impact = -0.235
+	core_creation = -0.235
 }
 expansion_48 = {
 	administrative_efficiency = 0.24
-	ae_impact = 0.24
-	core_creation = 0.24
+	ae_impact = -0.24
+	core_creation = -0.24
 }
 expansion_49 = {
 	administrative_efficiency = 0.245
-	ae_impact = 0.245
-	core_creation = 0.245
+	ae_impact = -0.245
+	core_creation = -0.245
 }
 expansion_50 = {
 	administrative_efficiency = 0.25
-	ae_impact = 0.25
-	core_creation = 0.25
+	ae_impact = -0.25
+	core_creation = -0.25
 }
 expansion_51 = {
 	administrative_efficiency = 0.255
-	ae_impact = 0.255
-	core_creation = 0.255
+	ae_impact = -0.255
+	core_creation = -0.255
 }
 expansion_52 = {
 	administrative_efficiency = 0.26
-	ae_impact = 0.26
-	core_creation = 0.26
+	ae_impact = -0.26
+	core_creation = -0.26
 }
 expansion_53 = {
 	administrative_efficiency = 0.265
-	ae_impact = 0.265
-	core_creation = 0.265
+	ae_impact = -0.265
+	core_creation = -0.265
 }
 expansion_54 = {
 	administrative_efficiency = 0.27
-	ae_impact = 0.27
-	core_creation = 0.27
+	ae_impact = -0.27
+	core_creation = -0.27
 }
 expansion_55 = {
 	administrative_efficiency = 0.275
-	ae_impact = 0.275
-	core_creation = 0.275
+	ae_impact = -0.275
+	core_creation = -0.275
 }
 expansion_56 = {
 	administrative_efficiency = 0.28
-	ae_impact = 0.28
-	core_creation = 0.28
+	ae_impact = -0.28
+	core_creation = -0.28
 }
 expansion_57 = {
 	administrative_efficiency = 0.285
-	ae_impact = 0.285
-	core_creation = 0.285
+	ae_impact = -0.285
+	core_creation = -0.285
 }
 expansion_58 = {
 	administrative_efficiency = 0.29
-	ae_impact = 0.29
-	core_creation = 0.29
+	ae_impact = -0.29
+	core_creation = -0.29
 }
 expansion_59 = {
 	administrative_efficiency = 0.295
-	ae_impact = 0.295
-	core_creation = 0.295
+	ae_impact = -0.295
+	core_creation = -0.295
 }
 expansion_60 = {
 	administrative_efficiency = 0.3
-	ae_impact = 0.3
-	core_creation = 0.3
+	ae_impact = -0.3
+	core_creation = -0.3
 }
 expansion_61 = {
 	administrative_efficiency = 0.305
-	ae_impact = 0.305
-	core_creation = 0.305
+	ae_impact = -0.305
+	core_creation = -0.305
 }
 expansion_62 = {
 	administrative_efficiency = 0.31
-	ae_impact = 0.31
-	core_creation = 0.31
+	ae_impact = -0.31
+	core_creation = -0.31
 }
 expansion_63 = {
 	administrative_efficiency = 0.315
-	ae_impact = 0.315
-	core_creation = 0.315
+	ae_impact = -0.315
+	core_creation = -0.315
 }
 expansion_64 = {
 	administrative_efficiency = 0.32
-	ae_impact = 0.32
-	core_creation = 0.32
+	ae_impact = -0.32
+	core_creation = -0.32
 }
 expansion_65 = {
 	administrative_efficiency = 0.325
-	ae_impact = 0.325
-	core_creation = 0.325
+	ae_impact = -0.325
+	core_creation = -0.325
 }
 expansion_66 = {
 	administrative_efficiency = 0.33
-	ae_impact = 0.33
-	core_creation = 0.33
+	ae_impact = -0.33
+	core_creation = -0.33
 }
 expansion_67 = {
 	administrative_efficiency = 0.335
-	ae_impact = 0.335
-	core_creation = 0.335
+	ae_impact = -0.335
+	core_creation = -0.335
 }
 expansion_68 = {
 	administrative_efficiency = 0.34
-	ae_impact = 0.34
-	core_creation = 0.34
+	ae_impact = -0.34
+	core_creation = -0.34
 }
 expansion_69 = {
 	administrative_efficiency = 0.345
-	ae_impact = 0.345
-	core_creation = 0.345
+	ae_impact = -0.345
+	core_creation = -0.345
 }
 expansion_70 = {
 	administrative_efficiency = 0.35
-	ae_impact = 0.35
-	core_creation = 0.35
+	ae_impact = -0.35
+	core_creation = -0.35
 }
 expansion_71 = {
 	administrative_efficiency = 0.355
-	ae_impact = 0.355
-	core_creation = 0.355
+	ae_impact = -0.355
+	core_creation = -0.355
 }
 expansion_72 = {
 	administrative_efficiency = 0.36
-	ae_impact = 0.36
-	core_creation = 0.36
+	ae_impact = -0.36
+	core_creation = -0.36
 }
 expansion_73 = {
 	administrative_efficiency = 0.365
-	ae_impact = 0.365
-	core_creation = 0.365
+	ae_impact = -0.365
+	core_creation = -0.365
 }
 expansion_74 = {
 	administrative_efficiency = 0.37
-	ae_impact = 0.37
-	core_creation = 0.37
+	ae_impact = -0.37
+	core_creation = -0.37
 }
 expansion_75 = {
 	administrative_efficiency = 0.375
-	ae_impact = 0.375
-	core_creation = 0.375
+	ae_impact = -0.375
+	core_creation = -0.375
 }
 expansion_76 = {
 	administrative_efficiency = 0.38
-	ae_impact = 0.38
-	core_creation = 0.38
+	ae_impact = -0.38
+	core_creation = -0.38
 }
 expansion_77 = {
 	administrative_efficiency = 0.385
-	ae_impact = 0.385
-	core_creation = 0.385
+	ae_impact = -0.385
+	core_creation = -0.385
 }
 expansion_78 = {
 	administrative_efficiency = 0.39
-	ae_impact = 0.39
-	core_creation = 0.39
+	ae_impact = -0.39
+	core_creation = -0.39
 }
 expansion_79 = {
 	administrative_efficiency = 0.395
-	ae_impact = 0.395
-	core_creation = 0.395
+	ae_impact = -0.395
+	core_creation = -0.395
 }
 expansion_80 = {
 	administrative_efficiency = 0.4
-	ae_impact = 0.4
-	core_creation = 0.4
+	ae_impact = -0.4
+	core_creation = -0.4
 }
 expansion_81 = {
 	administrative_efficiency = 0.405
-	ae_impact = 0.405
-	core_creation = 0.405
+	ae_impact = -0.405
+	core_creation = -0.405
 }
 expansion_82 = {
 	administrative_efficiency = 0.41
-	ae_impact = 0.41
-	core_creation = 0.41
+	ae_impact = -0.41
+	core_creation = -0.41
 }
 expansion_83 = {
 	administrative_efficiency = 0.415
-	ae_impact = 0.415
-	core_creation = 0.415
+	ae_impact = -0.415
+	core_creation = -0.415
 }
 expansion_84 = {
 	administrative_efficiency = 0.42
-	ae_impact = 0.42
-	core_creation = 0.42
+	ae_impact = -0.42
+	core_creation = -0.42
 }
 expansion_85 = {
 	administrative_efficiency = 0.425
-	ae_impact = 0.425
-	core_creation = 0.425
+	ae_impact = -0.425
+	core_creation = -0.425
 }
 expansion_86 = {
 	administrative_efficiency = 0.43
-	ae_impact = 0.43
-	core_creation = 0.43
+	ae_impact = -0.43
+	core_creation = -0.43
 }
 expansion_87 = {
 	administrative_efficiency = 0.435
-	ae_impact = 0.435
-	core_creation = 0.435
+	ae_impact = -0.435
+	core_creation = -0.435
 }
 expansion_88 = {
 	administrative_efficiency = 0.44
-	ae_impact = 0.44
-	core_creation = 0.44
+	ae_impact = -0.44
+	core_creation = -0.44
 }
 expansion_89 = {
 	administrative_efficiency = 0.445
-	ae_impact = 0.445
-	core_creation = 0.445
+	ae_impact = -0.445
+	core_creation = -0.445
 }
 expansion_90 = {
 	administrative_efficiency = 0.45
-	ae_impact = 0.45
-	core_creation = 0.45
+	ae_impact = -0.45
+	core_creation = -0.45
 }
 expansion_91 = {
 	administrative_efficiency = 0.455
-	ae_impact = 0.455
-	core_creation = 0.455
+	ae_impact = -0.455
+	core_creation = -0.455
 }
 expansion_92 = {
 	administrative_efficiency = 0.46
-	ae_impact = 0.46
-	core_creation = 0.46
+	ae_impact = -0.46
+	core_creation = -0.46
 }
 expansion_93 = {
 	administrative_efficiency = 0.465
-	ae_impact = 0.465
-	core_creation = 0.465
+	ae_impact = -0.465
+	core_creation = -0.465
 }
 expansion_94 = {
 	administrative_efficiency = 0.47
-	ae_impact = 0.47
-	core_creation = 0.47
+	ae_impact = -0.47
+	core_creation = -0.47
 }
 expansion_95 = {
 	administrative_efficiency = 0.475
-	ae_impact = 0.475
-	core_creation = 0.475
+	ae_impact = -0.475
+	core_creation = -0.475
 }
 expansion_96 = {
 	administrative_efficiency = 0.48
-	ae_impact = 0.48
-	core_creation = 0.48
+	ae_impact = -0.48
+	core_creation = -0.48
 }
 expansion_97 = {
 	administrative_efficiency = 0.485
-	ae_impact = 0.485
-	core_creation = 0.485
+	ae_impact = -0.485
+	core_creation = -0.485
 }
 expansion_98 = {
 	administrative_efficiency = 0.49
-	ae_impact = 0.49
-	core_creation = 0.49
+	ae_impact = -0.49
+	core_creation = -0.49
 }
 expansion_99 = {
 	administrative_efficiency = 0.495
-	ae_impact = 0.495
-	core_creation = 0.495
+	ae_impact = -0.495
+	core_creation = -0.495
 }
 expansion_100 = {
 	administrative_efficiency = 0.5
-	ae_impact = 0.5
-	core_creation = 0.5
+	ae_impact = -0.5
+	core_creation = -0.5
 }
 expansion_101 = {
 	administrative_efficiency = 0.505
-	ae_impact = 0.505
-	core_creation = 0.505
+	ae_impact = -0.505
+	core_creation = -0.505
 }
 expansion_102 = {
 	administrative_efficiency = 0.51
-	ae_impact = 0.51
-	core_creation = 0.51
+	ae_impact = -0.51
+	core_creation = -0.51
 }
 expansion_103 = {
 	administrative_efficiency = 0.515
-	ae_impact = 0.515
-	core_creation = 0.515
+	ae_impact = -0.515
+	core_creation = -0.515
 }
 expansion_104 = {
 	administrative_efficiency = 0.52
-	ae_impact = 0.52
-	core_creation = 0.52
+	ae_impact = -0.52
+	core_creation = -0.52
 }
 expansion_105 = {
 	administrative_efficiency = 0.525
-	ae_impact = 0.525
-	core_creation = 0.525
+	ae_impact = -0.525
+	core_creation = -0.525
 }
 expansion_106 = {
 	administrative_efficiency = 0.53
-	ae_impact = 0.53
-	core_creation = 0.53
+	ae_impact = -0.53
+	core_creation = -0.53
 }
 expansion_107 = {
 	administrative_efficiency = 0.535
-	ae_impact = 0.535
-	core_creation = 0.535
+	ae_impact = -0.535
+	core_creation = -0.535
 }
 expansion_108 = {
 	administrative_efficiency = 0.54
-	ae_impact = 0.54
-	core_creation = 0.54
+	ae_impact = -0.54
+	core_creation = -0.54
 }
 expansion_109 = {
 	administrative_efficiency = 0.545
-	ae_impact = 0.545
-	core_creation = 0.545
+	ae_impact = -0.545
+	core_creation = -0.545
 }
 expansion_110 = {
 	administrative_efficiency = 0.55
-	ae_impact = 0.55
-	core_creation = 0.55
+	ae_impact = -0.55
+	core_creation = -0.55
 }
 expansion_111 = {
 	administrative_efficiency = 0.555
-	ae_impact = 0.555
-	core_creation = 0.555
+	ae_impact = -0.555
+	core_creation = -0.555
 }
 expansion_112 = {
 	administrative_efficiency = 0.56
-	ae_impact = 0.56
-	core_creation = 0.56
+	ae_impact = -0.56
+	core_creation = -0.56
 }
 expansion_113 = {
 	administrative_efficiency = 0.565
-	ae_impact = 0.565
-	core_creation = 0.565
+	ae_impact = -0.565
+	core_creation = -0.565
 }
 expansion_114 = {
 	administrative_efficiency = 0.57
-	ae_impact = 0.57
-	core_creation = 0.57
+	ae_impact = -0.57
+	core_creation = -0.57
 }
 expansion_115 = {
 	administrative_efficiency = 0.575
-	ae_impact = 0.575
-	core_creation = 0.575
+	ae_impact = -0.575
+	core_creation = -0.575
 }
 expansion_116 = {
 	administrative_efficiency = 0.58
-	ae_impact = 0.58
-	core_creation = 0.58
+	ae_impact = -0.58
+	core_creation = -0.58
 }
 expansion_117 = {
 	administrative_efficiency = 0.585
-	ae_impact = 0.585
-	core_creation = 0.585
+	ae_impact = -0.585
+	core_creation = -0.585
 }
 expansion_118 = {
 	administrative_efficiency = 0.59
-	ae_impact = 0.59
-	core_creation = 0.59
+	ae_impact = -0.59
+	core_creation = -0.59
 }
 expansion_119 = {
 	administrative_efficiency = 0.595
-	ae_impact = 0.595
-	core_creation = 0.595
+	ae_impact = -0.595
+	core_creation = -0.595
 }
 expansion_120 = {
 	administrative_efficiency = 0.6
-	ae_impact = 0.6
-	core_creation = 0.6
+	ae_impact = -0.6
+	core_creation = -0.6
 }
 expansion_121 = {
 	administrative_efficiency = 0.605
-	ae_impact = 0.605
-	core_creation = 0.605
+	ae_impact = -0.605
+	core_creation = -0.605
 }
 expansion_122 = {
 	administrative_efficiency = 0.61
-	ae_impact = 0.61
-	core_creation = 0.61
+	ae_impact = -0.61
+	core_creation = -0.61
 }
 expansion_123 = {
 	administrative_efficiency = 0.615
-	ae_impact = 0.615
-	core_creation = 0.615
+	ae_impact = -0.615
+	core_creation = -0.615
 }
 expansion_124 = {
 	administrative_efficiency = 0.62
-	ae_impact = 0.62
-	core_creation = 0.62
+	ae_impact = -0.62
+	core_creation = -0.62
 }
 expansion_125 = {
 	administrative_efficiency = 0.625
-	ae_impact = 0.625
-	core_creation = 0.625
+	ae_impact = -0.625
+	core_creation = -0.625
 }
 expansion_126 = {
 	administrative_efficiency = 0.63
-	ae_impact = 0.63
-	core_creation = 0.63
+	ae_impact = -0.63
+	core_creation = -0.63
 }
 expansion_127 = {
 	administrative_efficiency = 0.635
-	ae_impact = 0.635
-	core_creation = 0.635
+	ae_impact = -0.635
+	core_creation = -0.635
 }
 expansion_128 = {
 	administrative_efficiency = 0.64
-	ae_impact = 0.64
-	core_creation = 0.64
+	ae_impact = -0.64
+	core_creation = -0.64
 }
 morale_1 = {
 	land_morale = 0.01

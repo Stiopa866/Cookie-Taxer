@@ -60,6 +60,10 @@ custom_button = {
 	}
 	trigger = {
 		upgrade_cost = { type = siege }
+		custom_trigger_tooltip = {
+			tooltip = NO_MORE_THAN_128_UPGRADES
+			NOT = { check_variable = { which = siege_count value = 128 } }
+		}
 	}
 	effect = {
 		purchase_upgrade = { type = siege }
@@ -73,6 +77,10 @@ custom_button = {
 	}
 	trigger = {
 		upgrade_cost = { type = income }
+		custom_trigger_tooltip = {
+			tooltip = NO_MORE_THAN_128_UPGRADES
+			NOT = { check_variable = { which = siege_count value = 128 } }
+		}
 	}
 	effect = {
 		purchase_upgrade = { type = income }
@@ -86,6 +94,10 @@ custom_button = {
 	}
 	trigger = {
 		upgrade_cost = { type = morale }
+		custom_trigger_tooltip = {
+			tooltip = NO_MORE_THAN_128_UPGRADES
+			NOT = { check_variable = { which = morale_count value = 128 } }
+		}
 	}
 	effect = {
 		purchase_upgrade = { type = morale }
@@ -99,6 +111,10 @@ custom_button = {
 	}
 	trigger = {
 		upgrade_cost = { type = army_size }
+		custom_trigger_tooltip = {
+			tooltip = NO_MORE_THAN_128_UPGRADES
+			NOT = { check_variable = { which = army_size_count value = 128 } }
+		}
 	}
 	effect = {
 		purchase_upgrade = { type = army_size }
@@ -112,6 +128,10 @@ custom_button = {
 	}
 	trigger = {
 		upgrade_cost = { type = expansion }
+		custom_trigger_tooltip = {
+			tooltip = NO_MORE_THAN_128_UPGRADES
+			NOT = { check_variable = { which = expansion_count value = 128 } }
+		}
 	}
 	effect = {
 		purchase_upgrade = { type = expansion }
